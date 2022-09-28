@@ -1,4 +1,7 @@
-# Ingegneria del Web
+---
+layout: page
+title: "Informazioni sul corso"
+---
 
 ## Sillabo
 
