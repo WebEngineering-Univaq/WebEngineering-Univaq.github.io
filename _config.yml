@@ -1,5 +1,7 @@
-title: Web Engineering course pages
-theme: minima
+title: Web Engineering 
+description: Web engineering course pages on GitHub
+show_downloads: false
+theme: jekyll-theme-dinky
 header_pages:
   - main-it.md
 plugins:
