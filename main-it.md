@@ -21,12 +21,6 @@ title: "Informazioni sul corso"
 * *Jeffrey Zeldman, Ethan Marcotte*, Sviluppare Siti Con Gli Standard Web, terza edizione, Apogeo  
   *Testo di riferimento sulle tecniche di progettazione di siti web*
 
-## Contatti
-
-**Ricevimento studenti**: Mercoledì, 15 - 17. *E' consigliabile contattare preventivamente il docente per concordare le modalità del ricevimento*
-
-**Email docente**: giuseppe.dellapenna@univaq.it
-
 ## Risorse
 
 ### Software
