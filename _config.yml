@@ -1,0 +1,7 @@
+title: Web Engineering course pages
+theme: minima
+header_pages:
+  - main-it.md
+author:
+  name: Giuseppe Della Penna
+  email: "giuseppe.dellapenna@univaq.it"
