@@ -4,8 +4,6 @@ title: "Informazioni sul corso"
 year: 2022
 ---
 
-<img src="https://www.disim.univaq.it/skins/aqua/img/logo2021-2.png" title="" alt="University of L'Aquila" data-align="center">
-
 ## Sillabo {#sillabo}
 
 1. Web Standards. Accessibilita' e Usabilita': cosa significano e come si realizzano. Web Content Accessibility Guidelines (WCAG). XML e i linguaggi markup.
