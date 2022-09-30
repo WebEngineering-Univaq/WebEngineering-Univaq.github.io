@@ -1,11 +1,12 @@
 ---
 layout: default
 title: "Informazioni sul corso"
+year: 2022
 ---
 
 <img src="https://www.disim.univaq.it/skins/aqua/img/logo2021-2.png" title="" alt="University of L'Aquila" data-align="center">
 
-## Sillabo
+## Sillabo {#sillabo}
 
 1. Web Standards. Accessibilita' e Usabilita': cosa significano e come si realizzano. Web Content Accessibility Guidelines (WCAG). XML e i linguaggi markup.
 2. Struttura dei contenuti web: HTML4, XHTML1, HTML5. Uso corretto dell'HTML e accorgimenti per la compatibilita' crossbrowser. Creazione di HTML accessibile. Accessibilita' nelle Rich Internet Applications (RIA). Validazione dei contenuti web.
@@ -14,7 +15,7 @@ title: "Informazioni sul corso"
 5. Logica per i contenuti web, lato server: Java Servlets. Gestione delle sessioni nelle applicazioni web Java. Database nelle applicazioni web Java: JDBC, connection pooling. Generazione dinamica dei contenuti: template engines per Java. Sicurezza delle applicazioni web: accorgimenti lato server.
 6. Logica per i contenuti web, lato client: Javascript. Javascript come linguaggio di programmazione object-oriented. Il Document Object Model di HTML. Il Document Object Model dei CSS. Il modello degli eventi HTML. Manipolazione del DOM con Javascript. Rich User Interaction degradante con Javascript e CSS. AJAX.
 
-## Libri di Testo
+## Libri di Testo  {#testi}
 
 * *Vincenzo Della Mea, Luca di Gaspero, Ivan Scagnetto*, Programmazione web lato server, seconda edizione, Apogeo  
   *Testo di riferimento per HTML, CSS e Javascript*
@@ -23,7 +24,7 @@ title: "Informazioni sul corso"
 
 ## Risorse
 
-### Software
+### Software  {#software}
 
 > Applicazioni utili legate agli argomenti del corso
 
@@ -45,7 +46,7 @@ title: "Informazioni sul corso"
 * [MySQL Connector/J](http://www.mysql.com/downloads/connector/j/)  
   *Il driver JDBC per MySQL*
 
-### Materiale Didattico
+### Materiale Didattico  {#materiale}
 
 > Materiale usato a lezione, in formato PDF.  
 > CONDIZIONI D'USO: Questo materiale è dedicato agli studenti del corso di Ingegneria del Web. Visto che la conoscenza **deve** essere considerata
@@ -56,7 +57,7 @@ title: "Informazioni sul corso"
 * [Progetti di fine corso](https://github.com/WebEngineering-Univaq/Project_Specifications)  
   *Questa raccolta contiene tutti i progetti di fine corso, divisi per anno accademico*
 
-### Esempi
+### Esempi  {#esempi}
 
 > Esempi mostrati o sviluppati in aula
 

@@ -1,36 +1,51 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en-US">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-{% seo %}
+    
+	<meta name="author" content="Giuseppe Della Penna"/>
+    <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css?v=' | append: site.github.build_revision | relative_url }}">  
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    {% include head-custom.html %}
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
-        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
-		<p class="header"><small><strong>Ricevimento studenti</strong><br/>Mercoledì,15-17 <br><em>(E’ consigliabile contattare preventivamente il docente per concordare le modalità del ricevimento</em>)</small></p>
-		<p class="header"><strong>Email docente</strong> giuseppe.dellapenna<br>@univaq.it</p>
-      </header>
+    <div class="wrapper container-fluid">
+	<div class="row">
+	<div class="sidebar col-sm-3 col-xs-12">
+	<img src="https://www.disim.univaq.it/skins/aqua/img/logo2021-2.png" title="" alt="University of L'Aquila" >
+      <header class="sticky-top">
 	  
-      
-      <section>
-        {{ content }}
-      </section>
+        <h1 class="header">{{course}}</h1>
+        <p class="header">{{description}}</p>
+		<ul class="nav  flex-row flex-sm-column nav-pills">
+		<li class="nav-item"><a  class="nav-link" href="#sillabo">Sillabo</a>
+		<li class="nav-item"><a  class="nav-link" href="#testi">Testi</a></li>
+		<li class="nav-item"><a  class="nav-link" href="#software">Software</a></li>
+		<li class="nav-item"><a  class="nav-link" href="#materiale">Slides e Progetti</a></li>
+		<li class="nav-item"><a  class="nav-link" href="#esempi">Esempi</a></li>
+		</ul>
+      </header>
+	        </div>
+			
+      <section class="py-5 col">
+       
+{{ content }}
 
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a></small></p>
+
+      </section>
+</div>
+<div class="row mt-3">
+      <div class="col-12">
+	  <footer>
+        <p ><strong>Ricevimento studenti: </strong><br/>Mercoledì,15-17 <em>(E’ consigliabile contattare preventivamente il docente per concordare le modalità del ricevimento</em>)</p>
+		<p ><strong>Email docente:</strong> giuseppe.dellapenna@univaq.it</p>
       </footer>
+	  </div>
+	  </div>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  
   </body>
 </html>

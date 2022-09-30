@@ -1,9 +1,6 @@
-title: Web Engineering 
+title: Web Engineering
 description: Web engineering course pages on GitHub
-show_downloads: false
-theme: jekyll-theme-dinky
-header_pages:
-  - main-it.md
+course: Web Engineering
 plugins:
   - jekyll-relative-links
 relative_links:
