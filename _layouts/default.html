@@ -31,9 +31,10 @@
 		<!--
 			{{ page.name }}
 		-->
-		{% assign rootpagename = page.name | slice: 0,(page.name.size-6) %}
+		{% assign pagenamesize = page.name | size}
+		{% assign rootpagename = page.name | slice: 0,(pagenamesize-6) %}
 			<!--
-			{{ rootpagename }}
+			{{ pagenamesize }}{{ rootpagename }}
 			-->
 			
 		{% if page.name contains '-en.md' %}
