@@ -82,10 +82,10 @@ header .nav {
 	
 }
 
-header a.nav-link {
+header a, a.nav-link {
   color: #FDFDFB;
 }
 
-header a.nav-link:hover {
+header a:hover, a.nav-link:hover {
   color: #FDFDFB;
 }

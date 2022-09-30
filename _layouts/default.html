@@ -19,7 +19,7 @@
       <header class="sticky-top">
 	  
         <h1 class="header">{{ site.course | default: page.title }}</h1>
-        <p class="header">{{ site.description  | default: page.description  }}</p>
+        <p class="header">{{ site.description | default: page.description  }}</p>
 		<ul class="nav  flex-row flex-sm-column nav-pills">
 		<li class="nav-item"><a  class="nav-link" href="#sillabo">Sillabo</a>
 		<li class="nav-item"><a  class="nav-link" href="#testi">Testi</a></li>
@@ -27,6 +27,24 @@
 		<li class="nav-item"><a  class="nav-link" href="#materiale">Slides e Progetti</a></li>
 		<li class="nav-item"><a  class="nav-link" href="#esempi">Esempi</a></li>
 		</ul>
+		
+		<!--
+			{{ page.name }}
+		-->
+		{% assign rootpagename = page.name | slice 0,page.name.size-6 %}
+			<!--
+			{{ rootpagename }}
+			-->
+			
+		{% if page.name contains '-en.md' %}
+			<!--
+			A
+			-->
+		{% else %}
+		<!--
+			B
+			-->
+		{% endif %}
       </header>
 	        </div>
 			
