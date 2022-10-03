@@ -4,17 +4,6 @@ layout: default
 title: "Course info"
 year: 2022
 permalink: /en/info
-menuitems:
-  - label: Syllabus
-    url: "#sillabo"
-  - label: Textbooks
-    url: "#testi"
-  - label: Software
-    url: "#software"
-  - label: Slides and Projects
-    url: "#materiale"
-  - label: Examples
-    url: "#esempi"
 ---
 
 {%include pageglobal.html %}
