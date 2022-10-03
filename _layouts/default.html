@@ -1,153 +1,77 @@
 ---
-
 ---
 
-   
 {%include pageglobal.html %}
 
-
 <!doctype html>
-
 <html lang="en-US">
-
   <head>
-
     <meta charset="utf-8">
-
-    
-
-	<meta name="author" content="Giuseppe Della Penna"/>
-
-    <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css?v=' | append: site.github.build_revision | relative_url }}">  
-
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-
+<meta name="author" content="Giuseppe Della Penna"/>
+    <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css | relative_url }}">  
+    <link rel="stylesheet" href="{{ '/assets/css/style.css | relative_url }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
     <!--[if lt IE 9]>
-
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-
     <![endif]-->
-
   </head>
-
   <body>
-
     <div class="wrapper container-fluid">
-
 	<div class="row">
-
 	<div class="sidebar col-sm-3 col-xs-12">
-
 	<img src="https://www.disim.univaq.it/skins/aqua/img/logo2021-2.png" title="" alt="University of L'Aquila" >
-
       <header class="sticky-top">
-
 	  
-
         <h1 class="header"><a href="/{{language}}/info">{{ site.course | default: page.title }}</a></h1>
-
         <p class="header">{% if site.data.info.descrizione[language] %}   {{ site.data.info.descrizione[language] }}{% elsif site.data.info.descrizione['all'] %}   {{ site.data.info.descrizione['all'] }}{% else %}{{ site.description }}{% endif %}.</p>
-
+	      
 {% if layout.menuitems %}
-
 		<ul class="nav  flex-row flex-sm-column nav-pills">
-
 		{% for item in layout.menuitems %}
-
 		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">{{ item.label }}</a>
-
 		{% endfor %}
-
 		</ul>
-
 {% endif %}
 
-
-
 {% if page.menuitems %}
-
 		<ul class="nav  flex-row flex-sm-column nav-pills">
-
 		{% for item in page.menuitems %}
-
 		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">{{ item.label }}</a>
-
 		{% endfor %}		
-
 		</ul>
-
 {% endif %}		
-
 		
-
 		{% assign language = page.url | slice: 1,2 %}
-
-			
-
-			
-
 		{% if language == 'en' %}
-
 			<p class="mt-5"><a href="/it/{{page.url | slice: 4,5000}}">Italiano</a></p>
-
 		{% elsif language == 'it' %}
-
 			<p  class="mt-5"><a href="/en/{{page.url | slice: 4,5000}}">English</a></p>
-
 		{% endif %}
-
       </header>
-
 	        </div>
-
 			
-
       <section class="py-5 col">
-
        
-
 {{ content }}
 
-
-
-
-
       </section>
-
 </div>
-
 <div class="row mt-3">
-
       <div class="col-12">
-
 	  <footer>
-	  {% if language == 'it' %}
-
+  {% if language == 'it' %}
 	  	          <p ><strong>Docente: </strong> <a href="https://www.disim.univaq.it/GiuseppeDellaPenna">Giuseppe Della Penna</a></p>
-	  	          
-	  	          <p ><strong>Email docente:</strong> giuseppe.dellapenna@univaq.it</p>
-	  	          
-
-        <p ><strong>Ricevimento studenti: </strong> Mercoledì,15-17 <em>(E’ consigliabile contattare preventivamente il docente per concordare le modalità del ricevimento</em>)</p>
-
+  	            	          <p ><strong>Email docente:</strong> giuseppe.dellapenna@univaq.it</p>
+  	                  <p ><strong>Ricevimento studenti: </strong> Mercoledì,15-17 <em>(E’ consigliabile contattare preventivamente il docente per concordare le modalità del ricevimento</em>)</p>
 		{% else %}
-		      <p ><strong>Teacher: </strong> <a href="https://www.disim.univaq.it/GiuseppeDellaPenna">Giuseppe Della Penna</a></p>
-        <p ><strong>Office Hours: </strong> Wednesday,15-17 <em>(Please contact the teacher in advance to agree the meeting modality</em>)</p>
-		<p ><strong>Teacher Email:</strong> giuseppe.dellapenna@univaq.it</p>
-		{% endif %}
-
+	      <p ><strong>Teacher: </strong> <a href="https://www.disim.univaq.it/GiuseppeDellaPenna">Giuseppe Della Penna</a></p>
+       <p ><strong>Office Hours: </strong> Wednesday,15-17 <em>(Please contact the teacher in advance to agree the meeting modality</em>)</p>
+	<p ><strong>Teacher Email:</strong> giuseppe.dellapenna@univaq.it</p>
+	{% endif %}
       </footer>
-
 	  </div>
-
 	  </div>
-
     </div>
-
   
-
   </body>
-
 </html>
