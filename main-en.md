@@ -32,6 +32,15 @@ menuitems:
  {% endfor %}</ol>
 
 
+## Textbooks  {#testi}
+
+
+<ul>
+{% for testo in a %}<li> <em>{{ testo.autori }}</em>, {{ testo.titolo }}, {{ testo.editore }}   
+{% if testo.commento[language] %}   <br/><em>{{ testo.commento[language] }}</em>
+{% elsif testo.commento['all'] %}   <br/><em>{{ testo.commento['all'] }}</em> 
+{% endif %}</li>{% endfor %}
+</ul>
 
 ## Resources
 
