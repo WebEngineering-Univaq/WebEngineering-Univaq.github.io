@@ -15,6 +15,8 @@ menuitems:
     url: "#materiale"
   - label: Esempi
     url: "#esempi"
+  - label: Altre risorse
+    url: "#links"    
 ---
 
 {%include pageglobal.html %}
@@ -74,9 +76,9 @@ menuitems:
 * [Javascript](https://github.com/orgs/WebEngineering-Univaq/repositories?q=JS_&type=all&language=&sort=name)  
   *Esempi di script eseguibili aprendo in qualsiasi browser il file HTML che li accompagna*
 
-### Link utili
+### Risorse online {#links}
 
-> Raccolta non ordinata e spesso anche poco aggiornata di link utili per approfondire il vasto panorama delle tecnologie del web!
+> Raccolta non ordinata e spesso anche poco aggiornata di link utili per studiare e approfondire il vasto panorama delle tecnologie del web!
 
 <ul>
 {% for s in site.data.info.links %}<li> 
