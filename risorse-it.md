@@ -13,7 +13,7 @@ permalink: /it/risorse
 
 ### Software  {#software}
 
-> Applicazioni utili legate agli argomenti del corso. Per facilitare lo sviluppo, prima di installare il software leggete la guida sulla [creazione di un workspace software privato](/it/workspace)
+> Applicazioni utili legate agli argomenti del corso. Per facilitare lo sviluppo, prima di installare il software **leggete la guida sulla [creazione di un workspace software privato](/it/workspace)**
 
 <ul>
 {% for s in site.data.info.software %}<li> 

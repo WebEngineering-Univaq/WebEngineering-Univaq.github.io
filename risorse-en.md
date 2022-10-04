@@ -11,7 +11,7 @@ permalink: /en/risorse
 
 ### Software  {#software}
 
-> Useful applications related to the course topics. To ease the development, before installing any software please read the guode about the [creation of a private software workspace](/en/workspace)
+> Useful applications related to the course topics. To ease the development, before installing any software **please read the guide about the [creation of a private software workspace](/en/workspace)**
 
 <ul>
 {% for s in site.data.info.software %}<li> 

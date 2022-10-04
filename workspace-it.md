@@ -20,7 +20,7 @@ Nel nostro corso utilizzeremo tre software principali:
 - la JDK (<https://openjdk.java.net/>), su cui gireranno entrambi i programmi di cui sopra.
 
 Purtroppo questi tre software, soprattutto la JDK, sono soggetti a continui aggiornamenti, che oltre a
-correggere problemi e aggiungere funzionalità possono, talvolta, introdurre bug
+correggere problemi e aggiungere funzionalità possono, talvolta, introdurre nuovi bug
 e incompatibilità rispetto agli esempi presentati durante il corso, che si basano
 su una precisa combinazione di versioni testata e "certificata" *prima*
 dell'avvio del corso stesso.
@@ -43,7 +43,7 @@ Le versioni del software utilizzate **per l'anno accademico {{cyear}}/{{cyear | 
 utilizza la JEE 8 Web, Tomcat 10 usa la Jakarta EE 9 Web, il che rende
 necessario intervenire manualmente modificando i package di molte classi
 utilizzate dalle web applications. Nel corso di Web Engineering mostreremo come adattare 
-le applicazioni per l'esecuzione su entra,be le versioni.
+le applicazioni per l'esecuzione su entrambe le versioni.
 
 **Attenzione: alcuni plugin Maven** utilizzati normalmente da Netbeans non sono compatibili con le ultime
 versioni della JDK. Durante il corso mostreremo come modificare i progetti
@@ -60,7 +60,7 @@ configurazione dell'ambiente.*
 ## Scaricamento e Installazione del Software
 
 1. **Create una nuova cartella** nella vostra *home utente*
-(documenti per chi usa Windows). Di seguito indicheremo tale cartella con "\<D\>"
+(ad esempio Documenti per chi usa Windows). Di seguito indicheremo tale cartella con "\<D\>"
 (dove \<D\> è un percorso assoluto, ad esempio C:\\Users\\pippo\\Documents\\workspace
 o /home/pippo/workspace).
 2. Nella cartella \<D\> **create tre sotto-cartelle** denominate
@@ -126,7 +126,7 @@ Per **testare la nuova configurazione**,
 destro sulla relativa sotto-voce del nodo "*Servers* " presente nella
 linguetta/box "*Services* " dell'IDE e selezionando "*Start* ". Se vi
 vengono chieste le credenziali per la "*Tomcat Manager Application* ",
-inserite quelle definite al punto 8.d. Se tutto va bene, vedrete i log del
+inserite quelle definite nella sezione precedente. Se tutto va bene, vedrete i log del
 server mostrati dall'IDE elencare una serie di informazioni che termineranno
 con una riga del tipo "*Server startup in \[...\] milliseconds*". Questo vuol
 dire che il server si è avviato con successo.

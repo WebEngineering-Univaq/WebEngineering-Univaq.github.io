@@ -44,6 +44,9 @@ chiunque voglia servirsene per studiare la materia. Tuttavia, il materiale <em>n
 
 ### Esempi  {#esempi}
 
+> Prima di eseguire o modificare questi esempi, consultate la sezione [/it/risorse#software](Software) 
+e installate tutto il software necessario
+
 * [HTML 5](https://github.com/WebEngineering-Univaq/HTML_Examples)  
   *Alcuni file HTML che dimostrano la sintassi di tutti i più importanti elementi del linguaggio e permettono di verificarne la funzionalità nei browser*
 * [Cascading Style Sheets](https://github.com/WebEngineering-Univaq/CSS_Examples)  

@@ -51,6 +51,9 @@ permalink: /en/info
 
 ### Examples  {#esempi}
 
+> Before trying to run or modify these examples, read the [/it/risorse#software](Software) section
+and set-up all the required software
+
 * [HTML 5](https://github.com/WebEngineering-Univaq/HTML_Examples)  
   *HTML files showing the syntax of the most common language elements*
 * [Cascading Style Sheets](https://github.com/WebEngineering-Univaq/CSS_Examples)  

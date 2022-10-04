@@ -96,7 +96,7 @@ in the *netbeans_jdkhome* key, and therefore located inside \<D\>).
 ## Tomcat configuration
 
 At this point you can proceed and **connect Netbeans to Tomcat**.
-   1. Select the **Tool \> Servers** menu item and then the
+   1. Select the **Tools \> Servers** menu item and then the
 "*Add Server...*" button.
    2. In the next wizard select "*Apache Tomcat or TomEE*" and specify as
 "*Server location*" the folder \<D\>/apache-tomcat-{{tomcat_version}} (*also
@@ -121,7 +121,7 @@ To **test the new configuration**,
 on the corresponding sub-entry of the "*Servers*" node shown in the
 tab/box "*Services*" of the IDE and selecting "*Start*". If you
 you are prompted for credentials for the "*Tomcat Manager Application*",
-type the ones in the previous section. Hopefully, you will see the server logs
+type the ones defined in the previous section. Hopefully, you will see the server logs
 shown by the IDE listing a number of information lines that will end
 with a line like "*Server startup in \[...\] milliseconds*". This will
 confirm that the server started successfully.
@@ -130,4 +130,4 @@ try to run it. If the web browser opens showing the defaulw application welcome 
 try to access the URL of the servlet you created. If the servlet also answers with its own
 default message, the environment is configured correctly. Note: you might
 having to configure which browser to open automatically by selecting it from
-**Tools \> Options menu item.**
+**Tools \> Options** menu item.
