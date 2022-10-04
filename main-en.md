@@ -3,6 +3,8 @@ language: en
 layout: default
 title: "Course info"
 permalink: /en/info
+redirect_from:
+  - /
 ---
 
 {%include pageglobal.html %}

@@ -3,6 +3,9 @@ description: Web Engineering course pages, University of L'Aquila
 course: Web Engineering
 plugins:
   - jekyll-relative-links
+  - jekyll-redirect-from 
+whitelist:
+  - jekyll-redirect-from
 relative_links:
   enabled: true
   collections: true
