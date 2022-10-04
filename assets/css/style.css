@@ -43,8 +43,7 @@ blockquote {
 
 .sidebar img {
 	width: 98%;
-	margin: 1rem 1%;
-	
+	margin: 1rem 1%;	
 }
 
 /* Footer */
@@ -64,8 +63,6 @@ header {
 	padding: 30px 5% 30px 15%;
 	
 }
-
-
 
 header h1 {
 	font-size: 30px;
@@ -88,4 +85,16 @@ header a, a.nav-link, footer a {
 
 header a:hover, a.nav-link:hover, footer a:hover {
   color: #FDFDFB;
+}
+
+
+@media (max-width: 576px) {	
+	header {
+	padding: 5px 2% 5px 2%;
+	}
+	
+	.sidebar img {
+		width: 50%;
+		margin: 1rem 25%;	
+	}
 }

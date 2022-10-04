@@ -18,7 +18,7 @@
   <body>
     <div class="wrapper container-fluid">
 	<div class="row">
-	<div class="sidebar col-sm-3 col-xs-12">
+	<div class="sidebar col-sm-3 col-12">
 	<img src="https://www.disim.univaq.it/skins/aqua/img/logo2021-2.png" title="" alt="University of L'Aquila" >
       <header class="sticky-top">
 	  
@@ -40,17 +40,19 @@
 		{% endfor %}		
 		</ul>
 {% endif %}		
-		
+
+		<ul class="nav mt-2 flex-row flex-sm-column nav-pills">
 		{% assign language = page.url | slice: 1,2 %}
 		{% if language == 'en' %}
-			<p class="mt-5"><a href="/it/{{page.url | slice: 4,5000}}">Italiano</a></p>
+			<li class="nav-item"><a  class="nav-link" href="/it/{{page.url | slice: 4,5000}}">In Italiano</a></li>
 		{% elsif language == 'it' %}
-			<p  class="mt-5"><a href="/en/{{page.url | slice: 4,5000}}">English</a></p>
+			<li class="nav-item"><a  class="nav-link" href="/en/{{page.url | slice: 4,5000}}">In English</a></li>
 		{% endif %}
+		</ul>
       </header>
 	        </div>
 			
-      <section class="py-5 col">
+      <section class="py-sm-5 col">
        
 {{ content }}
 
