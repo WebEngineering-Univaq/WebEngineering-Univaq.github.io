@@ -218,6 +218,68 @@
     }
   ],
   "links": [
+	  
+	    {
+    "url": "https://html.spec.whatwg.org/dev/",
+    "nome": {
+      "all": "HTML Living Standard, Edition for Web Developers"
+    }
+  },
+  {
+    "url": "https://dom.spec.whatwg.org/",
+    "nome": {
+      "all": "DOM Living Standard"
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS",
+    "nome": {
+      "all": "Basic CSS tutorial from MDN"
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference",
+    "nome": {
+      "all": "CSS reference from MDN"
+    }
+  },
+  {
+    "url": "https://freemarker.apache.org/docs/",
+    "nome": {
+      "all": "Freemarker online documentation"
+    },
+    "commento": {
+      "en": "The complete documentation about the Java template engine adopted in our course. Sections I and II are the most important reading",
+      "it": "La documentazione completa sul motore di template usato nel corso. Le sezioni I e II sono le più importanti da leggere"
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "nome": {
+      "all": "Javascript reference from MDN"
+    }
+  },
+  {
+    "url": "http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-262.pdf",
+    "nome": {
+      "all": "ECMAScript Language Specification from ECMA international"
+    },
+    "commento": {
+      "en": "Since Javascript is a direct derivation of ECMAScript, this guide is useful to understand and disambiguate many Javascript language features and syntax issues",
+      "it": "Poiché Javascript è una derivazione diretta di ECMAScript, questa guida è utile per comprendere e disambiguare molte funzionalità del linguaggio Javascript e problemi di sintassi"
+    }
+  },
+  {
+    "url": "http://jquery.com",
+    "nome": {
+      "all": "JQuery"
+    },
+    "commento": {
+      "en": "A powerful, crossbrowser Javascript helper library",
+      "it": "Una potente libreria Javascript crossbrowser"
+    }
+  },
+	  
     {
       "nome": {
         "all": "WebPlatform.org"
