@@ -10,13 +10,15 @@ menuitems:
   - label: Testi
     url: "#testi"
   - label: Software
-    url: "#software"
-  - label: Slides e Progetti
-    url: "#materiale"
+    url: "/it/risorse#software"
+  - label: Slides
+    url: "#slides"
+  - label: Progetti
+    url: "#progetti"	
   - label: Esempi
     url: "#esempi"
   - label: Altre risorse
-    url: "#links"    
+    url: "/it/risorse#links"    
 ---
 
 {%include pageglobal.html %}
@@ -40,32 +42,23 @@ menuitems:
 {% endif %}</li>{% endfor %}
 </ul>
 
-## Risorse
+## Materiale Didattico
 
-### Software  {#software}
+### Slides e Dispense  {#slides}
 
-> Applicazioni utili legate agli argomenti del corso. Per facilitare lo sviluppo, prima di installare il software leggete la guida sulla [creazione di un workspace software privato](/it/workspace)
+> Questo materiale, mostrato o sviluppato durante le lezioni, è dedicato agli studenti del corso di Ingegneria del Web.
+Visto che la conoscenza *deve* essere considerata un patrimonio di tutti, il mio materiale didattico è a disposizione di
+chiunque voglia servirsene per studiare la materia. Tuttavia, il materiale <em>non può essere usato, neppure in parte, per altri scopi, primo fra tutti come materiale didattico di altri corsi</em> senza il mio esplicito consenso e senza citare la provenienza del materiale stesso. 
 
-<ul>
-{% for s in site.data.info.software %}<li> 
-<a href="{{ s.url }}">{{ s.nome }}</a>
-{% if s.commento[language] %}   <br/><em>{{ s.commento[language] }}</em>
-{% elsif s.commento['all'] %}   <br/><em>{{ s.commento['all'] }}</em> 
-{% endif %}</li>{% endfor %}
-</ul>
+* [Repository delle slide del corso](https://github.com/WebEngineering-Univaq/WE_Lecture_Slides)  
+  *Da controllare spesso per aggiornamenti!*
 
-### Materiale Didattico  {#materiale}
+### Progetti di Fine Corso  {#progetti}
 
-> Materiale usato a lezione, in formato PDF.  
-> CONDIZIONI D'USO: Questo materiale è dedicato agli studenti del corso di Ingegneria del Web. Visto che la conoscenza **deve** essere considerata un patrimonio di tutti, le mie slides sono a disposizione di chiunque voglia servirsene per studiare le tecniche di realizzazione delle applicazioni web. Tuttavia, il materiale fornito su queste pagine, e sulle pagine dei corsi, *non può essere usato, neppure in parte, per altri scopi, primo fra tutti come materiale didattico di altri corsi* senza il mio esplicito consenso e senza citare la provenienza del materiale stesso. La conoscenza è gratuita, ma il lavoro va remunerato, anche solo con un ringraziamento.
-
-* [Slides del corso](https://github.com/WebEngineering-Univaq/WE_Lecture_Slides)
-* [Progetti di fine corso](https://github.com/WebEngineering-Univaq/Project_Specifications)  
+* [Repository dei progetti di fine corso](https://github.com/WebEngineering-Univaq/Project_Specifications)  
   *Questa raccolta contiene tutti i progetti di fine corso, divisi per anno accademico*
 
 ### Esempi  {#esempi}
-
-> Esempi mostrati o sviluppati in aula
 
 * [HTML 5](https://github.com/WebEngineering-Univaq/HTML_Examples)  
   *Alcuni file HTML che dimostrano la sintassi di tutti i più importanti elementi del linguaggio e permettono di verificarne la funzionalità nei browser*
@@ -75,17 +68,5 @@ menuitems:
   *Esempi di Java web application forniti sotto forma di progetti Maven, compatibili con tutti i più diffusi IDE*
 * [Javascript](https://github.com/orgs/WebEngineering-Univaq/repositories?q=JS_&type=all&language=&sort=name)  
   *Esempi di script eseguibili aprendo in qualsiasi browser il file HTML che li accompagna*
-
-### Risorse online {#links}
-
-> Raccolta non ordinata e spesso anche poco aggiornata di link utili per studiare e approfondire il vasto panorama delle tecnologie del web!
-
-<ul>
-{% for s in site.data.info.links %}<li> 
-<a href="{{ s.url }}">{% if s.nome[language] %}{{ s.nome[language] }}
-{% elsif s.nome['all'] %}{{ s.nome['all'] }}{% endif %}</a>
-{% if s.commento[language] %}   <br/><em>{{ s.commento[language] }}</em>
-{% elsif s.commento['all'] %}   <br/><em>{{ s.commento['all'] }}</em> 
-{% endif %}</li>{% endfor %}
-</ul>
-
+  
+ 
