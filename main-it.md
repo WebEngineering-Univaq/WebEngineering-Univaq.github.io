@@ -64,6 +64,7 @@ menuitems:
 ### Esempi  {#esempi}
 
 > Esempi mostrati o sviluppati in aula
+
 * [HTML 5](https://github.com/WebEngineering-Univaq/HTML_Examples)  
   *Alcuni file HTML che dimostrano la sintassi di tutti i più importanti elementi del linguaggio e permettono di verificarne la funzionalità nei browser*
 * [Cascading Style Sheets](https://github.com/WebEngineering-Univaq/CSS_Examples)  
