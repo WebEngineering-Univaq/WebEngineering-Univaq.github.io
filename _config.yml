@@ -1,11 +1,14 @@
-title: Web Engineering 
-description: Web engineering course pages on GitHub
-show_downloads: false
-theme: jekyll-theme-dinky
-header_pages:
-  - main-it.md
+title: Web Engineering
+description: Web Engineering course pages, University of L'Aquila
+course: Web Engineering
 plugins:
   - jekyll-relative-links
 relative_links:
   enabled: true
   collections: true
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"

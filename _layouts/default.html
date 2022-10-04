@@ -1,36 +1,89 @@
+---
+---
+
+{%include pageglobal.html %}
+
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en-US">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-{% seo %}
+<meta name="author" content="Giuseppe Della Penna"/>
+<link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css?v=' | append: site.github.build_revision | relative_url }}">  
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    {% include head-custom.html %}
+	<title>{{ site.data.info.nome }} :: {{ page.title }}</title>
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
-        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
-		<p class="header"><small><strong>Ricevimento studenti</strong><br/>Mercoledì,15-17 <br><em>(E’ consigliabile contattare preventivamente il docente per concordare le modalità del ricevimento</em>)</small></p>
-		<p class="header"><strong>Email docente</strong> giuseppe.dellapenna<br>@univaq.it</p>
-      </header>
+    <div class="wrapper container-fluid">
+	<div class="row">
+	<div class="sidebar col-sm-3 col-12">
+	<img src="https://www.disim.univaq.it/skins/aqua/img/logo2021-2.png" title="" alt="University of L'Aquila" >
+      <header class="sticky-top">
 	  
-      
-      <section>
-        {{ content }}
-      </section>
+        <h1 class="header"><a href="/{{language}}/info">{{ site.data.info.nome }}</a></h1>
+        <p class="header">{% if site.data.info.descrizione[language] %}   {{ site.data.info.descrizione[language] }}{% elsif site.data.info.descrizione['all'] %}   {{ site.data.info.descrizione['all'] }}{% else %}{{ site.description }}{% endif %}.</p>
 
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a></small></p>
+{% assign menufile = 'menu_' | append: language %}
+{% if site.data[menufile] %}
+		<ul class="nav mb-1 flex-row flex-sm-column nav-pills">
+		{% for item in site.data[menufile] %}
+		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">{{ item.label }}</a>
+		{% endfor %}
+		</ul>
+{% endif %}
+	      
+{% if layout.menuitems %}
+		<ul class="nav  mb-1  flex-row flex-sm-column nav-pills">
+		{% for item in layout.menuitems %}
+		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">{{ item.label }}</a>
+		{% endfor %}
+		</ul>
+{% endif %}
+
+{% if page.menuitems %}
+		<ul class="nav  mb-1  flex-row flex-sm-column nav-pills">
+		{% for item in page.menuitems %}
+		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">{{ item.label }}</a>
+		{% endfor %}		
+		</ul>
+{% endif %}		
+
+		<ul class="nav mt-1 flex-row flex-sm-column nav-pills">
+		{% assign language = page.url | slice: 1,2 %}
+		{% if language == 'en' %}
+			<li class="nav-item"><a  class="nav-link" href="/it/{{page.url | slice: 4,5000}}">In Italiano</a></li>
+		{% elsif language == 'it' %}
+			<li class="nav-item"><a  class="nav-link" href="/en/{{page.url | slice: 4,5000}}">In English</a></li>
+		{% endif %}
+		</ul>
+      </header>
+	        </div>
+			
+      <section class="py-sm-5 col">
+       
+{{ content }}
+
+      </section>
+</div>
+<div class="row mt-3">
+      <div class="col-12">
+	  <footer>
+  {% if language == 'it' %}
+	  	          <p ><strong>Docente: </strong> <a href="https://www.disim.univaq.it/GiuseppeDellaPenna">Giuseppe Della Penna</a></p>
+  	            	          <p ><strong>Email docente:</strong> giuseppe.dellapenna@univaq.it</p>
+  	                  <p ><strong>Ricevimento studenti: </strong> Mercoledì,15-17 <em>(E’ consigliabile contattare preventivamente il docente per concordare le modalità del ricevimento</em>)</p>
+		{% else %}
+	      <p ><strong>Teacher: </strong> <a href="https://www.disim.univaq.it/GiuseppeDellaPenna">Giuseppe Della Penna</a></p>
+       <p ><strong>Office Hours: </strong> Wednesday,15-17 <em>(Please contact the teacher in advance to agree the meeting modality</em>)</p>
+	<p ><strong>Teacher Email:</strong> giuseppe.dellapenna@univaq.it</p>
+	{% endif %}
       </footer>
+	  </div>
+	  </div>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  
   </body>
 </html>

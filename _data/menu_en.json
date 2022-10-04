@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Syllabus",
+    "url": "/en/info.html#sillabo"
+  },
+  {
+    "label": "Textbooks",
+    "url": "/en/info.html#testi"
+  },
+  {
+    "label": "Software",
+    "url": "/en/risorse.html#software"
+  },
+  {
+    "label": "Slides",
+    "url": "/en/info.html#slides"
+  },
+  {
+    "label": "Projects",
+    "url": "/en/info.html#progetti"
+  },
+  {
+    "label": "Examples",
+    "url": "/en/info.html#esempi"
+  },
+  {
+    "label": "Other resources",
+    "url": "/en/risorse.html#links"
+  }
+]

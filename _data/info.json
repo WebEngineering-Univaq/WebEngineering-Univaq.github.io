@@ -1,0 +1,492 @@
+{
+  "nome": "Web Engineering",
+  "descrizione": {"it":"Corso di Ingegneria del Web, Università dell'Aquila","en":"Web Engineering course, University of L'Aquila"},
+  "contatti": {
+    "email": "giuseppe.dellapenna@univaq.it",
+    "ricevimento": {
+      "giorno": "3",
+      "inizio": "15",
+      "fine": "17"
+    }
+  },
+  "testi": [
+    {
+      "autori": "Vincenzo Della Mea, Luca di Gaspero, Ivan Scagnetto",
+      "titolo": "Programmazione web lato server, seconda edizione",
+      "editore": "Apogeo",
+      "commento": {"it":"Testo di riferimento per HTML, CSS e Javascript"},
+      "lingua": "it"
+    },
+    {
+      "autori": "Jeffrey Zeldman, Ethan Marcotte",
+      "titolo": "Sviluppare Siti Con Gli Standard Web, terza edizione",
+      "editore": "Apogeo",
+      "commento": {"it":"Testo di riferimento sulle techiche di progettazione di siti web"},
+      "lingua": "it"
+    },
+    {
+      "autori": "Jeffrey Zeldman, Ethan Marcotte",
+      "titolo": "Designing with Web Standards (3rd Edition)",
+      "editore": "New Riders Press",
+      "url": "http://www.amazon.com/Designing-Web-Standards-Jeffrey-Zeldman/dp/0321616952/ref=sr_1_1?ie=UTF8&qid=1301555965&sr=8-1",
+      "commento":  {"en":"One of the most important course textbooks, about web design standards, is also available in English"},
+       "lingua": "en"
+    }
+  ],
+  "sillabo": [
+    [
+      {
+        "all": "Web Standards"
+      },
+      {
+        "it": "Accessibilità e  Usabilità: cosa significano e come si realizzano",
+        "en": "Accessibility and Usability: what they mean and how can be obtained"
+      },
+      {
+        "all": "Web Content Accessibility Guidelines (WCAG)"
+      },
+      {
+        "it": "XML e i linguaggi markup",
+        "en": "XML and markup languages"
+      }
+    ],
+    [
+      {
+        "it": "Struttura dei contenuti web: HTML4, XHTML1, HTML5",
+        "en": "Structure of web contents: HTML4, XHTML1, HTML5"
+      },
+      {
+        "it": "Uso corretto dell'HTML e accorgimenti per la compatibilità crossbrowser",
+        "en": "Proper use of HTML and tips for crossbrowser compatibility"
+      },
+      {
+        "it": "Creazione di HTML accessibile. Accessibilità nelle Rich Internet Applications (RIA)",
+        "en": "Creating accessible HTML. Accessibility in Rich Internet Applications (RIA)"
+      },
+      {
+        "it": "Validazione dei contenuti web",
+        "en": "Web content validation"
+      }
+    ],
+    [
+      {
+        "it": "Presentazione dei contenuti web: CSS2 e CSS3",
+        "en": "Presentation of web contents: CSS2 and CSS3"
+      },
+      {
+        "it": "Uso corretto dei fogli di style e accorgimenti per la compatibilità crossbrowser",
+        "en": "Proper use of style sheets and tips for crossbrowser compatibility"
+      },
+      {
+        "it": "Creazione di fogli di stile degradanti",
+        "en": "Creating gracefully degrading  style sheets"
+      }
+    ],
+    [
+      {
+        "it": "Creazione di layout web con i fogli di stile: tecniche di base",
+        "en": "Creating web layouts with style sheets: basic techniques"
+      },
+      {
+        "all": "Responsive design"
+      }
+    ],
+    [
+      {
+        "it": "Logica per i contenuti web, lato server: Java Servlets",
+        "en": "Logic for web contents, server-side: Java Servlets"
+      },
+      {
+        "it": "Gestione delle sessioni nelle applicazioni web Java",
+        "en": "Session management in Java web applications"
+      },
+      {
+        "it": "Database nelle applicazioni web Java: JDBC, connection pooling",
+        "en": "Database in Java web applications: JDBC, connection pooling"
+      },
+      {
+        "it": "Generazione dinamica dei contenuti: template engines per Java",
+        "en": "Dynamic content generation: template engines for Java"
+      },
+      {
+        "it": "Sicurezza delle applicazioni web: accorgimenti lato server",
+        "en": "Web application security: server-side techniques"
+      }
+    ],
+    [
+      {
+        "it": "Logica per i contenuti web, lato client: Javascript",
+        "en": "Logic for web contents, client side: Javascript"
+      },
+      {
+        "it": "Javascript come linguaggio di programmazione object-oriented",
+        "en": "Javascript as a object-oriented programming language"
+      },
+      {
+        "it": "Il Document Object Model di HTML",
+        "en": "The HTML Document Object Model"
+      },
+      {
+        "it": "Il Document Object Model dei CSS",
+        "en": "The CSS Document Object Model"
+      },
+      {
+        "it": "Il modello degli eventi HTML",
+        "en": "The HTML Event Model"
+      },
+      {
+        "it": "Manipolazione del DOM con Javascript",
+        "en": "DOM manipulation with JavaScript"
+      },
+      {
+        "it": "Rich User Interaction degradante con Javascript e CSS",
+        "en": "Gracefully degrading Rich User Interaction with Javascript and CSS"
+      },
+      {
+        "all": "AJAX"
+      }
+    ]
+  ],  
+  "software": [
+    {
+      "url": "https://netbeans.apache.org/download/",
+      "nome": "Apache NetBeans",
+      "commento": {
+        "it": "Ambiente di sviluppo integrato Java (utile per la realizzazione delle web application)",
+        "en": "A Java IDE, useful to develop web applications"
+      }
+    },
+    {
+      "url": "http://notepad-plus.sourceforge.net/",
+      "nome": "Notepad++",
+      "commento": {
+        "it": "Un editor potente per scrivere codice e script",
+        "en": "A good editor for code and scripts"
+      }
+    },
+    {
+      "url": "http://www.getfirefox.com/",
+      "nome": "Mozilla Firefox"
+    },
+    {
+      "url": "http://www.google.com/chrome/",
+      "nome": "Google Chrome"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/edge",
+      "nome": "Microsoft Edge (Chromium)"
+    },
+    {
+      "url": "http://tidy.sourceforge.net/",
+      "nome": "HTML Tidy",
+      "commento": {
+        "it": "Un tool per verificare la correttezza e l'accessibilità delle pagine web",
+        "en": "A tool to analyze (and correct) many structural and accessibility problems of web pages"
+      }
+    },
+    {
+      "url": "http://users.skynet.be/mgueury/mozilla/download.html",
+      "nome": "HTML Validator",
+      "commento": {
+        "it": "Un add-on che permette di validare le proprie pagine senza passare per il sito del W3C.",
+        "en": "An add-on to automatically validate web pages."
+      }
+    },
+    {
+      "url": "http://sass-lang.com",
+      "nome": "SASS: Syntactically Awesome Style Sheets",
+      "commento": {
+        "it": "Un preprecessore per i fogli di stile.",
+        "en": "A style sheet preprocessor."
+      }
+    },
+    {
+      "url": "https://freemarker.apache.org/",
+      "nome": "Apache FreeMarker",
+      "commento": {
+        "it": "Una libreria per sviluppare ed utilizzare templates in Java",
+        "en": "A Java template library"
+      }
+    },
+    {
+      "url": "http://www.mysql.com/downloads/connector/j/",
+      "nome": "MySQL Connector/J",
+      "commento": {
+        "it": "Il driver JDBC per MySQL",
+        "en": "The MySQL JDBC driver"
+      }
+    }
+  ],
+  "links": [
+	  
+	    {
+    "url": "https://html.spec.whatwg.org/dev/",
+    "nome": {
+      "all": "HTML Living Standard, Edition for Web Developers"
+    }
+  },
+  {
+    "url": "https://dom.spec.whatwg.org/",
+    "nome": {
+      "all": "DOM Living Standard"
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS",
+    "nome": {
+      "all": "Basic CSS tutorial from MDN"
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference",
+    "nome": {
+      "all": "CSS reference from MDN"
+    }
+  },
+  {
+    "url": "https://freemarker.apache.org/docs/",
+    "nome": {
+      "all": "Freemarker online documentation"
+    },
+    "commento": {
+      "en": "The complete documentation about the Java template engine adopted in our course. Sections I and II are the most important reading",
+      "it": "La documentazione completa sul motore di template usato nel corso. Le sezioni I e II sono le più importanti da leggere"
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "nome": {
+      "all": "Javascript reference from MDN"
+    }
+  },
+  {
+    "url": "http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-262.pdf",
+    "nome": {
+      "all": "ECMAScript Language Specification from ECMA international"
+    },
+    "commento": {
+      "en": "Since Javascript is a direct derivation of ECMAScript, this guide is useful to understand and disambiguate many Javascript language features and syntax issues",
+      "it": "Poiché Javascript è una derivazione diretta di ECMAScript, questa guida è utile per comprendere e disambiguare molte funzionalità del linguaggio Javascript e problemi di sintassi"
+    }
+  },
+  {
+    "url": "http://jquery.com",
+    "nome": {
+      "all": "JQuery"
+    },
+    "commento": {
+      "en": "A powerful, crossbrowser Javascript helper library",
+      "it": "Una potente libreria Javascript crossbrowser"
+    }
+  },
+	  
+    {
+      "nome": {
+        "all": "WebPlatform.org"
+      },
+      "commento": {
+        "all": "\"The latest information on how to use the technology that runs the web: HTML, CSS, JavaScript and more. Web Platform is a project of the W3C and the Web Platform stewards: Adobe, Apple, Facebook, Google, HP, Intel, Microsoft, Mozilla, Nokia, and Opera. \""
+      },
+      "url": "http://www.webplatform.org/"
+    },
+    {
+      "nome": {
+        "all": "WHATWG (Web Hypertext Application Technology Working Group)"
+      },
+      "commento": {
+        "it": "La comunità sviluppa il nuovo HTML (\"living standard\") e le tecnologie correlate",
+        "en": "The community that develops the new HTML (\"living standard\") and related technologies"
+      },
+      "url": "https://whatwg.org/"
+    },
+	{
+	  "nome": {
+        "it": "Specifica HTML 5",
+        "en": "HTML 5 specification"
+      },
+      "url": "http://www.w3.org/TR/html5/"
+    },
+    {
+      "nome": {
+        "it": "Specifica HTML 4",
+        "en": "HTML 4 specification"
+      },
+      "url": "http://www.w3.org/TR/html4/"
+    },
+    {
+      "nome": {
+        "it": "Differenze tra HTML 4 e HTML 5",
+        "en": "Differences between HTML 4 and HTML 5"
+      },
+      "url": "http://www.w3.org/TR/html5-diff/"
+    },
+    {
+      "nome": {
+        "it": "Specifica XHTML 1",
+        "en": "XHTML 1 specification"
+      },
+      "url": "http://www.w3.org/TR/xhtml1/"
+    },
+    {
+      "nome": {
+        "it": "Validatore HTML online",
+        "en": "Online HTML validator"
+      },
+      "url": "http://validator.w3.org/"
+    },
+    {
+      "nome": {
+        "all": "Java Servlet Technology"
+      },
+      "commento": {
+        "it": "Tutte le informazioni di base sulle servlet direttamente dal Java EE 6 Tutorial"
+      },
+      "url": "http://download.oracle.com/javaee/6/tutorial/doc/bnafd.html"
+    },
+    {
+      "nome": {
+        "it": "Specifica CSS 2",
+        "en": "CSS 2 specification"
+      },
+      "url": "http://www.w3.org/TR/CSS21/"
+    },
+    {
+      "nome": {
+        "it": "Draft correnti dei nuovi moduli di CSS 3",
+        "en": "Current CSS3 drafts"
+      },
+      "url": "http://www.w3.org/Style/CSS/current-work"
+    },
+    {
+      "nome": {
+        "it": "Validatore CSS online",
+        "en": "Online CSS validator"
+      },
+      "url": "http://jigsaw.w3.org/css-validator/"
+    },
+    {
+      "nome": {
+        "all": "WebComponents.org"
+      },
+      "commento": {
+        "it": "Le nuove tecnologie per un HTML modulare ed estendibile",
+        "en": "The new technologies for a modular, extensible HTML"
+      },
+      "url": "http://webcomponents.org/"
+    },
+    {
+      "nome": {
+        "all": "Polymer"
+      },
+      "commento": {
+        "it": "Un framework per creare e riusare componenti HTML",
+        "en": "A framework to create and reuse HTML components"
+      },
+      "url": "https://www.polymer-project.org/"
+    },
+    {
+      "nome": {
+        "all": "HTML5 Cross Browser Polyfills"
+      },
+      "commento": {
+        "it": "Una lista di polyfill utili per aggiungere le caratteristiche più moderne ai browser più datati",
+        "en": "A list of polyfills useful to add modern features to old browsers"
+      },
+      "url": "https://www.polymer-project.org/"
+    },
+    {
+      "nome": {
+        "it": "LESS: un proprocessore CSS",
+        "en": "LESS: a CSS preprocessor"
+      },
+      "url": "http://lesscss.org/"
+    },
+    {
+      "nome": {
+        "it": "Ottimizzatore di CSS online",
+        "en": "Online CSS Optimizer"
+      },
+      "commento": {
+        "it": "Utilizzatelo sui vostri fogli di stile finali per renderli più leggeri ed efficienti!"
+      },
+      "url": "http://www.cleancss.com/"
+    },
+    {
+      "nome": {
+        "all": "CSSPlay"
+      },
+      "commento": {
+        "it": "Demo ed esempi di tutto ciò che i CSS possono veramente fare...",
+        "en": "Demos and examples of everything CSS can really do..."
+      },
+      "url": "http://www.cssplay.co.uk/"
+    },
+    {
+      "nome": {
+        "it": "Specifica DOM",
+        "en": "DOM specification"
+      },
+      "url": "http://www.w3.org/DOM/DOMTR"
+    },
+    {
+      "nome": {
+        "all": "Browsershots"
+      },
+      "commento": {
+        "it": "Un sito che permette di verificare come viene \"visto\" il vostro sito da qualsiasi browser",
+        "en": "Here you can see how browsers display you web site"
+      },
+      "url": "http://browsershots.org/"
+    },
+    {
+      "nome": {
+        "all": "Open Source Web Design"
+      },
+      "commento": {
+        "it": "Design liberi da cui prendere spunto e da cui imparare qualche trucco!",
+        "en": "Free web site designs to reuse and learn from!"
+      },
+      "url": "http://www.oswd.org/"
+    },
+    {
+      "nome": {
+        "all": "Open Web Application Security Project (OWASP)"
+      },
+      "commento": {
+        "it": "Un sito dedicato ai problemi di sicurezza delle applicazioni web e alle loro possibili soluzioni. Da vedere!",
+        "en": "A site devoted to web application security"
+      },
+      "url": "https://www.owasp.org/"
+    },
+    {
+      "nome": {
+        "all": "Web Content Accessibility Guidelines (WCAG) 2.0"
+      },
+      "commento": {
+        "it": "Le linee guida per lo sviluppo di contenuti web veramente accessibili, recepite in Italia dalla Legge Stanca (9/1/2004). Da vedere!",
+        "en": "The guidelines to follow to develop really accessible web sites"
+      },
+      "url": "http://www.w3.org/TR/WCAG20/"
+    },
+    {
+      "nome": {
+        "all": "Responsive Web Design"
+      },
+      "commento": {
+        "it": "L'articolo originale di Ethan Marcotte pubblicato su A List Apart con cui è stata introdotta questa tecnica",
+        "en": "The original Ethan Marcotte article published on A List Apart that introduced this design technique"
+      },
+      "url": "http://www.alistapart.com/articles/responsive-web-design/"
+    },
+    {
+      "nome": {
+        "all": "modern.IE"
+      },
+      "commento": {
+        "it": "Una serie di tool molto utili per testare i vostri siti su vari browser, soprattutto le vecchie versioni di IE",
+        "en": "A set of useful tools to test your websites on different browsers, especially old versions of IE"
+      },
+      "url": "http://www.modern.ie/"
+    }
+  ]
+}
