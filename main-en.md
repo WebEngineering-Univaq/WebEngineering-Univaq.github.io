@@ -15,6 +15,8 @@ menuitems:
     url: "#materiale"
   - label: Examples
     url: "#esempi"
+  - label: Other resources
+    url: "#links"    
 ---
 
 {%include pageglobal.html %}
@@ -80,9 +82,9 @@ menuitems:
   *Script examples (to execute them, open the corresponding HTML file in any browser)*
 
 
-### Useful links
+### Online resources {#links}
 
-> Unordered and often not updated collection of useful links to deepen your knowledge about web technologies!
+> Unordered and often not updated collection of useful links to study and deepen your knowledge about web technologies!
 
 <ul>
 {% for s in site.data.info.links %}<li> 
