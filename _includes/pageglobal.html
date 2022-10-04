@@ -1,6 +1,15 @@
 {% assign language = page.language | default: 'it' %}
-{% assign year = page.year | default: 2022 %}
 
 {% assign    netbeans_version= 14%}
 {% assign    jdk_version= 18%}
 {% assign    tomcat_version= 9%}
+
+{% assign    cyear = site.time | date: '%Y' | times: 1 %}
+{% assign    cmonth = site.time | date: '%m'  | times: 1  %}
+{% assign    cday = site.time | date: '%d'  | times: 1  %}
+
+{% if cmonth < 9 %}
+{% assign    ayear = cyear | minus: 1 %}
+{% else %}
+{% assign    ayear = cyear  %}
+{% endif %}

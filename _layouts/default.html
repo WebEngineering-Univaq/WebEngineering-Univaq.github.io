@@ -24,9 +24,18 @@
 	  
         <h1 class="header"><a href="/{{language}}/info">{{ site.course | default: page.title }}</a></h1>
         <p class="header">{% if site.data.info.descrizione[language] %}   {{ site.data.info.descrizione[language] }}{% elsif site.data.info.descrizione['all'] %}   {{ site.data.info.descrizione['all'] }}{% else %}{{ site.description }}{% endif %}.</p>
+
+{% assign menufile = 'menu_' | append: language %}
+{% if site.data[menufile] %}
+		<ul class="nav mb-1 flex-row flex-sm-column nav-pills">
+		{% for item in site.data[menufile] %}
+		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">{{ item.label }}</a>
+		{% endfor %}
+		</ul>
+{% endif %}
 	      
 {% if layout.menuitems %}
-		<ul class="nav  flex-row flex-sm-column nav-pills">
+		<ul class="nav  mb-1  flex-row flex-sm-column nav-pills">
 		{% for item in layout.menuitems %}
 		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">{{ item.label }}</a>
 		{% endfor %}
@@ -34,14 +43,14 @@
 {% endif %}
 
 {% if page.menuitems %}
-		<ul class="nav  flex-row flex-sm-column nav-pills">
+		<ul class="nav  mb-1  flex-row flex-sm-column nav-pills">
 		{% for item in page.menuitems %}
 		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">{{ item.label }}</a>
 		{% endfor %}		
 		</ul>
 {% endif %}		
 
-		<ul class="nav mt-2 flex-row flex-sm-column nav-pills">
+		<ul class="nav mt-1 flex-row flex-sm-column nav-pills">
 		{% assign language = page.url | slice: 1,2 %}
 		{% if language == 'en' %}
 			<li class="nav-item"><a  class="nav-link" href="/it/{{page.url | slice: 4,5000}}">In Italiano</a></li>

@@ -1,19 +1,17 @@
 ---
-language: it
+language: en
 layout: default
-title: "Risorse del corso"
-year: 2022
-permalink: /it/risorse
+title: "Course resources"
+permalink: /en/risorse
 ---
 
 {%include pageglobal.html %}
 
-
-## Risorse online
+## Online Resources
 
 ### Software  {#software}
 
-> Applicazioni utili legate agli argomenti del corso. Per facilitare lo sviluppo, prima di installare il software leggete la guida sulla [creazione di un workspace software privato](/it/workspace)
+> Useful applications related to the course topics. To ease the development, before installing any software please read the guode about the [creation of a private software workspace](/en/workspace)
 
 <ul>
 {% for s in site.data.info.software %}<li> 
@@ -23,9 +21,9 @@ permalink: /it/risorse
 {% endif %}</li>{% endfor %}
 </ul>
 
-### Contenuti di Approfondimento {#links}
+### Other Resources {#links}
 
-> Raccolta non ordinata e spesso anche poco aggiornata di link utili per studiare e approfondire il vasto panorama delle tecnologie del web!
+> Unordered and often not updated collection of useful links to study and deepen your knowledge about web technologies!
 
 <ul>
 {% for s in site.data.info.links %}<li> 

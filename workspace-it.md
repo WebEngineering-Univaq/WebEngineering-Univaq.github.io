@@ -2,11 +2,7 @@
 language: it
 layout: default
 title: "Spazio di lavoro per il corso"
-year: 2022
 permalink: /it/workspace
-menuitems:
-  - label: Torna alle informazioni generali
-    url: "/it/info"
 ---
 
 
@@ -15,7 +11,7 @@ menuitems:
 
 ## Suggerimenti per la creazione di uno *spazio di lavoro* per il corso
 
-*Versione {{ year }}*
+*Versione {{ cyear }}*
 
 
 Nel nostro corso utilizzeremo tre software principali:
@@ -38,7 +34,7 @@ software della macchina su cui lavorerete. Questo è molto utile soprattutto se
 sulla vostra macchina avete già installate altre versioni dei software di cui
 sopra. La procedura è la seguente.
 
-Le versioni del software utilizzate **per l'anno accademico {{year}}/{{year | number | plus: 1}}** sono le seguenti:
+Le versioni del software utilizzate **per l'anno accademico {{cyear}}/{{cyear | plus: 1}}** sono le seguenti:
 - Netbeans {{netbeans_version}}
 - Tomcat {{tomcat_version}}
 - JDK {{jdk_version}}

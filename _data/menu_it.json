@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Sillabo",
+    "url": "/en/info.html#sillabo"
+  },
+  {
+    "label": "Testi",
+    "url": "/en/info.html#testi"
+  },
+  {
+    "label": "Software",
+    "url": "/en/risorse.html#software"
+  },
+  {
+    "label": "Slides",
+    "url": "/en/info.html#slides"
+  },
+  {
+    "label": "Progetti",
+    "url": "/en/info.html#progetti"
+  },
+  {
+    "label": "Esempi",
+    "url": "/en/info.html#esempi"
+  },
+  {
+    "label": "Altre risorse",
+    "url": "/en/risorse.html#links"
+  }
+]

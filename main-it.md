@@ -2,23 +2,7 @@
 language: it
 layout: default
 title: "Informazioni sul corso"
-year: 2022
 permalink: /it/info
-menuitems:
-  - label: Sillabo
-    url: "#sillabo"
-  - label: Testi
-    url: "#testi"
-  - label: Software
-    url: "/it/risorse#software"
-  - label: Slides
-    url: "#slides"
-  - label: Progetti
-    url: "#progetti"	
-  - label: Esempi
-    url: "#esempi"
-  - label: Altre risorse
-    url: "/it/risorse#links"    
 ---
 
 {%include pageglobal.html %}
@@ -44,11 +28,11 @@ menuitems:
 
 ## Materiale Didattico
 
-### Slides e Dispense  {#slides}
-
 > Questo materiale, mostrato o sviluppato durante le lezioni, è dedicato agli studenti del corso di Ingegneria del Web.
 Visto che la conoscenza *deve* essere considerata un patrimonio di tutti, il mio materiale didattico è a disposizione di
 chiunque voglia servirsene per studiare la materia. Tuttavia, il materiale <em>non può essere usato, neppure in parte, per altri scopi, primo fra tutti come materiale didattico di altri corsi</em> senza il mio esplicito consenso e senza citare la provenienza del materiale stesso. 
+
+### Slides e Dispense  {#slides}
 
 * [Repository delle slide del corso](https://github.com/WebEngineering-Univaq/WE_Lecture_Slides)  
   *Da controllare spesso per aggiornamenti!*
