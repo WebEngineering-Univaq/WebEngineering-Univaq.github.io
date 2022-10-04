@@ -14,6 +14,7 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+	<title>{{ site.data.info.nome }} :: {{ page.title }}</title>
   </head>
   <body>
     <div class="wrapper container-fluid">
@@ -22,7 +23,7 @@
 	<img src="https://www.disim.univaq.it/skins/aqua/img/logo2021-2.png" title="" alt="University of L'Aquila" >
       <header class="sticky-top">
 	  
-        <h1 class="header"><a href="/{{language}}/info">{{ site.course | default: page.title }}</a></h1>
+        <h1 class="header"><a href="/{{language}}/info">{{ site.data.info.nome }}</a></h1>
         <p class="header">{% if site.data.info.descrizione[language] %}   {{ site.data.info.descrizione[language] }}{% elsif site.data.info.descrizione['all'] %}   {{ site.data.info.descrizione['all'] }}{% else %}{{ site.description }}{% endif %}.</p>
 
 {% assign menufile = 'menu_' | append: language %}

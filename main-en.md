@@ -30,14 +30,18 @@ permalink: /en/info
 {% endif %}</li>{% endfor %}
 </ul>
 
-## Resources
+## Didactic Material  
 
+> This material has been developed for the students of the Web Engineering course. 
+Since knowledge *should* be considered everyone's heritage, my material is available to anyone who wants
+to study the course topics. However, such material *cannot be used, even in part, for other purposes
+or in other courses*, without my explicit permission and without citing the source.
 
-### Didactic Material  
-
-> Material used during the lectures, in PDF format.  
-> The Web Engineering course is currently given in Italian. The following slide sets contain an English translation of all the slides used during the course lectures. Such a translation is the first result of a long and complex adaptation work. Therefore, the slides may still contain some errors, typos and poorly readable statements. I'll do my best to refine them, but it takes time. Suggestions are always appreciated!  
-> TERMS OF USE: This material has been compiled for the students of the Web Engineering course. Since knowledge *should* be considered everyone's heritage, my slides are available to anyone who wants to study the web application development techniques. However, the material provided on this pages *cannot* be used, even in part, for other purposes, for example as educational material in other courses, without my explicit permission and without citing the source. The knowledge must be free, but the work must be paid, even only with a 'thank you'. 
+> The Web Engineering course is currently given in Italian. The material include an English translation 
+of all the slides used during the course lectures. Such a translation is the first result 
+of a long and complex adaptation work. Therefore, the slides may still contain some errors, typos 
+and poorly readable statements. I'll do my best to refine them, but it takes time. 
+Suggestions are always appreciated!  
 
 ### Slides  {#slides}
 

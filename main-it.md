@@ -30,7 +30,7 @@ permalink: /it/info
 
 > Questo materiale, mostrato o sviluppato durante le lezioni, è dedicato agli studenti del corso di Ingegneria del Web.
 Visto che la conoscenza *deve* essere considerata un patrimonio di tutti, il mio materiale didattico è a disposizione di
-chiunque voglia servirsene per studiare la materia. Tuttavia, il materiale <em>non può essere usato, neppure in parte, per altri scopi, primo fra tutti come materiale didattico di altri corsi</em> senza il mio esplicito consenso e senza citare la provenienza del materiale stesso. 
+chiunque voglia servirsene per studiare la materia. Tuttavia, il materiale *non può essere usato, neppure in parte, per altri scopi o in altri corsi* senza il mio esplicito consenso e senza citare la provenienza del materiale stesso. 
 
 ### Slides e Dispense  {#slides}
 
