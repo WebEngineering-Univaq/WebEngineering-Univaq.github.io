@@ -44,7 +44,7 @@ chiunque voglia servirsene per studiare la materia. Tuttavia, il materiale *non 
 
 ### Esempi  {#esempi}
 
-> Prima di eseguire o modificare questi esempi, consultate la sezione [/it/risorse#software](Software) 
+> Prima di eseguire o modificare questi esempi, consultate la sezione [Software](/it/risorse#software)
 e installate tutto il software necessario
 
 * [HTML 5](https://github.com/WebEngineering-Univaq/HTML_Examples)  

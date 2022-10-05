@@ -57,7 +57,7 @@ Suggestions are always appreciated!
 
 ### Examples  {#esempi}
 
-> Before trying to run or modify these examples, read the [/it/risorse#software](Software) section
+> Before trying to run or modify these examples, read the [Software](/en/risorse#software) section
 and set-up all the required software
 
 * [HTML 5](https://github.com/WebEngineering-Univaq/HTML_Examples)  
