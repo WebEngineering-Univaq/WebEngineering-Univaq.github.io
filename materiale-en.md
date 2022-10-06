@@ -3,8 +3,6 @@ language: en
 layout: default
 title: "Didactic material"
 permalink: /en/materiale.html
-redirect_from:
-  - /
 ---
 
 {%include pageglobal.html %}
