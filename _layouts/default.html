@@ -8,9 +8,11 @@
   <head>
     <meta charset="utf-8">
 <meta name="author" content="Giuseppe Della Penna"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css?v=' | append: site.github.build_revision | relative_url }}">  
+<link rel="stylesheet" href="{{ '/assets/css/bootstrap-icons.css?v=' | append: site.github.build_revision | relative_url }}">  
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-	  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<script src="{{ '/assets/js/jquery-3.6.1.min.js?v=' | append: site.github.build_revision | relative_url }}">/* */</script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -21,7 +23,8 @@
 	<div class="row">
 	<div class="sidebar col-sm-3 col-12">
 	<img src="https://www.disim.univaq.it/skins/aqua/img/logo2021-2.png" title="" alt="University of L'Aquila" >
-      <header class="sticky-md-top">
+      <a name="top"/>
+	  <header class="sticky-md-top">
 	  
         <h1 class="header"><a href="/{{language}}/info">{{ site.data.info.nome }}</a></h1>
         <p class="header">{% if site.data.info.descrizione[language] %}   {{ site.data.info.descrizione[language] }}{% elsif site.data.info.descrizione['all'] %}   {{ site.data.info.descrizione['all'] }}{% else %}{{ site.description }}{% endif %}.</p>
@@ -84,6 +87,7 @@
 	  </div>
 	  </div>
     </div>
-  
+  <a id="totop" href="#top"><i class="bi bi-chevron-double-up"></i></a>
+  <script src="{{ '/assets/js/scripts.js?v=' | append: site.github.build_revision | relative_url }}">/* */</script>
   </body>
 </html>

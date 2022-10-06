@@ -87,6 +87,31 @@ header a:hover, a.nav-link:hover, footer a:hover {
   color: #FDFDFB;
 }
 
+#totop {
+	width: 2em;
+	height: 2em;
+	text-align: center;
+	background-color: #166079;
+	color:white;
+	border-radius: 5px;
+	position: fixed;
+	right:5px;
+	bottom:5px;
+	font-size: 120%;
+	border-radius: 3px;
+	display: block;
+	text-decoration: none;
+	border: 1px solid #166079;
+	z-index: 10;
+	transition: opacity .3s ease-in-out;
+	opacity: 0.5;
+	line-height: 2em;
+}
+
+#totop:hover {
+	opacity: 1;
+}
+
 
 @media (max-width: 576px) {	
 	header {
