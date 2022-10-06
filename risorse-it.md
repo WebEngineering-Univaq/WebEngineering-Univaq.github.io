@@ -3,7 +3,7 @@ language: it
 layout: default
 title: "Risorse del corso"
 year: 2022
-permalink: /it/risorse
+permalink: /it/risorse.html
 ---
 
 {%include pageglobal.html %}

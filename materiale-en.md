@@ -2,7 +2,7 @@
 language: en
 layout: default
 title: "Didactic material"
-permalink: /en/materiale
+permalink: /en/materiale.html
 redirect_from:
   - /
 ---

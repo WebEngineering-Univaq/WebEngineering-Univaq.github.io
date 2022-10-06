@@ -2,7 +2,7 @@
 language: en
 layout: default
 title: "Course resources"
-permalink: /en/risorse
+permalink: /en/risorse.html
 ---
 
 {%include pageglobal.html %}

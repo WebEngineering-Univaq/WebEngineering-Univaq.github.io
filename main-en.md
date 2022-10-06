@@ -2,7 +2,7 @@
 language: en
 layout: default
 title: "Course info"
-permalink: /en/info
+permalink: /en/info.html
 redirect_from:
   - /
 ---

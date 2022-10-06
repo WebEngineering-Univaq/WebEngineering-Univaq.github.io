@@ -2,7 +2,7 @@
 language: it
 layout: default
 title: "Materiale didattico"
-permalink: /it/materiale
+permalink: /it/materiale.html
 ---
 
 {%include pageglobal.html %}

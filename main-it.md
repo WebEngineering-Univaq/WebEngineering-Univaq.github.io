@@ -2,7 +2,7 @@
 language: it
 layout: default
 title: "Informazioni sul corso"
-permalink: /it/info
+permalink: /it/info.html
 ---
 
 {%include pageglobal.html %}
