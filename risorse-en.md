@@ -14,7 +14,7 @@ permalink: /en/risorse.html
 > Useful applications related to the course topics. To ease the development, before installing any software **please read the guide about the [creation of a private software workspace](/en/workspace)**
 
 <ul>
-{% for s in site.data.info.software %}<li> 
+{% for s in courseinfo.software %}<li> 
 <a href="{{ s.url }}">{{ s.nome }}</a>
 {% if s.commento[language] %}   <br/><em>{{ s.commento[language] }}</em>
 {% elsif s.commento['all'] %}   <br/><em>{{ s.commento['all'] }}</em> 
@@ -26,7 +26,7 @@ permalink: /en/risorse.html
 > Unordered and often not updated collection of useful links to study and deepen your knowledge about web technologies!
 
 <ul>
-{% for s in site.data.info.links %}<li> 
+{% for s in courseinfo.links %}<li> 
 <a href="{{ s.url }}">{% if s.nome[language] %}{{ s.nome[language] }}
 {% elsif s.nome['all'] %}{{ s.nome['all'] }}{% endif %}</a>
 {% if s.commento[language] %}   <br/><em>{{ s.commento[language] }}</em>

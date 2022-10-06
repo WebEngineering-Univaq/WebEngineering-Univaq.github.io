@@ -16,7 +16,7 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-	<title>{{ site.data.info.nome }} :: {{ page.title }}</title>
+	<title>{{ courseinfo.nome }} :: {{ page.title }}</title>
   </head>
   <body>
     <div class="wrapper container-fluid">
@@ -26,8 +26,8 @@
       <a name="top"/>
 	  <header class="sticky-md-top">
 	  
-        <h1 class="header"><a href="/{{language}}/info">{{ site.data.info.nome }}</a></h1>
-        <p class="header">{% if site.data.info.descrizione[language] %}   {{ site.data.info.descrizione[language] }}{% elsif site.data.info.descrizione['all'] %}   {{ site.data.info.descrizione['all'] }}{% else %}{{ site.description }}{% endif %}.</p>
+        <h1 class="header"><a href="/{{language}}/info">{{ courseinfo.nome }}</a></h1>
+        <p class="header">{% if courseinfo.descrizione[language] %}   {{ courseinfo.descrizione[language] }}{% elsif courseinfo.descrizione['all'] %}   {{ courseinfo.descrizione['all'] }}{% else %}{{ site.description }}{% endif %}.</p>
 
 {% assign menufile = 'menu_' | append: language %}
 {% if site.data[menufile] %}

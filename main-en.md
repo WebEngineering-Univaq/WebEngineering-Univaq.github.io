@@ -11,7 +11,7 @@ redirect_from:
 
 ## Syllabus {#sillabo}
 
-{% assign a =  site.data.info.sillabo  %}
+{% assign a =  courseinfo.sillabo  %}
 <ol>
 {% for credito in a %} 
 <li> {% for argomento in credito %}
@@ -24,7 +24,7 @@ redirect_from:
 
 ## Textbooks  {#testi}
 
-{% assign a =  site.data.info.testi | where_exp: "testo","testo.lingua == language" %}
+{% assign a =  courseinfo.testi | where_exp: "testo","testo.lingua == language" %}
 <ul>
 {% for testo in a %}<li> <em>{{ testo.autori }}</em>, {{ testo.titolo }}, {{ testo.editore }}   
 {% if testo.commento[language] %}   <br/><em>{{ testo.commento[language] }}</em>
