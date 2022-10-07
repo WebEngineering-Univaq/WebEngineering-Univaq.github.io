@@ -15,7 +15,7 @@ redirect_from:
 <ol>
 {% for credito in a %} <li> {% for argomento in credito %}
 {% if argomento[language] %}   {{ argomento[language] }}{% elsif argomento['all'] %}   {{ argomento['all'] }}{% endif %}. {% endfor %}</li>{% endfor %}
- {% endfor %}</ol>
+ </ol>
 
 
 ## Textbooks  {#testi}
