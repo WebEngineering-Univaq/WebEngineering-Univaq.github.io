@@ -12,7 +12,7 @@
 <div class="card-body">
 <label for="jumptoyear" class="card-title">Select year</label>
 <select class="form-control form-control-sm" ame="jumptoyear" id="jumptoyear">
-<option {% if ryear == ayear %} selected {% endif %} value="/it/log">Current academic year ({{ ayear }}/{{ ayear | plus: 1 }})</option>
+<option {% if ryear == ayear %} selected {% endif %} value="/en/log">Current academic year ({{ ayear }}/{{ ayear | plus: 1 }})</option>
 {% for file_hash in site.data %}
 {% assign prefix = file_hash[0] | slice: 0,4 %}
 {% if prefix == "log-" %}
@@ -21,7 +21,7 @@
 {% capture addition %}{{addition}}{% endcapture %}
 {% if log_year  == addition %}
 {% assign log_year = log_year | plus: 0 %}
-<option {% if ryear == log_year %} selected {% endif %} value="/it/{{ log_year }}/log">Academic year {{ log_year }}/{{ log_year | plus: 1 }}</option>
+<option {% if ryear == log_year %} selected {% endif %} value="/en/{{ log_year }}/log">Academic year {{ log_year }}/{{ log_year | plus: 1 }}</option>
 {% endif %}
 {% endif %}
 {% endfor %}
