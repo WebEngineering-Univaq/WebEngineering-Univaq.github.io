@@ -1,30 +1,37 @@
 [
   {
     "label": "Syllabus",
-    "url": "/en/info.html#sillabo"
+    "url": "/en/info.html#sillabo",
+	"icon": "bi-card-list"
   },
   {
     "label": "Textbooks",
-    "url": "/en/info.html#testi"
+    "url": "/en/info.html#testi",
+	"icon": "bi-book"
   },
   {
     "label": "Slides",
-    "url": "/en/materiale.html#slides"
+    "url": "/en/materiale.html#slides",
+	"icon": "bi-easel"
   },
   {
     "label": "Examples",
-    "url": "/en/materiale.html#esempi"
+    "url": "/en/materiale.html#esempi",
+	"icon": "bi-code-square"
   },
   {
     "label": "Projects",
-    "url": "/en/materiale.html#progetti"
+    "url": "/en/materiale.html#progetti",
+	"icon": "bi-bank"
   },
   {
     "label": "Software",
-    "url": "/en/risorse.html#software"
+    "url": "/en/risorse.html#software",
+	"icon": "bi-tools"
   },
   {
     "label": "Other resources",
-    "url": "/en/risorse.html#links"
+    "url": "/en/risorse.html#links",
+	"icon": "bi-link-45deg"
   }
 ]

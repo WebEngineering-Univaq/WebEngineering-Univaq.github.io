@@ -33,7 +33,8 @@
 {% if site.data[menufile] %}
 		<ul class="nav mb-1 flex-row flex-sm-column nav-pills">
 		{% for item in site.data[menufile] %}
-		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">{{ item.label }}</a>
+		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">
+		{% if item.icon %}<span class="bi {{item.icon}}"></span>&nbsp;{% endif %}{{ item.label }}</a></li>
 		{% endfor %}
 		</ul>
 {% endif %}
@@ -41,7 +42,7 @@
 {% if layout.menuitems %}
 		<ul class="nav  mb-1  flex-row flex-sm-column nav-pills">
 		{% for item in layout.menuitems %}
-		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">{{ item.label }}</a>
+		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">{{ item.label }}</a></li>
 		{% endfor %}
 		</ul>
 {% endif %}
@@ -49,7 +50,7 @@
 {% if page.menuitems %}
 		<ul class="nav  mb-1  flex-row flex-sm-column nav-pills">
 		{% for item in page.menuitems %}
-		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">{{ item.label }}</a>
+		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">{{ item.label }}</a></li>
 		{% endfor %}		
 		</ul>
 {% endif %}		
@@ -57,9 +58,9 @@
 		<ul class="nav mt-1 flex-row flex-sm-column nav-pills">
 		{% assign language = page.url | slice: 1,2 %}
 		{% if language == 'en' %}
-			<li class="nav-item"><a  class="nav-link" href="/it/{{page.url | slice: 4,5000}}">In Italiano</a></li>
+			<li class="nav-item"><a  class="nav-link" href="/it/{{page.url | slice: 4,5000}}"><span class="bi bi-translate"></span>&nbsp;In Italiano</a></li>
 		{% elsif language == 'it' %}
-			<li class="nav-item"><a  class="nav-link" href="/en/{{page.url | slice: 4,5000}}">In English</a></li>
+			<li class="nav-item"><a  class="nav-link" href="/en/{{page.url | slice: 4,5000}}"><span class="bi bi-translate"></span>&nbsp;In English</a></li>
 		{% endif %}
 		</ul>
       </header>
