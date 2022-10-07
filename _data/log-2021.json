@@ -1,0 +1,2342 @@
+[
+ {
+  "date": "2022-03-01T14:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "Course presentation",
+    "it": "Presentazione del corso"
+   },
+   {
+    "en": "The origins of WWW",
+    "it": "Le origini del Web"
+   },
+   {
+    "en": "The client-server architecture",
+    "it": "L'architettura client-server"
+   },
+   {"all": "Web 2.0: Rich Internet Applications, Social Web"},
+   {
+    "en": "Today's web problems: accessibility, usability, cross-browser programming, security, mobile first,...",
+    "it": "I problemi del web odierno: accessibilita', fruibilita' cross-browser, sicurezza, usabilita', mobile first,..."
+   },
+   {
+    "en": "Web technologies: client side (HTML5, CSS3 e responsive design, Javascript, AJAX)",
+    "it": "Le tecnologie per il web: lato client (HTML5, CSS3 e responsive design, Javascript, AJAX)"
+   },
+   {
+    "en": "Web technologies: server side (Java servlets, JDBC, Freemarker templates)",
+    "it": "Le tecnologie per il web: lato server (Java servlets, JDBC, Freemarker templates)"
+   },
+   {
+    "en": "Creating a website with the MVC pattern: separation between data, business logic and presentation",
+    "it": "La realizzazione di un'applicazione web secondo il pattern MVC: il modello dei dati, la logica, la presentazione"
+   },
+   {
+    "en": "The HTTP protocol",
+    "it": "Il protocollo HTTP"
+   }
+  ],
+  "title": {
+   "en": "Modern web: technologies, challenges and problems",
+   "it": "Il web moderno: tecnologie, sfide, problemi"
+  }
+ },
+ {
+  "date": "2022-03-03T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "ref": "Slides XML-R",
+    "en": "What is and what is not XML",
+    "it": "Cosa e' e cosa non e' XML"
+   },
+   {
+    "en": "XML base syntax: the XML declaration",
+    "it": "Sintassi base di un documento XML: la dichiarazione XML"
+   },
+   {
+    "en": "Character encoding problems",
+    "it": "Problemi con il character encoding",
+    "type": "esempio"
+   },
+   {
+    "en": "Character encoding: what is really UTF-8? (and UTF-16? and ISO-8859-1??)",
+    "it": "Character encoding: cos'e' veramente UTF-8? (e UTF-16? e ISO-8859-1??)"
+   },
+   {
+    "en": "Character encoding: can also be a security problem: the UTF-7 attack",
+    "it": "Character encoding: puo' essere anche un problema di sicurezza: l'attacco UTF-7",
+    "type": "esempio"
+   },
+   {
+    "en": "XML base syntax: the DOCTYPE declaration",
+    "it": "Sintassi base di un documento XML: la dichiarazione DOCTYPE"
+   },
+   {
+    "en": "Correct declaration of the HTML version in use",
+    "it": "Dichiarare correttamente la versione di HTML un uso",
+    "type": "esempio"
+   },
+   {
+    "en": "Standards and Quirks modes",
+    "it": "Standards e Quirks mode per i browser"
+   },
+   {
+    "en": "XML base syntax: elements and their syntactic rules",
+    "it": "Sintassi base XML: Elementi e regole sintattiche"
+   },
+   {
+    "en": "Common problems related to element syntax",
+    "it": "Problemi comuni legati alla sintassi degli elementi",
+    "type": "esempio"
+   },
+   {
+    "en": "XML base syntax: attributes and their syntcatic rules",
+    "it": "Sintassi base XML: Attributi e regole sintattiche"
+   },
+   {
+    "en": "Common problems related to attribute syntax",
+    "it": "Problemi comuni legati alla sintassi degli attributi",
+    "type": "esempio"
+   },
+   {
+    "en": "XML base syntax: text and character entities",
+    "it": "Sintassi base XML: Testo ed entita' carattere"
+   },
+   {
+    "en": "XSS attacks and the correct use of entities for reserved characters",
+    "it": "Attacchi XSS e uso corretto delle entita' per i caratteri riservati",
+    "type": "esempio"
+   },
+   {
+    "en": "XML base syntax: CDATA sections",
+    "it": "Sintassi base XML: le sezioni CDATA"
+   }
+  ],
+  "title": {"all": "XML"}
+ },
+ {
+  "date": "2022-03-08T14:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "The problem with embedded scripts in HTML pages",
+    "it": "Il problema degli script incorporati nelle pagine HTML",
+    "type": "esempio"
+   },
+   {
+    "en": "Syntax checking in XML documents",
+    "it": "Controllo della correttezza sintattica dei documenti XML"
+   },
+   {
+    "all": "HTML4, XHTML1, HTML5",
+    "ref": "Slides HTML"
+   },
+   {
+    "en": "Standards and Quirks modes",
+    "it": "Standards e Quirks mode per i browser"
+   },
+   {
+    "en": "The HTML5 mode",
+    "it": "La modalita' HTML5"
+   },
+   {
+    "en": "The Polyglot HTML5",
+    "it": "L'HTML5 poliglotta"
+   },
+   {
+    "en": "HTML: inline and block elements",
+    "it": "HTML: elementi blocco e inline"
+   },
+   {
+    "en": "The new element classification in HTML5",
+    "it": "La nuova classificazione degli elementi in HTML5"
+   },
+   {
+    "en": "HTML: common attributes",
+    "it": "HTML: gli attributi comuni (id, class, style, title, lang, ...)"
+   },
+   {
+    "en": "New HTML5 common attributes: data, aria,...",
+    "it": "Nuovi attributi comuni in HTML5: data, aria,..."
+   },
+   {
+    "en": "Use of the ARIA attributes in complex, customized layouts",
+    "it": "Uso degli attributi ARIA nei layout complessi e personalizzati.",
+    "type": "esempio"
+   },
+   {
+    "en": "HTML: paragraphs and breaks",
+    "it": "HTML: i paragrafi e le interruzioni (p, br)"
+   },
+   {
+    "en": "Empty paragraphs, line breaks, etc.: the wrong ways to add vertical space",
+    "it": "Paragrafi vuoti, ritorni a capo, ecc.: tutti i modi (sbagliati) per aggiungere spazi verticali in un documento.",
+    "type": "esempio"
+   },
+   {
+    "en": "Marking the document base structure: the h elements",
+    "it": "Marcare la struttura base di un documento: gli elementi h"
+   },
+   {
+    "en": "The semantic value of a correct markup",
+    "it": "L'importanza semantica del markup corretto"
+   },
+   {
+    "en": "The new HTML5 sectioning elements",
+    "it": "I nuovi elementi di sezionamento in HTML5"
+   },
+   {
+    "ref": "xhtmltests",
+    "en": "Actual rendering of the HTML elements",
+    "it": "Rendering dei vari elementi HTML nei browser",
+    "type": "esempio"
+   },
+   {
+    "en": "HTML: the div and span containers",
+    "it": "HTML: i contenitori (div e span)"
+   },
+   {
+    "en": "HTML: semantic formatting",
+    "it": "HTML: la formattazione semantica (em, code, pre, ins, q,...)"
+   },
+   {
+    "en": "HTML: base formatting",
+    "it": "HTML: la formattazione di base (i,b,tt,...)"
+   },
+   {
+    "en": "New behaviour of some formatting elements in HTML5",
+    "it": "Nuovo comportamento di alcuni tag di formattazione in HTML5"
+   },
+   {
+    "en": "HTML: lists",
+    "it": "HTML: le liste (ol, ul, dl)"
+   },
+   {
+    "en": "Creating a menu with graceful degradation using lists ",
+    "it": "Creare menu che \"degradano bene\" usando le liste",
+    "type": "esempio"
+   },
+   {
+    "en": "Lists as semantic element in complex layouts",
+    "it": "Usare le liste come elemento semantico nei layout complessi"
+   }
+  ],
+  "title": {"all": "HTML /1"}
+ },
+ {
+  "date": "2022-03-10T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "HTML: tables",
+    "it": "HTML: le tabelle (table)"
+   },
+   {
+    "en": "The border attribute (and its defaults)",
+    "it": "L'attributo border (e i suoi diversi valori di default)"
+   },
+   {
+    "en": "The cellspacing and cellpadding attributes",
+    "it": "Gli attributi cellspacing e cellpadding"
+   },
+   {
+    "en": "Base table structure: rows (tr) and cells (td)",
+    "it": "Struttura semplice di tabella: righe (tr) e celle (td)"
+   },
+   {
+    "en": "Header cells (th)",
+    "it": "Le celle di intestazione (th)"
+   },
+   {
+    "en": "Creating complex tables with colspan and rowspan",
+    "it": "Costruire tabelle complesse con colspan e rowspan"
+   },
+   {
+    "en": "The complete table structure: header (thead), body (tbody), footer (tfoot)",
+    "it": "Struttura completa di tabella: intestazione (thead), corpo (tbody), pie' di tabella (tfoot)"
+   },
+   {
+    "en": "Watch out for the implicit tbody element...",
+    "it": "Attenzione all'elemento tbody implicito...",
+    "type": "esempio"
+   },
+   {
+    "en": "Column declaration (col)",
+    "it": "Dichiarare le colonne (col)"
+   },
+   {
+    "en": "Column groups (colgroup)",
+    "it": "Raggruppare le colonne (colgroup)"
+   },
+   {
+    "en": "Hyperlinks (a)",
+    "it": "I collegamenti ipertestuali (a)"
+   },
+   {
+    "en": "Anchors and fragment identifiers",
+    "it": "Ancore nei documenti e fragment identifiers"
+   },
+   {
+    "en": "Jump directly to the page content",
+    "it": "Saltare rapidamente al contenuto di una pagina",
+    "type": "esempio"
+   },
+   {
+    "en": "Logical links between resources (link)",
+    "it": "Collegamenti logici tra risorse (link)"
+   },
+   {
+    "en": "Alternate documents",
+    "it": "Documenti alternativi"
+   },
+   {
+    "en": "External stylesheets",
+    "it": "Collagamento di fogli di stile esterni"
+   },
+   {
+    "en": "Adding a RSS feed to a web page",
+    "it": "Collegare un feed RSS a una pagina",
+    "type": "esempio"
+   },
+   {
+    "en": "Adding a 'shortcut icon'  to a web page",
+    "it": "Collegare una 'shortcut icon' a una pagina",
+    "type": "esempio"
+   },
+   {
+    "en": "Page loading optimization: preload and prefetch links",
+    "it": "Ottimizzare il caricamento di una pagina: i link di tipo preload e prefetch",
+    "type": "esempio"
+   },
+   {
+    "en": "Images in web pages",
+    "it": "Le immagini nelle pagine web (img)"
+   },
+   {
+    "en": "Accessible images: the alt attribute",
+    "it": "Accessibilita' delle immagini: l'attributo alt"
+   },
+   {
+    "en": "Client size image resizing",
+    "it": "Resizing delle immagini client side"
+   },
+   {
+    "en": "Server side image maps",
+    "it": "Le mappe immagine server side"
+   },
+   {
+    "en": "Client side image maps",
+    "it": "Le mappe immagine client side (map, area)"
+   },
+   {
+    "en": "The new HTML5 elements video, audio and canvas",
+    "it": "I nuovi elementi HTML5 video, audio e canvas"
+   }
+  ],
+  "title": {"all": "HTML /2"}
+ },
+ {
+  "date": "2022-03-15T14:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "The GET and POST methods",
+    "it": "Differenze tra metodo GET e POST"
+   },
+   {
+    "en": "Form data encoding",
+    "it": "La codifica dei dati nelle form"
+   },
+   {
+    "en": "Forms in HTML",
+    "it": "I moduli in HTML (form)"
+   },
+   {
+    "en": "Important form attributes: action, method, enctype e accept-charset",
+    "it": "Attributi importanti delle form: action, method, enctype e accept-charset"
+   },
+   {
+    "en": "Choosing the right method/encoding combination for a form",
+    "it": "Scegliere la giusta combinazione di metodo ed encoding per una form",
+    "type": "esempio"
+   },
+   {
+    "en": "Using accept-charset to solve further encoding issues (this time between client and server)",
+    "it": "Usare accept-charset per risolvere ulteriori problemi di encoding (stavolta tra il client e il server)",
+    "type": "esempio"
+   },
+   {
+    "en": "The POST-Redirect-GET pattern for form submission",
+    "it": "Il pattern POST-Redirect-GET per la sottomissione di form",
+    "type": "esempio"
+   },
+   {
+    "en": "The input control element",
+    "it": "Gli elementi di input utente (input)"
+   },
+   {
+    "en": "The new HTML5 input controls",
+    "it": "I nuovi controlli di input di HTML5"
+   },
+   {
+    "ref": "xhtmltests",
+    "en": "Rendering comparison for input controls between different browsers",
+    "it": "Confronto del rendering in vari browser per i controlli di input",
+    "type": "esempio"
+   },
+   {
+    "en": "Values submitted by non-textual inputs: file, checkbox, radio,...",
+    "it": "I valori sottomessi da campi non testuali: file, checkbox, radio,...",
+    "type": "esempio"
+   },
+   {
+    "en": "Value validation attributes in HTML4 and HTML5 (maxlength, min, max, pattern,...)",
+    "it": "Gli attributi di validazione in HTML4 e HTML5 (maxlength, min, max, pattern,...)"
+   },
+   {
+    "en": "How (and where) form data should be validated",
+    "it": "Come (e dove) validare i dati inviati da una form",
+    "type": "esempio"
+   },
+   {
+    "en": "Avoid sending a form field value",
+    "it": "Impedire la trasmissione di un campo di form",
+    "type": "esempio"
+   }
+  ],
+  "title": {"all": "HTML /3"}
+ },
+ {
+  "date": "2022-03-17T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "Text editors (textarea)",
+    "it": "Gli editor testuali (textarea)"
+   },
+   {
+    "en": "Multiple choice selectors (select)",
+    "it": "I controlli a scelta multipla (select)"
+   },
+   {
+    "en": "Different renderings of select controls",
+    "it": "Rendering diversi del controllo select"
+   },
+   {
+    "en": "Options and option groups",
+    "it": "Opzioni e raggruppamento (option, optgroup)"
+   },
+   {
+    "en": "Select controls used as menus on mobile devices",
+    "it": "Uso delle select come menu nei dispositivi mobili",
+    "type": "esempio"
+   },
+   {
+    "en": "Option labels and values: which data should I send to the server?",
+    "it": "Label e value delle opzioni: quali dati e' meglio trasferire al server",
+    "type": "esempio"
+   },
+   {
+    "en": "Accessible control labels (label)",
+    "it": "Etichette accessibili per i controlli (label)"
+   },
+   {
+    "en": "Different use cases for hidden inputs",
+    "it": "Gli input hidden e i loro diversi casi d'uso",
+    "type": "esempio"
+   },
+   {
+    "en": "Hidden inputs and  CSRF tokens",
+    "it": "Gli input hidden per trasmettere CSRF token",
+    "type": "esempio"
+   },
+   {
+    "en": "How to check (and integrate) your Java development platform",
+    "it": "Verificare (ed integrare) la propria piattaforma Java di sviluppo",
+    "type": "esempio"
+   },
+   {
+    "en": "Java Enterprise Edition: versions and profiles",
+    "it": "La Java enterprise Edition (JEE), le sue versioni e i suoi profili",
+	"ref": "Slides Servlets",
+   },
+   {
+    "en": "Migration from JEE to JakartaEE: issues and solutions",
+    "it": "Migrazione dalla JEE alla JakartaEE: problemi e soluzioni"
+   },
+   {
+    "en": "(Private) Installation of an updated JDK",
+    "it": "Installazione (privata) di una JDK aggiornata"
+   },
+   {
+    "en": "Netbeans IDE installation and introduction",
+    "it": "Presentazione e installazione del Netbeans IDE"
+   },
+   {
+    "en": "Apache Tomcat server installation and introduction",
+    "it": "Presentazione e installazione del server Apache Tomcat"
+   },
+   {
+    "en": "Some useful tips to link Netbeans and Tomcat",
+    "it": "Suggerimenti utili per collegare Netbeans e Tomcat",
+    "type": "esempio"
+   },
+   {
+    "ref": "Slides Servlets",
+    "en": "Servlets and containers",
+    "it": "Le servlet e i container"
+   },
+   {
+    "en": "Introduction to servlet programming",
+    "it": "Introduzione alla programmazione delle servlet"
+   }
+  ],
+  "title": {"all": "Java Servlets /1"}
+ },
+ {
+  "date": "2022-03-22T14:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "The web application context and the url mapping",
+    "it": "Il contesto di una web application e l'url mapping nei servlet container"
+   },
+   {
+    "en": "The web application base structure",
+    "it": "La struttura di base di una web application"
+   },
+   {
+    "en": "The web application folder structure",
+    "it": "Struttura (fisica) di una web application"
+   },
+   {
+    "ref": "Java_WebApp_Base_T9",
+    "en": "How to create a new web application in Netbeans\n\t\t",
+    "it": "Creare una nuova applicazione web in Netbeans",
+    "type": "esempio"
+   },
+   {
+    "en": "The project object model (POM) of a web application and how to fix it in case of problems",
+    "it": "Il project object model (POM) di una web application e come correggerlo in caso di problemi",
+    "type": "esempio"
+   },
+   {
+    "en": "Compiling, deploying and executing a web application",
+    "it": "Compilazione, deploy ed eseguzione di una web application",
+    "type": "esempio"
+   },
+   {
+    "en": "How to add static resources to a web application using Netbeans",
+    "it": "Aggiungere risorse statiche (html, css, ecc.) a una web application in Netbeans",
+    "type": "esempio"
+   },
+   {
+    "en": "How to create a new servlet in a web application using Netbeans",
+    "it": "Creare una servlet vuota con Netbeans",
+    "type": "esempio"
+   },
+   {
+    "en": "Deployment descriptors",
+    "it": "Il web deployment descriptor (web.xml)"
+   },
+   {
+    "en": "The context configuration file (context.xml)",
+    "it": "Il file di configurazione del contesto (context.xml)"
+   }
+  ],
+  "title": {"all": "Java Servlets /2"}
+ },
+ {
+  "date": "2022-03-24T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "ref": "Java_WebApp_Base_T10",
+    "en": "How to adapt the base project to execute it with JakartaEE/Tomcat 10",
+    "it": "Adattare il progetto di base per eseguirlo con JakartaEE/Tomcat 10",
+    "type": "esempio"
+   },
+   {
+    "en": "The servlet lifecycle",
+    "it": "Il ciclo di vita di una servlet: inizializzazione, servizio, finalizzazione"
+   },
+   {
+    "en": "Multithreading in the HttpServlet class: per-thread and shared variables",
+    "it": "Multithreading con la classe HttpServlet: variabili per-thread e condivise"
+   },
+   {
+    "en": "Servlet initialization and finalization",
+    "it": "Inizializzare e finalizzare una servlet: init e destroy"
+   },
+   {
+    "en": "The servlet base interfaces",
+    "it": "Le interfacce base delle servlet: Servlet, ServletRequest, ServletResponse"
+   },
+   {
+    "en": "The HttpServlet class and its doGet and doPost methods",
+    "it": "La classe HttpServlet e i metodi doGet e doPost"
+   },
+   {
+    "en": "Writing data to the client",
+    "it": "Scrivere informazioni verso il client: la classe HttpServletResponse"
+   },
+   {
+    "en": "Headers and payload of an HTTP response",
+    "it": "Scrittura degli headers e del payload di un messaggio HTTP"
+   },
+   {
+    "en": "Textual and binary output from a servlet",
+    "it": "Output testuale e binario da una servlet"
+   },
+   {
+    "en": "The \"Hello World\" servlet",
+    "it": "La servlet 'Salutami'",
+    "type": "esempio"
+   },
+   {
+    "en": "Communication among application layers through request attributes",
+    "it": "Comunicazione tra gli strati dell'applicazione tramite gli attributi della HttpServletRequest"
+   },
+   {
+    "en": "Effective error and exception handling in servlets",
+    "it": "Gestire efficacemente gli errori e le eccezioni in una servlet"
+   },
+   {
+    "en": "Returning HTTP error codes from a servlet",
+    "it": "Restituire codici di errore HTTP da una servlet"
+   },
+   {
+    "en": "Getting user input through HttpServletRequest",
+    "it": "Gestire l'input utente: uso della classe HttpServletRequest"
+   },
+   {
+    "en": "Reading form GET parameters",
+    "it": "Elaborazione delle form in modalita' GET: i metodi getParameter e getParameterValues"
+   }
+  ],
+  "title": {"all": "Java Servlets /3"}
+ },
+ {
+  "date": "2022-03-29T14:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "Output sanification to prevent XSS attacks",
+    "it": "Sanitizzare l'output per prevenire attacchi XSS"
+   },
+   {
+    "ref": "Java_Example_Servlet",
+    "en": "The \"Hello World\" servlet with a name parameter",
+    "it": "La servlet 'Salutami' anonima e personalizzata",
+    "type": "esempio"
+   },
+   {
+    "en": "Output logic (view) encapsulation and application layers",
+    "it": "Incapsulare la logica di output e separare meglio gli strati dell'applicazione"
+   },
+   {
+    "ref": "Java_Example_Servlet_Fwk",
+    "en": "The restructured \"Hello World\" servlet",
+    "it": "La servlet 'Salutami' con una struttura avanzata",
+    "type": "esempio"
+   },
+   {
+    "en": "Security issues: why we should use a download servlet and how we should write it",
+    "it": "Considerazioni sulla sicurezza: perche' e come scrivere una download servlet"
+   },
+   {
+    "en": "Binary data download through servlets",
+    "it": "Trasmissione di dati binari dalla servlet al client"
+   },
+   {
+    "en": "Some interesting HTTP headers: Content-Type and Content-Disposition",
+    "it": "Alcuni header interessanti: Content-Type e Content-Disposition"
+   },
+   {
+    "ref": "Java_Example_Downloader",
+    "en": "An example of download servlet",
+    "it": "Scrivere una download servlet",
+    "type": "esempio"
+   },
+   {
+    "en": "Server-side generated images with Java",
+    "it": "Incorporare in una pagina HTML immagini generate da una servlet"
+   },
+   {
+    "ref": "Java_Example_Imager",
+    "en": "An image download servlet",
+    "it": "Scrivere una servlet che trasmette immagini al client",
+    "type": "esempio"
+   }
+  ],
+  "title": {"all": "Java Servlets /4"}
+ },
+ {
+  "date": "2022-03-31T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "Reading form POST parameters with url encoding",
+    "it": "Elaborazione delle form in modalita' POST con codifica url"
+   },
+   {
+    "en": "Handling multipart encoded forms with JEE version 6+",
+    "it": "Elaborazione delle form con codifica multipart con JEE versione 6+"
+   },
+   {
+    "en": "The multipart-config element",
+    "it": "L'elemento multipart-config"
+   },
+   {
+    "en": "Handling uploaded files with getPart()",
+    "it": "Gestione dei file caricati con getPart()"
+   },
+   {
+    "en": "Application configuration through ServletContext parameters",
+    "it": "Configurazione dell'applicazione tramite i parametri del ServletContext"
+   },
+   {
+    "en": "Filenames sanitization",
+    "it": "Sanitizzazione dei nomi dei file"
+   },
+   {
+    "ref": "Java_Example_Servlet_Multipart_7",
+    "en": "The 'Hello world' servlet with file upload",
+    "it": "La servlet 'Uploadami' con upload di file",
+    "type": "esempio"
+   },
+   {
+    "en": "The web application status: sessions",
+    "it": "Lo stato delle applicazioni web: il concetto di sessione"
+   },
+   {
+    "en": "Sessions for user profiling",
+    "it": "Le sessioni usate per il profiling dell'utente",
+    "type": "esempio"
+   },
+   {
+    "en": "Session identifier exchange: cookie and URL rewriting",
+    "it": "Trasmissione del session identifier: cookie e URL rewriting"
+   },
+   {
+    "en": "Generate and handle session information: the HttpSession class",
+    "it": "Generare e leggere le informazioni di sessione: la classe HttpSession"
+   },
+   {
+    "en": "Read and write session variables: getAttribute, setAttribute",
+    "it": "Leggere e scrivere variabili di stato: getAttribute, setAttribute"
+   },
+   {
+    "en": "Close a session: invalidate",
+    "it": "Chiudere una sessione: invalidate"
+   },
+   {
+    "ref": "Java_Example_Servlet_Sessions",
+    "en": "The 'Hello world' servlet with sessions",
+    "it": "La servlet 'Ricordami' con sessioni",
+    "type": "esempio"
+   }
+  ],
+  "title": {"all": "Java Servlets /5"}
+ },
+ {
+  "date": "2022-04-07T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "JDBC: execution of select queries",
+    "it": "JDBC: recuperare i dati con una query"
+   },
+   {
+    "en": "JDBC: query reuse, precompilation and parametrization",
+    "it": "JDBC: precompilare e riutilizzare le query"
+   },
+   {
+    "en": "Reasons to use PreparedStatement: efficiency and safety",
+    "it": "Le ragioni per usare un PreparedStatement: efficienza e sicurezza",
+    "type": "esempio"
+   },
+   {
+    "en": "Performances of data intensive web applications: the connection problem",
+    "it": "Performances delle applicazioni data intensive: il problema delle connessioni"
+   },
+   {
+    "en": "Reusing JDBC connections: connection pooling",
+    "it": "Riutilizzare le connessioni JDBC: il connection pooling"
+   },
+   {
+    "en": "Configuration of a JDBC data source in Tomcat (context.xml)",
+    "it": "Configurare una sorgente dati JDBC in Tomcat (context.xml)"
+   },
+   {
+    "en": "Resource references in the deployment descriptor",
+    "it": "Inserire un riferimento a una risorsa nel deployment descriptor"
+   },
+   {
+    "en": "Using Java naming services to obtain DataSource objects references",
+    "it": "Utilizzare i servizi di naming di Java per ottenere il riferimento a un DataSource"
+   },
+   {
+    "en": "DataSource objects basic usage",
+    "it": "Uso degli oggetti DataSource"
+   },
+   {
+    "ref": "Java_Example_Servlet_Database",
+    "en": "JDBC with connection pooling",
+    "it": "Uso del JDBC con connection pooling",
+    "type": "esempio"
+   },
+   {
+    "en": "Query execution with JDBC and connection pooling",
+    "it": "Eseguire una query con JDBC e connection pooling"
+   },
+   {
+    "en": "Resource Injection and DataSource objects",
+    "it": "La Resource Injection e i DataSource"
+   },
+   {
+    "ref": "Java_Example_Servlet_Database",
+    "en": "DataSource injection in a servlet",
+    "it": "Iniettare un DataSource in una servlet",
+    "type": "esempio"
+   },
+   {
+    "ref": "Java_Example_Uploader",
+    "en": "Final example on forms and databases: a file repository",
+    "it": "Esempio finale sulle form e i database: un file repository",
+    "type": "esempio"
+   },
+   {
+    "en": "Create the digest of a file",
+    "it": "Calcolare il digest di un file",
+    "type": "esempio"
+   },
+   {
+    "en": "Get the auto-generated keys after an insert statement with JDBC",
+    "it": "Leggere le chiavi auto-generate dopo un inserimento col JDBC"
+   },
+   {
+    "en": "Abstract data modelling in a Java application",
+    "it": "Modellazione astratta dei dati in un'applicazione Java"
+   }
+  ],
+  "title": {
+   "en": "Web Applications and Databases",
+   "it": "Web Applications e Database"
+  }
+ },
+ {
+  "date": "2022-04-12T14:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "POJO - JavaBeans used to represent data model entities",
+    "it": "Creazione di POJO - JavaBeans per rappresentare le entita' del modello dati"
+   },
+   {
+    "en": "Build well-formed Java Beans: default constructor, getters and setters",
+    "it": "Costruire un Java Bean corretto: costruttore di default, getters e setters"
+   },
+   {
+    "en": "Creating entity objects: interface and implementation",
+    "it": "Creazione degli oggetti entita': interfaccia e implementazione"
+   },
+   {
+    "en": "Creating data access methods: DAO",
+    "it": "Creazione dei metodi di accesso ai dati: i DAO"
+   },
+   {
+    "en": "Manipulation of complex data objects and lazy loading",
+    "it": "Manipolazione di oggetti-dati complessi e lazy loading"
+   },
+   {
+    "en": "Optimizing entity objects: proxies",
+    "it": "Ottimizzazione degli oggetti entita': i proxy"
+   },
+   {
+    "en": "Notes on optimistic and pessimistic locking techniques to manage concurrency",
+    "it": "Cenni sulle tecniche di locking ottimistico e pessimistico per gestire la concorrenza"
+   },
+   {
+    "ref": "Java_Example_Newspaper_DAO",
+    "en": "The Newspaper case study: an example of concrete implementation on MySQL",
+    "it": "Caso di studio Newspaper: esempio di implementazione concreta del modello dati su MySQL",
+    "type": "esempio"
+   },
+   {
+    "en": "Discussion of the final project specifications",
+    "it": "Presentazione dei progetti d'esame"
+   }
+  ],
+  "title": {
+   "en": "Data Modeling",
+   "it": "Modellazione Dati"
+  }
+ },
+ {
+  "date": "2022-04-20T14:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "URL rewriting: the encodeURL method",
+    "it": "URL rewriting: il metodo encodeURL"
+   },
+   {
+    "en": "Sessions for user authentication",
+    "it": "Le sessioni usate per l'autenticazione"
+   },
+   {
+    "ref": "Java_Example_Login",
+    "en": "User authentication using sessions",
+    "it": "Usare le sessioni per l'autenticazione degli utenti",
+    "type": "esempio"
+   },
+   {
+    "en": "Session protection techniques",
+    "it": "Tecniche per la protezione delle sessioni"
+   },
+   {
+    "en": "The SecurityHelpers class",
+    "it": "La classe SecurityHelpers",
+    "type": "esempio"
+   },
+   {
+    "ref": "Slides Servlets",
+    "en": "Java and DBMS: the JDBC",
+    "it": "Java e i DBMS: il JDBC"
+   },
+   {
+    "en": "JDBC: adding the driver dependency to the project POM",
+    "it": "JDBC: aggiungere la dipendenza del driver al POM del progetto"
+   },
+   {
+    "en": "JDBC: the main classes (DriverManager, Connection, (Prepared)Statement, ResultSet)",
+    "it": "JDBC: le classi principali (DriverManager, Connection, (Prepared)Statement, ResultSet)"
+   },
+   {
+    "en": "JDBC: closing statements and connections",
+    "it": "JDBC: chiudere le connessioni e liberare le risorse"
+   },
+   {
+    "en": "JDBC direct connections (to avoid!)",
+    "it": "Connessioni dirette JDBC (da evitare!)"
+   },
+   {
+    "en": "JDBC: execution of insert, update, delete queries",
+    "it": "JDBC: eseguire query di aggiornamento, inserimento, ecc."
+   }
+  ],
+  "title": {
+   "en": "Sessions and Security",
+   "it": "Sessioni e Sicurezza"
+  }
+ },
+ {
+  "date": "2022-04-21T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "Data access logic encapsulation through a DataLayer class",
+    "it": "Incapsulare la logica di accesso ai dati usando una classe DataLayer"
+   },
+   {
+    "en": "Notes on object caching techniques",
+    "it": "Cenni sulle tecniche di caching degli oggetti"
+   },
+   {
+    "ref": "Slides CSS",
+    "en": "Introduction to CSS Stylesheets",
+    "it": "Presentazione dei fogli di stile CSS"
+   },
+   {
+    "en": "Adding style to HTML: style and link elements",
+    "it": "Incorporare i fogli di stile in HTML: elementi style e link"
+   },
+   {
+    "ref": "CSS_Examples/css_inclusion_print",
+    "en": "Multiple stylesheets in the same document",
+    "it": "Fogli di stile multipli per uno stesso documento"
+   },
+   {
+    "en": "Stylesheets: persistent, preferred and alternative (used selected)",
+    "it": "Fogli di stile persistenti, preferiti e alternativi (scelta utente)"
+   },
+   {
+    "en": "Media-related alternate stylesheets",
+    "it": "Fogli di stile alternativi legati ai media"
+   },
+   {
+    "en": "Creating print-oprimized stylesheets (media=\"print\")",
+    "it": "Accorgimenti per la creazione di figli di stile per la stampa (media=\"print\")",
+    "type": "esempio"
+   },
+   {
+    "en": "Syntax of CSS rules",
+    "it": "Sintassi delle regole CSS"
+   },
+   {
+    "en": "Style properties declaration",
+    "it": "Dichiarazione delle proprieta' di stile"
+   },
+   {
+    "ref": "CSS_Examples/css_selectors",
+    "en": "Simple selectors",
+    "it": "I selettori semplici"
+   },
+   {
+    "en": "Base selectors",
+    "it": "Selettori di base"
+   },
+   {
+    "en": "Attribute selectors",
+    "it": "Selettori di attributo"
+   },
+   {
+    "en": "Highlight the text in a foreign language",
+    "it": "Marcare visivamente il testo in altre lingue",
+    "type": "esempio"
+   },
+   {
+    "en": "Class selectors",
+    "it": "Selettori di classe"
+   },
+   {
+    "en": "Classes as special attributes",
+    "it": "Classi come attributi speciali",
+    "type": "esempio"
+   },
+   {
+    "en": "ID selectors",
+    "it": "Selettori di ID"
+   },
+   {
+    "en": "Short form for class and ID selectors",
+    "it": "Forma abbreviata dei selettori di classe e di ID"
+   },
+   {
+    "en": "Identify and format the base layout structures",
+    "it": "Identificare e formattare le strutture di base di un layout",
+    "type": "esempio"
+   },
+   {
+    "en": "Pseudo classes",
+    "it": "Pseudo classi"
+   }
+  ],
+  "title": {"all": "CSS /1"}
+ },
+ {
+  "date": "2022-05-03T14:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "Hover effects on links",
+    "it": "Effetti hover sui link",
+    "type": "esempio"
+   },
+   {
+    "en": "Focus effects on inputs",
+    "it": "Effetti focus sugli input",
+    "type": "esempio"
+   },
+   {
+    "en": "The :hover pseudo class in legacy browsers",
+    "it": "La pseudo classe :hover nei browser legacy"
+   },
+   {
+    "en": "How to add internal borders to a list of elements",
+    "it": "Inserire bordi interni in una lista di elementi",
+    "type": "esempio"
+   },
+   {
+    "en": "Pseudo elements",
+    "it": "Pseudo elementi"
+   },
+   {
+    "en": "How to create a drop cap",
+    "it": "Creare un capolettera",
+    "type": "esempio"
+   },
+   {
+    "en": "How to automatically quote a block of text",
+    "it": "Mettere del testo automaticamente tra virgolette",
+    "type": "esempio"
+   },
+   {
+    "en": "Composite selectors",
+    "it": "I selettori composti"
+   },
+   {
+    "en": "How to format adjacent titles",
+    "it": "Formattare in modo particolare due titoli adiacenti",
+    "type": "esempio"
+   },
+   {
+    "en": "The CSS algorithm to determine property values",
+    "it": "Le regole di selezione delle proprieta' di stile"
+   },
+   {
+    "en": "Origin priority, specificity and rule ordering",
+    "it": "Priorita' di origine, specificita' e ordinamento delle regole"
+   },
+   {
+    "en": "The !important modifier",
+    "it": "Il modificatore !important"
+   },
+   {
+    "ref": "CSS_Examples/css_cascade",
+    "en": "Cascading rules in the browsers",
+    "it": "Rispetto delle regole di cascata nei browser",
+    "type": "esempio"
+   },
+   {
+    "en": "Style inheritance",
+    "it": "Ereditarieta' delle proprieta' di stile"
+   },
+   {
+    "en": "CSS measurement units",
+    "it": "Unita' di misura nei CSS"
+   },
+   {
+    "en": "Relative units as a way to increase the site accessibility",
+    "it": "Uso delle misure relative per aumentare l'accessibilita' di un sito"
+   },
+   {
+    "en": "Percentage measures in liquid and responsive layouts",
+    "it": "Uso delle misure percentuali nei design liquidi e responsive"
+   },
+   {
+    "en": "CSS color specification",
+    "it": "Specifica dei colori nei CSS"
+   },
+   {
+    "ref": "CSS_Examples/css_properties_common",
+    "en": "Adding borders to elements",
+    "it": "Aggiungere bordi agli elementi"
+   },
+   {
+    "en": "New CSS3 border properties: border-radius and box-shadow",
+    "it": "Alcune nuove proprieta' CSS3 per i box: border-radius e box-shadow"
+   },
+   {
+    "ref": "CSS_Examples/css_3_round_borders",
+    "en": "Rounded corners in CSS3",
+    "it": "Creare bordi smussati senza immagini con i CSS 3",
+    "type": "esempio"
+   },
+   {
+    "ref": "CSS_Examples/css_3_imageborders",
+    "en": "Advanced CSS3: border images",
+    "it": "CSS3 avanzato: bordi realizzati con immagini",
+    "type": "esempio"
+   },
+   {
+    "ref": "CSS_Examples/css_3_shadows",
+    "en": "Creating shadows with CSS3",
+    "it": "Creare ombre con i CSS 3",
+    "type": "esempio"
+   },
+   {
+    "en": "Setting elements background",
+    "it": "Modificare lo sfondo di un elemento"
+   },
+   {
+    "en": "Background images: alignment and repetition",
+    "it": "Uso di immagini come sfondo: ripetizione e allineamento"
+   },
+   {
+    "ref": "CSS_Examples/css_sprites",
+    "en": "The CSS sprite technique",
+    "it": "La tecnica dei CSS sprites"
+   },
+   {
+    "ref": "CSS_Examples/css_3_transitions",
+    "en": "Advanced CSS3: property transitions",
+    "it": "CSS3 avanzato: le transizioni di proprieta'",
+    "type": "esempio"
+   },
+   {
+    "ref": "CSS_Examples/css_3_transitions",
+    "en": "Advanced CSS3: element opacity",
+    "it": "CSS3 avanzato: modificare l'opacita' di un oggetto",
+    "type": "esempio"
+   },
+   {
+    "en": "Font and character formatting properties",
+    "it": "Proprieta' di formattazione dei caratteri"
+   },
+   {
+    "en": "Specify multiple font families to achieve cross-platform compatibility",
+    "it": "Specificare font multipli per assicurare compatibilita' tra le piattaforme"
+   }
+  ],
+  "title": {"all": "CSS /2"}
+ },
+ {
+  "date": "2022-05-05T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "Web fonts and the @font-face at-rule",
+    "it": "Le web fonts e la at-rule @font-face"
+   },
+   {
+    "ref": "CSS_Examples/css_3_webfonts",
+    "en": "How to import a Google web font using @font-face",
+    "it": "Importare una web font da Google usando la regola @font-face",
+    "type": "esempio"
+   },
+   {
+    "en": "Paragraph formatting properties",
+    "it": "Proprieta' di formattazione dei paragrafi"
+   },
+   {
+    "en": "List formatting properties",
+    "it": "Formattare le liste con i CSS"
+   },
+   {
+    "ref": "CSS_Examples/css_menu_multilev_static",
+    "en": "How to create simple menus using lists and CSS",
+    "it": "Creare semplici menu con le liste CSS",
+    "type": "esempio"
+   },
+   {
+    "en": "Other CSS properties: content, quotes, cursor,...",
+    "it": "Altre proprieta' dei CSS: content, quotes, cursor,..."
+   },
+   {
+    "ref": "CSS_Examples/css_properties_misc",
+    "en": "Examples for the cursor, content, quotes and counter properties",
+    "it": "Esempi d'uso delle proprieta' cursor, content, quotes e counter",
+    "type": "esempio"
+   },
+   {
+    "en": "How to change an element display mode using CSS",
+    "it": "Cambiare il sistema di display degli elementi con i CSS"
+   },
+   {
+    "ref": "CSS_Examples/css_properties_display",
+    "en": "How to create popup elements using the display property and the :hover pseudo class",
+    "it": "Creare elementi popup usando la proprieta' display e la pseudo class :hover",
+    "type": "esempio"
+   },
+   {
+    "en": "CSS box model",
+    "it": "Il box model dei CSS"
+   },
+   {
+    "en": "Changing element visibility with CSS",
+    "it": "Cambiare la visibilita' degli elementi con CSS"
+   },
+   {
+    "en": "Element content disposition: the overflow property",
+    "it": "Gestione del contenuto degli elementi: la proprieta' overflow"
+   },
+   {
+    "ref": "CSS_Examples/css_properties_display",
+    "en": "Scrolling text in arbitrary elements",
+    "it": "Testo scorrevole in elementi arbitrari",
+    "type": "esempio"
+   },
+   {
+    "ref": "CSS_Examples/css_properties_display",
+    "en": "Element content clipping",
+    "it": "Clipping del contenuto di un elemento",
+    "type": "esempio"
+   },
+   {
+    "ref": "CSS_Examples/css_properties_display",
+    "en": "Scrolling with CSS and Javascript",
+    "it": "Scrolling alternativo con CSS e Javascript",
+    "type": "esempio"
+   },
+   {
+    "en": "How to set margins and paddings",
+    "it": "Definire margini e padding con i CSS"
+   },
+   {
+    "en": "Setting element width and height with CSS",
+    "it": "Impostare le dimensioni di un elemento con width e height"
+   },
+   {
+    "en": "The CSS positioning techniques",
+    "it": "I sistemi di posizionamento dei CSS"
+   },
+   {
+    "en": "The element layout algorithm in HTML pages",
+    "it": "L'algoritmo di disposizione degli oggetti nelle pagine HTML"
+   },
+   {
+    "en": "Block and inline element disposition",
+    "it": "Disposizione degli elementi blocco e inline"
+   },
+   {
+    "en": "Position on the third dimension: the z-index property",
+    "it": "Il posizionamento sulla terza dimensione: la proprieta' z-index"
+   },
+   {
+    "en": "Relative positioning",
+    "it": "Posizionamento relativo"
+   },
+   {
+    "ref": "CSS_Examples/css_properties_positioning_relative",
+    "en": "Relative positioning examples",
+    "it": "Esempi di posizionamento relativo",
+    "type": "esempio"
+   },
+   {
+    "en": "Abosolute positioning",
+    "it": "Posizionamento assoluto"
+   },
+   {
+    "ref": "CSS_Examples/css_properties_positioning_absolute",
+    "en": "Absolute positioning examples",
+    "it": "Esempi di posizionamento assoluto",
+    "type": "esempio"
+   },
+   {
+    "en": "Origin of the coordinates with absoulte positioning",
+    "it": "L'origine delle coordinate nel posizionamento assoluto"
+   },
+   {
+    "en": "How to create simple layouts using (absolute) positioning",
+    "it": "Realizzare layouts con il posizionamento assoluto",
+    "type": "esempio"
+   },
+   {
+    "en": "Combining positioning and margin properties to create better (and fluid) layouts",
+    "it": "Combinare il posizionamento e le proprieta' margin per creare layouts",
+    "type": "esempio"
+   },
+   {
+    "en": "Fixed positioning",
+    "it": "Posizionamento fisso"
+   },
+   {
+    "ref": "CSS_Examples/css_properties_positioning_fixed",
+    "en": "fixed positioning examples",
+    "it": "Esempi di posizionamento fisso",
+    "type": "esempio"
+   },
+   {
+    "en": "How to create \"always visible\" banners and menus using fixed positioning",
+    "it": "Realizzare menu e banner sempre visibili col posizionamento fisso",
+    "type": "esempio"
+   },
+   {
+    "ref": "CSS_Examples/css_menu_multilev_flyout",
+    "en": "How to create simple popup menus using lists and CSS",
+    "it": "Creare semplici menu popup con le liste CSS",
+    "type": "esempio"
+   },
+   {
+    "en": "The floats",
+    "it": "I floats"
+   },
+   {
+    "ref": "CSS_Examples/css_properties_positioning_float",
+    "en": "How to use floats to create multi-columns layouts and other interesting effects",
+    "it": "Uso dei floats per realizzare layout a piu' colonne ed altri effetti",
+    "type": "esempio"
+   }
+  ],
+  "title": {"all": "CSS /3"}
+ },
+ {
+  "date": "2022-05-10T14:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "ref": "CSS_Examples/css_3_animation",
+    "en": "Advanced CSS3: keyframe animations",
+    "it": "CSS3 avanzato: realizzare animazioni con i keyframes",
+    "type": "esempio"
+   },
+   {
+    "en": "Introduction to CSS variables (custom properties)",
+    "it": "Cenni sulle variabili (custom properties) CSS"
+   },
+   {
+    "en": "Introduction to the var() and calc() CSS functions",
+    "it": "Cenni sulle funzioni CSS var() e calc()"
+   },
+   {
+    "en": "Website layout design: fixed and liquid layouts",
+    "it": "Costruire il layout di un sito web: layout fissi e liquidi"
+   },
+   {
+    "ref": "CSS_Examples/layout",
+    "en": "Base layouts: single column",
+    "it": "I layout di base: layout a colonna singola"
+   },
+   {
+    "ref": "CSS_Examples/layout",
+    "en": "Base layouts: two columns",
+    "it": "I layout di base: layout due colonne"
+   },
+   {
+    "en": "Multicolumn layouts with positioned divs",
+    "it": "Uso di elementi posizionati per la realizzazione di layout molticolonna"
+   },
+   {
+    "en": "Multicolumn layouts with floats",
+    "it": "Uso di floats per la realizzazione di layout molticolonna"
+   },
+   {"type": "esempio"},
+   {
+    "ref": "CSS_Examples/layout",
+    "en": "Base layouts: three columns",
+    "it": "I layout di base: layout tre colonne"
+   },
+   {"type": "esempio"},
+   {
+    "en": "Grid layouts",
+    "it": "I layout a griglia"
+   },
+   {
+    "ref": "CSS_Examples/layout",
+    "en": "A fluid grid layout made with floats",
+    "it": "Un layout a griglia fluido realizzato con i float",
+    "type": "esempio"
+   },
+   {
+    "en": "Introduction to responsive web design",
+    "it": "Introduzione al responsive web design"
+   },
+   {
+    "en": "CSS media queries",
+    "it": "Le CSS media queries"
+   },
+   {
+    "en": "CSS media queries for responsive design: the responsive breakpoints",
+    "it": "CSS media queries per il responsive disign: i responsive breakpoints"
+   },
+   {
+    "en": "Using the CSS cascading to override default rules with a media query",
+    "it": "Usare l'effetto cascata dei CSS per modificare le regole di default tramite una media query"
+   },
+   {
+    "ref": "CSS_Examples/layout",
+    "en": "The responsive fluid grid layout",
+    "it": "Il layout a griglia fluido responsive",
+    "type": "esempio"
+   },
+   {
+    "en": "How to adapt a layout to different devices using CSS: move, resize, hide, change",
+    "it": "Come adattare un layout a device diversi con i CSS: spostare, ridimensionare, nascondere, sostituire"
+   },
+   {
+    "en": "How to fix a fluid layout",
+    "it": "Trasformare un layout fluido in uno fixed"
+   },
+   {
+    "en": "How to create and alternative, accessible menu using a SELECT control (...and a button)",
+    "it": "Realizzare un menu alternativo accessibile con il controllo SELECT (...e un bottone)",
+    "type": "esempio"
+   }
+  ],
+  "title": {"all": "(Responsive) Web design"}
+ },
+ {
+  "date": "2022-05-12T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "Introduction to the CSS Flexbox",
+    "it": "Introduzione ai CSS Flexbox"
+   },
+   {"type": "esempio"},
+   {
+    "ref": "CSS_Examples/layout",
+    "en": "A fluid grid layout made with flexbox",
+    "it": "Un layout a griglia fluido realizzato con i flexbox",
+    "type": "esempio"
+   },
+   {
+    "en": "Introduction to the CSS Grid",
+    "it": "Introduzione ai CSS Grid"
+   },
+   {"type": "esempio"},
+   {
+    "en": "Introduction to templates",
+    "it": "Introduzione ai template"
+   },
+   {
+    "en": "The FreeMarker template engine",
+    "it": "Il template engine FreeMarker"
+   },
+   {
+    "en": "FreeMarker: template components",
+    "it": "FreeMarker: componenti dei template"
+   },
+   {
+    "en": "FreeMarker: the abstract data model",
+    "it": "FreeMarker: il data model astratto"
+   },
+   {
+    "en": "FreeMarker: basic configuration",
+    "it": "FreeMarker: configurazione di base"
+   },
+   {
+    "en": "FreeMarker: output format specification and automatic escaping",
+    "it": "FreeMarker: specifica dell'output format e automatic escaping"
+   },
+   {
+    "en": "FreeMarker: default object wrapper specification",
+    "it": "FreeMarker: specifica del default object wrapper"
+   },
+   {
+    "en": "FreeMarker: the Java data model",
+    "it": "FreeMarker: il data model in Java"
+   },
+   {
+    "en": "FreeMarker: output generation",
+    "it": "FreeMarker: generazione dell'output"
+   },
+   {
+    "ref": "Java_Example_Templates",
+    "en": "Template compilation and visualization",
+    "it": "Compilazione e visualizzazione di un template",
+    "type": "esempio"
+   }
+  ],
+  "title": {"all": "Templates"}
+ },
+ {
+  "date": "2022-05-17T14:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "FreeMarker: interpolations",
+    "it": "FreeMarker: le interpolations"
+   },
+   {
+    "en": "FreeMarker: interpolations default",
+    "it": "FreeMarker: default per le interpolations"
+   },
+   {
+    "en": "FreeMarker: built-ins (?cap_first, ?size, ...)",
+    "it": "FreeMarker: i built-in (?cap_first, ?size, ...)"
+   },
+   {
+    "en": "FreeMarker: hashes in the data model, creation and access",
+    "it": "FreeMarker: hashes nel data model, creazione e accesso"
+   },
+   {
+    "en": "FreeMarker: java beans in the data model",
+    "it": "FreeMarker: uso di bean nel data model"
+   },
+   {
+    "ref": "Java_Example_Templates",
+    "en": "Simple templates (with interpolations)",
+    "it": "Creazione di template semplici (con sole interpolations)",
+    "type": "esempio"
+   },
+   {
+    "en": "FreeMarker: the if directive",
+    "it": "FreeMarker: la direttiva if"
+   },
+   {
+    "ref": "Java_Example_Templates",
+    "en": "Conditional templates",
+    "it": "Creazione di template con parti condizionali",
+    "type": "esempio"
+   },
+   {
+    "en": "FreeMarker: lists in the data model, creation and access",
+    "it": "FreeMarker: liste nel data model, creazione e accesso"
+   },
+   {
+    "en": "FreeMarker: the list directive",
+    "it": "FreeMarker: la direttiva list"
+   },
+   {
+    "ref": "Java_Example_Templates",
+    "en": "Templates with iteration",
+    "it": "Creazione di template con iterazione",
+    "type": "esempio"
+   },
+   {
+    "en": "FreeMarker: read the list size",
+    "it": "FreeMarker: leggere la dimensione di una lista"
+   },
+   {
+    "en": "FreeMarker: variable definition test",
+    "it": "FreeMarker: testare la definizione di una variable"
+   },
+   {
+    "en": "FreeMarker: list separators with the sep directive",
+    "it": "FreeMarker: separatori di lista con la direttiva sep"
+   },
+   {
+    "en": "FreeMarker: the else clause in a list directive",
+    "it": "FreeMarker: la clausola else in una direttiva list"
+   },
+   {
+    "en": "FreeMarker: the include directive",
+    "it": "FreeMarker: la direttiva include"
+   },
+   {
+    "en": "FreeMarker: macros",
+    "it": "FreeMarker: macro"
+   },
+   {
+    "en": "FreeMarker: parametric macros",
+    "it": "FreeMarker: macro parametriche"
+   },
+   {
+    "en": "FreeMarker: macros with nested content",
+    "it": "FreeMarker: macro con contenuto"
+   },
+   {
+    "ref": "Java_Example_Templates",
+    "en": "Template inclusion",
+    "it": "Inclusione di un template secondario in uno principale",
+    "type": "esempio"
+   },
+   {
+    "en": "How to combine layout and contents with a template engine",
+    "it": "Combinare layout e contenuti con un motore di template"
+   },
+   {"type": "esempio"},
+   {
+    "ref": "Java_Example_Templates_Fwk",
+    "en": "An utility class to use Freemarker as the presentation layer of web applications",
+    "it": "Una classe di utilita' per l'uso di FreeMarker come strato di presentazione delle applicazioni web",
+    "type": "esempio"
+   },
+   {
+    "en": "A compact way to include common parts in any data model",
+    "it": "Un modo compatto per includere parti comuni in ogni data model",
+    "type": "esempio"
+   },
+   {
+    "en": "How to choose the correct output format class based on the response content type",
+    "it": "Scegliere l'output format corretto in base al content type della risposta",
+    "type": "esempio"
+   },
+   {
+    "en": "Configuration of the template engine through ServletContext parameters",
+    "it": "Configurazione del motore di template tramite il ServletContext"
+   },
+   {
+    "en": "Passing data from servlets (controllers) to templates (views) through the ServletRequest",
+    "it": "Passaggio di dati dalle servlet (controllo) ai template (presentazione) tramite la ServletRequest"
+   }
+  ],
+  "title": {"all": "Templates /2"}
+ },
+ {
+  "date": "2022-05-19T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "ref": "Slides Javascript",
+    "en": "Introduction to Javascript",
+    "it": "Introduzione a Javascript"
+   },
+   {
+    "en": "Javascript: origins and current uses",
+    "it": "Javascript: le origini e gli usi odierni"
+   },
+   {
+    "en": "Javascript, ECMAScript, TypeScript... what are they, really?",
+    "it": "Javascript, ECMAScript, TypeScript... cosa sono veramente?"
+   },
+   {
+    "en": "ECMAScript 5 e 6: the main new features",
+    "it": "ECMAScript 5 e 6: le principali novita'"
+   },
+   {
+    "en": "Adding scripts to HTML pages",
+    "it": "Inserire script nelle pagine HTML"
+   },
+   {
+    "en": "Some hints to correctly and efficiently embed scripts in HTML pages",
+    "it": "Accorgimenti per l'incorporazione corretta ed efficiente di script nelle pagine HTML"
+   },
+   {
+    "en": "Content and logic separation: how NOT to use javascript in HTML pages",
+    "it": "Separare la logica dal contenuto: come NON usare javascript nelle pagine HTML"
+   },
+   {
+    "en": "Javascript data types and conversion",
+    "it": "I tipi di dato di Javascript e i sistemi di conversione"
+   },
+   {
+    "en": "Variables and variable declarations",
+    "it": "Variabili e dichiarazione di variabili"
+   },
+   {
+    "en": "Implicit declaration and global variables",
+    "it": "Dichiarazione implicita e variabili globali",
+    "type": "esempio"
+   },
+   {
+    "en": "ES5: strict mode",
+    "it": "ES5: la modalita' strict"
+   },
+   {
+    "en": "ES6: block-scoped variables (finally!)",
+    "it": "ES6: variabili con scope di blocco (finalmente!)"
+   },
+   {
+    "en": "ES6: constants",
+    "it": "ES6: costanti"
+   },
+   {
+    "en": "Arithmetic and logic operators",
+    "it": "Operatori aritmetici e logici"
+   },
+   {
+    "en": "The IN operator (applied to arrays and objects)",
+    "it": "L'operatore IN (su array e oggetti)"
+   },
+   {
+    "en": "The TYPEOF operator",
+    "it": "L'operatore TYPEOF"
+   },
+   {
+    "en": "How to use TYPEOF to verify if a variable (or a function) is defined",
+    "it": "TYPEOF usato per verificare l'esistenza di una funzione o di una variabile",
+    "type": "esempio"
+   },
+   {
+    "en": "VOID and EVAL operators",
+    "it": "Gli operatori VOID ed EVAL"
+   },
+   {
+    "en": "Conditional constructs",
+    "it": "I costrutti condizionali"
+   },
+   {
+    "en": "Loop constructs",
+    "it": "I loop"
+   },
+   {
+    "en": "The FOR...IN loop (applied to objects and arrays)",
+    "it": "Il loop FOR...IN (su array e oggetti)"
+   },
+   {
+    "en": "The FOR...OF loop (applied to arrays and iterable objects)",
+    "it": "Il loop FOR...OF (su array e oggetti iterabili)"
+   },
+   {
+    "en": "Function declaration: direct, anonymous, with the Function constructor",
+    "it": "Dichiarazione di funzioni: dirette, anonime, tramite costruttore"
+   },
+   {
+    "en": "Function calls",
+    "it": "Chiamata di funzioni"
+   },
+   {
+    "en": "Javascript functions are values (Function objects)",
+    "it": "Le funzioni Javascript sono valori (oggetti Function)"
+   },
+   {
+    "en": "Function references and functions as values",
+    "it": "Riferimento alle funzioni e uso delle funzioni come valori"
+   },
+   {
+    "en": "Passing functions as parameters",
+    "it": "Passaggio di una funzione come parametro",
+    "type": "esempio"
+   },
+   {
+    "en": "The call operator applied to expressions having function type",
+    "it": "Applicare l'operatore di chiamata ad espressioni che ritornano funzioni",
+    "type": "esempio"
+   },
+   {
+    "en": "ES6: arrow functions",
+    "it": "ES6: funzioni freccia"
+   },
+   {
+    "en": "ES6: block-scoped functions",
+    "it": "ES6: funzioni con scope di blocco"
+   },
+   {
+    "en": "Parameters passed by value and reference. Omission of parameters.",
+    "it": "Modalita' di passaggio ed omissione di parametri"
+   }
+  ],
+  "title": {"all": "Javascript /1"}
+ },
+ {
+  "date": "2022-05-24T14:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "How to assign default values to omitted parameters",
+    "it": "Un trucco per assegnare valori di default ai parametri omessi",
+    "type": "esempio"
+   },
+   {
+    "en": "ES6: parameter default values",
+    "it": "ES6: valori di default per i parametri"
+   },
+   {
+    "en": "ES6: variadic functions and rest parameter",
+    "it": "ES6: funzioni variadiche e rest parameter"
+   },
+   {
+    "en": "Function return values",
+    "it": "Ritorno di valori dalle funzioni"
+   },
+   {
+    "en": "Mixed return types, return of undefined values",
+    "it": "Tipi di ritorno misti, ritorno di valori undefined",
+    "type": "esempio"
+   },
+   {
+    "en": "Closures",
+    "it": "Le closures"
+   },
+   {
+    "en": "How to create a function generator",
+    "it": "Creare un generatore di funzioni",
+    "type": "esempio"
+   },
+   {
+    "en": "Scope rules for Function values with external references",
+    "it": "Regole di scope nella creazione di valori di tipo Function con riferimenti esterni"
+   },
+   {
+    "en": "Closures and parametrics event handlers",
+    "it": "Uso delle closures per realizzare event handlers parametrici",
+    "type": "esempio"
+   },
+   {
+    "en": "Introduction to Javascript objects",
+    "it": "Introduzione agli oggetti di Javascript"
+   },
+   {
+    "en": "Object hierarchy: the base Object",
+    "it": "La gerarchia degli oggetti: l'oggetto-base Object"
+   },
+   {
+    "en": "The shorthand notation for object creation",
+    "it": "La sintassi abbreviata per la creazione di oggetti"
+   },
+   {
+    "en": "How to access object properties",
+    "it": "Accesso alle proprieta' degli oggetti"
+   },
+   {
+    "en": "How to use objects as generic data structures",
+    "it": "Usare gli oggetti come strutture dati generiche",
+    "type": "esempio"
+   },
+   {
+    "en": "Javascript objects as associative arrays",
+    "it": "Usare gli oggetti come array associativi",
+    "type": "esempio"
+   },
+   {
+    "en": "How to create methods",
+    "it": "Creazione di metodi"
+   },
+   {
+    "en": "How to access and call object methods",
+    "it": "Accesso e chiamata di metodi negli oggetti"
+   },
+   {
+    "en": "The this keyword used in javascript methods",
+    "it": "La parola chiave this all'interno dei metodi"
+   },
+   {
+    "en": "Javascript objects are dynamic",
+    "it": "Dinamicita' degli oggetti Javascript"
+   },
+   {
+    "en": "How to create and initialize an object property",
+    "it": "Creazione e inizializzazione di proprieta'"
+   },
+   {
+    "en": "ES6: extended notation for property and method declarations",
+    "it": "ES6: sintassi estesa per definizione di proprieta' e metodi"
+   },
+   {
+    "en": "Dynamic generation of property names",
+    "it": "Generare dinamicamente il nome della proprieta' da assegnare",
+    "type": "esempio"
+   },
+   {
+    "en": "Constructor functions",
+    "it": "Le funzioni costruttore"
+   },
+   {
+    "en": "How to create an empty object using the Object constructor",
+    "it": "Creazione di un oggetto vuoto tramite il costruttore Object"
+   },
+   {
+    "en": "Constructor functions and the NEW operator",
+    "it": "L'operatore NEW e le funzioni costruttore"
+   },
+   {
+    "en": "The objects' constructor property",
+    "it": "La proprieta' constructor degli oggetti"
+   },
+   {
+    "en": "The prototype property of constructor functions (and the __proto__ property of objects)",
+    "it": "La proprieta' prototype delle funzioni costruttore (e la proprieta' __proto__ degli oggetti)"
+   },
+   {
+    "en": "Extending objects through their constructor prototype",
+    "it": "Estensione di oggetti tramite il prototipo del loro construttore",
+    "type": "esempio"
+   },
+   {
+    "en": "ES5: getters and setters",
+    "it": "ES5: getter e setter"
+   },
+   {
+    "en": "ES5: the Object.defineProperty method",
+    "it": "ES5: il metodo Object.defineProperty"
+   },
+   {
+    "en": "ES5: getter and setter declaration in constructors",
+    "it": "ES5: dichiarare getter e setter nei costruttori",
+    "type": "esempio"
+   },
+   {
+    "en": "Coding standards: how to declare public properties and methods in a readable way",
+    "it": "Coding standards: dichiarare proprieta' e metodi pubblici nella maniera piu' leggebile"
+   },
+   {
+    "en": "Private methods in Javascript objects: a workaround to create them, with some limitations",
+    "it": "Metodi privati negli oggetti Javascript: un workaround per crearli, anche se con qualche limitazione"
+   },
+   {
+    "en": "The closure effect used to grant private object methods the access to public members",
+    "it": "L'effetto closure usato per fornire ai metodi privati l'accesso ai membri pubblici di un oggetto",
+    "type": "esempio"
+   },
+   {
+    "en": "Privileged methods in javascript objects: exploiting the closure to grant public object methods the access to private methods",
+    "it": "Metodi privilegiati negli oggetti Javascript: sfruttare le closure per fornire ai metodi pubblici l'accesso a quelli privati",
+    "type": "esempio"
+   },
+   {
+    "en": "Java-like field encapsulation (getters and setters) in Javascript using private properties and privileged methods",
+    "it": "Realizzare l'incapsulamento dei campi Java (getter e setter) in Javascript con proprieta' private e metodi privilegiati",
+    "type": "esempio"
+   },
+   {
+    "en": "ES6: class syntax",
+    "it": "ES6: il costrutto class"
+   },
+   {
+    "en": "Definition of objects through classes or prototypes",
+    "it": "Definizione di oggetti con classi o prototipi",
+    "type": "esempio"
+   },
+   {
+    "en": "ES6: the spread operator (...)",
+    "it": "ES6: l'operatore spread (...)"
+   },
+   {
+    "en": "ES6: destructuring assignment",
+    "it": "ES6: il destructuring assignment"
+   }
+  ],
+  "title": {"all": "Javascript /2"}
+ },
+ {
+  "date": "2022-05-26T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "Destructuring assignment with arrays and objects",
+    "it": "Destructuring assignment con array e oggetti",
+    "type": "esempio"
+   },
+   {
+    "en": "Javascript predefined objects: strings",
+    "it": "Oggetti predefiniti Javascript: le stringhe"
+   },
+   {
+    "en": "String object methods",
+    "it": "I metodi degli oggetti String",
+    "type": "esempio"
+   },
+   {
+    "en": "ES6: String interpolation",
+    "it": "ES6: Interpolazione di stringhe"
+   },
+   {
+    "en": "Javascript predefined objects: regular expressions",
+    "it": "Oggetti predefiniti Javascript: le espressioni regolari"
+   },
+   {
+    "en": "Javascript predefined objects: arrays",
+    "it": "Oggetti predefiniti Javascript: gli array"
+   },
+   {
+    "en": "Use of the constructor property to recognize objects created by different constructor functions",
+    "it": "Usare la proprieta' constructor per riconoscere oggetti creati tramite funzioni costruttore diverse",
+    "type": "esempio"
+   },
+   {
+    "en": "How to check if an object is an array using its constructor property",
+    "it": "Riconoscere un array tramite la sua proprieta' constructor",
+    "type": "esempio"
+   },
+   {
+    "en": "Array object methods",
+    "it": "I metodi degli oggetti array",
+    "type": "esempio"
+   },
+   {
+    "en": "Array ordering using the sort method and an arrow function",
+    "it": "Ordinare un array con il metodo sort e una funzione freccia",
+    "type": "esempio"
+   },
+   {
+    "en": "Javascript predefined objects: dates",
+    "it": "Oggetti predefiniti Javascript: le date"
+   },
+   {
+    "en": "Date object methods",
+    "it": "I metodi degli oggetti Date",
+    "type": "esempio"
+   },
+   {
+    "en": "Notes on iterators definition",
+    "it": "Cenni sulla definizione degli iteratori"
+   },
+   {
+    "en": "Notes on generator functions",
+    "it": "Cenni sulle funzioni generatore"
+   },
+   {
+    "en": "Javascript predefined objects: Set and Map in ES6",
+    "it": "Oggetti predefiniti Javascript: Set e Map in ES6"
+   },
+   {
+    "en": "ES6: Promises",
+    "it": "ES6: Le promises"
+   },
+   {
+    "en": "How to write an asynchronous algorithm in a Primise",
+    "it": "Incorporare un algoritmo asincrono in una Promise",
+    "type": "esempio"
+   },
+   {
+    "en": "Promise handlers definition: then and catch ",
+    "it": "Definire gli handler di una Promise: then e catch"
+   },
+   {
+    "en": "Returning and using the final Promise result",
+    "it": "Restituzione ed uso del risultato finale di una Promise",
+    "type": "esempio"
+   },
+   {
+    "en": "Promise handlers chaining",
+    "it": "Concatenazione di handler su una Promise"
+   },
+   {"type": "esempio"},
+   {
+    "en": "Javascript exception handling",
+    "it": "Gestione delle eccezioni in Javascript"
+   },
+   {
+    "en": "The setTimer and setInterval methods",
+    "it": "I metodi setTimer e setInterval"
+   },
+   {
+    "en": "How to prevent the event flooding deriving from an incorrect use of timers",
+    "it": "Prevenire l'event flooding derivante da un uso scorretto dei timer",
+    "type": "esempio"
+   },
+   {
+    "en": "How to use setTimer to create a better user interface",
+    "it": "Come sfruttare setTimer per creare una buona interfaccia utente",
+    "type": "esempio"
+   }
+  ],
+  "title": {
+   "en": "Javascript /3",
+   "it": "Javascript /3 "
+  }
+ },
+ {
+  "date": "2022-05-31T14:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "ref": "Slides DOMHTML",
+    "en": "XML Document Object Model",
+    "it": "Il Document Object Model di XML"
+   },
+   {
+    "en": "The tree structure underlying an XML document",
+    "it": "Struttura ad albero di un documento XML"
+   },
+   {
+    "en": "DOM base classes: Node",
+    "it": "Le classi fondamentali del DOM: Node"
+   },
+   {
+    "en": "Node base attributes ",
+    "it": "Attributi base dei nodi"
+   },
+   {
+    "en": "Node attributes for DOM navigation",
+    "it": "Attributi per la navigazione tra i nodi"
+   },
+   {
+    "en": "How to reach a generic document node",
+    "it": "Raggiungere un nodo generico all'interno del documento",
+    "type": "esempio"
+   },
+   {
+    "en": "Node methods for DOM modification",
+    "it": "Metodi per la modifica dei nodi"
+   },
+   {
+    "en": "How to read and write the node textual content through the textContent attribute",
+    "it": "Uso dell'attributo textContent per leggere e scrivere il contenuto testuale di un nodo"
+   },
+   {
+    "en": "How to modify the elements of an existing HTML document",
+    "it": "Modificare gli elementi di un documento HTML",
+    "type": "esempio"
+   },
+   {
+    "en": "DOM base classes: Document",
+    "it": "Le classi fondamentali del DOM: Document"
+   },
+   {
+    "en": "Two methods to quicky reach specific elements: getElementById e getElementsByTagName",
+    "it": "Metodi per la ricerca rapida di nodi (per id e tag): getElementById e getElementsByTagName"
+   },
+   {
+    "en": "How to move a fragment of HTML document in a new location",
+    "it": "Spostare frammenti di un documento HTML in posizioni diverse",
+    "type": "esempio"
+   },
+   {
+    "en": "Document methods for node creation",
+    "it": "Metodi per la creazione di nodi"
+   },
+   {
+    "en": "How to create an HTML fragment and put it in an existing document",
+    "it": "Creare un frammento di HTML ed inserirlo in un documento preesistente",
+    "type": "esempio"
+   },
+   {
+    "en": "DOM base classes: Element",
+    "it": "Le classi fondamentali del DOM: Element"
+   },
+   {
+    "en": "Element methods to read and write attributes",
+    "it": "Leggere e scrivere i valori degli attributi"
+   },
+   {
+    "ref": "Slides DOMHTML",
+    "en": "The XHTML DOM",
+    "it": "Il DOM di XHTML"
+   },
+   {
+    "en": "The HTMLDocument class",
+    "it": "La classe HTMLDocument"
+   },
+   {
+    "en": "Document collections: images, forms, links,...",
+    "it": "Le collection del documento: immagini, form, link,..."
+   },
+   {
+    "en": "The HTMLElement class",
+    "it": "La classe HTMLElement"
+   },
+   {
+    "en": "Getting and setting the element attributes through the HTMLElement object properties",
+    "it": "Impostare gli attributi degli elementi attraverso le proprieta' dell'oggetto HTMLElement"
+   },
+   {
+    "en": "The HTMLFormElement class",
+    "it": "La classe HTMLFormElement"
+   },
+   {
+    "en": "Direct access to the form fields",
+    "it": "Accedere in maniera diretta ai campi di un modulo"
+   },
+   {
+    "ref": "Slides DOMHTML",
+    "en": "The CSS DOM",
+    "it": "Il DOM di CSS"
+   },
+   {
+    "en": "How to read and write an element inline style: the style attribute",
+    "it": "Leggere e scrivere lo stile specifico di un elemento: l'attributo style"
+   },
+   {
+    "en": "Style declarations: the CSSStyleDeclaration class",
+    "it": "Le dichiarazioni di stile: l'oggetto CSSStyleDeclaration"
+   },
+   {
+    "en": "How to read and write style properties through the CSSStyleDeclaration class",
+    "it": "Lettura/scrittura dei valori degli attributi di stile tramite la CSSStyleDeclaration"
+   },
+   {
+    "en": "Quick access to the style properties: the CSS2Properties interface",
+    "it": "Accesso rapido alle proprieta' di stile: l'interfaccia CSS2Properties"
+   },
+   {
+    "en": "How to read the complete, computed style of an element: getComputedStyle",
+    "it": "Leggere gli stili dedotti dalla cascata: getComputedStyle"
+   },
+   {"type": "esempio"},
+   {
+    "ref": "Slides DOMHTML",
+    "en": "The DOM event model",
+    "it": "Il modello a eventi del DOM"
+   },
+   {"all": "Event Bubbling"},
+   {
+    "en": "How to delagate an event to an ancestor of the event target",
+    "it": "Delegare un evento a un elemento superiore della gerarchia"
+   },
+   {"all": "Event Capturing"},
+   {
+    "en": "The complete event dispatch route",
+    "it": "Il percorso completo di un evento",
+    "type": "esempio"
+   },
+   {
+    "en": "Adding event handlers to DOM elements: addEventListener",
+    "it": "Associazione di handlers agli eventi: addEventListener"
+   },
+   {
+    "en": "Removing handlers: removeEventListener",
+    "it": "Rimuovere handlers: removeEventListener"
+   },
+   {
+    "en": "The EventListener function structure",
+    "it": "Struttura di un EventListener"
+   },
+   {
+    "en": "Meaning of parameters and return values in event handling functions",
+    "it": "Significato dei parametri e del valore di ritorno nelle funzioni di event handling"
+   },
+   {
+    "en": "The Event object",
+    "it": "Struttura di base di un oggetto Event"
+   },
+   {
+    "en": "Meaning of the target and currentTarget attributes",
+    "it": "Gli attributi target e currentTarget"
+   },
+   {
+    "en": "The stopPropagation e preventDefault methods",
+    "it": "I metodi stopPropagation e preventDefault"
+   },
+   {
+    "en": "Mouse events",
+    "it": "Gli eventi del mouse"
+   },
+   {
+    "en": "Structure of mouse event objects",
+    "it": "Struttura degli eventi del mouse"
+   },
+   {
+    "en": "Meaning of the relatedTarget attribute in mouse events",
+    "it": "L'attributo relatedTarget negli eventi mouse"
+   },
+   {
+    "en": "Keyboard events",
+    "it": "Gli eventi della tastiera"
+   },
+   {
+    "en": "Structure of keyboard event objects: code, key, charCode, etc.",
+    "it": "Struttura degli eventi della tastiera: code, key, charCode, ecc."
+   },
+   {
+    "en": "Other DOM events",
+    "it": "Altri eventi del DOM"
+   },
+   {
+    "en": "The scroll event used to support incremental page loading",
+    "it": "L'evento scroll e il caricamento incrementale della pagina",
+    "type": "esempio"
+   },
+   {
+    "en": "Form events: change, reset, submit",
+    "it": "Eventi delle form: change, reset, submit"
+   },
+   {
+    "en": "The submit event used to support form validation",
+    "it": "L'evento submit e la validazione della form",
+    "type": "esempio"
+   }
+  ],
+  "title": {"all": "DOM (XML, HTML, CSS, Events)"}
+ },
+ {
+  "date": "2022-06-07T14:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "Gracefully degrading javascript: first ideas",
+    "it": "Usare javascript in modo degradante: prime idee"
+   },
+   {
+    "ref": "JS_Example_simpletooltip",
+    "en": "Gracefully degrading tooltips with javascript",
+    "it": "Il tooltip degradante con javascript",
+    "type": "esempio"
+   },
+   {
+    "ref": "JS_Example_simplepager",
+    "en": "A client-side table pagination script with graceful degradation (to server-side pagination)",
+    "it": "Realizzare un sistema di paginazione lato client (degradante) con Javascript",
+    "type": "esempio"
+   },
+   {
+    "en": "The AJAX base object: XMLHttpRequest",
+    "it": "L'oggetto base delle tecniche AJAX: XMLHttpRequest"
+   },
+   {
+    "en": "Synchronous and asynchronous AJAX calls",
+    "it": "Chiamate AJAX sincrone e asincrone"
+   },
+   {
+    "en": "Synchronous AJAX call process",
+    "it": "Procedura per chiamate AJAX sincrone"
+   },
+   {
+    "en": "Asynchronous AJAX call process",
+    "it": "Procedura per chiamate AJAX asincrone"
+   },
+   {
+    "en": "The JSON encoding to exchange data in AJAX calls",
+    "it": "Passaggio di dati con codifica JSON su richieste AJAX"
+   },
+   {
+    "ref": "Java_Example_Ajax_Pager_Async",
+    "en": "The client-side pagination script supported by AJAX (and the corresponding server support with graceful degradation)",
+    "it": "Implementazione AJAX della paginazione degradante e del corrispondente supporto server in Java",
+    "type": "esempio"
+   },
+   {
+    "ref": "JS_Example_simpleswitchededitor",
+    "en": "Advanced input controls attached to standard form fields with Javascript",
+    "it": "Creare controlli di input avanzati che degradano sui normali controlli di una form",
+    "type": "esempio"
+   },
+   {
+    "ref": "JS_Example_simplechecker2",
+    "en": "Complex javascript object-oriented structures: the form validator",
+    "it": "Realizzare strutture a oggetti complesse in Javascript: la libreria di controllo per l'input",
+    "type": "esempio"
+   }
+  ],
+  "title": {
+   "en": "Javascript: Advanced Examples",
+   "it": "Javascript: Esempi Avanzati"
+  }
+ }
+]

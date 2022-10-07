@@ -1,0 +1,79 @@
+{%include pageglobal.html %}
+
+<h2>Diario delle Lezioni - A.A.{{ryear}}/{{ryear | plus: 1}}</h2>
+
+{% assign    scopedinfoname = 'log-' | append: ryear %}
+{% if site.data[scopedinfoname] %}
+{% assign log = site.data[scopedinfoname] %}
+
+
+ <div class="card mb-3">
+	<div class="card-body">
+	<label for="jumpto" class="card-title">Salta alla lezione</label>
+<select class="form-control form-control-sm" ame="jumpto" id="jumpto">
+{% assign dl = 0 %}
+{% assign nl = 0 %}
+{% for lezione in log %}
+{% unless lezione.show == false %} 
+{% assign nl = nl | plus: 1 %}
+{% assign dl = dl | plus: lezione.duration %}
+{% if nl == 1 %}{% assign primalezione = lezione %}{% endif %}
+{% assign ultimalezione = lezione %}
+<option value="#L{{ nl }}">{{ nl }}:{% if lezione.title[language] %} {{ lezione.title[language] }}
+{% elsif lezione.title['all'] %} {{ lezione.title['all'] }}{% endif %}</option>
+{% endunless %}
+{% endfor %}
+</select>
+    </div>
+    <div class="card-footer">
+    <small><em>Lezioni totali: {{ nl }}, ore erogate: {{ dl }}
+    - Prima lezione: {{ primalezione.date | date: "%d/%m/%Y" }}, Ultima lezione: {{ ultimalezione.date | date: "%d/%m/%Y" }}
+    </em></small>
+    </div>
+  </div>
+
+<script>
+document.getElementById('jumpto').addEventListener("change",function() { 
+  var url = location.href; 
+  location.href = "#"+document.getElementById('jumpto').value;
+  history.replaceState(null,null,url); 
+});
+</script>
+
+{% assign nl = 0 %}
+{% for lezione in log %}
+{% unless lezione.show == false %} 
+{% assign nl = nl | plus: 1 %}
+<h3><a name="#L{{ nl }}"/>Lezione {{ nl }}:{% if lezione.title[language] %} {{ lezione.title[language] }}
+{% elsif lezione.title['all'] %} {{ lezione.title['all'] }}{% endif %}</h3>
+<p><small><em>{{ lezione.date | date: "%d/%m/%Y, ore %H:%M" }} ({{ lezione.duration }} ore)</em></small></p>
+<ul>
+{% assign na = 0 %}
+{% for argomento in lezione.arguments %}
+{% unless argomento.show == false %} 
+{% assign na = na | plus: 1 %}
+<li>({{ nl }}-{{ na }}) 
+{% if argomento.type == "esempio" %} 
+{% if argomento[language] or argomento['all'] %}<em>Esempio: </em>{% else %}<em>Esempi</em>{% endif %}
+{% endif %}
+{% if argomento[language] %} {{ argomento[language] }}
+{% elsif argomento['all'] %} {{ argomento['all'] }}{% endif %}
+{% if argomento.ref %} <em>(materiale: {{ argomento.ref }})</em> {% endif %}
+</li>
+{% endunless %}
+{% endfor %}
+{% endunless %}
+</ul>
+
+{% if lezione.notes[language] %} <p><em>{{ lezione.notes[language] }}</em></p>
+{% elsif lezione.notes['all'] %} <p><em>{{ lezione.notes['all'] }}</em></p>{% endif %}
+
+{% endfor %}
+
+
+{% else %}
+<div class="alert alert-warning" role="alert">
+  <em>Nessuna lezione disponibile</em>
+</div>
+
+{% endif %}
