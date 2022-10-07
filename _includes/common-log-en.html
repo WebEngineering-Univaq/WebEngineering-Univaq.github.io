@@ -1,14 +1,40 @@
 {%include pageglobal.html %}
 
-<h2>Lectures Log - A.Y.{{ryear}}/{{ryear | plus: 1}}</h2>
-
 {% assign    scopedinfoname = 'log-' | append: ryear %}
 {% if site.data[scopedinfoname] %}
 {% assign log = site.data[scopedinfoname] %}
+{% endif %}
+
+<h2>Lectures Log - A.Y. {{ryear}}/{{ryear | plus: 1}}</h2>
 
 
  <div class="card mb-3">
-	<div class="card-body">
+<div class="card-body">
+<label for="jumptoyear" class="card-title">Select year</label>
+<select class="form-control form-control-sm" ame="jumptoyear" id="jumptoyear">
+<option {% if ryear == ayear %} selected {% endif %} value="/it/log">Current academic year ({{ ayear }}/{{ ayear | plus: 1 }})</option>
+{% for file_hash in site.data %}
+{% assign prefix = file_hash[0] | slice: 0,4 %}
+{% if prefix == "log-" %}
+{% assign log_year = file_hash[0] | slice: 4,4 %}
+{% assign addition = log_year | plus: 0 %}
+{% capture addition %}{{addition}}{% endcapture %}
+{% if log_year  == addition %}
+{% assign log_year = log_year | plus: 0 %}
+<option {% if ryear == log_year %} selected {% endif %} value="/it/{{ log_year }}/log">Academic year {{ log_year }}/{{ log_year | plus: 1 }}</option>
+{% endif %}
+{% endif %}
+{% endfor %}
+</select>
+
+<script>
+document.getElementById('jumptoyear').addEventListener("change",function() { 
+  var url = location.href; 
+  location.href = document.getElementById('jumptoyear').value;  
+});
+</script>
+
+{% if log %}
 	<label for="jumpto" class="card-title">Jump to lecture</label>
 <select class="form-control form-control-sm" ame="jumpto" id="jumpto">
 {% assign dl = 0 %}
@@ -24,13 +50,6 @@
 {% endunless %}
 {% endfor %}
 </select>
-    </div>
-    <div class="card-footer">
-    <small><em>Total lectures: {{ nl }}, total lecture hours: {{ dl }}
-    - First lecture: {{ primalezione.date | date: "%Y-%m-%d" }}, Last lecture: {{ ultimalezione.date | date: "%Y-%m-%d" }}
-    </em></small>
-    </div>
-  </div>
 
 <script>
 document.getElementById('jumpto').addEventListener("change",function() { 
@@ -39,12 +58,23 @@ document.getElementById('jumpto').addEventListener("change",function() {
   history.replaceState(null,null,url); 
 });
 </script>
+{% endif %}
+    </div>
+	{% if log %}
+    <div class="card-footer">
+    <small><em>Total lectures: {{ nl }}, total lecture hours: {{ dl }}
+    - First lecture: {{ primalezione.date | date: "%Y-%m-%d" }}, Last lecture: {{ ultimalezione.date | date: "%Y-%m-%d" }}
+    </em></small>
+    </div>
+	{% endif %}
+  </div>
 
+{% if log %}
 {% assign nl = 0 %}
 {% for lezione in log %}
 {% unless lezione.show == false %} 
 {% assign nl = nl | plus: 1 %}
-<h3><a name="#L{{ nl }}"/>Lecture {{ nl }}:{% if lezione.title[language] %} {{ lezione.title[language] }}
+<h3><a name="#L{{ nl }}"/>{{ nl }}:{% if lezione.title[language] %} {{ lezione.title[language] }}
 {% elsif lezione.title['all'] %} {{ lezione.title['all'] }}{% endif %}</h3>
 <p><small><em>{{ lezione.date | date: "%Y-%m-%d, %H:%M" }} ({{ lezione.duration }} hours)</em></small></p>
 <ul>
