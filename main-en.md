@@ -13,12 +13,8 @@ redirect_from:
 
 {% assign a =  courseinfo.sillabo  %}
 <ol>
-{% for credito in a %} 
-<li> {% for argomento in credito %}
-{% if argomento[language] %}   {{ argomento[language] }}
-{% elsif argomento['all'] %}   {{ argomento['all'] }}
-{% endif %}. 
-{% endfor %}</li>
+{% for credito in a %} <li> {% for argomento in credito %}
+{% if argomento[language] %}   {{ argomento[language] }}{% elsif argomento['all'] %}   {{ argomento['all'] }}{% endif %}. {% endfor %}</li>{% endfor %}
  {% endfor %}</ol>
 
 

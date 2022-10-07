@@ -6,22 +6,22 @@
   {
     "label": "Testi",
     "url": "/it/info.html#testi"
-  },
-  {
-    "label": "Software",
-    "url": "/it/risorse.html#software"
-  },
+  },  
   {
     "label": "Slides",
     "url": "/it/materiale.html#slides"
   },
   {
-    "label": "Progetti",
-    "url": "/it/materiale.html#progetti"
-  },
-  {
     "label": "Esempi",
     "url": "/it/materiale.html#esempi"
+  },
+  {
+    "label": "Progetti",
+    "url": "/it/materiale.html#progetti"
+  },  
+  {
+    "label": "Software",
+    "url": "/it/risorse.html#software"
   },
   {
     "label": "Altre risorse",

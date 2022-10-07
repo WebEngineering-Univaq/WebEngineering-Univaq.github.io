@@ -14,7 +14,8 @@ permalink: /it/info.html
 {% assign a =  courseinfo.sillabo  %}
 <ol>
 {% for credito in a %} <li> {% for argomento in credito %}
-{% if argomento[language] %}   {{ argomento[language] }}{% elsif argomento['all'] %}   {{ argomento['all'] }}{% endif %}. {% endfor %}</li>{% endfor %}</ol>
+{% if argomento[language] %}   {{ argomento[language] }}{% elsif argomento['all'] %}   {{ argomento['all'] }}{% endif %}. {% endfor %}</li>{% endfor %}
+</ol>
 
 
 ## Libri di Testo  {#testi}

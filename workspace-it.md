@@ -17,7 +17,7 @@ permalink: /it/workspace
 Nel nostro corso utilizzeremo tre software principali:
 - Netbeans (<https://netbeans.apache.org/>),l'IDE per lo sviluppo,
 - Tomcat (<https://tomcat.apache.org/>), il web server Java,
-- la JDK (<https://openjdk.java.net/>), su cui gireranno entrambi i programmi di cui sopra.
+- la JDK (<https://jdk.java.net/>), su cui gireranno entrambi i programmi di cui sopra.
 
 Purtroppo questi tre software, soprattutto la JDK, sono soggetti a continui aggiornamenti, che oltre a
 correggere problemi e aggiungere funzionalità possono, talvolta, introdurre nuovi bug
@@ -34,10 +34,8 @@ software della macchina su cui lavorerete. Questo è molto utile soprattutto se
 sulla vostra macchina avete già installate altre versioni dei software di cui
 sopra. La procedura è la seguente.
 
-Le versioni del software utilizzate **per l'anno accademico {{ryear}}/{{ryear | plus: 1}}** sono le seguenti:
-- Netbeans {{extrainfo.software.netbeans-version}}
-- Tomcat {{extrainfo.software.tomcat-version}}
-- JDK {{extrainfo.software.jdk-version}}
+Le versioni del software utilizzate **per l'anno accademico {{ryear}}/{{ryear | plus: 1}}** sono indicate nella sezione 
+[Software](/it/risorse#software).
 
 **Attenzione** : **Tomcat 9 e Tomcat 10 (o superiori) non possono eseguire le stesse applicazioni web**: mentre Tomcat 9
 utilizza la JEE 8 Web, Tomcat 10 usa la Jakarta EE 9 Web, il che rende
@@ -70,9 +68,9 @@ di Netbeans e di Tomcat con le versioni consigliate nel corso. Se non si tratta
 delle ultimissime versioni, potreste doverle prelevare da pagine "archivio"
 come <https://jdk.java.net/archive/>, <https://netbeans.apache.org/download/archive/> (o <https://netbeans.apache.org/download>) e <https://tomcat.apache.org/whichversion.html>.
 4. **Espandete gli archivi** nella cartella \<D\>. Otterrete quindi
-tre cartelle, ad esempio (*il nome reale dipenderà dalle versioni*) \<D\>/jdk-{{extrainfo.software.jdk-version}},
-\<D\>/netbeans-{{extrainfo.software.netbeans-version}} e \<D\>/apache-tomcat-{{extrainfo.software.tomcat-version}}.
-5. Nella cartella in cui è stato espanso Netbeans, nel nostro esempio \<D\>/netbeans-{{extrainfo.software.netbeans-version}},
+tre cartelle, ad esempio (*il nome reale dipenderà dalle versioni*) \<D\>/jdk-JV,
+\<D\>/netbeans-NV e \<D\>/apache-tomcat-TV.
+5. Nella cartella in cui è stato espanso Netbeans, nel nostro esempio \<D\>/netbeans-NV,
 troverete il file **etc/netbeans.conf** . All'interno di questo file,
 modificate le chiavi seguenti come indicato.   
    Notate che *il path della JDK va definito sulla base della cartella in cui è
@@ -81,7 +79,7 @@ commento (#) prima delle righe contenenti queste chiavi per abilitarle.
 Ricordate di salvare il file netbeans.conf al termine delle modifiche.
    - netbeans_default_userdir="\<D\>/nb_userdir"
    - netbeans_default_cachedir="\<D\>/nb_cachedir"
-   - netbeans_jdkhome="\<D\>/jdk-{{extrainfo.software.jdk-version}}"
+   - netbeans_jdkhome="\<D\>/jdk-JV"
 
 ## Primo Avvio dell'IDE
 
@@ -104,7 +102,7 @@ A questo punto potete procedere a **connettere Netbeans a Tomcat**.
    1. Selezionate la voce di menu **Tool \> Servers** e di seguito il
 bottone "*Add Server...*".
    2. Nel successivo wizard selezionate "*Apache Tomcat or TomEE* " e come
-"*Server location* " specificate la cartella \<D\>/apache-tomcat-{{extrainfo.software.tomcat-version}} (*anche
+"*Server location* " specificate la cartella \<D\>/apache-tomcat-TV (*anche
 qui il nome effettivo cambierà al variare della versione, ovviamente*).
    3. Opzionalmente, spuntate la casella "*use private configuration folder* "
 e immettete come "*Catalina base*" la cartella \<D\>/tomcat_base. Questa

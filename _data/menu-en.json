@@ -8,20 +8,20 @@
     "url": "/en/info.html#testi"
   },
   {
-    "label": "Software",
-    "url": "/en/risorse.html#software"
-  },
-  {
     "label": "Slides",
     "url": "/en/materiale.html#slides"
+  },
+  {
+    "label": "Examples",
+    "url": "/en/materiale.html#esempi"
   },
   {
     "label": "Projects",
     "url": "/en/materiale.html#progetti"
   },
   {
-    "label": "Examples",
-    "url": "/en/materiale.html#esempi"
+    "label": "Software",
+    "url": "/en/risorse.html#software"
   },
   {
     "label": "Other resources",
