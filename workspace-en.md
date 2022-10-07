@@ -30,7 +30,7 @@ that is influenced as little as possible by the actual software set-up of the ma
 This is very useful especially if on your machine you have already installed other versions of the mentioned softwares. 
 The procedure is as follows.
 
-The software versions **for the academic year {{ryear}} / {{ryear | plus: 1}}** are indicated in the [Software](/it/risorse#software) section.
+The software versions **for the academic year {{ryear}} / {{ryear | plus: 1}}** are indicated in the [Software](/en/risorse#software) section.
 
 
 **Warning**: **Tomcat 9 and Tomcat 10 (or higher) cannot run the same web applications**: while Tomcat 9

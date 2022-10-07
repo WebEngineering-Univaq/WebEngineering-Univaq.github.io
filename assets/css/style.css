@@ -21,12 +21,12 @@ h4 {
 }
 
 
-a {
+a, a:visited, a:link {
   color:#1d7e9c;  
   text-decoration:none;
 }
 	
-a:hover {
+a:hover, a:active {
 	color:#1d7e9c;
 	text-decoration: underline;
 }
@@ -79,11 +79,12 @@ header .nav {
 	
 }
 
-header a, a.nav-link, footer a {
+
+header a,header a:visited,header a:link, a.nav-link, a.nav-link:visited,  a.nav-link:link, footer a, footer a:visited, footer a:link {
   color: #FDFDFB;
 }
 
-header a:hover, a.nav-link:hover, footer a:hover {
+header a:hover, header a:active, a.nav-link:hover, a.nav-link:active, footer a:hover, footer a:active {
   color: #FDFDFB;
 }
 
