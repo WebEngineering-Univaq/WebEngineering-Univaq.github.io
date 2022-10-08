@@ -7,16 +7,14 @@
 
 <h2>Lectures Log - A.Y. {{ryear}}/{{ryear | plus: 1}}</h2>
 
-
- <div class="card mb-3">
+<div class="card mb-3">
 <div class="card-body">
-<label for="jumptoyear" class="card-title">Select year</label>
-<select class="form-control form-control-sm" ame="jumptoyear" id="jumptoyear">
-<option {% if ryear == ayear %} selected {% endif %} value="/en/log">Current academic year ({{ ayear }}/{{ ayear | plus: 1 }})</option>
-{% for file_hash in site.data %}
-{% assign prefix = file_hash[0] | slice: 0,4 %}
-{% if prefix == "log-" %}
-{% assign log_year = file_hash[0] | slice: 4,4 %}
+<select class="form-control mb-1 form-control-sm" ame="jumptoyear" id="jumptoyear">
+<option {% if ryear == ayear %} selected {% endif %} value="/en/log">Academic year {{ ayear }}/{{ ayear | plus: 1 }} (current))</option>
+{% for page in site.pages %}
+{% assign target = page.url | slice: -4,4 %}
+{% if target == "/log" %}
+{% assign log_year = page.url | slice: -8,4 %}
 {% assign addition = log_year | plus: 0 %}
 {% capture addition %}{{addition}}{% endcapture %}
 {% if log_year  == addition %}
@@ -29,14 +27,13 @@
 
 <script>
 document.getElementById('jumptoyear').addEventListener("change",function() { 
-  var url = location.href; 
   location.href = document.getElementById('jumptoyear').value;  
 });
 </script>
 
 {% if log %}
-	<label for="jumpto" class="card-title">Jump to lecture</label>
 <select class="form-control form-control-sm" ame="jumpto" id="jumpto">
+<option value="">Jump to lecture...</option>
 {% assign dl = 0 %}
 {% assign nl = 0 %}
 {% for lezione in log %}
@@ -53,21 +50,26 @@ document.getElementById('jumptoyear').addEventListener("change",function() {
 
 <script>
 document.getElementById('jumpto').addEventListener("change",function() { 
-  var url = location.href; 
-  location.href = "#"+document.getElementById('jumpto').value;
-  history.replaceState(null,null,url); 
+  let anchor = document.getElementById('jumpto').value;
+  if (anchor!="") { 
+	let url = location.href; 
+  	location.href = "#"+ anchor;
+  	history.replaceState(null,null,url); 
+	document.getElementById('jumpto').value="";
+  }
 });
 </script>
 {% endif %}
-    </div>
-	{% if log %}
-    <div class="card-footer">
-    <small><em>Total lectures: {{ nl }}, total lecture hours: {{ dl }}
-    - First lecture: {{ primalezione.date | date: "%Y-%m-%d" }}, Last lecture: {{ ultimalezione.date | date: "%Y-%m-%d" }}
-    </em></small>
-    </div>
-	{% endif %}
-  </div>
+</div>
+
+{% if log %}
+<div class="card-footer">
+<small><em>Total lectures: {{ nl }}, total lecture hours: {{ dl }}
+- First lecture: {{ primalezione.date | date: "%Y-%m-%d" }}, Last lecture: {{ ultimalezione.date | date: "%Y-%m-%d" }}
+</em></small>
+</div>
+{% endif %}
+</div>
 
 {% if log %}
 {% assign nl = 0 %}

@@ -25,6 +25,12 @@
 	"icon": "bi-bank"
   },
   {
+    "label": "Lectures log",
+    "url": "/en/log.html",
+	"icon": "bi-calendar-week"
+  },  
+  
+  {
     "label": "Software",
     "url": "/en/risorse.html#software",
 	"icon": "bi-tools"

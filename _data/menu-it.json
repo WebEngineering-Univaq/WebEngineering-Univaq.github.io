@@ -25,6 +25,11 @@
 	"icon": "bi-bank"
   },  
   {
+    "label": "Diario lezioni",
+    "url": "/it/log.html",
+	"icon": "bi-calendar-week"
+  },  
+  {
     "label": "Software",
     "url": "/it/risorse.html#software",
 	"icon": "bi-tools"
