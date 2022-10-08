@@ -7,21 +7,29 @@
 
 <h2>Lectures Log - A.Y. {{ryear}}/{{ryear | plus: 1}}</h2>
 
-<div class="card mb-3">
-<div class="card-body">
-<select class="form-control mb-1 form-control-sm" ame="jumptoyear" id="jumptoyear">
-<option {% if ryear == ayear %} selected {% endif %} value="/en/log">Academic year {{ ayear }}/{{ ayear | plus: 1 }} (current)</option>
+{% assign logs = "" | split: "," %}
 {% for page in site.pages %}
 {% assign target = page.url | slice: -9,9 %}
-{% if target == "/log.html" %}
+{% if target == "/log" %}
+{% assign log_language = page.url | slice: 1,2 %}
+{% if log_language == language %}
 {% assign log_year = page.url | slice: -13,4 %}
 {% assign addition = log_year | plus: 0 %}
 {% capture addition %}{{addition}}{% endcapture %}
 {% if log_year  == addition %}
 {% assign log_year = log_year | plus: 0 %}
+{% assign logs = logs | push: log_year %}
+{% endif %}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+<div class="card mb-3">
+<div class="card-body">
+<select class="form-control mb-1 form-control-sm" name="jumptoyear" id="jumptoyear">
+<option {% if ryear == ayear %} selected {% endif %} value="/en/log">Academic year {{ ayear }}/{{ ayear | plus: 1 }} (current)</option>
+{% for log_year in logs | sort | reverse %}
 <option {% if ryear == log_year %} selected {% endif %} value="/en/{{ log_year }}/log">Academic year {{ log_year }}/{{ log_year | plus: 1 }}</option>
-{% endif %}
-{% endif %}
 {% endfor %}
 </select>
 
@@ -32,7 +40,7 @@ document.getElementById('jumptoyear').addEventListener("change",function() {
 </script>
 
 {% if log %}
-<select class="form-control form-control-sm" ame="jumpto" id="jumpto">
+<select class="form-control form-control-sm" name="jumpto" id="jumpto">
 <option value="">Jump to lecture...</option>
 {% assign dl = 0 %}
 {% assign nl = 0 %}
