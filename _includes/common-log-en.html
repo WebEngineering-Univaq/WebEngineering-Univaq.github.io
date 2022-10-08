@@ -10,7 +10,7 @@
 {% assign logs = "" | split: "," %}
 {% for page in site.pages %}
 {% assign target = page.url | slice: -9,9 %}
-{% if target == "/log" %}
+{% if target == "/log.html" %}
 {% assign log_language = page.url | slice: 1,2 %}
 {% if log_language == language %}
 {% assign log_year = page.url | slice: -13,4 %}
