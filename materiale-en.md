@@ -22,24 +22,43 @@ Suggestions are always appreciated!
 
 ### Slides  {#slides}
 
-* [Course slides repository](https://github.com/WebEngineering-Univaq/WE_Lecture_Slides)  
-  *Always check for updates!*
+{% if materialinfo.slides %}
+<ul>
+{% for s in materialinfo.slides %}<li> 
+<a href="{{ s.url }}">{% if s.nome[language] %}{{ s.nome[language] }}
+{% elsif s.nome['all'] %}{{ s.nome['all'] }}{% endif %}</a>
+{% if s.commento[language] %}   <br/><em>{{ s.commento[language] }}</em>
+{% elsif s.commento['all'] %}   <br/><em>{{ s.commento['all'] }}</em> 
+{% endif %}</li>{% endfor %}
+</ul>
+{% endif %}
 
 ### Final Course Projects  {#progetti}
 
-* [Final project specifications repository](https://github.com/WebEngineering-Univaq/Project_Specifications)  
-  *A collection of all the final course projects for each academic year*
+{% if materialinfo.projects %}
+<ul>
+{% for s in materialinfo.projects %}<li> 
+<a href="{{ s.url }}">{% if s.nome[language] %}{{ s.nome[language] }}
+{% elsif s.nome['all'] %}{{ s.nome['all'] }}{% endif %}</a>
+{% if s.commento[language] %}   <br/><em>{{ s.commento[language] }}</em>
+{% elsif s.commento['all'] %}   <br/><em>{{ s.commento['all'] }}</em> 
+{% endif %}</li>{% endfor %}
+</ul>
+{% endif %}
 
 ### Examples  {#esempi}
 
 > Before trying to run or modify these examples, read the [Software](/en/risorse#software) section
 and set-up all the required software
 
-* [HTML 5](https://github.com/WebEngineering-Univaq/HTML_Examples)  
-  *HTML files showing the syntax of the most common language elements*
-* [Cascading Style Sheets](https://github.com/WebEngineering-Univaq/CSS_Examples)  
-  *Examples used to demonstrate che CSS features*
-* [Java Servlets](https://github.com/orgs/WebEngineering-Univaq/repositories?q=Java_&type=all&language=&sort=name)  
-  *Examples of Java web applications, packed as Maven projects, compatible with all the most common IDEs*
-* [Javascript](https://github.com/orgs/WebEngineering-Univaq/repositories?q=JS_&type=all&language=&sort=name)  
-  *Script examples (to execute them, open the corresponding HTML file in any browser)*
+{% if materialinfo.examples %}
+<ul>
+{% for s in materialinfo.examples %}<li> 
+<a href="{{ s.url }}">{% if s.nome[language] %}{{ s.nome[language] }}
+{% elsif s.nome['all'] %}{{ s.nome['all'] }}{% endif %}</a>
+{% if s.commento[language] %}   <br/><em>{{ s.commento[language] }}</em>
+{% elsif s.commento['all'] %}   <br/><em>{{ s.commento['all'] }}</em> 
+{% endif %}</li>{% endfor %}
+</ul>
+{% endif %}
+  

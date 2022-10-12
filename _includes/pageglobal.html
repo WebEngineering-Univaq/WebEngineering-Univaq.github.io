@@ -35,6 +35,13 @@
 {% assign linkinfo = site.data.links  %}
 {% endif %}
 
+{% assign    scopedinfoname = 'materiale-' | append: ryear %}
+{% if site.data[scopedinfoname] %}
+{% assign materialinfo = site.data[scopedinfoname]  %}
+{% else %}
+{% assign materialinfo = site.data.materiale  %}
+{% endif %}
+
 {% assign    scopedinfoname = 'software-' | append: ryear %}
 {% if site.data[scopedinfoname] %}
 {% assign softwareinfo = site.data[scopedinfoname]  %}

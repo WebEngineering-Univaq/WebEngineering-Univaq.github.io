@@ -1,0 +1,70 @@
+{
+  "slides": [
+    {
+      "url": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides",
+      "nome": {
+        "it": "Repository delle slide del corso",
+        "en": "Course slides repository"
+      },
+      "commento": {
+        "it": "Da controllare spesso per aggiornamenti!",
+        "en": "Always check for updates!"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "url": "https://github.com/WebEngineering-Univaq/Project_Specifications",
+      "nome": {
+        "it": "Repository dei progetti di fine corso",
+        "en": "Final project specifications repository"
+      },
+      "commento": {
+        "it": "Questa raccolta contiene tutti i progetti di fine corso, divisi per anno accademico",
+        "en": "A collection of all the final course projects for each academic year"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "nome": {
+        "all": "HTML 5"
+      },
+      "url": "https://github.com/WebEngineering-Univaq/HTML_Examples",
+      "commento": {
+        "it": "Alcuni file HTML che dimostrano la sintassi di tutti i più importanti elementi del linguaggio e permettono di verificarne la funzionalità nei browser",
+        "en": "HTML files showing the syntax of the most common language elements"
+      }
+    },
+    {
+      "nome": {
+        "all": "Cascading Style Sheets"
+      },
+      "url": "https://github.com/WebEngineering-Univaq/CSS_Examples",
+      "commento": {
+        "it": "Esempi usati in aula per mostrare le caratteristiche dei CSS e testarne la compatibilità",
+        "en": "Examples used to demonstrate che CSS features"
+      }
+    },
+    {
+      "nome": {
+        "all": "Java Servlets"
+      },
+      "url": "https://github.com/orgs/WebEngineering-Univaq/repositories?q=Java_&type=all&language=&sort=name",
+      "commento": {
+        "it": "Esempi di Java web application forniti sotto forma di progetti Maven, compatibili con tutti i più diffusi IDE",
+        "en": "Examples of Java web applications, packed as Maven projects, compatible with all the most common IDEs"
+      }
+    },
+    {
+      "nome": {
+        "all": "Javascript"
+      },
+      "url": "https://github.com/orgs/WebEngineering-Univaq/repositories?q=JS_&type=all&language=&sort=name",
+      "commento": {
+        "it": "Esempi di script eseguibili aprendo in qualsiasi browser il file HTML che li accompagna",
+        "en": "Script examples (to execute them, open the corresponding HTML file in any browser"
+      }
+    }
+  ]
+}
