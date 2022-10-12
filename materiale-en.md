@@ -14,7 +14,7 @@ Since knowledge *should* be considered everyone's heritage, my material is avail
 to study the course topics. However, such material *cannot be used, even in part, for other purposes
 or in other courses*, without my explicit permission and without citing the source.
 
-> The Web Engineering course is currently given in Italian. The material include an English translation 
+> The course is currently given in Italian. The material include an English translation 
 of all the slides used during the course lectures. Such a translation is the first result 
 of a long and complex adaptation work. Therefore, the slides may still contain some errors, typos 
 and poorly readable statements. I'll do my best to refine them, but it takes time. 

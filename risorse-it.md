@@ -26,7 +26,7 @@ permalink: /it/risorse.html
 
 ### Contenuti di Approfondimento {#links}
 
-> Raccolta non ordinata e spesso anche poco aggiornata di link utili per studiare e approfondire il vasto panorama delle tecnologie del web!
+> Raccolta non ordinata e spesso anche poco aggiornata di link utili per studiare e approfondire gli argomenti del corso
 
 <ul>
 {% for s in linkinfo %}<li> 
