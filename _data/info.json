@@ -9,6 +9,12 @@
       "fine": "17"
     }
   },
+  "obiettivi": {"it":"Il corso si propone di fornire una preparazione completa sulle tecnologie necessarie allo sviluppo di applicazioni web moderne, conformi agli standard e sicure, con particolare riguardo anche per le problematiche di accessibilità e usabilità",
+  "en":"The course aims to provide a complete knowledge about the technologies required to develop modern web applications, secure and standards-compliant, with particular regard also to accessibility and usability issues"},
+  "prerequisiti": {"it":"Conoscenza di base della programmazione Java","en":"Base knowledge of Java programming"},
+  "lezioni":{"it":"Le lezioni sono di carattere teorico e pratico, e prevedono lo sviluppo interattivo di esempi in aula; gli studenti sono incoraggiati a partecipare alle lezioni facendo domande e discutendo le soluzioni adottate negli esempi sviluppati",
+  "en":"Lectures are both theoretical and practical, and include the interactive development of examples; students are encouraged to participate to the lectures by making questions and discussing the solutions adopted in the developed examples"},
+  "esame":{"it":"La valutazione finale prevede lo sviluppo (in gruppo) di un progetto e un’eventuale prova orale (individuale). Il progetto da sviluppare consiste in un’applicazione web completa. La prova orale parte dalla discussione del progetto e ha lo scopo di verificare il livello collaborazione nel gruppo e il contributo individuale al progetto","en":"The final evaluation involves the development of a project (in group) and a possible oral exam (individual). The project to be developed consists of a complete web application. The oral exam starts from the discussion of the project and aims to verify the achieved level of teamwork and the individual contribution to the project"},
   "testi": [
     {
       "autori": "Vincenzo Della Mea, Luca di Gaspero, Ivan Scagnetto",

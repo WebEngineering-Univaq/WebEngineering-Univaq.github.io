@@ -1,12 +1,12 @@
 [
   {
-    "label": "Syllabus",
-    "url": "/en/info.html#sillabo",
-	"icon": "bi-card-list"
+    "label": "Information",
+    "url": "/en/info.html",
+	"icon": "bi-info-circle"
   },
   {
     "label": "Textbooks",
-    "url": "/en/info.html#testi",
+    "url": "/en/materiale.html#testi",
 	"icon": "bi-book"
   },
   {
