@@ -40,7 +40,7 @@
     }
   ],
   "sillabo": [
-    [
+{"peso":4,"argomenti":[
       {
         "all": "Web Standards"
       },
@@ -55,8 +55,8 @@
         "it": "XML e i linguaggi markup",
         "en": "XML and markup languages"
       }
-    ],
-    [
+  ]},
+{"peso":6,"argomenti":[
       {
         "it": "Struttura dei contenuti web: HTML4, XHTML1, HTML5",
         "en": "Structure of web contents: HTML4, XHTML1, HTML5"
@@ -73,8 +73,8 @@
         "it": "Validazione dei contenuti web",
         "en": "Web content validation"
       }
-    ],
-    [
+     ]},
+{"peso":4,"argomenti":[
       {
         "it": "Presentazione dei contenuti web: CSS2 e CSS3",
         "en": "Presentation of web contents: CSS2 and CSS3"
@@ -87,8 +87,8 @@
         "it": "Creazione di fogli di stile degradanti",
         "en": "Creating gracefully degrading  style sheets"
       }
-    ],
-    [
+    ]},
+{"peso":4,"argomenti":[
       {
         "it": "Creazione di layout web con i fogli di stile: tecniche di base",
         "en": "Creating web layouts with style sheets: basic techniques"
@@ -96,8 +96,8 @@
       {
         "all": "Responsive design"
       }
-    ],
-    [
+     ]},
+{"peso":20,"argomenti":[
       {
         "it": "Logica per i contenuti web, lato server: Java Servlets",
         "en": "Logic for web contents, server-side: Java Servlets"
@@ -118,8 +118,8 @@
         "it": "Sicurezza delle applicazioni web: accorgimenti lato server",
         "en": "Web application security: server-side techniques"
       }
-    ],
-    [
+     ]},
+{"peso":10,"argomenti":[
       {
         "it": "Logica per i contenuti web, lato client: Javascript",
         "en": "Logic for web contents, client side: Javascript"
@@ -151,6 +151,6 @@
       {
         "all": "AJAX"
       }
-    ]
+     ]}
   ]  
 }
