@@ -17,7 +17,9 @@ permalink: /it/info.html
 
 {% assign a =  courseinfo.sillabo  %}
 <ol>
-{% for credito in a %} <li> {% for argomento in credito.argomenti %}
+{% for credito in a %} <li> 
+{% assign argomenti = credito.argomenti %}
+{% for argomento in argomenti %}
 {% if argomento[language] %} {{ argomento[language] }}{% elsif argomento['all'] %} {{ argomento['all'] }}{% endif %}. {% endfor %}
 {% if credito.peso %} <em>(circa {{credito.peso}} ore di lezione)</em>{% endif %}
 </li>{% endfor %}
