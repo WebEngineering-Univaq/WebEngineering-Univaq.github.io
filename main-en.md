@@ -19,7 +19,7 @@ redirect_from:
 
 {% assign a =  courseinfo.sillabo  %}
 <ol>
-{% for credito in a %} <li> {% for argomento in credito %}
+{% for credito in a %} <li> {% for argomento in credito.argomenti %}
 {% if argomento[language] %}   {{ argomento[language] }}{% elsif argomento['all'] %}   {{ argomento['all'] }}{% endif %}. {% endfor %}
 {% if credito.peso %} <em>(about {{credito.peso}} teaching hours)</em>{% endif %}
 </li>{% endfor %}
