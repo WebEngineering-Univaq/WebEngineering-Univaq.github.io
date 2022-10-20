@@ -1,12 +1,14 @@
 {
   "nome": "Web Engineering",
+  "codice":"DT0180",
   "descrizione": {"it":"Corso di Web Engineering, Università dell'Aquila","en":"Web Engineering course, University of L'Aquila"},
-  "contatti": {
+  "docente": {
+	"nome":"Giuseppe Della Penna",
+	"url":"https://www.disim.univaq.it/GiuseppeDellaPenna",
     "email": "giuseppe.dellapenna@univaq.it",
     "ricevimento": {
-      "giorno": "3",
-      "inizio": "15",
-      "fine": "17"
+      "it":"Mercoledì, 15-17",
+	  "en":"Wednesday, 15-17"
     }
   },
   "obiettivi": {"it":"Il corso si propone di fornire una preparazione completa sulle tecnologie necessarie allo sviluppo di applicazioni web moderne, conformi agli standard e sicure, con particolare riguardo anche per le problematiche di accessibilità e usabilità",
