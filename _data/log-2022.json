@@ -41,5 +41,79 @@
    "en": "Modern web: technologies, challenges and problems",
    "it": "Il web moderno: tecnologie, sfide, problemi"
   }
+ },
+ {
+  "date": "2022-03-03T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "ref": "Slides XML-R",
+    "en": "What is and what is not XML",
+    "it": "Cosa e' e cosa non e' XML"
+   },
+   {
+    "en": "XML base syntax: the XML declaration",
+    "it": "Sintassi base di un documento XML: la dichiarazione XML"
+   },
+   {
+    "en": "Character encoding problems",
+    "it": "Problemi con il character encoding",
+    "type": "esempio"
+   },
+   {
+    "en": "Character encoding: what is really UTF-8? (and UTF-16? and ISO-8859-1??)",
+    "it": "Character encoding: cos'e' veramente UTF-8? (e UTF-16? e ISO-8859-1??)"
+   },
+   {
+    "en": "Character encoding: can also be a security problem: the UTF-7 attack",
+    "it": "Character encoding: puo' essere anche un problema di sicurezza: l'attacco UTF-7",
+    "type": "esempio"
+   },
+   {
+    "en": "XML base syntax: the DOCTYPE declaration",
+    "it": "Sintassi base di un documento XML: la dichiarazione DOCTYPE"
+   },
+   {
+    "en": "Correct declaration of the HTML version in use",
+    "it": "Dichiarare correttamente la versione di HTML un uso",
+    "type": "esempio"
+   },
+   {
+    "en": "Standards and Quirks modes",
+    "it": "Standards e Quirks mode per i browser"
+   },
+   {
+    "en": "XML base syntax: elements and their syntactic rules",
+    "it": "Sintassi base XML: Elementi e regole sintattiche"
+   },
+   {
+    "en": "Common problems related to element syntax",
+    "it": "Problemi comuni legati alla sintassi degli elementi",
+    "type": "esempio"
+   },
+   {
+    "en": "XML base syntax: attributes and their syntcatic rules",
+    "it": "Sintassi base XML: Attributi e regole sintattiche"
+   },
+   {
+    "en": "Common problems related to attribute syntax",
+    "it": "Problemi comuni legati alla sintassi degli attributi",
+    "type": "esempio"
+   },
+   {
+    "en": "XML base syntax: text and character entities",
+    "it": "Sintassi base XML: Testo ed entita' carattere"
+   },
+   {
+    "en": "XSS attacks and the correct use of entities for reserved characters",
+    "it": "Attacchi XSS e uso corretto delle entita' per i caratteri riservati",
+    "type": "esempio"
+   },
+   {
+    "en": "XML base syntax: CDATA sections",
+    "it": "Sintassi base XML: le sezioni CDATA"
+   }
+  ],
+  "title": {"all": "XML"}
  }
 ]
