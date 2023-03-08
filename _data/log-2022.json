@@ -48,6 +48,7 @@
   "arguments": [
    {
     "ref": "Slides XML-R",
+	"link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides",
     "en": "What is and what is not XML",
     "it": "Cosa e' e cosa non e' XML"
    },
@@ -112,8 +113,106 @@
    {
     "en": "XML base syntax: CDATA sections",
     "it": "Sintassi base XML: le sezioni CDATA"
+   },
+   {
+    "en": "The problem with embedded scripts in HTML pages",
+    "it": "Il problema degli script incorporati nelle pagine HTML",
+    "type": "esempio"
    }
   ],
   "title": {"all": "XML"}
+ },
+ {
+  "date": "2023-03-07T16:30:00",
+  "duration": 2,
+  "arguments": [  
+   {
+    "all": "HTML4, XHTML1, HTML5",
+    "ref": "Slides HTML",
+	"link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+   },
+   {
+    "en": "Standards and Quirks modes",
+    "it": "Standards e Quirks mode per i browser"
+   },
+   {
+    "en": "The HTML5 mode",
+    "it": "La modalita' HTML5"
+   },
+   {
+    "en": "The Polyglot HTML5",
+    "it": "L'HTML5 poliglotta"
+   },
+   {
+    "en": "HTML: inline and block elements",
+    "it": "HTML: elementi blocco e inline"
+   },
+   {
+    "en": "The new element classification in HTML5",
+    "it": "La nuova classificazione degli elementi in HTML5"
+   },
+   {
+    "en": "HTML: common attributes",
+    "it": "HTML: gli attributi comuni (id, class, style, title, lang, ...)"
+   },
+   {
+    "en": "New HTML5 common attributes: data, aria,...",
+    "it": "Nuovi attributi comuni in HTML5: data, aria,..."
+   },
+   {
+    "en": "Use of the ARIA attributes in complex, customized layouts",
+    "it": "Uso degli attributi ARIA nei layout complessi e personalizzati.",
+    "type": "esempio"
+   },
+   {
+    "en": "HTML: paragraphs and breaks",
+    "it": "HTML: i paragrafi e le interruzioni (p, br)"
+   },
+   {
+    "en": "Empty paragraphs, line breaks, etc.: the wrong ways to add vertical space",
+    "it": "Paragrafi vuoti, ritorni a capo, ecc.: tutti i modi (sbagliati) per aggiungere spazi verticali in un documento.",
+    "type": "esempio"
+   },
+   {
+    "en": "Marking the document base structure: the h elements",
+    "it": "Marcare la struttura base di un documento: gli elementi h"
+   },
+   {
+    "en": "The semantic value of a correct markup",
+    "it": "L'importanza semantica del markup corretto"
+   },
+   {
+    "en": "The new HTML5 sectioning elements",
+    "it": "I nuovi elementi di sezionamento in HTML5"
+   },
+   {
+    "ref": "HTML_Examples",
+	"link": "https://github.com/WebEngineering-Univaq/HTML_Examples",
+    "en": "Actual rendering of the HTML elements",
+    "it": "Rendering dei vari elementi HTML nei browser",
+    "type": "esempio"
+   },
+   {
+    "en": "HTML: the div and span containers",
+    "it": "HTML: i contenitori (div e span)"
+   },
+   {
+    "en": "HTML: semantic formatting",
+    "it": "HTML: la formattazione semantica (em, code, pre, ins, q,...)"
+   },
+   {
+    "en": "HTML: base formatting",
+    "it": "HTML: la formattazione di base (i,b,tt,...)"
+   },
+   {
+    "en": "New behaviour of some formatting elements in HTML5",
+    "it": "Nuovo comportamento di alcuni tag di formattazione in HTML5"
+   },
+   {
+    "en": "HTML: lists",
+    "it": "HTML: le liste (ol, ul, dl)"
+   }  
+  ],
+  "title": {"all": "HTML /1"}
  }
 ]
