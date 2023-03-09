@@ -1,218 +1,350 @@
 [
- {
-  "date": "2023-02-28T18:30:00",
-  "duration": 2,
-  "arguments": [
-   {
-    "en": "Course presentation",
-    "it": "Presentazione del corso"
-   },
-   {
-    "en": "The origins of WWW",
-    "it": "Le origini del Web"
-   },
-   {
-    "en": "The client-server architecture",
-    "it": "L'architettura client-server"
-   },
-   {"all": "Web 2.0: Rich Internet Applications, Social Web"},
-   {
-    "en": "Today's web problems: accessibility, usability, cross-browser programming, security, mobile first,...",
-    "it": "I problemi del web odierno: accessibilita', fruibilita' cross-browser, sicurezza, usabilita', mobile first,..."
-   },
-   {
-    "en": "Web technologies: client side (HTML5, CSS3 e responsive design, Javascript, AJAX)",
-    "it": "Le tecnologie per il web: lato client (HTML5, CSS3 e responsive design, Javascript, AJAX)"
-   },
-   {
-    "en": "Web technologies: server side (Java servlets, JDBC, Freemarker templates)",
-    "it": "Le tecnologie per il web: lato server (Java servlets, JDBC, Freemarker templates)"
-   },
-   {
-    "en": "Creating a website with the MVC pattern: separation between data, business logic and presentation",
-    "it": "La realizzazione di un'applicazione web secondo il pattern MVC: il modello dei dati, la logica, la presentazione"
-   },
-   {
-    "en": "The HTTP protocol",
-    "it": "Il protocollo HTTP"
-   }
-  ],
-  "title": {
-   "en": "Modern web: technologies, challenges and problems",
-   "it": "Il web moderno: tecnologie, sfide, problemi"
+  {
+    "date": "2023-02-28T18:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "en": "Course presentation",
+        "it": "Presentazione del corso"
+      },
+      {
+        "en": "The origins of WWW",
+        "it": "Le origini del Web"
+      },
+      {
+        "en": "The client-server architecture",
+        "it": "L'architettura client-server"
+      },
+      {
+        "all": "Web 2.0: Rich Internet Applications, Social Web"
+      },
+      {
+        "en": "Today's web problems: accessibility, usability, cross-browser programming, security, mobile first,...",
+        "it": "I problemi del web odierno: accessibilita', fruibilita' cross-browser, sicurezza, usabilita', mobile first,..."
+      },
+      {
+        "en": "Web technologies: client side (HTML5, CSS3 e responsive design, Javascript, AJAX)",
+        "it": "Le tecnologie per il web: lato client (HTML5, CSS3 e responsive design, Javascript, AJAX)"
+      },
+      {
+        "en": "Web technologies: server side (Java servlets, JDBC, Freemarker templates)",
+        "it": "Le tecnologie per il web: lato server (Java servlets, JDBC, Freemarker templates)"
+      },
+      {
+        "en": "Creating a website with the MVC pattern: separation between data, business logic and presentation",
+        "it": "La realizzazione di un'applicazione web secondo il pattern MVC: il modello dei dati, la logica, la presentazione"
+      },
+      {
+        "en": "The HTTP protocol",
+        "it": "Il protocollo HTTP"
+      }
+    ],
+    "title": {
+      "en": "Modern web: technologies, challenges and problems",
+      "it": "Il web moderno: tecnologie, sfide, problemi"
+    }
+  },
+  {
+    "date": "2022-03-03T09:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "ref": "Slides XML-R",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides",
+        "en": "What is and what is not XML",
+        "it": "Cosa e' e cosa non e' XML"
+      },
+      {
+        "en": "XML base syntax: the XML declaration",
+        "it": "Sintassi base di un documento XML: la dichiarazione XML"
+      },
+      {
+        "en": "Character encoding problems",
+        "it": "Problemi con il character encoding",
+        "type": "esempio"
+      },
+      {
+        "en": "Character encoding: what is really UTF-8? (and UTF-16? and ISO-8859-1??)",
+        "it": "Character encoding: cos'e' veramente UTF-8? (e UTF-16? e ISO-8859-1??)"
+      },
+      {
+        "en": "Character encoding: can also be a security problem: the UTF-7 attack",
+        "it": "Character encoding: puo' essere anche un problema di sicurezza: l'attacco UTF-7",
+        "type": "esempio"
+      },
+      {
+        "en": "XML base syntax: the DOCTYPE declaration",
+        "it": "Sintassi base di un documento XML: la dichiarazione DOCTYPE"
+      },
+      {
+        "en": "Correct declaration of the HTML version in use",
+        "it": "Dichiarare correttamente la versione di HTML un uso",
+        "type": "esempio"
+      },
+      {
+        "en": "Standards and Quirks modes",
+        "it": "Standards e Quirks mode per i browser"
+      },
+      {
+        "en": "XML base syntax: elements and their syntactic rules",
+        "it": "Sintassi base XML: Elementi e regole sintattiche"
+      },
+      {
+        "en": "Common problems related to element syntax",
+        "it": "Problemi comuni legati alla sintassi degli elementi",
+        "type": "esempio"
+      },
+      {
+        "en": "XML base syntax: attributes and their syntcatic rules",
+        "it": "Sintassi base XML: Attributi e regole sintattiche"
+      },
+      {
+        "en": "Common problems related to attribute syntax",
+        "it": "Problemi comuni legati alla sintassi degli attributi",
+        "type": "esempio"
+      },
+      {
+        "en": "XML base syntax: text and character entities",
+        "it": "Sintassi base XML: Testo ed entita' carattere"
+      },
+      {
+        "en": "XSS attacks and the correct use of entities for reserved characters",
+        "it": "Attacchi XSS e uso corretto delle entita' per i caratteri riservati",
+        "type": "esempio"
+      },
+      {
+        "en": "XML base syntax: CDATA sections",
+        "it": "Sintassi base XML: le sezioni CDATA"
+      },
+      {
+        "en": "The problem with embedded scripts in HTML pages",
+        "it": "Il problema degli script incorporati nelle pagine HTML",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "all": "XML"
+    }
+  },
+  {
+    "date": "2023-03-07T16:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "all": "HTML4, XHTML1, HTML5",
+        "ref": "Slides HTML",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      },
+      {
+        "en": "Standards and Quirks modes",
+        "it": "Standards e Quirks mode per i browser"
+      },
+      {
+        "en": "The HTML5 mode",
+        "it": "La modalita' HTML5"
+      },
+      {
+        "en": "The Polyglot HTML5",
+        "it": "L'HTML5 poliglotta"
+      },
+      {
+        "en": "HTML: inline and block elements",
+        "it": "HTML: elementi blocco e inline"
+      },
+      {
+        "en": "The new element classification in HTML5",
+        "it": "La nuova classificazione degli elementi in HTML5"
+      },
+      {
+        "en": "HTML: common attributes",
+        "it": "HTML: gli attributi comuni (id, class, style, title, lang, ...)"
+      },
+      {
+        "en": "New HTML5 common attributes: data, aria,...",
+        "it": "Nuovi attributi comuni in HTML5: data, aria,...",
+        "ref": "HTML_Examples - HTML5",
+        "link": "https://github.com/WebEngineering-Univaq/HTML_Examples"
+      },
+      {
+        "en": "Use of the ARIA attributes in complex, customized layouts",
+        "it": "Uso degli attributi ARIA nei layout complessi e personalizzati.",
+        "type": "esempio"
+      },
+      {
+        "en": "HTML: paragraphs and breaks",
+        "it": "HTML: i paragrafi e le interruzioni (p, br)"
+      },
+      {
+        "en": "Empty paragraphs, line breaks, etc.: the wrong ways to add vertical space",
+        "it": "Paragrafi vuoti, ritorni a capo, ecc.: tutti i modi (sbagliati) per aggiungere spazi verticali in un documento.",
+        "type": "esempio"
+      },
+      {
+        "en": "Marking the document base structure: the h elements",
+        "it": "Marcare la struttura base di un documento: gli elementi h"
+      },
+      {
+        "en": "The semantic value of a correct markup",
+        "it": "L'importanza semantica del markup corretto"
+      },
+      {
+        "en": "The new HTML5 sectioning elements",
+        "it": "I nuovi elementi di sezionamento in HTML5",
+        "ref": "HTML_Examples - HTML5",
+        "link": "https://github.com/WebEngineering-Univaq/HTML_Examples"
+      },
+      {
+        "ref": "HTML_Examples",
+        "link": "https://github.com/WebEngineering-Univaq/HTML_Examples",
+        "en": "Actual rendering of the HTML elements",
+        "it": "Rendering dei vari elementi HTML nei browser",
+        "type": "esempio"
+      },
+      {
+        "en": "HTML: the div and span containers",
+        "it": "HTML: i contenitori (div e span)"
+      },
+      {
+        "en": "HTML: semantic formatting",
+        "it": "HTML: la formattazione semantica (em, code, pre, ins, q,...)"
+      },
+      {
+        "en": "HTML: base formatting",
+        "it": "HTML: la formattazione di base (i,b,tt,...)"
+      },
+      {
+        "en": "New behaviour of some formatting elements in HTML5",
+        "it": "Nuovo comportamento di alcuni tag di formattazione in HTML5"
+      },
+      {
+        "en": "HTML: lists",
+        "it": "HTML: le liste (ol, ul, dl)"
+      }
+    ],
+    "title": {
+      "all": "HTML /1"
+    }
+  },
+  {
+    "date": "2022-03-10T09:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "en": "Creating a menu with graceful degradation using lists ",
+        "it": "Creare menu che \"degradano bene\" usando le liste",
+        "type": "esempio"
+      },
+      {
+        "en": "Lists as semantic element in complex layouts",
+        "it": "Usare le liste come elemento semantico nei layout complessi"
+      },
+      {
+        "en": "Validation of HTML documents",
+        "it": "Validazione dei documenti html",
+        "link": "https://validator.w3.org"
+      },
+      {
+        "en": "HTML: tables",
+        "it": "HTML: le tabelle (table)",
+        "ref": "HTML_Examples - Tables",
+        "link": "https://github.com/WebEngineering-Univaq/HTML_Examples"
+      },
+      {
+        "en": "The border attribute (and its defaults)",
+        "it": "L'attributo border (e i suoi diversi valori di default)"
+      },
+      {
+        "en": "Base table structure: rows (tr) and cells (td)",
+        "it": "Struttura semplice di tabella: righe (tr) e celle (td)"
+      },
+      {
+        "en": "Header cells (th)",
+        "it": "Le celle di intestazione (th)"
+      },
+      {
+        "en": "Creating complex tables with colspan and rowspan",
+        "it": "Costruire tabelle complesse con colspan e rowspan"
+      },
+      {
+        "en": "The complete table structure: header (thead), body (tbody), footer (tfoot)",
+        "it": "Struttura completa di tabella: intestazione (thead), corpo (tbody), pie' di tabella (tfoot)"
+      },
+      {
+        "en": "Watch out for the implicit tbody element...",
+        "it": "Attenzione all'elemento tbody implicito...",
+        "type": "esempio"
+      },
+      {
+        "en": "Column (col) and column group (colgroup) declaration",
+        "it": "Dichiarare le colonne (col) e i gruppi di colonne (colgroup)"
+      },
+      {
+        "en": "Hyperlinks (a)",
+        "it": "I collegamenti ipertestuali (a)"
+      },
+      {
+        "en": "Anchors and fragment identifiers",
+        "it": "Ancore nei documenti e fragment identifiers"
+      },
+      {
+        "en": "Jump directly to the page content",
+        "it": "Saltare rapidamente al contenuto di una pagina",
+        "type": "esempio"
+      },
+      {
+        "en": "Logical links between resources (link)",
+        "it": "Collegamenti logici tra risorse (link)"
+      },
+      {
+        "en": "Alternate documents",
+        "it": "Documenti alternativi",
+        "type": "esempio"
+      },
+      {
+        "en": "External stylesheets",
+        "it": "Collagamento di fogli di stile esterni",
+        "type": "esempio"
+      },
+      {
+        "en": "Adding a RSS feed to a web page",
+        "it": "Collegare un feed RSS a una pagina",
+        "type": "esempio"
+      },
+      {
+        "en": "Adding a 'shortcut icon'  to a web page",
+        "it": "Collegare una 'shortcut icon' a una pagina",
+        "type": "esempio"
+      },
+      {
+        "en": "Page loading optimization: preload and prefetch links",
+        "it": "Ottimizzare il caricamento di una pagina: i link di tipo preload e prefetch",
+        "type": "esempio"
+      },
+      {
+        "en": "Images in web pages",
+        "it": "Le immagini nelle pagine web (img)",
+        "ref": "HTML_Examples - Images",
+        "link": "https://github.com/WebEngineering-Univaq/HTML_Examples"
+      },
+      {
+        "en": "Accessible images: the alt attribute",
+        "it": "Accessibilita' delle immagini: l'attributo alt"
+      },
+      {
+        "en": "Client size image resizing",
+        "it": "Resizing delle immagini client side"
+      },
+      {
+        "en": "Server and server side image maps",
+        "it": "Le mappe immagine server e client side"
+      },
+      {
+        "en": "The new HTML5 elements video, audio and canvas",
+        "it": "I nuovi elementi HTML5 video, audio e canvas"
+      }
+    ],
+    "title": {
+      "all": "HTML /2"
+    }
   }
- },
- {
-  "date": "2022-03-03T09:30:00",
-  "duration": 2,
-  "arguments": [
-   {
-    "ref": "Slides XML-R",
-	"link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides",
-    "en": "What is and what is not XML",
-    "it": "Cosa e' e cosa non e' XML"
-   },
-   {
-    "en": "XML base syntax: the XML declaration",
-    "it": "Sintassi base di un documento XML: la dichiarazione XML"
-   },
-   {
-    "en": "Character encoding problems",
-    "it": "Problemi con il character encoding",
-    "type": "esempio"
-   },
-   {
-    "en": "Character encoding: what is really UTF-8? (and UTF-16? and ISO-8859-1??)",
-    "it": "Character encoding: cos'e' veramente UTF-8? (e UTF-16? e ISO-8859-1??)"
-   },
-   {
-    "en": "Character encoding: can also be a security problem: the UTF-7 attack",
-    "it": "Character encoding: puo' essere anche un problema di sicurezza: l'attacco UTF-7",
-    "type": "esempio"
-   },
-   {
-    "en": "XML base syntax: the DOCTYPE declaration",
-    "it": "Sintassi base di un documento XML: la dichiarazione DOCTYPE"
-   },
-   {
-    "en": "Correct declaration of the HTML version in use",
-    "it": "Dichiarare correttamente la versione di HTML un uso",
-    "type": "esempio"
-   },
-   {
-    "en": "Standards and Quirks modes",
-    "it": "Standards e Quirks mode per i browser"
-   },
-   {
-    "en": "XML base syntax: elements and their syntactic rules",
-    "it": "Sintassi base XML: Elementi e regole sintattiche"
-   },
-   {
-    "en": "Common problems related to element syntax",
-    "it": "Problemi comuni legati alla sintassi degli elementi",
-    "type": "esempio"
-   },
-   {
-    "en": "XML base syntax: attributes and their syntcatic rules",
-    "it": "Sintassi base XML: Attributi e regole sintattiche"
-   },
-   {
-    "en": "Common problems related to attribute syntax",
-    "it": "Problemi comuni legati alla sintassi degli attributi",
-    "type": "esempio"
-   },
-   {
-    "en": "XML base syntax: text and character entities",
-    "it": "Sintassi base XML: Testo ed entita' carattere"
-   },
-   {
-    "en": "XSS attacks and the correct use of entities for reserved characters",
-    "it": "Attacchi XSS e uso corretto delle entita' per i caratteri riservati",
-    "type": "esempio"
-   },
-   {
-    "en": "XML base syntax: CDATA sections",
-    "it": "Sintassi base XML: le sezioni CDATA"
-   },
-   {
-    "en": "The problem with embedded scripts in HTML pages",
-    "it": "Il problema degli script incorporati nelle pagine HTML",
-    "type": "esempio"
-   }
-  ],
-  "title": {"all": "XML"}
- },
- {
-  "date": "2023-03-07T16:30:00",
-  "duration": 2,
-  "arguments": [  
-   {
-    "all": "HTML4, XHTML1, HTML5",
-    "ref": "Slides HTML",
-	"link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
-   },
-   {
-    "en": "Standards and Quirks modes",
-    "it": "Standards e Quirks mode per i browser"
-   },
-   {
-    "en": "The HTML5 mode",
-    "it": "La modalita' HTML5"
-   },
-   {
-    "en": "The Polyglot HTML5",
-    "it": "L'HTML5 poliglotta"
-   },
-   {
-    "en": "HTML: inline and block elements",
-    "it": "HTML: elementi blocco e inline"
-   },
-   {
-    "en": "The new element classification in HTML5",
-    "it": "La nuova classificazione degli elementi in HTML5"
-   },
-   {
-    "en": "HTML: common attributes",
-    "it": "HTML: gli attributi comuni (id, class, style, title, lang, ...)"
-   },
-   {
-    "en": "New HTML5 common attributes: data, aria,...",
-    "it": "Nuovi attributi comuni in HTML5: data, aria,..."
-   },
-   {
-    "en": "Use of the ARIA attributes in complex, customized layouts",
-    "it": "Uso degli attributi ARIA nei layout complessi e personalizzati.",
-    "type": "esempio"
-   },
-   {
-    "en": "HTML: paragraphs and breaks",
-    "it": "HTML: i paragrafi e le interruzioni (p, br)"
-   },
-   {
-    "en": "Empty paragraphs, line breaks, etc.: the wrong ways to add vertical space",
-    "it": "Paragrafi vuoti, ritorni a capo, ecc.: tutti i modi (sbagliati) per aggiungere spazi verticali in un documento.",
-    "type": "esempio"
-   },
-   {
-    "en": "Marking the document base structure: the h elements",
-    "it": "Marcare la struttura base di un documento: gli elementi h"
-   },
-   {
-    "en": "The semantic value of a correct markup",
-    "it": "L'importanza semantica del markup corretto"
-   },
-   {
-    "en": "The new HTML5 sectioning elements",
-    "it": "I nuovi elementi di sezionamento in HTML5"
-   },
-   {
-    "ref": "HTML_Examples",
-	"link": "https://github.com/WebEngineering-Univaq/HTML_Examples",
-    "en": "Actual rendering of the HTML elements",
-    "it": "Rendering dei vari elementi HTML nei browser",
-    "type": "esempio"
-   },
-   {
-    "en": "HTML: the div and span containers",
-    "it": "HTML: i contenitori (div e span)"
-   },
-   {
-    "en": "HTML: semantic formatting",
-    "it": "HTML: la formattazione semantica (em, code, pre, ins, q,...)"
-   },
-   {
-    "en": "HTML: base formatting",
-    "it": "HTML: la formattazione di base (i,b,tt,...)"
-   },
-   {
-    "en": "New behaviour of some formatting elements in HTML5",
-    "it": "Nuovo comportamento di alcuni tag di formattazione in HTML5"
-   },
-   {
-    "en": "HTML: lists",
-    "it": "HTML: le liste (ol, ul, dl)"
-   }  
-  ],
-  "title": {"all": "HTML /1"}
- }
 ]
