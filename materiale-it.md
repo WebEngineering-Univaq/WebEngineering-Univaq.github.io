@@ -55,7 +55,7 @@ e installate tutto il software necessario
 </ul>
 {% endif %}
   
- 
+
 {% if courseinfo.testi %}
 ## Libri di Testo  {#testi}
 {% assign a =  courseinfo.testi | where_exp: "testo","testo.lingua == language" %}

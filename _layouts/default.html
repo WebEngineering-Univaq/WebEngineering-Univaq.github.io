@@ -38,7 +38,7 @@
 		<ul class="nav mb-1 flex-row flex-sm-column nav-pills">
 		{% for item in site.data[menufile] %}
 		{% assign itemurlseg = item.url | split: '#' %}
-		<li class="nav-item"><a  class="nav-link {% if itemurlseg[0]==page.url  %} active {% endif %}" href="{{ item.url }}">		
+		<li class="nav-item"><a  class="nav-link {% if itemurlseg[0]==page.url  %} active {% endif %}" href="{{ item.url }}">
 		{% if item.icon %}<span class="bi {{item.icon}}"></span>&nbsp;{% endif %}{{ item.label }}</a></li>
 		{% endfor %}
 		</ul>
@@ -69,8 +69,8 @@
 		{% endif %}
 		</ul>
 	</div>
-      </header>
-	        </div>
+    </header>
+ </div>
 			
       <section class="py-sm-5 col">
        

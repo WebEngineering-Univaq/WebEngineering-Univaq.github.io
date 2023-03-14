@@ -61,7 +61,7 @@ and set-up all the required software
 {% endif %}</li>{% endfor %}
 </ul>
 {% endif %}
-  
+
 
 {% if courseinfo.testi %}
 ## Textbooks  {#testi}
