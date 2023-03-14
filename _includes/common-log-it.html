@@ -109,8 +109,8 @@ document.getElementById('jumpto').addEventListener("change",function() {
 {% if argomento[language] %} {{ argomento[language] }}
 {% elsif argomento['all'] %} {{ argomento['all'] }}{% endif %}
 {% if argomento.ref %} 
-<small><em>(materiale: {% if argomento.link %}<a href="{{ argomento.link }}">{% endif %}{{ argomento.ref }}{% if argomento.link %}</a>{% endif %})</em>
-{% elsif argomento.link %}  <em>(<a href="{{ argomento.link }}">{{ argomento.link }}</a>)</em></small>
+<small><em>(materiale: {% if argomento.link %}<a href="{{ argomento.link }}">{% endif %}{{ argomento.ref }}{% if argomento.link %}</a>{% endif %})</em></small>
+{% elsif argomento.link %}  <small><em>(<a href="{{ argomento.link }}">{{ argomento.link }}</a>)</em></small>
 {% endif %}
 </li>
 {% endunless %}
