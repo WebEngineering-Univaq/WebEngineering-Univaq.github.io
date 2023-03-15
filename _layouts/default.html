@@ -23,7 +23,7 @@
 	<div class="row">
 	<div class="sidebar col-sm-3 col-12">
 	<img src="https://www.disim.univaq.it/skins/aqua/img/logo2021-2.png" title="" alt="University of L'Aquila" >
-      <a name="top"/>
+      <a name="top"></a>
 	  <header class="sticky-md-top clearfix">
 	  
         <h1 class="header"><a href="/{{language}}/info">{{ courseinfo.nome }}</a></h1>
@@ -84,12 +84,12 @@
   {% if language == 'it' %}
   <p><small>{% if courseinfo.codice %}<strong>Codice corso:</strong> {{ courseinfo.codice }}{% endif %} {% if courseinfo.team %}<strong>Codice team del corso:</strong> {{ courseinfo.team }}{% endif %}</small></p>
 	  	          <p ><strong>Docente: </strong> <a href="{{ courseinfo.docente.url }}">{{ courseinfo.docente.nome }}</a></p>  	            	  
-  	              <p><strong>Ricevimento studenti docente: </strong> {{ courseinfo.docente.ricevimento['it' }} <em>(E’ consigliabile contattare preventivamente il docente per concordare le modalità del ricevimento</em>)</p>
+  	              <p><strong>Ricevimento studenti docente: </strong> {{ courseinfo.docente.ricevimento['it'] }} <em>(E’ consigliabile contattare preventivamente il docente per concordare le modalità del ricevimento</em>)</p>
 				<p><strong>Email docente:</strong> {{ courseinfo.docente.email }}</p>
 		{% else %}
 		<p><small>{% if courseinfo.codice %}<strong>Course code:</strong> {{ courseinfo.codice }}{% endif %} {% if courseinfo.team %}<strong>Course team code:</strong> {{ courseinfo.team }}{% endif %}</small></p>
 	      <p ><strong>Teacher: </strong> <a href="{{ courseinfo.docente.url }}">{{ courseinfo.docente.nome }}</a></p>
-       <p ><strong>Teacher Office Hours: </strong> {{ courseinfo.docente.ricevimento['en' }} <em>(Please contact the teacher in advance to agree the meeting modality</em>)</p>
+       <p ><strong>Teacher Office Hours: </strong> {{ courseinfo.docente.ricevimento['en'] }} <em>(Please contact the teacher in advance to agree the meeting modality</em>)</p>
 	<p ><strong>Teacher Email:</strong> {{ courseinfo.docente.email }}</p>
 	{% endif %}
       </footer>
