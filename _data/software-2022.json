@@ -43,7 +43,7 @@
       "nome": "Microsoft Edge (Chromium)"
     },
     {
-      "url": "http://tidy.sourceforge.net/",
+      "url": "https://github.com/htacg/tidy-html5",
       "nome": "HTML Tidy",
       "commento": {
         "it": "Un tool per verificare la correttezza e l'accessibilità delle pagine web",
@@ -51,11 +51,11 @@
       }
     },
     {
-      "url": "http://users.skynet.be/mgueury/mozilla/download.html",
+      "url": "https://chrome.google.com/webstore/detail/html-validator/mpbelhhnfhfjnaehkcnnaknldmnocglk",
       "nome": "HTML Validator",
       "commento": {
-        "it": "Un add-on che permette di validare le proprie pagine senza passare per il sito del W3C.",
-        "en": "An add-on to automatically validate web pages."
+        "it": "Un plugin che permette di validare le proprie pagine senza passare per il sito del W3C (esiste anche per Firefox).",
+        "en": "A plugin to automatically validate web pages (there is also a Firefox version)."
       }
     },
     {

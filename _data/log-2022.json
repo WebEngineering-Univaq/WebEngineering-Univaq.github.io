@@ -1,6 +1,6 @@
 [
   {
-    "date": "2023-02-28T18:30:00",
+    "date": "2023-02-28 16:30:00",
     "duration": 2,
     "arguments": [
       {
@@ -45,7 +45,7 @@
     }
   },
   {
-    "date": "2022-03-03T09:30:00",
+    "date": "2022-03-03 09:30:00",
     "duration": 2,
     "slides": [
       {
@@ -133,7 +133,7 @@
     }
   },
   {
-    "date": "2023-03-07T16:30:00",
+    "date": "2023-03-07 16:30:00",
     "duration": 2,
     "slides": [
       {
@@ -238,7 +238,7 @@
     }
   },
   {
-    "date": "2023-03-09T09:30:00",
+    "date": "2023-03-09 09:30:00",
     "duration": 2,
     "slides": [
       {
@@ -366,7 +366,7 @@
     }
   },
   {
-    "date": "2023-03-14T14:30:00",
+    "date": "2023-03-14 16:30:00",
     "duration": 2,
     "slides": [
       {
@@ -463,6 +463,97 @@
     ],
     "title": {
       "all": "HTML /3"
+    }
+  },
+  {
+    "date": "2023-03-16 09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "HTML",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      },
+      {
+        "name": "Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "ref": "HTML_Examples - Forms",
+        "link": "https://github.com/WebEngineering-Univaq/HTML_Examples",
+        "en": "Different renderings of select controls",
+        "it": "Rendering diversi del controllo select"
+      },
+      {
+        "en": "Options and option groups",
+        "it": "Opzioni e raggruppamento (option, optgroup)"
+      },
+      {
+        "en": "Accessible control labels (label)",
+        "it": "Etichette accessibili per i controlli (label)"
+      },
+      {
+        "en": "Different use cases for hidden inputs",
+        "it": "Gli input hidden e i loro diversi casi d'uso",
+        "type": "esempio"
+      },
+      {
+        "en": "Hidden inputs and CSRF tokens",
+        "it": "Gli input hidden per trasmettere CSRF token",
+        "type": "esempio",
+        "link": "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html"
+      },
+      {
+        "ref": "Slides WSS",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides",
+        "en": "How to really hide data exchanged between server and client: the https protocol",
+        "it": "Come nascondere veramente i dati scambiati tra server e client: il protocollo https"
+      },
+      {
+        "en": "How to check (and integrate) your Java development platform",
+        "it": "Verificare (ed integrare) la propria piattaforma Java di sviluppo",
+        "type": "esempio"
+      },
+      {
+        "en": "Java Enterprise Edition: versions and profiles",
+        "it": "La Java enterprise Edition (JEE), le sue versioni e i suoi profili",
+        "ref": "Slides Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      },
+      {
+        "en": "Migration from JEE to JakartaEE: issues and solutions",
+        "it": "Migrazione dalla JEE alla JakartaEE: problemi e soluzioni",
+        "link": "https://blogs.oracle.com/javamagazine/post/transition-from-java-ee-to-jakarta-ee"
+      },
+      {
+        "en": "(Private) Installation of an updated JDK",
+        "it": "Installazione (privata) di una JDK aggiornata"
+      },
+      {
+        "en": "Netbeans IDE introduction",
+        "it": "Presentazione del Netbeans IDE"
+      },
+      {
+        "en": "Apache Tomcat server installation and introduction",
+        "it": "Presentazione e installazione del server Apache Tomcat"
+      },
+      {
+        "en": "Servlets and containers",
+        "it": "Le servlet e i container"
+      },
+      {
+        "en": "Some useful tips to link Netbeans and Tomcat",
+        "it": "Suggerimenti utili per collegare Netbeans e Tomcat",
+        "type": "esempio"
+      },
+      {
+        "en": "Introduction to servlet programming",
+        "it": "Introduzione alla programmazione delle servlet"
+      }
+    ],
+    "title": {
+      "all": "Java Web Applications"
     }
   }
 ]
