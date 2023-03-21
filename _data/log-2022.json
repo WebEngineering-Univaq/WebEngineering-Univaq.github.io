@@ -401,7 +401,15 @@
         "en": "The POST-Redirect-GET pattern for form submission",
         "it": "Il pattern POST-Redirect-GET per la sottomissione di form",
         "type": "esempio",
-        "link": "https://en.wikipedia.org/wiki/Post/Redirect/Get"
+        "attachments": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Post/Redirect/Get"
+          },
+          {
+            "name": "Java_Example_Post_Redirect_Get",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Post_Redirect_Get"
+          }
+        ]
       },
       {
         "en": "Using accept-charset to solve further encoding issues (this time between client and server)",
@@ -554,6 +562,94 @@
     ],
     "title": {
       "all": "Java Web Applications"
+    }
+  },
+  {
+    "date": "2023-03-21T16:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "The web application context and the url mapping",
+        "it": "Il contesto di una web application e l'url mapping nei servlet container"
+      },
+      {
+        "en": "The web application base structure",
+        "it": "La struttura di base di una web application"
+      },
+      {
+        "en": "The web application folder structure",
+        "it": "Struttura (fisica) di una web application"
+      },
+      {
+        "en": "How to create a new web application in Netbeans",
+        "it": "Creare una nuova applicazione web in Netbeans",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_WebApp_Base_T9",
+            "link": "https://github.com/WebEngineering-Univaq/Java_WebApp_Base_T9"
+          }
+        ]
+      },
+      {
+        "en": "The project object model (POM) of a web application and how to fix it in case of problems",
+        "it": "Il project object model (POM) di una web application e come correggerlo in caso di problemi",
+        "type": "esempio"
+      },
+      {
+        "en": "Compiling, deploying and executing a web application",
+        "it": "Compilazione, deploy ed eseguzione di una web application",
+        "type": "esempio"
+      },
+      {
+        "en": "How to add static resources to a web application using Netbeans",
+        "it": "Aggiungere risorse statiche (html, css, ecc.) a una web application in Netbeans",
+        "type": "esempio"
+      },
+      {
+        "en": "How to create a new servlet in a web application using Netbeans",
+        "it": "Creare una servlet vuota con Netbeans",
+        "type": "esempio"
+      },
+      {
+        "en": "Deployment descriptors",
+        "it": "Il web deployment descriptor (web.xml)",
+        "attachments": [
+          {
+            "name": "Java Servlet Specification, version 2.3, Chapter 13 - Deployment Descriptor",
+            "link": "https://download.oracle.com/otndocs/jcp/7840-servlet-2.3-spec-oth-JSpec/"
+          }
+        ]
+      },
+      {
+        "en": "The context configuration file (context.xml)",
+        "it": "Il file di configurazione del contesto (context.xml)",
+        "attachments": [
+          {
+            "link": "https://tomcat.apache.org/tomcat-10.0-doc/appdev/deployment.html"
+          }
+        ]
+      },
+      {
+        "en": "How to adapt the base project to execute it with JakartaEE/Tomcat 10",
+        "it": "Adattare il progetto di base per eseguirlo con JakartaEE/Tomcat 10",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_WebApp_Base_T10",
+            "link": "https://github.com/WebEngineering-Univaq/Java_WebApp_Base_T10"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "Java Servlets /1"
     }
   }
 ]
