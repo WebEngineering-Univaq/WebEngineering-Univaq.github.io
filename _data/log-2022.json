@@ -45,7 +45,7 @@
     }
   },
   {
-    "date": "2022-03-03 09:30:00",
+    "date": "2023-03-03 09:30:00",
     "duration": 2,
     "slides": [
       {
@@ -650,6 +650,66 @@
     ],
     "title": {
       "all": "Java Servlets /1"
+    }
+  },
+  {
+    "date": "2023-03-23T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "The servlet base interfaces",
+        "it": "Le interfacce base delle servlet: Servlet, ServletRequest, ServletResponse"
+      },
+      {
+        "en": "The servlet lifecycle",
+        "it": "Il ciclo di vita di una servlet: inizializzazione, servizio, finalizzazione"
+      },
+      {
+        "en": "Servlet initialization and finalization",
+        "it": "Inizializzare e finalizzare una servlet: init e destroy"
+      },
+      {
+        "en": "The HttpServlet class and its doGet and doPost methods",
+        "it": "La classe HttpServlet e i metodi doGet e doPost"
+      },
+      {
+        "en": "Writing data to the client",
+        "it": "Scrivere informazioni verso il client: la classe HttpServletResponse"
+      },
+      {
+        "en": "Textual and binary output from a servlet",
+        "it": "Output testuale e binario da una servlet"
+      },
+      {
+        "en": "The \"Hello World\" servlet",
+        "it": "La servlet 'Salutami'",
+        "type": "esempio"
+      },
+      {
+        "en": "Headers and payload of an HTTP response",
+        "it": "Scrittura degli headers e del payload di un messaggio HTTP"
+      },
+      {
+        "en": "Multithreading in the HttpServlet class: per-thread and shared variables",
+        "it": "Multithreading con la classe HttpServlet: variabili per-thread e condivise"
+      },
+      {
+        "en": "Communication among application layers through request attributes",
+        "it": "Comunicazione tra gli strati dell'applicazione tramite gli attributi della HttpServletRequest"
+      },
+      {
+        "en": "Effective error and exception handling in servlets",
+        "it": "Gestire efficacemente gli errori e le eccezioni in una servlet"
+      }
+    ],
+    "title": {
+      "all": "Java Servlets /2"
     }
   }
 ]
