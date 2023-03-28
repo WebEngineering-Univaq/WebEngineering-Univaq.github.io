@@ -711,5 +711,85 @@
     "title": {
       "all": "Java Servlets /2"
     }
+  },
+  {
+    "date": "2023-03-28T16:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Returning HTTP error codes from a servlet",
+        "it": "Restituire codici di errore HTTP da una servlet"
+      },
+      {
+        "en": "Getting user input through HttpServletRequest",
+        "it": "Gestire l'input utente: uso della classe HttpServletRequest"
+      },
+      {
+        "en": "Reading form GET parameters: getParameter and getParameterValues",
+        "it": "Elaborazione delle form in modalita' GET: i metodi getParameter e getParameterValues"
+      },
+      {
+        "en": "Output sanification to prevent XSS attacks",
+        "it": "Sanitizzare l'output per prevenire attacchi XSS"
+      },
+      {
+        "en": "The \"Hello World\" servlet with a name parameter",
+        "it": "La servlet 'Salutami' anonima e personalizzata",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Servlet",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Servlet"
+          }
+        ]
+      },
+      {
+        "en": "Output logic (view) encapsulation and application layers",
+        "it": "Incapsulare la logica di output e separare meglio gli strati dell'applicazione"
+      },
+      {
+        "en": "The restructured \"Hello World\" servlet",
+        "it": "La servlet 'Salutami' con una struttura avanzata",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Servlet_Fwk",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Servlet_Fwk"
+          }
+        ]
+      },
+      {
+        "en": "Binary data download through servlets",
+        "it": "Trasmissione di dati binari dalla servlet al client"
+      },
+      {
+        "en": "Security issues: why we should use a download servlet and how we should write it",
+        "it": "Considerazioni sulla sicurezza: perche' e come scrivere una download servlet"
+      },
+      {
+        "en": "Some interesting HTTP headers: Content-Type and Content-Disposition",
+        "it": "Alcuni header interessanti: Content-Type e Content-Disposition"
+      },
+      {
+        "en": "An example of download servlet",
+        "it": "Scrivere una download servlet",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Downloader",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Downloader"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "Java Servlets /3"
+    }
   }
 ]
