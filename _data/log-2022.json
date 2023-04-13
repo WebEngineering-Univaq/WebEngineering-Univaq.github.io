@@ -961,5 +961,143 @@
       "en": "Sessions and Security",
       "it": "Sessioni e Sicurezza"
     }
+  },
+  {
+    "date": "2023-04-13T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Java and DBMS: references to JDBC basics",
+        "it": "Java e i DBMS: richiami sulle nozioni di base del JDBC"
+      },
+      {
+        "en": "JDBC: adding the driver dependency to the project POM",
+        "it": "JDBC: aggiungere la dipendenza del driver al POM del progetto"
+      },
+      {
+        "en": "JDBC: the main classes (Connection, (Prepared)Statement, ResultSet)",
+        "it": "JDBC: le classi principali (Connection, (Prepared)Statement, ResultSet)"
+      },
+      {
+        "en": "JDBC: opening a connection through the DriverManager (not recommended in web applications!)",
+        "it": "JDBC: aprire una connessione tramite il DriverManager (sconsigliato nelle applicazioni web!)"
+      },
+      {
+        "en": "JDBC: execution of insert, update, delete queries",
+        "it": "JDBC: eseguire query di inserimento, aggiornamento, cancellazione"
+      },
+      {
+        "en": "JDBC: execution of select queries",
+        "it": "JDBC: eseguire query di selezione"
+      },
+      {
+        "en": "JDBC: closing resources (resultsets, statements and connections)",
+        "it": "JDBC: chiudere le risorse (resultset, statement e connessioni)"
+      },
+      {
+        "en": "JDBC: precompilation of (parametric) queries",
+        "it": "JDBC: precompilazione di query (parametriche)"
+      },
+      {
+        "en": "Reasons to use PreparedStatement in a web application: (efficiency and) safety (against SQL injection)",
+        "it": "Le ragioni per usare un PreparedStatement in una web application: (efficienza e) sicurezza (contro la SQL Injection)",
+        "type": "esempio"
+      },
+      {
+        "en": "When to open a connection in a web application/servlet and when to close it",
+        "it": "Quando aprire una connessione in una web application/servlet e quando chiuderla",
+        "type": "esempio"
+      },
+      {
+        "en": "Data access performances in web applications: the connection problem",
+        "it": "Performance nell'accesso ai dati nelle applicazioni web: il problema delle connessioni"
+      },
+      {
+        "en": "Reusing JDBC connections: connection pooling",
+        "it": "Riutilizzare le connessioni JDBC: il connection pooling"
+      },
+      {
+        "en": "Configuration of a JDBC data source in Tomcat (context.xml)",
+        "it": "Configurare una sorgente dati JDBC in Tomcat (context.xml)",
+        "attachments": [
+          {
+            "link": "https://tomcat.apache.org/tomcat-9.0-doc/jdbc-pool.html"
+          }
+        ]
+      },
+      {
+        "en": "Resource references in the deployment descriptor",
+        "it": "Riferimento alle risorse nel deployment descriptor"
+      },
+      {
+        "en": "Using Java naming services to obtain a DataSource",
+        "it": "Utilizzare i servizi di naming di Java per ottenere un DataSource"
+      },
+      {
+        "it": "Utilizzare la resource injection di JavaEE per ottenere un DataSource",
+        "en": "Using the JavaEE resource injection to obtain a DataSource",
+        "attachments": [
+          {
+            "link": "https://jcp.org/en/jsr/detail?id=250"
+          }
+        ]
+      },
+      {
+        "en": "JDBC: opening a connection through the DataSource (recommended in web applications!)",
+        "it": "JDBC: aprire una connessione tramite il DataSource (consigliato nelle applicazioni web!)"
+      },
+      {
+        "en": "JDBC with connection pooling",
+        "it": "Uso del JDBC con connection pooling",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Servlet_Database",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Servlet_Database"
+          }
+        ]
+      },
+      {
+        "ref": "Java_Example_Uploader",
+        "en": "Final example on forms and databases: a file repository",
+        "it": "Esempio finale sulle form e i database: un file repository",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Uploader",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Uploader"
+          }
+        ]
+      },
+      {
+        "en": "Create the digest of a file",
+        "it": "Calcolare il digest di un file",
+        "type": "esempio"
+      },
+      {
+        "en": "JDBC: Create a not-FORWARD_ONLY ResultSet and count the number of results",
+        "it": "JDBC: Creare un ResultSet non FORWARD_ONLY e contare il numero di resultati",
+        "type": "esempio"
+      },
+      {
+        "en": "JDBC: Get the auto-generated keys after an insert statement",
+        "it": "JDBC: Leggere le chiavi auto-generate dopo un inserimento",
+        "type": "esempio"
+      },
+      {
+        "en": "Presentation of the final project specifications",
+        "it": "Presentazione dei progetti d'esame"
+      }
+    ],
+    "title": {
+      "en": "Web Applications and Databases",
+      "it": "Web Applications e Database"
+    }
   }
 ]
