@@ -1064,7 +1064,6 @@
         ]
       },
       {
-        "ref": "Java_Example_Uploader",
         "en": "Final example on forms and databases: a file repository",
         "it": "Esempio finale sulle form e i database: un file repository",
         "type": "esempio",
@@ -1076,8 +1075,8 @@
         ]
       },
       {
-        "en": "Create the digest of a file",
-        "it": "Calcolare il digest di un file",
+        "en": "How to create the digest of a file",
+        "it": "Come calcolare il digest di un file",
         "type": "esempio"
       },
       {
