@@ -1098,5 +1098,70 @@
       "en": "Web Applications and Databases",
       "it": "Web Applications e Database"
     }
+  },
+  {
+    "date": "2023-04-18T16:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "en": "Creating a website with the MVC pattern: separation between data, business logic and presentation",
+        "it": "La realizzazione di un'applicazione web secondo il pattern MVC: il modello dei dati, la logica, la presentazione"
+      },
+      {
+        "en": "The data object model as a contract between the MVC layers",
+        "it": "Il modello a oggetti dei dati come contratto tra i livelli MVC"
+      },
+      {
+        "en": "POJO - JavaBeans used to represent data model entities",
+        "it": "Creazione di POJO - JavaBeans per rappresentare le entit\u00e0 del modello dati"
+      },
+      {
+        "en": "Build well-formed POJOs: default constructor, getters and setters",
+        "it": "Costruire un POJO corretti: costruttore di default, getters e setters"
+      },
+      {
+        "en": "Creating entity objects: interface and implementation",
+        "it": "Creazione degli oggetti entit\u00e0: interfaccia e implementazione"
+      },
+      {
+        "en": "Optimizing entity objects: proxies",
+        "it": "Ottimizzazione degli oggetti entit\u00e0: i proxy"
+      },
+      {
+        "en": "Marking entity objects as modified with setters",
+        "it": "Marcare gli oggetti entit\u00e0 come modificati nei setter"
+      },
+      {
+        "en": "Manipulation of complex object models and lazy loading",
+        "it": "Manipolazione di modelli a oggetti complessi e lazy loading"
+      },
+      {
+        "en": "Creating data access methods: DAO",
+        "it": "Creazione dei metodi di accesso ai dati: i DAO"
+      },
+      {
+        "en": "Entity object factories",
+        "it": "Factory per oggetti entit\u00e0"
+      },
+      {
+        "en": "Notes on entity object caching techniques",
+        "it": "Cenni sulle tecniche di caching degli oggetti entit\u00e0"
+      },
+      {
+        "en": "The Newspaper case study: an example of concrete data model implementation on MySQL",
+        "it": "Caso di studio Newspaper: un esempio di implementazione concreta di un modello dati su MySQL",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Newspaper_DAO",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Newspaper_DAO"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "en": "Data Modeling",
+      "it": "Modellazione Dati"
+    }
   }
 ]

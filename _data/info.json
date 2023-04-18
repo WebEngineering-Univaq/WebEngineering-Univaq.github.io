@@ -1,6 +1,7 @@
 {
   "nome": "Web Engineering",
   "codice":"DT0180",
+  "durata":48,
   "descrizione": {"it":"Corso di Web Engineering, Università dell'Aquila","en":"Web Engineering course, University of L'Aquila"},
   "docente": {
 	"nome":"Giuseppe Della Penna",
