@@ -1163,5 +1163,82 @@
       "en": "Data Modeling",
       "it": "Modellazione Dati"
     }
+  },
+  {
+    "date": "2022-04-20T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      },
+      {
+        "name": "CSS3",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Notes on optimistic and pessimistic locking techniques to manage concurrency",
+        "it": "Cenni sulle tecniche di locking ottimistico e pessimistico per gestire la concorrenza"
+      },
+      {
+        "en": "Data access logic encapsulation through a DataLayer class",
+        "it": "Incapsulare la logica di accesso ai dati usando una classe DataLayer"
+      },
+      {
+        "en": "A base controller class that correctly handles data layer creation (and more)",
+        "it": "Una classe controller di base che gestisce in modo corretto la creazione del data layer (e non solo)",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "AbstractBaseController",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Newspaper_DAO/blob/main/src/main/java/it/univaq/f4i/iw/framework/controller/AbstractBaseController.java"
+          }
+        ]
+      },
+      {
+        "en": "Introduction to CSS Stylesheets",
+        "it": "Presentazione dei fogli di stile CSS"
+      },
+      {
+        "en": "Adding style to HTML: style and link elements",
+        "it": "Incorporare i fogli di stile in HTML: elementi style e link"
+      },
+      {
+        "en": "Multiple stylesheets in the same document",
+        "it": "Fogli di stile multipli per uno stesso documento",
+        "attachments": [
+          {
+            "name": "css_inclusion_print",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      },
+      {
+        "en": "Stylesheets: persistent, preferred and alternative (used selected)",
+        "it": "Fogli di stile persistenti, preferiti e alternativi (scelta utente)"
+      },
+      {
+        "en": "Media-related alternate stylesheets",
+        "it": "Fogli di stile alternativi legati ai media"
+      },
+      {
+        "en": "Creating print-oprimized stylesheets (media=\"print\")",
+        "it": "Accorgimenti per la creazione di figli di stile per la stampa (media=\"print\")",
+        "type": "esempio"
+      },
+      {
+        "en": "Syntax of CSS rules",
+        "it": "Sintassi delle regole CSS"
+      },
+      {
+        "en": "Style properties declaration",
+        "it": "Dichiarazione delle proprieta' di stile"
+      }
+    ],
+    "title": {
+      "all": "CSS /1"
+    }
   }
 ]
