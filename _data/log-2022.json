@@ -1198,6 +1198,20 @@
         ]
       },
       {
+        "en": "Notes on ServletContextListeners in java web applications",
+        "it": "Cenni sui ServletContextListener nelle web application java"
+      },
+      {
+        "en": "Notes on Filters in java web applications",
+        "it": "Cenni sui Filter nelle web application java",
+        "attachments": [
+          {
+            "name": "Java_Example_Emailfilter",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Emailfilter"
+          }
+        ]
+      },      
+      {
         "en": "Introduction to CSS Stylesheets",
         "it": "Presentazione dei fogli di stile CSS"
       },
