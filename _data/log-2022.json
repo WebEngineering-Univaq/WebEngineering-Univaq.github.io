@@ -1,6 +1,6 @@
 [
   {
-    "date": "2023-02-28 16:30:00",
+    "date": "2023-02-28T16:30:00",
     "duration": 2,
     "arguments": [
       {
@@ -20,7 +20,7 @@
       },
       {
         "en": "Today's web problems: accessibility, usability, cross-browser programming, security, mobile first,...",
-        "it": "I problemi del web odierno: accessibilita', fruibilita' cross-browser, sicurezza, usabilita', mobile first,..."
+        "it": "I problemi del web odierno: accessibilit\u00e0, fruibilit\u00e0 cross-browser, sicurezza, usabilit\u00e0, mobile first,..."
       },
       {
         "en": "Web technologies: client side (HTML5, CSS3 e responsive design, Javascript, AJAX)",
@@ -45,7 +45,7 @@
     }
   },
   {
-    "date": "2023-03-03 09:30:00",
+    "date": "2023-03-03T09:30:00",
     "duration": 2,
     "slides": [
       {
@@ -58,7 +58,7 @@
         "ref": "Slides XML-R",
         "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides",
         "en": "What is and what is not XML",
-        "it": "Cosa e' e cosa non e' XML"
+        "it": "Cosa \u00e8 e cosa non \u00e8 XML"
       },
       {
         "en": "XML base syntax: the XML declaration",
@@ -71,11 +71,11 @@
       },
       {
         "en": "Character encoding: what is really UTF-8? (and UTF-16? and ISO-8859-1??)",
-        "it": "Character encoding: cos'e' veramente UTF-8? (e UTF-16? e ISO-8859-1??)"
+        "it": "Character encoding: cos'\u00e8 veramente UTF-8? (e UTF-16? e ISO-8859-1??)"
       },
       {
         "en": "Character encoding: can also be a security problem: the UTF-7 attack",
-        "it": "Character encoding: puo' essere anche un problema di sicurezza: l'attacco UTF-7",
+        "it": "Character encoding: pu\u00f2 essere anche un problema di sicurezza: l'attacco UTF-7",
         "type": "esempio"
       },
       {
@@ -111,11 +111,11 @@
       },
       {
         "en": "XML base syntax: text and character entities",
-        "it": "Sintassi base XML: Testo ed entita' carattere"
+        "it": "Sintassi base XML: Testo ed entit\u00e0 carattere"
       },
       {
         "en": "XSS attacks and the correct use of entities for reserved characters",
-        "it": "Attacchi XSS e uso corretto delle entita' per i caratteri riservati",
+        "it": "Attacchi XSS e uso corretto delle entit\u00e0 per i caratteri riservati",
         "type": "esempio"
       },
       {
@@ -133,7 +133,7 @@
     }
   },
   {
-    "date": "2023-03-07 16:30:00",
+    "date": "2023-03-07T16:30:00",
     "duration": 2,
     "slides": [
       {
@@ -153,7 +153,7 @@
       },
       {
         "en": "The HTML5 mode",
-        "it": "La modalita' HTML5"
+        "it": "La modalit\u00e0 HTML5"
       },
       {
         "en": "The Polyglot HTML5",
@@ -238,7 +238,7 @@
     }
   },
   {
-    "date": "2023-03-09 09:30:00",
+    "date": "2023-03-09T09:30:00",
     "duration": 2,
     "slides": [
       {
@@ -285,7 +285,7 @@
       },
       {
         "en": "The complete table structure: header (thead), body (tbody), footer (tfoot)",
-        "it": "Struttura completa di tabella: intestazione (thead), corpo (tbody), pie' di tabella (tfoot)"
+        "it": "Struttura completa di tabella: intestazione (thead), corpo (tbody), pi\u00e8 di tabella (tfoot)"
       },
       {
         "en": "Watch out for the implicit tbody element...",
@@ -346,7 +346,7 @@
       },
       {
         "en": "Accessible images: the alt attribute",
-        "it": "Accessibilita' delle immagini: l'attributo alt"
+        "it": "Accessibilit\u00e0 delle immagini: l'attributo alt"
       },
       {
         "en": "Client size image resizing",
@@ -366,7 +366,7 @@
     }
   },
   {
-    "date": "2023-03-14 16:30:00",
+    "date": "2023-03-14T16:30:00",
     "duration": 2,
     "slides": [
       {
@@ -465,7 +465,7 @@
       },
       {
         "en": "Option labels and values: which data should I send to the server?",
-        "it": "Label e value delle opzioni: quali dati e' meglio trasferire al server",
+        "it": "Label e value delle opzioni: quali dati \u00e8 meglio trasferire al server",
         "type": "esempio"
       }
     ],
@@ -474,7 +474,7 @@
     }
   },
   {
-    "date": "2023-03-16 09:30:00",
+    "date": "2023-03-16T09:30:00",
     "duration": 2,
     "slides": [
       {
@@ -592,8 +592,8 @@
         "type": "esempio",
         "attachments": [
           {
-            "name": "Java_WebApp_Base_T9",
-            "link": "https://github.com/WebEngineering-Univaq/Java_WebApp_Base_T9"
+            "name": "Java_WebApp_Base_T09",
+            "link": "https://github.com/WebEngineering-Univaq/Java_WebApp_Base_T09"
           }
         ]
       },
@@ -688,7 +688,7 @@
       },
       {
         "en": "The \"Hello World\" servlet",
-        "it": "La servlet 'Salutami'",
+        "it": "La servlet 'Salutam\u00ec",
         "type": "esempio"
       },
       {
@@ -732,7 +732,7 @@
       },
       {
         "en": "Reading form GET parameters: getParameter and getParameterValues",
-        "it": "Elaborazione delle form in modalita' GET: i metodi getParameter e getParameterValues"
+        "it": "Elaborazione delle form in modalit\u00e0 GET: i metodi getParameter e getParameterValues"
       },
       {
         "en": "Output sanification to prevent XSS attacks",
@@ -740,7 +740,7 @@
       },
       {
         "en": "The \"Hello World\" servlet with a name parameter",
-        "it": "La servlet 'Salutami' anonima e personalizzata",
+        "it": "La servlet 'Salutam\u00ec anonima e personalizzata",
         "type": "esempio",
         "attachments": [
           {
@@ -755,7 +755,7 @@
       },
       {
         "en": "The restructured \"Hello World\" servlet",
-        "it": "La servlet 'Salutami' con una struttura avanzata",
+        "it": "La servlet 'Salutam\u00ec con una struttura avanzata",
         "type": "esempio",
         "attachments": [
           {
@@ -770,7 +770,7 @@
       },
       {
         "en": "Security issues: why we should use a download servlet and how we should write it",
-        "it": "Considerazioni sulla sicurezza: perche' e come scrivere una download servlet"
+        "it": "Considerazioni sulla sicurezza: perch\u00e8 e come scrivere una download servlet"
       },
       {
         "en": "Some interesting HTTP headers: Content-Type and Content-Disposition",
@@ -793,7 +793,7 @@
     }
   },
   {
-    "date": "2022-03-30T09:30:00",
+    "date": "2023-03-30T09:30:00",
     "duration": 2,
     "slides": [
       {
@@ -819,7 +819,7 @@
       },
       {
         "en": "Reading form POST parameters with url encoding",
-        "it": "Elaborazione delle form in modalita' POST con codifica url"
+        "it": "Elaborazione delle form in modalit\u00e0 POST con codifica url"
       },
       {
         "en": "Handling multipart encoded forms with JEE version 6+",
@@ -843,7 +843,7 @@
       },
       {
         "en": "The 'Hello world' servlet with file upload",
-        "it": "La servlet 'Uploadami' con upload di file",
+        "it": "La servlet 'Uploadam\u00ec con upload di file",
         "type": "esempio",
         "attachments": [
           {
@@ -894,7 +894,7 @@
     "arguments": [
       {
         "en": "The 'Hello world' servlet with sessions",
-        "it": "La servlet 'Ricordami' con sessioni",
+        "it": "La servlet 'Ricordam\u00ec con sessioni",
         "type": "esempio",
         "attachments": [
           {
@@ -1165,7 +1165,7 @@
     }
   },
   {
-    "date": "2022-04-20T09:30:00",
+    "date": "2023-04-20T09:30:00",
     "duration": 2,
     "slides": [
       {
@@ -1210,7 +1210,7 @@
             "link": "https://github.com/WebEngineering-Univaq/Java_Example_Emailfilter"
           }
         ]
-      },      
+      },
       {
         "en": "Introduction to CSS Stylesheets",
         "it": "Presentazione dei fogli di stile CSS"
@@ -1248,11 +1248,160 @@
       },
       {
         "en": "Style properties declaration",
-        "it": "Dichiarazione delle proprieta' di stile"
+        "it": "Dichiarazione delle propriet\u00e0 di stile"
       }
     ],
     "title": {
       "all": "CSS /1"
+    }
+  },
+  {
+    "date": "2023-04-27T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "CSS3",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Simple selectors",
+        "it": "I selettori semplici",
+        "attachments": [
+          {
+            "name": "css_selectors",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      },
+      {
+        "en": "Base selectors",
+        "it": "Selettori di base"
+      },
+      {
+        "en": "Attribute selectors",
+        "it": "Selettori di attributo"
+      },
+      {
+        "en": "Highlight the text in a foreign language",
+        "it": "Marcare visivamente il testo in altre lingue",
+        "type": "esempio"
+      },
+      {
+        "en": "Class selectors",
+        "it": "Selettori di classe"
+      },
+      {
+        "en": "Classes as special attributes",
+        "it": "Classi come attributi speciali",
+        "type": "esempio"
+      },
+      {
+        "en": "ID selectors",
+        "it": "Selettori di ID"
+      },
+      {
+        "en": "Short form for class and ID selectors",
+        "it": "Forma abbreviata dei selettori di classe e di ID"
+      },
+      {
+        "en": "Identify and format the base layout structures",
+        "it": "Identificare e formattare le strutture di base di un layout",
+        "type": "esempio"
+      },
+      {
+        "en": "Pseudo classes",
+        "it": "Pseudo classi"
+      },
+      {
+        "en": "Hover effects on links",
+        "it": "Effetti hover sui link",
+        "type": "esempio"
+      },
+      {
+        "en": "Focus effects on inputs",
+        "it": "Effetti focus sugli input",
+        "type": "esempio"
+      },
+      {
+        "en": "The :hover pseudo class in legacy browsers",
+        "it": "La pseudo classe :hover nei browser legacy"
+      },
+      {
+        "en": "How to add internal borders to a list of elements",
+        "it": "Inserire bordi interni in una lista di elementi",
+        "type": "esempio"
+      },
+      {
+        "en": "Pseudo elements",
+        "it": "Pseudo elementi"
+      },
+      {
+        "en": "How to create a drop cap",
+        "it": "Creare un capolettera",
+        "type": "esempio"
+      },
+      {
+        "en": "How to automatically quote a block of text",
+        "it": "Mettere del testo automaticamente tra virgolette",
+        "type": "esempio"
+      },
+      {
+        "en": "Composite selectors",
+        "it": "I selettori composti"
+      },
+      {
+        "en": "How to format adjacent titles",
+        "it": "Formattare in modo particolare due titoli adiacenti",
+        "type": "esempio"
+      },
+      {
+        "en": "The CSS algorithm to determine property values",
+        "it": "Le regole di selezione delle propriet\u00e0 di stile"
+      },
+      {
+        "en": "Origin priority, specificity and rule ordering",
+        "it": "Priorit\u00e0 di origine, specificit\u00e0 e ordinamento delle regole"
+      },
+      {
+        "en": "The !important modifier",
+        "it": "Il modificatore !important"
+      },
+      {
+        "en": "Cascading rules in the browsers",
+        "it": "Rispetto delle regole di cascata nei browser",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_cascade",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      },
+      {
+        "en": "Style inheritance",
+        "it": "Ereditariet\u00e0 delle propriet\u00e0 di stile"
+      },
+      {
+        "en": "CSS measurement units",
+        "it": "Unit\u00e0 di misura nei CSS"
+      },
+      {
+        "en": "Relative units as a way to increase the site accessibility",
+        "it": "Uso delle misure relative per aumentare l'accessibilit\u00e0 di un sito"
+      },
+      {
+        "en": "Percentage measures in liquid and responsive layouts",
+        "it": "Uso delle misure percentuali nei design liquidi e responsive"
+      },
+      {
+        "en": "CSS color specification",
+        "it": "Specifica dei colori nei CSS"
+      }
+    ],
+    "title": {
+      "all": "CSS /2"
     }
   }
 ]
