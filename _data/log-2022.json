@@ -1264,6 +1264,12 @@
         "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
       }
     ],
+    "attachments": [
+      {
+        "name": "CSS_Examples",
+        "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+      }
+    ],
     "arguments": [
       {
         "en": "Simple selectors",
@@ -1411,6 +1417,12 @@
       {
         "name": "CSS3",
         "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "CSS_Examples",
+        "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
       }
     ],
     "arguments": [
@@ -1588,6 +1600,196 @@
     ],
     "title": {
       "all": "CSS /3"
+    }
+  },
+  {
+    "date": "2023-05-04T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "CSS3",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "CSS_Examples",
+        "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "show": false,
+        "en": "Advanced CSS3: keyframe animations",
+        "it": "CSS3 avanzato: realizzare animazioni con i keyframes",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_3_animation",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      },
+      {
+        "en": "Introduction to CSS variables (custom properties)",
+        "it": "Cenni sulle variabili (custom properties) CSS",
+        "attachments": [
+          {
+            "name": "css_3_variables",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      },
+      {
+        "en": "Introduction to the var() and calc() CSS functions",
+        "it": "Cenni sulle funzioni CSS var() e calc()"
+      },
+      {
+        "en": "Element content disposition: the overflow property",
+        "it": "Gestione del contenuto degli elementi: la propriet\u00e0 overflow"
+      },
+      {
+        "en": "Scrolling text in arbitrary elements",
+        "it": "Testo scorrevole in elementi arbitrari",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_properties_overflow",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      },
+      {
+        "en": "Element content clipping",
+        "it": "Clipping del contenuto di un elemento",
+        "type": "esempio"
+      },
+      {
+        "en": "Scrolling with CSS and Javascript",
+        "it": "Scrolling alternativo con CSS e Javascript",
+        "type": "esempio"
+      },
+      {
+        "en": "How to set margins and paddings",
+        "it": "Definire margini e padding con i CSS"
+      },
+      {
+        "en": "Setting the (minimum, maximum, actual or relative) height and width of an element",
+        "it": "Impostare l'altezza e la larghezza (minime, massime, effettive o relative) di un elemento"
+      },
+      {
+        "en": "Width, height and the box-sizing property",
+        "it": "Width, height e la propriet\u00e0 box-sizing"
+      },
+      {
+        "en": "The CSS positioning techniques",
+        "it": "I sistemi di posizionamento dei CSS"
+      },
+      {
+        "en": "The element layout algorithm in HTML pages",
+        "it": "L'algoritmo di disposizione degli oggetti nelle pagine HTML"
+      },
+      {
+        "en": "Block and inline element disposition",
+        "it": "Disposizione degli elementi blocco e inline"
+      },
+      {
+        "en": "Position on the third dimension: the z-index property",
+        "it": "Il posizionamento sulla terza dimensione: la propriet\u00e0 z-index"
+      },
+      {
+        "en": "Relative positioning",
+        "it": "Posizionamento relativo"
+      },
+      {
+        "en": "Relative positioning examples",
+        "it": "Esempi di posizionamento relativo",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_properties_positioning_relative",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      },
+      {
+        "en": "Abosolute positioning",
+        "it": "Posizionamento assoluto"
+      },
+      {
+        "en": "Absolute positioning examples",
+        "it": "Esempi di posizionamento assoluto",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_properties_positioning_absolute",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      },
+      {
+        "en": "Origin of the coordinates with absolute positioning",
+        "it": "L'origine delle coordinate nel posizionamento assoluto"
+      },
+      {
+        "en": "How to create simple layouts using (absolute) positioning",
+        "it": "Realizzare layouts con il posizionamento assoluto",
+        "type": "esempio"
+      },
+      {
+        "en": "Combining positioning and margin properties to create better (and fluid) layouts",
+        "it": "Combinare il posizionamento e le propriet\u00e0 margin per creare layouts",
+        "type": "esempio"
+      },
+      {
+        "en": "Fixed positioning",
+        "it": "Posizionamento fisso"
+      },
+      {
+        "en": "Fixed positioning examples",
+        "it": "Esempi di posizionamento fisso",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_properties_positioning_fixed",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      },
+      {
+        "en": "How to create \"always visible\" banners and menus using fixed positioning",
+        "it": "Realizzare menu e banner sempre visibili col posizionamento fisso",
+        "type": "esempio"
+      },
+      {
+        "en": "The floats",
+        "it": "I floats"
+      },
+      {
+        "en": "How to use floats to create multi-columns layouts and other interesting effects",
+        "it": "Uso dei floats per realizzare layout a pi\u00f9 colonne ed altri effetti",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_properties_positioning_float",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      },
+      {
+        "en": "How to create simple popup menus using lists and CSS",
+        "it": "Creare semplici menu popup con le liste CSS",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_menu_multilev_flyout",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "CSS /4"
     }
   }
 ]
