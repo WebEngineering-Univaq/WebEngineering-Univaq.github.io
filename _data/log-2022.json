@@ -1791,5 +1791,136 @@
     "title": {
       "all": "CSS /4"
     }
+  },
+  {
+    "date": "2023-05-09T14:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "CSS3",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "CSS_Examples",
+        "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+      },
+      {
+        "name": "CSS_Examples: layouts",
+        "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/tree/main/layout"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Website design: style and usability guidelines",
+        "it": "Progettare un sito web: linee guida di stile e usabilit\u00e0"
+      },
+      {
+        "en": "Website layout design: fixed and liquid layouts",
+        "it": "Costruire il layout di un sito web: layout fissi e liquidi"
+      },
+      {
+        "en": "Base layouts: single column",
+        "it": "I layout di base: layout a colonna singola"
+      },
+      {
+        "en": "Base layouts: two columns",
+        "it": "I layout di base: layout due colonne"
+      },
+      {
+        "en": "Multicolumn layouts with positioned divs",
+        "it": "Uso di elementi posizionati per la realizzazione di layout molticolonna"
+      },
+      {
+        "en": "Multicolumn layouts with floats",
+        "it": "Uso di floats per la realizzazione di layout molticolonna"
+      },
+      {
+        "show": false,
+        "en": "Base layouts: three columns",
+        "it": "I layout di base: layout tre colonne"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "en": "Grid layouts",
+        "it": "I layout a griglia"
+      },
+      {
+        "en": "A fluid grid layout made with floats",
+        "it": "Un layout a griglia fluido realizzato con i float",
+        "type": "esempio"
+      },
+      {
+        "en": "CSS media queries",
+        "it": "Le CSS media queries"
+      },
+      {
+        "en": "Introduction to responsive web design",
+        "it": "Introduzione al responsive web design"
+      },
+      {
+        "en": "CSS media queries for responsive design: responsive breakpoints",
+        "it": "CSS media queries per il responsive disign: i responsive breakpoints"
+      },
+      {
+        "en": "Using CSS cascading to override default rules with a media query",
+        "it": "Usare l'effetto cascata dei CSS per modificare le regole di default tramite una media query"
+      },
+      {
+        "en": "The responsive fluid grid layout",
+        "it": "Il layout a griglia fluido responsive",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Layout_3col_grid_float_liquid",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      },
+      {
+        "en": "How to adapt a layout to different devices using CSS: move, resize, hide, change",
+        "it": "Come adattare un layout a device diversi con i CSS: spostare, ridimensionare, nascondere, sostituire"
+      },
+      {
+        "show": false,
+        "en": "How to fix a fluid layout",
+        "it": "Trasformare un layout fluido in uno fixed"
+      },
+      {
+        "en": "How to create and alternative, accessible menu using a SELECT control (...and a button)",
+        "it": "Realizzare un menu alternativo accessibile con il controllo SELECT (...e un bottone)",
+        "type": "esempio"
+      },
+      {
+        "en": "Introduction to CSS Flexbox",
+        "it": "Introduzione ai CSS Flexbox",
+        "attachments": [
+          {
+            "name": "css_3_flexbox",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "en": "A fluid grid layout made with flexbox",
+        "it": "Un layout a griglia fluido realizzato con i flexbox",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Layout_3col_grid_flexbox_liquid",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "(Responsive) Web design"
+    }
   }
 ]
