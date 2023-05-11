@@ -1970,8 +1970,13 @@
         "it": "FreeMarker: componenti dei template"
       },
       {
-        "en": "FreeMarker: the abstract data model (hash, sequenze e scalari)",
-        "it": "FreeMarker: il data model astratto (hashes, sequences and scalars)"
+        "en": "FreeMarker: the abstract data model (hashes, sequences and scalars)",
+        "it": "FreeMarker: il data model astratto (hash, sequenze e scalari)",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/dgui_datamodel_types.html"
+          }
+        ]
       },
       {
         "en": "FreeMarker: basic configuration",
@@ -2035,8 +2040,8 @@
         "it": "FreeMarker: uso di classi java nel data model"
       },
       {
-        "en": "FreeMarker: lists in the data model, creation and access",
-        "it": "FreeMarker: liste nel data model, creazione e accesso"
+        "en": "FreeMarker: lists in the data model: creation and access",
+        "it": "FreeMarker: liste nel data model: creazione e accesso"
       },
       {
         "en": "FreeMarker: the if directive",
@@ -2092,7 +2097,7 @@
         ]
       },
       {
-        "en": "Template inclusion",
+        "en": "Including a (secondary) template into another (primary) one",
         "it": "Inclusione di un template secondario in uno principale",
         "type": "esempio"
       },
