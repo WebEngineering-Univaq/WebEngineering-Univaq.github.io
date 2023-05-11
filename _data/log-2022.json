@@ -1793,7 +1793,7 @@
     }
   },
   {
-    "date": "2023-05-09T14:30:00",
+    "date": "2023-05-09T16:30:00",
     "duration": 2,
     "slides": [
       {
@@ -1921,6 +1921,201 @@
     ],
     "title": {
       "all": "(Responsive) Web design"
+    }
+  },
+  {
+    "date": "2023-05-11T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "CSS3",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Java_Example_Templates",
+        "link": "https://github.com/WebEngineering-Univaq/Java_Example_Templates"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Introduction to the CSS Grid",
+        "it": "Introduzione ai CSS Grid",
+        "attachments": [
+          {
+            "name": "css_3_grid",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "en": "Introduction to templates",
+        "it": "Introduzione ai template"
+      },
+      {
+        "en": "The FreeMarker template engine",
+        "it": "Il template engine FreeMarker",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: template components",
+        "it": "FreeMarker: componenti dei template"
+      },
+      {
+        "en": "FreeMarker: the abstract data model (hash, sequenze e scalari)",
+        "it": "FreeMarker: il data model astratto (hashes, sequences and scalars)"
+      },
+      {
+        "en": "FreeMarker: basic configuration",
+        "it": "FreeMarker: configurazione di base",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: output format specification and automatic escaping",
+        "it": "FreeMarker: specifica dell'output format e automatic escaping"
+      },
+      {
+        "en": "FreeMarker: default object wrapper specification",
+        "it": "FreeMarker: specifica del default object wrapper"
+      },
+      {
+        "en": "FreeMarker: output generation",
+        "it": "FreeMarker: generazione dell'output"
+      },
+      {
+        "en": "Template compilation and visualization",
+        "it": "Compilazione e visualizzazione di un template",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: the Java data model",
+        "it": "FreeMarker: il data model in Java"
+      },
+      {
+        "en": "FreeMarker: interpolations",
+        "it": "FreeMarker: le interpolations",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/dgui_template_valueinsertion.html"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: interpolations default",
+        "it": "FreeMarker: default per le interpolations"
+      },
+      {
+        "en": "FreeMarker: built-ins (?cap_first, ?size, ...)",
+        "it": "FreeMarker: i built-in (?cap_first, ?size, ...)",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/dgui_template_exp.html#dgui_template_exp_builtin"
+          }
+        ]
+      },
+      {
+        "en": "Simple templates (with interpolations)",
+        "it": "Creazione di template semplici (con sole interpolations)",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: hashes in the data model: creation and access",
+        "it": "FreeMarker: hashes nel data model: creazione e accesso"
+      },
+      {
+        "en": "FreeMarker: java classes in the data model",
+        "it": "FreeMarker: uso di classi java nel data model"
+      },
+      {
+        "en": "FreeMarker: lists in the data model, creation and access",
+        "it": "FreeMarker: liste nel data model, creazione e accesso"
+      },
+      {
+        "en": "FreeMarker: the if directive",
+        "it": "FreeMarker: la direttiva if",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/ref_directive_if.html"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: variable definition test",
+        "it": "FreeMarker: testare la definizione di una variable"
+      },
+      {
+        "en": "Conditional templates",
+        "it": "Creazione di template con parti condizionali",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: the list directive",
+        "it": "FreeMarker: la direttiva list",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/ref_directive_list.html"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: getting the size of a list",
+        "it": "FreeMarker: leggere la dimensione di una lista"
+      },
+      {
+        "en": "FreeMarker: list separators with the sep directive",
+        "it": "FreeMarker: separatori di lista con la direttiva sep"
+      },
+      {
+        "en": "FreeMarker: the else clause in a list directive",
+        "it": "FreeMarker: la clausola else in una direttiva list"
+      },
+      {
+        "en": "Templates with iteration",
+        "it": "Creazione di template con iterazione",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: the include directive",
+        "it": "FreeMarker: la direttiva include",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/ref_directive_include.html"
+          }
+        ]
+      },
+      {
+        "en": "Template inclusion",
+        "it": "Inclusione di un template secondario in uno principale",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: macros",
+        "it": "FreeMarker: macro",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/ref_directive_macro.html"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: parametric macros",
+        "it": "FreeMarker: macro parametriche"
+      },
+      {
+        "en": "FreeMarker: macros with nested content",
+        "it": "FreeMarker: macro con contenuto"
+      }
+    ],
+    "title": {
+      "all": "Templates"
     }
   }
 ]
