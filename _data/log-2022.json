@@ -2122,5 +2122,164 @@
     "title": {
       "all": "Templates"
     }
+  },
+  {
+    "date": "2023-05-16T16:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Javascript",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "An utility class to use Freemarker as the presentation layer of web applications",
+        "it": "Una classe di utilit\u00e0 per l'uso di FreeMarker come strato di presentazione delle applicazioni web",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Templates_Fwk",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Templates_Fwk"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "en": "Configuration of the template engine through ServletContext parameters",
+        "it": "Configurazione del motore di template tramite il ServletContext"
+      },
+      {
+        "en": "Passing data from servlets (controllers) to templates (views) through the ServletRequest",
+        "it": "Passaggio di dati dalle servlet (controllo) ai template (presentazione) tramite la ServletRequest"
+      },
+      {
+        "en": "A compact way to include common parts in any data model",
+        "it": "Un modo compatto per includere parti comuni in ogni data model",
+        "type": "esempio"
+      },
+      {
+        "en": "How to combine layout and contents with a template engine",
+        "it": "Combinare layout e contenuti con un motore di template",
+        "type": "esempio"
+      },
+      {
+        "en": "Introduction to Javascript",
+        "it": "Introduzione a Javascript"
+      },
+      {
+        "en": "Javascript: origins and current uses",
+        "it": "Javascript: le origini e gli usi odierni"
+      },
+      {
+        "en": "Javascript, ECMAScript, TypeScript... what are they, really?",
+        "it": "Javascript, ECMAScript, TypeScript... cosa sono veramente?",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/javascript"
+          },
+          {
+            "link": "https://262.ecma-international.org"
+          },
+          {
+            "link": "https://www.typescriptlang.org"
+          }
+        ]
+      },
+      {
+        "en": "ECMAScript 5 e 6: the main new features",
+        "it": "ECMAScript 5 e 6: le principali novit\u00e0"
+      },
+      {
+        "en": "Adding scripts to HTML pages",
+        "it": "Inserire script nelle pagine HTML"
+      },
+      {
+        "en": "Some hints to correctly and efficiently embed scripts in HTML pages",
+        "it": "Accorgimenti per l'incorporazione corretta ed efficiente di script nelle pagine HTML"
+      },
+      {
+        "en": "Content and logic separation: how NOT to use javascript in HTML pages",
+        "it": "Separare la logica dal contenuto: come NON usare javascript nelle pagine HTML"
+      },
+      {
+        "en": "The Javascript (single-threaded) execution model",
+        "it": "Il modello di esecuzione (single-threaded) di Javascript",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop"
+          }
+        ]
+      },
+      {
+        "en": "Javascript data types and conversion",
+        "it": "I tipi di dato di Javascript e i sistemi di conversione"
+      },
+      {
+        "en": "Variables and variable declarations",
+        "it": "Variabili e dichiarazione di variabili"
+      },
+      {
+        "en": "Implicit declaration and global variables",
+        "it": "Dichiarazione implicita e variabili globali",
+        "type": "esempio"
+      },
+      {
+        "en": "Global-scoped and function-scoped variables",
+        "it": "Variabili con scope globale e di funzione",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var"
+          }
+        ]
+      },
+      {
+        "en": "ES6: block-scoped variables (finally!)",
+        "it": "ES6: variabili con scope di blocco (finalmente!)",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let"
+          }
+        ]
+      },
+      {
+        "en": "ES5: strict mode",
+        "it": "ES5: la modalit\u00e0 strict"
+      },
+      {
+        "en": "ES6: constants",
+        "it": "ES6: costanti"
+      },
+      {
+        "en": "Arithmetic and logic operators",
+        "it": "Operatori aritmetici e logici"
+      },
+      {
+        "en": "VOID and EVAL operators",
+        "it": "Gli operatori VOID ed EVAL"
+      },
+      {
+        "en": "The TYPEOF operator",
+        "it": "L'operatore TYPEOF"
+      },
+      {
+        "show": false,
+        "en": "How to use TYPEOF to verify if a variable (or a function) is defined",
+        "it": "TYPEOF usato per verificare l'esistenza di una funzione o di una variabile",
+        "type": "esempio"
+      },
+      {
+        "en": "Conditional constructs",
+        "it": "I costrutti condizionali"
+      },
+      {
+        "en": "Loop constructs",
+        "it": "I loop"
+      }
+    ],
+    "title": {
+      "all": "Javascript /1"
+    }
   }
 ]
