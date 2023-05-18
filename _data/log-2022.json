@@ -2328,10 +2328,7 @@
         "en": "The call operator applied to expressions having function type",
         "it": "Applicare l'operatore di chiamata ad espressioni che ritornano funzioni",
         "type": "esempio"
-      },
-      {
-        "type": "esempio"
-      },
+      },      
       {
         "en": "ES6: arrow functions",
         "it": "ES6: funzioni freccia"
@@ -2343,7 +2340,7 @@
       },
       {
         "en": "Parameters passed by value and reference. Omission of parameters.",
-        "it": "Modalita' di passaggio ed omissione di parametri"
+        "it": "Modalità di passaggio ed omissione di parametri"
       },
       {
         "en": "How to assign default values to omitted parameters",
@@ -2403,18 +2400,18 @@
       },
       {
         "en": "How to access object properties",
-        "it": "Accesso alle proprieta' degli oggetti"
+        "it": "Accesso alle proprietà degli oggetti"
       },
       {
         "type": "esempio"
       },
       {
         "en": "Javascript objects are dynamic",
-        "it": "Dinamicita' degli oggetti Javascript"
+        "it": "Dinamicità degli oggetti Javascript"
       },
       {
         "en": "How to create and initialize an object property",
-        "it": "Creazione e inizializzazione di proprieta'"
+        "it": "Creazione e inizializzazione di proprietà"
       },
       {
         "en": "How to use objects as generic data structures",
@@ -2443,11 +2440,11 @@
       },
       {
         "en": "ES6: extended notation for property and method declarations",
-        "it": "ES6: sintassi estesa per definizione di proprieta' e metodi"
+        "it": "ES6: sintassi estesa per definizione di proprietà e metodi"
       },
       {
         "en": "Dynamic generation of property names",
-        "it": "Generare dinamicamente il nome della proprieta' da assegnare"
+        "it": "Generare dinamicamente il nome della proprietà da assegnare"
       },
       {
         "en": "Constructor functions",
@@ -2466,11 +2463,11 @@
       },
       {
         "en": "The objects' constructor property",
-        "it": "La proprieta' constructor degli oggetti"
+        "it": "La proprietà constructor degli oggetti"
       },
       {
         "en": "The prototype property of constructor functions (and the __proto__ property of objects)",
-        "it": "La proprieta' prototype delle funzioni costruttore (e la proprieta' __proto__ degli oggetti)"
+        "it": "La proprietà prototype delle funzioni costruttore (e la proprietà __proto__ degli oggetti)"
       },
       {
         "en": "Extending objects through their constructor prototype",
