@@ -2281,5 +2281,205 @@
     "title": {
       "all": "Javascript /1"
     }
+  },
+  {
+    "date": "2023-05-18T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Javascript",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "The FOR...IN loop (applied to objects and arrays)",
+        "it": "Il loop FOR...IN (su array e oggetti)"
+      },
+      {
+        "en": "The FOR...OF loop (applied to arrays and iterable objects)",
+        "it": "Il loop FOR...OF (su array e oggetti iterabili)"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "en": "Function declaration: direct, anonymous, with the Function constructor",
+        "it": "Dichiarazione di funzioni: dirette, anonime, tramite costruttore"
+      },
+      {
+        "en": "Function calls",
+        "it": "Chiamata di funzioni"
+      },
+      {
+        "en": "Javascript functions are values (Function objects)",
+        "it": "Le funzioni Javascript sono valori (oggetti Function)"
+      },
+      {
+        "en": "Function references and functions as values",
+        "it": "Riferimento alle funzioni e uso delle funzioni come valori"
+      },
+      {
+        "en": "Passing functions as parameters",
+        "it": "Passaggio di una funzione come parametro",
+        "type": "esempio"
+      },
+      {
+        "en": "The call operator applied to expressions having function type",
+        "it": "Applicare l'operatore di chiamata ad espressioni che ritornano funzioni",
+        "type": "esempio"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "en": "ES6: arrow functions",
+        "it": "ES6: funzioni freccia"
+      },
+      {
+        "show": false,
+        "en": "ES6: block-scoped functions",
+        "it": "ES6: funzioni con scope di blocco"
+      },
+      {
+        "en": "Parameters passed by value and reference. Omission of parameters.",
+        "it": "Modalita' di passaggio ed omissione di parametri"
+      },
+      {
+        "en": "How to assign default values to omitted parameters",
+        "it": "Un trucco per assegnare valori di default ai parametri omessi",
+        "type": "esempio"
+      },
+      {
+        "en": "ES6: parameter default values",
+        "it": "ES6: valori di default per i parametri"
+      },
+      {
+        "en": "ES6: variadic functions and rest parameter",
+        "it": "ES6: funzioni variadiche e rest parameter"
+      },
+      {
+        "en": "Function return values",
+        "it": "Ritorno di valori dalle funzioni"
+      },
+      {
+        "en": "Mixed return types, return of undefined values",
+        "it": "Tipi di ritorno misti, ritorno di valori undefined",
+        "type": "esempio"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "en": "Closures",
+        "it": "Le closures"
+      },
+      {
+        "en": "How to create a function generator",
+        "it": "Creare un generatore di funzioni",
+        "type": "esempio"
+      },
+      {
+        "en": "Scope rules for Function values with external references",
+        "it": "Regole di scope nella creazione di valori di tipo Function con riferimenti esterni"
+      },
+      {
+        "show": false,
+        "en": "Closures and parametrics event handlers",
+        "it": "Uso delle closures per realizzare event handlers parametrici",
+        "type": "esempio"
+      },
+      {
+        "en": "Introduction to Javascript objects",
+        "it": "Introduzione agli oggetti di Javascript"
+      },
+      {
+        "en": "Object hierarchy: the base Object",
+        "it": "La gerarchia degli oggetti: l'oggetto-base Object"
+      },
+      {
+        "en": "The shorthand notation for object creation",
+        "it": "La sintassi abbreviata per la creazione di oggetti"
+      },
+      {
+        "en": "How to access object properties",
+        "it": "Accesso alle proprieta' degli oggetti"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "en": "Javascript objects are dynamic",
+        "it": "Dinamicita' degli oggetti Javascript"
+      },
+      {
+        "en": "How to create and initialize an object property",
+        "it": "Creazione e inizializzazione di proprieta'"
+      },
+      {
+        "en": "How to use objects as generic data structures",
+        "it": "Usare gli oggetti come strutture dati generiche",
+        "type": "esempio"
+      },
+      {
+        "en": "Javascript objects as associative arrays",
+        "it": "Usare gli oggetti come array associativi",
+        "type": "esempio"
+      },
+      {
+        "en": "How to create methods",
+        "it": "Creazione di metodi"
+      },
+      {
+        "en": "How to access and call object methods",
+        "it": "Accesso e chiamata di metodi negli oggetti"
+      },
+      {
+        "en": "The this keyword used in javascript methods",
+        "it": "La parola chiave this all'interno dei metodi"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "en": "ES6: extended notation for property and method declarations",
+        "it": "ES6: sintassi estesa per definizione di proprieta' e metodi"
+      },
+      {
+        "en": "Dynamic generation of property names",
+        "it": "Generare dinamicamente il nome della proprieta' da assegnare"
+      },
+      {
+        "en": "Constructor functions",
+        "it": "Le funzioni costruttore"
+      },
+      {
+        "en": "How to create an empty object using the Object constructor",
+        "it": "Creazione di un oggetto vuoto tramite il costruttore Object"
+      },
+      {
+        "en": "Constructor functions and the NEW operator",
+        "it": "L'operatore NEW e le funzioni costruttore"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "en": "The objects' constructor property",
+        "it": "La proprieta' constructor degli oggetti"
+      },
+      {
+        "en": "The prototype property of constructor functions (and the __proto__ property of objects)",
+        "it": "La proprieta' prototype delle funzioni costruttore (e la proprieta' __proto__ degli oggetti)"
+      },
+      {
+        "en": "Extending objects through their constructor prototype",
+        "it": "Estensione di oggetti tramite il prototipo del loro construttore",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "all": "Javascript /2"
+    }
   }
 ]
