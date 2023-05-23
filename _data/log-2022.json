@@ -2328,7 +2328,7 @@
         "en": "The call operator applied to expressions having function type",
         "it": "Applicare l'operatore di chiamata ad espressioni che ritornano funzioni",
         "type": "esempio"
-      },      
+      },
       {
         "en": "ES6: arrow functions",
         "it": "ES6: funzioni freccia"
@@ -2340,7 +2340,7 @@
       },
       {
         "en": "Parameters passed by value and reference. Omission of parameters.",
-        "it": "Modalità di passaggio ed omissione di parametri"
+        "it": "Modalit\u00e0 di passaggio ed omissione di parametri"
       },
       {
         "en": "How to assign default values to omitted parameters",
@@ -2400,18 +2400,18 @@
       },
       {
         "en": "How to access object properties",
-        "it": "Accesso alle proprietà degli oggetti"
+        "it": "Accesso alle propriet\u00e0 degli oggetti"
       },
       {
         "type": "esempio"
       },
       {
         "en": "Javascript objects are dynamic",
-        "it": "Dinamicità degli oggetti Javascript"
+        "it": "Dinamicit\u00e0 degli oggetti Javascript"
       },
       {
         "en": "How to create and initialize an object property",
-        "it": "Creazione e inizializzazione di proprietà"
+        "it": "Creazione e inizializzazione di propriet\u00e0"
       },
       {
         "en": "How to use objects as generic data structures",
@@ -2440,11 +2440,11 @@
       },
       {
         "en": "ES6: extended notation for property and method declarations",
-        "it": "ES6: sintassi estesa per definizione di proprietà e metodi"
+        "it": "ES6: sintassi estesa per definizione di propriet\u00e0 e metodi"
       },
       {
         "en": "Dynamic generation of property names",
-        "it": "Generare dinamicamente il nome della proprietà da assegnare"
+        "it": "Generare dinamicamente il nome della propriet\u00e0 da assegnare"
       },
       {
         "en": "Constructor functions",
@@ -2463,11 +2463,11 @@
       },
       {
         "en": "The objects' constructor property",
-        "it": "La proprietà constructor degli oggetti"
+        "it": "La propriet\u00e0 constructor degli oggetti"
       },
       {
         "en": "The prototype property of constructor functions (and the __proto__ property of objects)",
-        "it": "La proprietà prototype delle funzioni costruttore (e la proprietà __proto__ degli oggetti)"
+        "it": "La propriet\u00e0 prototype delle funzioni costruttore (e la propriet\u00e0 __proto__ degli oggetti)"
       },
       {
         "en": "Extending objects through their constructor prototype",
@@ -2477,6 +2477,172 @@
     ],
     "title": {
       "all": "Javascript /2"
+    }
+  },
+  {
+    "date": "2023-05-23T16:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Javascript",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "ES5: getters and setters",
+        "it": "ES5: getter e setter"
+      },
+      {
+        "en": "ES5: the Object.defineProperty method",
+        "it": "ES5: il metodo Object.defineProperty"
+      },
+      {
+        "show": false,
+        "en": "ES5: getter and setter declaration in constructors",
+        "it": "ES5: dichiarare getter e setter nei costruttori",
+        "type": "esempio"
+      },
+      {
+        "en": "Coding standards: how to declare public properties and methods in a readable way",
+        "it": "Coding standards: dichiarare propriet\u00e0 e metodi pubblici nella maniera pi\u00f9 leggebile"
+      },
+      {
+        "en": "Private methods in Javascript objects: a workaround to create them, with some limitations",
+        "it": "Metodi privati negli oggetti Javascript: un workaround per crearli, anche se con qualche limitazione"
+      },
+      {
+        "en": "The closure effect used to grant private object methods the access to public members",
+        "it": "L'effetto closure usato per fornire ai metodi privati l'accesso ai membri pubblici di un oggetto",
+        "type": "esempio"
+      },
+      {
+        "en": "Privileged methods in javascript objects: exploiting the closure to grant public object methods the access to private methods",
+        "it": "Metodi privilegiati negli oggetti Javascript: sfruttare le closure per fornire ai metodi pubblici l'accesso a quelli privati",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "Java-like field encapsulation (getters and setters) in Javascript using private properties and privileged methods",
+        "it": "Realizzare l'incapsulamento dei campi Java (getter e setter) in Javascript con propriet\u00e0 private e metodi privilegiati",
+        "type": "esempio"
+      },
+      {
+        "en": "ES6: class syntax",
+        "it": "ES6: il costrutto class"
+      },
+      {
+        "en": "Definition of objects through classes or prototypes",
+        "it": "Definizione di oggetti con classi o prototipi",
+        "type": "esempio"
+      },
+      {
+        "en": "ES6: the spread operator (...)",
+        "it": "ES6: l'operatore spread (...)"
+      },
+      {
+        "en": "ES6: destructuring assignment",
+        "it": "ES6: il destructuring assignment"
+      },
+      {
+        "en": "Destructuring assignment with arrays and objects",
+        "it": "Destructuring assignment con array e oggetti",
+        "type": "esempio"
+      },
+      {
+        "en": "Javascript predefined objects: strings",
+        "it": "Oggetti predefiniti Javascript: le stringhe"
+      },
+      {
+        "show": false,
+        "en": "String object methods",
+        "it": "I metodi degli oggetti String",
+        "type": "esempio"
+      },
+      {
+        "en": "ES6: String interpolation",
+        "it": "ES6: Interpolazione di stringhe"
+      },
+      {
+        "en": "Javascript predefined objects: regular expressions",
+        "it": "Oggetti predefiniti Javascript: le espressioni regolari"
+      },
+      {
+        "en": "Javascript predefined objects: arrays",
+        "it": "Oggetti predefiniti Javascript: gli array"
+      },
+      {
+        "show": false,
+        "en": "Use of the constructor property to recognize objects created by different constructor functions",
+        "it": "Usare la propriet\u00e0 constructor per riconoscere oggetti creati tramite funzioni costruttore diverse",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "How to check if an object is an array using its constructor property",
+        "it": "Riconoscere un array tramite la sua propriet\u00e0 constructor",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "Array object methods",
+        "it": "I metodi degli oggetti array",
+        "type": "esempio"
+      },
+      {
+        "en": "Array ordering using the sort method and an arrow function",
+        "it": "Ordinare un array con il metodo sort e una funzione freccia",
+        "type": "esempio"
+      },
+      {
+        "en": "Javascript predefined objects: dates",
+        "it": "Oggetti predefiniti Javascript: le date"
+      },
+      {
+        "en": "Date object methods",
+        "it": "I metodi degli oggetti Date",
+        "type": "esempio"
+      },
+      {
+        "en": "Overview of iterators definition",
+        "it": "Cenni sulla definizione degli iteratori"
+      },
+      {
+        "en": "Overview of generator functions",
+        "it": "Cenni sulle funzioni generatore"
+      },
+      {
+        "en": "Javascript predefined objects: Set and Map in ES6",
+        "it": "Oggetti predefiniti Javascript: Set e Map in ES6"
+      },
+      {
+        "en": "ES6: Promises",
+        "it": "ES6: Le promises"
+      },
+      {
+        "en": "How to embed an (asynchronous) algorithm in a Promise",
+        "it": "Incorporare un algoritmo (asincrono) in una Promise",
+        "type": "esempio"
+      },
+      {
+        "en": "Promise handlers: then and catch",
+        "it": "Handler di una Promise: then e catch"
+      },
+      {
+        "en": "Returning and using the final Promise result",
+        "it": "Restituzione ed uso del risultato finale di una Promise",
+        "type": "esempio"
+      },
+      {
+        "en": "Promise handlers chaining",
+        "it": "Concatenazione di handler su una Promise"
+      },
+      {
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "all": "Javascript /3"
     }
   }
 ]
