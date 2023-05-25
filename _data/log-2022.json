@@ -2644,5 +2644,248 @@
     "title": {
       "all": "Javascript /3"
     }
+  },
+  {
+    "date": "2023-05-25T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Javascript",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      },
+      {
+        "name": "DOMHTML",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Javascript in browsers: the window default object",
+        "it": "Javascript nei browser: l'oggetto di default window"
+      },
+      {
+        "en": "The setTimer and setInterval methods",
+        "it": "I metodi setTimer e setInterval"
+      },
+      {
+        "en": "How to prevent the event flooding deriving from an incorrect use of timers",
+        "it": "Prevenire l'event flooding derivante da un uso scorretto dei timer",
+        "type": "esempio"
+      },
+      {
+        "en": "How to use setTimer to create a better user interface",
+        "it": "Come sfruttare setTimer per creare una buona interfaccia utente",
+        "type": "esempio"
+      },
+      {
+        "en": "XML Document Object Model",
+        "it": "Il Document Object Model di XML"
+      },
+      {
+        "en": "The tree structure underlying an XML document",
+        "it": "Struttura ad albero di un documento XML"
+      },
+      {
+        "en": "DOM base classes: Node",
+        "it": "Le classi fondamentali del DOM: Node"
+      },
+      {
+        "en": "Node base attributes",
+        "it": "Attributi base dei nodi"
+      },
+      {
+        "en": "Node attributes for DOM navigation",
+        "it": "Attributi per la navigazione tra i nodi"
+      },
+      {
+        "en": "How to reach a generic document node",
+        "it": "Raggiungere un nodo generico all'interno del documento",
+        "type": "esempio"
+      },
+      {
+        "en": "Node methods for DOM modification",
+        "it": "Metodi per la modifica dei nodi"
+      },
+      {
+        "en": "How to read and write the node textual content through the textContent attribute",
+        "it": "Uso dell'attributo textContent per leggere e scrivere il contenuto testuale di un nodo"
+      },
+      {
+        "en": "How to move a fragment of HTML document in a new location",
+        "it": "Spostare frammenti di un documento HTML in posizioni diverse",
+        "type": "esempio"
+      },
+      {
+        "en": "DOM base classes: Document",
+        "it": "Le classi fondamentali del DOM: Document"
+      },
+      {
+        "en": "Two methods to quicky reach specific elements: getElementById e getElementsByTagName",
+        "it": "Metodi per la ricerca rapida di nodi (per id e tag): getElementById e getElementsByTagName"
+      },
+      {
+        "en": "Document methods for node creation",
+        "it": "Metodi per la creazione di nodi"
+      },
+      {
+        "en": "How to create an HTML fragment and put it in an existing document",
+        "it": "Creare un frammento di HTML ed inserirlo in un documento preesistente",
+        "type": "esempio"
+      },
+      {
+        "en": "DOM base classes: Element",
+        "it": "Le classi fondamentali del DOM: Element"
+      },
+      {
+        "en": "Element methods to read and write attributes",
+        "it": "Leggere e scrivere i valori degli attributi"
+      },
+      {
+        "en": "The HTML DOM",
+        "it": "Il DOM di HTML"
+      },
+      {
+        "en": "The HTMLDocument class",
+        "it": "La classe HTMLDocument"
+      },
+      {
+        "show": false,
+        "en": "Document collections: images, forms, links,...",
+        "it": "Le collection del documento: immagini, form, link,..."
+      },
+      {
+        "en": "The HTMLElement class",
+        "it": "La classe HTMLElement"
+      },
+      {
+        "en": "Getting and setting the element attributes through the HTMLElement object properties",
+        "it": "Impostare gli attributi degli elementi attraverso le proprieta' dell'oggetto HTMLElement"
+      },
+      {
+        "en": "The HTMLFormElement class",
+        "it": "La classe HTMLFormElement"
+      },
+      {
+        "show": false,
+        "en": "Direct access to the form fields",
+        "it": "Accedere in maniera diretta ai campi di un modulo"
+      },
+      {
+        "en": "The CSS DOM",
+        "it": "Il DOM di CSS"
+      },
+      {
+        "en": "How to read and write an element inline style: the style attribute",
+        "it": "Leggere e scrivere lo stile specifico di un elemento: l'attributo style"
+      },
+      {
+        "en": "Style declarations: the CSSStyleDeclaration class",
+        "it": "Le dichiarazioni di stile: l'oggetto CSSStyleDeclaration"
+      },
+      {
+        "en": "How to read and write style properties through the CSSStyleDeclaration class",
+        "it": "Lettura/scrittura dei valori degli attributi di stile tramite la CSSStyleDeclaration"
+      },
+      {
+        "en": "Quick access to the style properties: the CSS2Properties interface",
+        "it": "Accesso rapido alle proprieta' di stile: l'interfaccia CSS2Properties"
+      },
+      {
+        "en": "How to read the complete, computed style of an element: getComputedStyle",
+        "it": "Leggere gli stili dedotti dalla cascata: getComputedStyle"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "en": "The DOM event model",
+        "it": "Il modello a eventi del DOM"
+      },
+      {
+        "all": "Event Bubbling"
+      },
+      {
+        "en": "How to delagate an event to an ancestor of the event target",
+        "it": "Delegare un evento a un elemento superiore della gerarchia"
+      },
+      {
+        "all": "Event Capturing"
+      },
+      {
+        "en": "The complete event dispatch route",
+        "it": "Il percorso completo di un evento",
+        "type": "esempio"
+      },
+      {
+        "en": "Adding event handlers to DOM elements: addEventListener",
+        "it": "Associazione di handlers agli eventi: addEventListener"
+      },
+      {
+        "en": "Removing handlers: removeEventListener",
+        "it": "Rimuovere handlers: removeEventListener"
+      },
+      {
+        "en": "The EventListener functions",
+        "it": "Le funzioni EventListener"
+      },
+      {
+        "show": false,
+        "en": "Meaning of parameters and return values in event handling functions",
+        "it": "Significato dei parametri e del valore di ritorno nelle funzioni di event handling"
+      },
+      {
+        "en": "The Event object",
+        "it": "Struttura di base di un oggetto Event"
+      },
+      {
+        "en": "Meaning of the target and currentTarget attributes in Event objects",
+        "it": "Gli attributi target e currentTarget negli oggetti Event"
+      },
+      {
+        "en": "The stopPropagation e preventDefault methods",
+        "it": "I metodi stopPropagation e preventDefault"
+      },
+      {
+        "en": "Mouse events",
+        "it": "Gli eventi del mouse"
+      },
+      {
+        "en": "Structure of mouse event objects",
+        "it": "Struttura degli eventi del mouse"
+      },
+      {
+        "en": "Meaning of the relatedTarget attribute in mouse events",
+        "it": "L'attributo relatedTarget negli eventi mouse"
+      },
+      {
+        "en": "Keyboard events",
+        "it": "Gli eventi della tastiera"
+      },
+      {
+        "en": "Structure of keyboard event objects: code, key, charCode, etc.",
+        "it": "Struttura degli eventi della tastiera: code, key, charCode, ecc."
+      },
+      {
+        "en": "Other DOM events",
+        "it": "Altri eventi del DOM"
+      },
+      {
+        "en": "The scroll event used to support incremental page loading",
+        "it": "L'evento scroll e il caricamento incrementale della pagina",
+        "type": "esempio"
+      },
+      {
+        "en": "Form events: change, reset, submit",
+        "it": "Eventi delle form: change, reset, submit"
+      },
+      {
+        "en": "The submit event used to support form validation",
+        "it": "L'evento submit e la validazione della form",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "all": "DOM (XML, HTML, CSS, Events)"
+    }
   }
 ]
