@@ -2759,7 +2759,7 @@
       },
       {
         "en": "Getting and setting the element attributes through the HTMLElement object properties",
-        "it": "Impostare gli attributi degli elementi attraverso le proprieta' dell'oggetto HTMLElement"
+        "it": "Impostare gli attributi degli elementi attraverso le proprietà dell'oggetto HTMLElement"
       },
       {
         "en": "The HTMLFormElement class",
@@ -2788,7 +2788,7 @@
       },
       {
         "en": "Quick access to the style properties: the CSS2Properties interface",
-        "it": "Accesso rapido alle proprieta' di stile: l'interfaccia CSS2Properties"
+        "it": "Accesso rapido alle proprietà di stile: l'interfaccia CSS2Properties"
       },
       {
         "en": "How to read the complete, computed style of an element: getComputedStyle",
