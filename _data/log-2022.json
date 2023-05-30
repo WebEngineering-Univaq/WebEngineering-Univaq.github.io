@@ -2957,6 +2957,15 @@
         ]
       },
       {
+        "en": "Fetch API overview",
+        "it": "Cenni sulle Fetch API",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+          }
+        ]
+      },
+      {
         "show": false,
         "ref": "JS_Example_simpleswitchededitor",
         "en": "Advanced input controls attached to standard form fields with Javascript",
