@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2024-02-27T16:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "en": "Course presentation",
+        "it": "Presentazione del corso"
+      },
+      {
+        "en": "The origins of WWW",
+        "it": "Le origini del Web"
+      },
+      {
+        "en": "The client-server architecture",
+        "it": "L'architettura client-server"
+      },
+      {
+        "all": "Web 2.0: Rich Internet Applications, Social Web"
+      },
+      {
+        "en": "Today's web problems: accessibility, usability, cross-browser programming, security, mobile first,...",
+        "it": "I problemi del web odierno: accessibilit\u00e0, fruibilit\u00e0 cross-browser, sicurezza, usabilit\u00e0, mobile first,..."
+      },
+      {
+        "en": "Web technologies: client side (HTML5, CSS3 e responsive design, Javascript, AJAX)",
+        "it": "Le tecnologie per il web: lato client (HTML5, CSS3 e responsive design, Javascript, AJAX)"
+      },
+      {
+        "en": "Web technologies: server side (Java servlets, JDBC, Freemarker templates)",
+        "it": "Le tecnologie per il web: lato server (Java servlets, JDBC, Freemarker templates)"
+      },
+      {
+        "en": "Creating a website with the MVC pattern: separation between data, business logic and presentation",
+        "it": "La realizzazione di un'applicazione web secondo il pattern MVC: il modello dei dati, la logica, la presentazione"
+      },
+      {
+        "en": "The HTTP protocol",
+        "it": "Il protocollo HTTP"
+      }
+    ],
+    "title": {
+      "en": "Modern web: technologies, challenges and problems",
+      "it": "Il web moderno: tecnologie, sfide, problemi"
+    }
+  }
+]
