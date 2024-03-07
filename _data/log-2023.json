@@ -282,10 +282,6 @@
         ]
       },
       {
-        "en": "HTML: lists (ol, ul, dl)",
-        "it": "HTML: le liste (ol, ul, dl)"
-      },
-      {
         "en": "Lists as semantic element in complex layouts",
         "it": "Le liste come elemento semantico nei layout complessi"
       },
@@ -303,6 +299,135 @@
     ],
     "title": {
       "all": "HTML /1"
+    }
+  },
+  {
+    "date": "2024-03-07T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "HTML",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "HTML: lists (ol, ul, dl)",
+        "it": "HTML: le liste (ol, ul, dl)"
+      },
+      {
+        "en": "HTML: tables",
+        "it": "HTML: le tabelle (table)",
+        "attachments": [
+          {
+            "name": "HTML_Examples - Tables",
+            "link": "https://github.com/WebEngineering-Univaq/HTML_Examples"
+          }
+        ]
+      },
+      {
+        "en": "The table element attributes in HTML5",
+        "it": "Gli attributi dell'elemento table in HTML5"
+      },
+      {
+        "en": "Base table structure: rows (tr), cells (td) and header cells (th)",
+        "it": "Struttura semplice di tabella: righe (tr), celle (td) e celle di intestazione (td)"
+      },
+      {
+        "en": "The complete table structure: header (thead), body (tbody), footer (tfoot)",
+        "it": "Struttura completa di tabella: intestazione (thead), corpo (tbody), pi\u00e8 di tabella (tfoot)"
+      },
+      {
+        "en": "Watch out for the implicit tbody element...",
+        "it": "Attenzione all'elemento tbody implicito...",
+        "type": "esempio"
+      },
+      {
+        "en": "Creating complex tables with colspan and rowspan",
+        "it": "Costruire tabelle complesse con colspan e rowspan"
+      },
+      {
+        "en": "Column (col) and column group (colgroup) declaration",
+        "it": "Dichiarare le colonne (col) e i gruppi di colonne (colgroup)"
+      },
+      {
+        "en": "Images in web pages",
+        "it": "Le immagini nelle pagine web (img)",
+        "attachments": [
+          {
+            "name": "HTML_Examples - Images",
+            "link": "https://github.com/WebEngineering-Univaq/HTML_Examples"
+          }
+        ]
+      },
+      {
+        "en": "Accessible images: the alt attribute",
+        "it": "Accessibilit\u00e0 delle immagini: l'attributo alt"
+      },
+      {
+        "en": "Client size image resizing",
+        "it": "Resizing delle immagini client side"
+      },
+      {
+        "en": "Server and client side image maps",
+        "it": "Le mappe immagine server e client side"
+      },
+      {
+        "en": "The new HTML5 elements video, audio and canvas",
+        "it": "I nuovi elementi HTML5 video, audio e canvas"
+      },
+      {
+        "en": "Logical links between resources (link)",
+        "it": "Collegamenti logici tra risorse (link)"
+      },
+      {
+        "en": "The rel(ation) attribute in links",
+        "it": "L'attributo rel(azione) nei link",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel"
+          }
+        ]
+      },
+      {
+        "en": "Alternate documents",
+        "it": "Documenti alternativi",
+        "type": "esempio"
+      },
+      {
+        "en": "External stylesheets",
+        "it": "Collagamento di fogli di stile esterni",
+        "type": "esempio"
+      },
+      {
+        "en": "Adding a RSS feed to a web page",
+        "it": "Collegare un feed RSS a una pagina",
+        "type": "esempio"
+      },
+      {
+        "en": "Adding a shortcut icon  to a web page",
+        "it": "Collegare una shortcut icon a una pagina",
+        "type": "esempio"
+      },
+      {
+        "en": "Page loading optimization: preload and prefetch links",
+        "it": "Ottimizzare il caricamento di una pagina: i link di tipo preload e prefetch",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/Performance/Speculative_loading"
+          },
+          {
+            "link": "https://caniuse.com/link-rel-prefetch"
+          },
+          {
+            "link": "https://caniuse.com/link-rel-preload"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "HTML /2"
     }
   }
 ]
