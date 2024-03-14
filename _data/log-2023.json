@@ -429,5 +429,225 @@
     "title": {
       "all": "HTML /2"
     }
+  },
+  {
+    "date": "2024-03-12T16:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "HTML",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Hyperlinks (a)",
+        "it": "I collegamenti ipertestuali (a)"
+      },
+      {
+        "en": "Anchors and fragment identifiers",
+        "it": "Ancore nei documenti e fragment identifiers"
+      },
+      {
+        "en": "Jump directly to the page content",
+        "it": "Saltare rapidamente al contenuto di una pagina",
+        "type": "esempio"
+      },
+      {
+        "en": "The GET and POST methods",
+        "it": "Differenze tra metodo GET e POST"
+      },
+      {
+        "en": "Form data encoding",
+        "it": "La codifica dei dati nelle form"
+      },
+      {
+        "en": "Forms in HTML (form)",
+        "it": "I moduli in HTML (form)"
+      },
+      {
+        "en": "Important form attributes: action, method, enctype e accept-charset",
+        "it": "Attributi importanti delle form: action, method, enctype e accept-charset",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form"
+          }
+        ]
+      },
+      {
+        "en": "Choosing the right method/encoding combination for a form",
+        "it": "Scegliere la giusta combinazione di metodo ed encoding per una form",
+        "type": "esempio"
+      },
+      {
+        "en": "The POST-Redirect-GET pattern for form submission",
+        "it": "Il pattern POST-Redirect-GET per la sottomissione di form",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://en.wikipedia.org/wiki/Post/Redirect/Get"
+          },
+          {
+            "name": "Java_Example_Post_Redirect_Get",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Post_Redirect_Get"
+          }
+        ]
+      },
+      {
+        "en": "Using accept-charset to solve further encoding issues (this time between client and server)",
+        "it": "Usare accept-charset per risolvere ulteriori problemi di encoding (stavolta tra il client e il server)",
+        "type": "esempio"
+      },
+      {
+        "en": "The input control element (input)",
+        "it": "Gli elementi di input utente (input)"
+      },
+      {
+        "en": "Rendering comparison for input controls on different browsers",
+        "it": "Confronto del rendering in vari browser per i controlli di input",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "HTML_Examples - Forms",
+            "link": "https://github.com/WebEngineering-Univaq/HTML_Examples"
+          }
+        ]
+      },
+      {
+        "en": "Values submitted by non-textual inputs: file, checkbox, radio,...",
+        "it": "I valori sottomessi da campi non testuali: file, checkbox, radio,...",
+        "type": "esempio"
+      },
+      {
+        "en": "Avoiding trasmission of a form field value using the disabled attribite",
+        "it": "Impedire la trasmissione di un campo di form con l'attributo disabled",
+        "type": "esempio"
+      },
+      {
+        "en": "Value validation attributes in HTML4 and HTML5 (maxlength, min, max, pattern,...)",
+        "it": "Gli attributi di validazione in HTML4 e HTML5 (maxlength, min, max, pattern,...)"
+      },
+      {
+        "en": "How (and where) form data should be validated",
+        "it": "Come (e dove) validare i dati inviati da una form",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "all": "HTML /3"
+    }
+  },
+  {
+    "date": "2024-03-14T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "HTML",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      },
+      {
+        "name": "Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Text editors (textarea)",
+        "it": "Gli editor testuali (textarea)"
+      },
+      {
+        "en": "Multiple choice selectors (select)",
+        "it": "I controlli a scelta multipla (select)"
+      },
+      {
+        "en": "Option labels and values: which data should I send to the server?",
+        "it": "Label e value delle opzioni: quali dati \u00e8 meglio trasferire al server",
+        "type": "esempio"
+      },
+      {
+        "en": "Options and option groups",
+        "it": "Opzioni e raggruppamento (option, optgroup)"
+      },
+      {
+        "en": "Different renderings of select controls",
+        "it": "Rendering diversi del controllo select",
+        "attachments": [
+          {
+            "name": "HTML_Examples - Forms",
+            "link": "https://github.com/WebEngineering-Univaq/HTML_Examples"
+          }
+        ]
+      },
+      {
+        "en": "Select controls used as menus on mobile devices",
+        "it": "Uso delle select come menu nei dispositivi mobili",
+        "type": "esempio"
+      },
+      {
+        "en": "Accessible control labels (label)",
+        "it": "Etichette accessibili per i controlli (label)"
+      },
+      {
+        "en": "Different use cases for hidden inputs",
+        "it": "Gli input hidden e i loro diversi casi d'uso",
+        "type": "esempio"
+      },
+      {
+        "en": "Hidden inputs and CSRF tokens",
+        "it": "Gli input hidden per trasmettere CSRF token",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html"
+          }
+        ]
+      },
+      {
+        "en": "How to check (and integrate) your Java development platform",
+        "it": "Verificare (ed integrare) la propria piattaforma Java di sviluppo",
+        "type": "esempio"
+      },
+      {
+        "en": "Java/Jakarta Enterprise Edition (JEE/JakartaEE): versions and profiles",
+        "it": "La Java/Jakarta Enterprise Edition (JEE/JakartaEE), le sue versioni e i suoi profili",
+        "attachments": [
+          {
+            "link": "https://www.oracle.com/java/technologies/java-ee-glance.html"
+          },
+          {
+            "link": "https://jakarta.ee/about/jakarta-ee/"
+          }
+        ]
+      },
+      {
+        "en": "Migration from JEE to JakartaEE: issues and solutions",
+        "it": "Migrazione dalla JEE alla JakartaEE: problemi e soluzioni",
+        "attachments": [
+          {
+            "link": "https://blogs.oracle.com/javamagazine/post/transition-from-java-ee-to-jakarta-ee"
+          }
+        ]
+      },
+      {
+        "en": "(Private) Installation of an updated JDK",
+        "it": "Installazione (privata) di una JDK aggiornata"
+      },
+      {
+        "en": "Netbeans IDE introduction",
+        "it": "Presentazione del Netbeans IDE"
+      },
+      {
+        "en": "Apache Tomcat server installation and introduction",
+        "it": "Presentazione e installazione del server Apache Tomcat"
+      },
+      {
+        "en": "Some useful tips to link Netbeans and Tomcat",
+        "it": "Suggerimenti utili per collegare Netbeans e Tomcat",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "all": "Java Web Applications"
+    }
   }
 ]
