@@ -649,5 +649,191 @@
     "title": {
       "all": "Java Web Applications"
     }
+  },
+  {
+    "date": "2024-03-19T16:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "link": "https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/web/webapp/webapp.html"
+      },
+      {
+        "link": "https://javaee.github.io/"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Servlets and containers",
+        "it": "Le servlet e i container"
+      },
+      {
+        "en": "Introduction to servlet programming",
+        "it": "Introduzione alla programmazione delle servlet"
+      },
+      {
+        "en": "The web application context and the url mapping",
+        "it": "Il contesto di una web application e l'url mapping nei servlet container"
+      },
+      {
+        "en": "The web application base structure",
+        "it": "La struttura di base di una web application"
+      },
+      {
+        "en": "The web application folder structure",
+        "it": "Struttura (fisica) di una web application"
+      },
+      {
+        "en": "How to create a new web application",
+        "it": "Creare una nuova applicazione web",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_WebApp_Base_T9",
+            "link": "https://github.com/WebEngineering-Univaq/Java_WebApp_Base_T9"
+          }
+        ]
+      },
+      {
+        "en": "The project object model (POM) of a simple web application",
+        "it": "Il project object model (POM) di una semplice web application",
+        "type": "esempio"
+      },
+      {
+        "en": "Compiling, deploying and executing a web application",
+        "it": "Compilazione, deploy ed esecuzione di una web application",
+        "type": "esempio"
+      },
+      {
+        "en": "The context configuration file (context.xml)",
+        "it": "Il file di configurazione del contesto (context.xml)",
+        "attachments": [
+          {
+            "link": "https://tomcat.apache.org/tomcat-10.0-doc/appdev/deployment.html"
+          }
+        ]
+      },
+      {
+        "en": "How to add static resources (html, css, etc.) to a web application",
+        "it": "Aggiungere risorse statiche (html, css, ecc.) a una web application",
+        "type": "esempio"
+      },
+      {
+        "en": "The deployment descriptor (web.xml)",
+        "it": "Il deployment descriptor (web.xml)",
+        "attachments": [
+          {
+            "name": "Java Servlet Specification, version 2.3, Chapter 13 - Deployment Descriptor",
+            "link": "https://download.oracle.com/otndocs/jcp/7840-servlet-2.3-spec-oth-JSpec/"
+          }
+        ]
+      },
+      {
+        "en": "Alternative deployment: the Servlet 3.0 @WebServlet annotation",
+        "it": "Deployment alternativo: l'annotazione Servlet 3 @WebServlet",
+        "attachments": [
+          {
+            "name": "Java_WebApp_Base_T9_Alt",
+            "link": "https://github.com/WebEngineering-Univaq/Java_WebApp_Base_T9_Alt"
+          }
+        ]
+      },
+      {
+        "en": "How to adapt the base project to deploy it on JakartaEE/Tomcat 10",
+        "it": "Adattare il progetto di base per eseguirlo su JakartaEE/Tomcat 10",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_WebApp_Base_T10",
+            "link": "https://github.com/WebEngineering-Univaq/Java_WebApp_Base_T10"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "Java Servlets /1"
+    }
+  },
+  {
+    "date": "2024-03-21T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "link": "https://jakarta.ee/learn/docs/jakartaee-tutorial/current/web/servlets/servlets.html"
+      },
+      {
+        "link": "https://javaee.github.io/javaee-spec/javadocs/javax/servlet/Servlet.html"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "How to add a new servlet in a web application",
+        "it": "Aggiungere una nuova servlet in una web application",
+        "type": "esempio"
+      },
+      {
+        "en": "The servlet base interfaces: Servlet, ServletRequest, ServletResponse",
+        "it": "Le interfacce base delle servlet: Servlet, ServletRequest, ServletResponse"
+      },
+      {
+        "en": "The servlet lifecycle: initialization, service and finalization",
+        "it": "Il ciclo di vita di una servlet: inizializzazione, servizio, finalizzazione"
+      },
+      {
+        "en": "Servlet initialization and finalization: init and destroy methods",
+        "it": "Inizializzare e finalizzare una servlet: metodi init e destroy"
+      },
+      {
+        "en": "The HttpServlet class and its doGet and doPost methods",
+        "it": "La classe HttpServlet e i metodi doGet e doPost"
+      },
+      {
+        "en": "Multithreading in the HttpServlet class: per-thread and shared variables",
+        "it": "Multithreading con la classe HttpServlet: variabili per-thread e condivise"
+      },
+      {
+        "en": "Writing data to the client: the HttpServletResponse class",
+        "it": "Scrivere informazioni verso il client: la classe HttpServletResponse"
+      },
+      {
+        "en": "Textual and binary output from a servlet",
+        "it": "Output testuale e binario da una servlet"
+      },
+      {
+        "en": "The \"Hello World\" servlet",
+        "it": "La servlet \"Salutami\"",
+        "type": "esempio"
+      },
+      {
+        "en": "Writing headers and payload of an HTTP response",
+        "it": "Scrittura degli headers e del payload di un messaggio HTTP"
+      },
+      {
+        "en": "Communication among application layers through request attributes",
+        "it": "Comunicazione tra gli strati dell'applicazione tramite gli attributi della HttpServletRequest"
+      },
+      {
+        "en": "Effective error and exception handling in servlets",
+        "it": "Gestire efficacemente gli errori e le eccezioni in una servlet"
+      },
+      {
+        "en": "Returning HTTP error codes from a servlet",
+        "it": "Restituire codici di errore HTTP da una servlet"
+      }
+    ],
+    "title": {
+      "all": "Java Servlets /2"
+    }
   }
 ]
