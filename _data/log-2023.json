@@ -661,9 +661,11 @@
     ],
     "attachments": [
       {
+        "name": "JakartaEE Web Application tutorial",
         "link": "https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/web/webapp/webapp.html"
       },
       {
+        "name": "JavaEE (legacy) specification",
         "link": "https://javaee.github.io/"
       }
     ],
@@ -770,9 +772,11 @@
     ],
     "attachments": [
       {
+        "name": "JakartaEE Servlet tutorial",
         "link": "https://jakarta.ee/learn/docs/jakartaee-tutorial/current/web/servlets/servlets.html"
       },
       {
+        "name": "JavaEE Servlet specification",
         "link": "https://javaee.github.io/javaee-spec/javadocs/javax/servlet/Servlet.html"
       }
     ],
