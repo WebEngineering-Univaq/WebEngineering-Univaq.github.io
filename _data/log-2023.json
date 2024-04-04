@@ -934,5 +934,111 @@
     "title": {
       "all": "Java Servlets /3"
     }
+  },
+  {
+    "date": "2024-04-04T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Reading form POST parameters with url encoding",
+        "it": "Elaborazione delle form in modalit\u00e0 POST con codifica url"
+      },
+      {
+        "en": "Handling multipart encoded forms with JEE version 6+",
+        "it": "Elaborazione delle form con codifica multipart con JEE versione 6+"
+      },
+      {
+        "en": "The multipart-config element",
+        "it": "L'elemento multipart-config"
+      },
+      {
+        "en": "Handling uploaded files with getPart()",
+        "it": "Gestione dei file caricati con getPart()"
+      },
+      {
+        "en": "Application configuration through ServletContext parameters",
+        "it": "Configurazione dell'applicazione tramite i parametri del ServletContext"
+      },
+      {
+        "en": "Filenames sanitization",
+        "it": "Sanitizzazione dei nomi dei file",
+        "attachments": [
+          {
+            "link": "https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html#filename-sanitization"
+          }
+        ]
+      },
+      {
+        "en": "The 'Hello world' servlet with file upload",
+        "it": "La servlet \"Uploadami\" con upload di file",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Servlet_Multipart_7",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Servlet_Multipart_7"
+          }
+        ]
+      },
+      {
+        "en": "Secure web applications accepting uploads",
+        "it": "Rendere sicure le applicazioni web che accettano upload di file",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html"
+          }
+        ]
+      },
+      {
+        "en": "The web application status: sessions",
+        "it": "Lo stato delle applicazioni web: il concetto di sessione",
+        "attachments": [
+          {
+            "link": "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html"
+          }
+        ]
+      },
+      {
+        "en": "Sessions for user profiling",
+        "it": "Le sessioni usate per il profiling dell'utente",
+        "type": "esempio"
+      },
+      {
+        "en": "Session identifier exchange: cookie and URL rewriting",
+        "it": "Trasmissione del session identifier: cookie e URL rewriting"
+      },
+      {
+        "en": "Generate and handle session information: the HttpSession class",
+        "it": "Generare e leggere le informazioni di sessione: la classe HttpSession"
+      },
+      {
+        "en": "Read and write session variables: getAttribute, setAttribute",
+        "it": "Leggere e scrivere variabili di stato: getAttribute, setAttribute"
+      },
+      {
+        "en": "Close a session: invalidate",
+        "it": "Chiudere una sessione: invalidate"
+      },
+      {
+        "en": "The 'Hello world' servlet with sessions",
+        "it": "La servlet \"Ricordami\" con sessioni",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Servlet_Sessions",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Servlet_Sessions"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "Java Servlets /4"
+    }
   }
 ]
