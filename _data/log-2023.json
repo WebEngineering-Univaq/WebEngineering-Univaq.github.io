@@ -1040,5 +1040,226 @@
     "title": {
       "all": "Java Servlets /4"
     }
+  },
+  {
+    "date": "2024-04-09T16:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Sessions for user authentication",
+        "it": "Le sessioni usate per l'autenticazione"
+      },
+      {
+        "en": "Login, logout and authenticated sessions",
+        "it": "Login, logout e sessioni autenticate",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Login",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Login"
+          }
+        ]
+      },
+      {
+        "en": "The login-with-redirection technique",
+        "it": "La tecnica del login-con-ridirezione"
+      },
+      {
+        "en": "User authentication and secure password storage",
+        "it": "Autenticazione utente e storage sicuro delle password"
+      },
+      {
+        "en": "Password hashing with PBKDF2 in Java",
+        "it": "Hashing delle password con PBKDF2 in Java",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://en.wikipedia.org/wiki/PBKDF2"
+          },
+          {
+            "link": "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html"
+          }
+        ]
+      },
+      {
+        "en": "Session protection techniques",
+        "it": "Tecniche per la protezione delle sessioni"
+      },
+      {
+        "en": "Session refreshing",
+        "it": "Refresh delle sessioni"
+      },
+      {
+        "en": "Session timeout(s)",
+        "it": "Timeout(s) delle sessioni"
+      },
+      {
+        "en": "The SecurityHelpers class",
+        "it": "La classe SecurityHelpers",
+        "type": "esempio"
+      },
+      {
+        "en": "Filters in java web applications and how to use them to ease session management",
+        "it": "I Filter nelle web application java e come usarli per semplificare la gestione delle sessioni",
+        "attachments": [
+          {
+            "name": "Java_Example_Login_Middleware",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Login_Middleware"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "en": "Sessions and Security",
+      "it": "Sessioni e Sicurezza"
+    }
+  },
+  {
+    "date": "2024-04-11T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Java and DBMS: references to JDBC basics",
+        "it": "Java e i DBMS: richiami sulle nozioni di base del JDBC"
+      },
+      {
+        "type": "esempio",
+        "en": "JDBC: adding the driver dependency to the project POM",
+        "it": "JDBC: aggiungere la dipendenza del driver al POM del progetto"
+      },
+      {
+        "type": "esempio",
+        "en": "JDBC: the main classes (Connection, (Prepared)Statement, ResultSet)",
+        "it": "JDBC: le classi principali (Connection, (Prepared)Statement, ResultSet)"
+      },
+      {
+        "type": "esempio",
+        "en": "JDBC: opening a connection through the DriverManager (not recommended in web applications!)",
+        "it": "JDBC: aprire una connessione tramite il DriverManager (sconsigliato nelle applicazioni web!)"
+      },
+      {
+        "type": "esempio",
+        "en": "JDBC: execution of insert, update, delete queries",
+        "it": "JDBC: eseguire query di inserimento, aggiornamento, cancellazione"
+      },
+      {
+        "type": "esempio",
+        "en": "JDBC: execution of select queries",
+        "it": "JDBC: eseguire query di selezione"
+      },
+      {
+        "en": "JDBC: closing resources (resultsets, statements and connections)",
+        "it": "JDBC: chiudere le risorse (resultset, statement e connessioni)"
+      },
+      {
+        "en": "JDBC: precompilation of (parametric) queries",
+        "it": "JDBC: precompilazione di query (parametriche)"
+      },
+      {
+        "en": "Reasons to use PreparedStatement in a web application: safety (against SQL injection)",
+        "it": "Le ragioni per usare un PreparedStatement in una web application: sicurezza (contro la SQL Injection)",
+        "type": "esempio"
+      },
+      {
+        "en": "When to open a connection in a web application/servlet and when to close it",
+        "it": "Quando aprire una connessione in una web application/servlet e quando chiuderla",
+        "type": "esempio"
+      },
+      {
+        "en": "Data access performances in web applications: the connection problem",
+        "it": "Performance nell'accesso ai dati nelle applicazioni web: il problema delle connessioni"
+      },
+      {
+        "en": "Reusing JDBC connections: connection pooling",
+        "it": "Riutilizzare le connessioni JDBC: il connection pooling"
+      },
+      {
+        "en": "Configuration of a JDBC data source in Tomcat (context.xml)",
+        "it": "Configurare una sorgente dati JDBC in Tomcat (context.xml)",
+        "attachments": [
+          {
+            "link": "https://tomcat.apache.org/tomcat-9.0-doc/jdbc-pool.html"
+          }
+        ]
+      },
+      {
+        "en": "Resource references in the deployment descriptor",
+        "it": "Riferimento alle risorse nel deployment descriptor"
+      },
+      {
+        "en": "Using Java naming services to obtain a DataSource",
+        "it": "Utilizzare i servizi di naming di Java per ottenere un DataSource"
+      },
+      {
+        "it": "Utilizzare la resource injection di JavaEE per ottenere un DataSource",
+        "en": "Using the JavaEE resource injection to obtain a DataSource",
+        "attachments": [
+          {
+            "link": "https://jcp.org/en/jsr/detail?id=250"
+          }
+        ]
+      },
+      {
+        "en": "JDBC: opening a connection through the DataSource (recommended in web applications!)",
+        "it": "JDBC: aprire una connessione tramite il DataSource (consigliato nelle applicazioni web!)"
+      },
+      {
+        "en": "JDBC with connection pooling",
+        "it": "Uso del JDBC con connection pooling",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Servlet_Database",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Servlet_Database"
+          }
+        ]
+      },
+      {
+        "en": "Final example on forms and databases: a file repository",
+        "it": "Esempio finale sulle form e i database: un file repository",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Uploader",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Uploader"
+          }
+        ]
+      },
+      {
+        "en": "How to create the digest of a file",
+        "it": "Come calcolare il digest di un file",
+        "type": "esempio"
+      },
+      {
+        "en": "JDBC: Create a not-FORWARD_ONLY ResultSet and count the number of results",
+        "it": "JDBC: Creare un ResultSet non FORWARD_ONLY e contare il numero di resultati",
+        "type": "esempio"
+      },
+      {
+        "en": "JDBC: Get the auto-generated keys after an insert statement",
+        "it": "JDBC: Leggere le chiavi auto-generate dopo un inserimento",
+        "type": "esempio"
+      },
+      {
+        "en": "Presentation of the final project specifications",
+        "it": "Presentazione dei progetti d'esame"
+      }
+    ],
+    "title": {
+      "en": "Web Applications and Databases",
+      "it": "Web Applications e Database"
+    }
   }
 ]
