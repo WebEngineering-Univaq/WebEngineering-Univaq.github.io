@@ -1261,5 +1261,75 @@
       "en": "Web Applications and Databases",
       "it": "Web Applications e Database"
     }
+  },
+  {
+    "date": "2024-04-16T16:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "en": "Creating a website with the MVC pattern: separation between data, business logic and presentation",
+        "it": "La realizzazione di un'applicazione web secondo il pattern MVC: il modello dei dati, la logica, la presentazione"
+      },
+      {
+        "en": "The data object model as a contract between the MVC layers",
+        "it": "Il modello a oggetti dei dati come contratto tra i livelli MVC"
+      },
+      {
+        "en": "POJO - JavaBeans used to represent data model entities",
+        "it": "Creazione di POJO - JavaBeans per rappresentare le entit\u00e0 del modello dati"
+      },
+      {
+        "en": "Build well-formed POJOs: default constructor, getters and setters",
+        "it": "Costruire un POJO corretti: costruttore di default, getters e setters"
+      },
+      {
+        "en": "Creating entity objects: interface and implementation",
+        "it": "Creazione degli oggetti entit\u00e0: interfaccia e implementazione",
+        "type": "esempio"
+      },
+      {
+        "en": "The low-level interface of entity objects: proxies",
+        "it": "L'interfaccia a basso livello degli oggetti entit\u00e0: i proxy"
+      },
+      {
+        "en": "Marking entity objects as modified with setters",
+        "it": "Marcare gli oggetti entit\u00e0 come modificati nei setter",
+        "type": "esempio"
+      },
+      {
+        "en": "Lazy loading of relations: why it is important and how to implement it",
+        "it": "Lazy loading delle relazioni: perch\u00e8 \u00e8 importante e come si realizza",
+        "type": "esempio"
+      },
+      {
+        "en": "Creating data access methods: DAO",
+        "it": "Creazione dei metodi di accesso ai dati: i DAO"
+      },
+      {
+        "en": "Entity object factories",
+        "it": "Factory per oggetti entit\u00e0",
+        "type": "esempio"
+      },
+      {
+        "en": "Entity object caching: why it is important and how to implement it",
+        "it": "Caching degli oggetti entit\u00e0: perch\u00e8 \u00e8 importante e come si realizza",
+        "type": "esempio"
+      },
+      {
+        "en": "The newspaper data model: an example of data model design and implementation on MySQL",
+        "it": "Il modello dati newspaper: un esempio di design e implementazione di un modello dati su MySQL",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_SimpleDataModel",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_SimpleDataModel"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "en": "Data Modeling",
+      "it": "Modellazione Dati"
+    }
   }
 ]
