@@ -1427,5 +1427,148 @@
     "title": {
       "all": "CSS /1"
     }
+  },
+  {
+    "date": "2024-04-23T16:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "CSS3",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "CSS_Examples",
+        "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Class selectors",
+        "it": "Selettori di classe",
+        "attachments": [
+          {
+            "name": "css_selectors",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      },
+      {
+        "en": "Classes as special attributes",
+        "it": "Classi come attributi speciali",
+        "type": "esempio"
+      },
+      {
+        "en": "ID selectors",
+        "it": "Selettori di ID"
+      },
+      {
+        "en": "Short form for class and ID selectors",
+        "it": "Forma abbreviata dei selettori di classe e di ID"
+      },
+      {
+        "en": "Identify and format the base layout structures",
+        "it": "Identificare e formattare le strutture di base di un layout",
+        "type": "esempio"
+      },
+      {
+        "en": "Pseudo classes",
+        "it": "Pseudo classi"
+      },
+      {
+        "en": "Hover effects on links",
+        "it": "Effetti hover sui link",
+        "type": "esempio"
+      },
+      {
+        "en": "Focus effects on inputs",
+        "it": "Effetti focus sugli input",
+        "type": "esempio"
+      },
+      {
+        "en": "The :hover pseudo class in legacy browsers",
+        "it": "La pseudo classe :hover nei browser legacy"
+      },
+      {
+        "en": "How to add internal borders to a list of elements",
+        "it": "Inserire bordi interni in una lista di elementi",
+        "type": "esempio"
+      },
+      {
+        "en": "Pseudo elements",
+        "it": "Pseudo elementi"
+      },
+      {
+        "en": "How to create a drop cap",
+        "it": "Creare un capolettera",
+        "type": "esempio"
+      },
+      {
+        "en": "Composite selectors",
+        "it": "I selettori composti"
+      },
+      {
+        "en": "How to format adjacent titles",
+        "it": "Formattare in modo particolare due titoli adiacenti",
+        "type": "esempio"
+      },
+      {
+        "en": "The CSS algorithm to determine property values",
+        "it": "Le regole di selezione delle propriet\u00e0 di stile"
+      },
+      {
+        "en": "Origin priority, specificity and rule ordering",
+        "it": "Priorit\u00e0 di origine, specificit\u00e0 e ordinamento delle regole"
+      },
+      {
+        "en": "The !important modifier",
+        "it": "Il modificatore !important"
+      },
+      {
+        "en": "Cascading rules in the browsers",
+        "it": "Rispetto delle regole di cascata nei browser",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_cascade",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      },
+      {
+        "en": "Style inheritance",
+        "it": "Ereditariet\u00e0 delle propriet\u00e0 di stile"
+      },
+      {
+        "en": "CSS measurement units",
+        "it": "Unit\u00e0 di misura nei CSS"
+      },
+      {
+        "en": "Relative units as a way to increase the site accessibility",
+        "it": "Uso delle misure relative per aumentare l'accessibilit\u00e0 di un sito"
+      },
+      {
+        "en": "Percentage measures in liquid and responsive layouts",
+        "it": "Uso delle misure percentuali nei design liquidi e responsive"
+      },
+      {
+        "en": "CSS color specification",
+        "it": "Specifica dei colori nei CSS"
+      },
+      {
+        "en": "Adding borders to elements",
+        "it": "Aggiungere bordi agli elementi",
+        "attachments": [
+          {
+            "name": "css_properties_common",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "CSS /2"
+    }
   }
 ]
