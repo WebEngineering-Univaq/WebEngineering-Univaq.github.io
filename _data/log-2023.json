@@ -1942,5 +1942,327 @@
     "title": {
       "all": "CSS /4"
     }
+  },
+  {
+    "date": "2024-05-07T16:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "CSS3",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "CSS_Examples",
+        "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+      },
+      {
+        "name": "CSS_Examples: layouts",
+        "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/tree/main/layout"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Website design: style and usability guidelines",
+        "it": "Progettare un sito web: linee guida di stile e usabilit\u00e0"
+      },
+      {
+        "en": "Website layout design: fixed and liquid layouts",
+        "it": "Costruire il layout di un sito web: layout fissi e liquidi"
+      },
+      {
+        "en": "Base layouts: single column",
+        "it": "I layout di base: layout a colonna singola",
+        "type": "esempio"
+      },
+      {
+        "en": "Base layouts: two columns",
+        "it": "I layout di base: layout due colonne",
+        "type": "esempio"
+      },
+      {
+        "en": "Multicolumn layouts with positioned divs",
+        "it": "Uso di elementi posizionati per la realizzazione di layout molticolonna",
+        "type": "esempio"
+      },
+      {
+        "en": "Multicolumn layouts with floats",
+        "it": "Uso di floats per la realizzazione di layout molticolonna",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "Base layouts: three columns",
+        "it": "I layout di base: layout tre colonne"
+      },
+      {
+        "en": "Grid layouts",
+        "it": "I layout a griglia"
+      },
+      {
+        "en": "A fluid grid layout made with floats",
+        "it": "Un layout a griglia fluido realizzato con i float",
+        "type": "esempio"
+      },
+      {
+        "en": "Introduction to responsive web design",
+        "it": "Introduzione al responsive web design"
+      },
+      {
+        "en": "CSS media queries",
+        "it": "Le CSS media queries"
+      },
+      {
+        "en": "Using CSS cascading to override default rules with a media query",
+        "it": "Usare l'effetto cascata dei CSS per modificare le regole di default tramite una media query"
+      },
+      {
+        "en": "CSS media queries for responsive design: responsive breakpoints",
+        "it": "CSS media queries per il responsive disign: i responsive breakpoints"
+      },
+      {
+        "en": "The responsive fluid grid layout",
+        "it": "Il layout a griglia fluido responsive",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Layout_3col_grid_float_liquid",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/layout/Layout_3col_grid_float_liquid.html"
+          }
+        ]
+      },
+      {
+        "en": "How to adapt a layout to different devices using CSS: move, resize, hide, change",
+        "it": "Come adattare un layout a device diversi con i CSS: spostare, ridimensionare, nascondere, sostituire"
+      },
+      {
+        "show": false,
+        "en": "How to fix a fluid layout",
+        "it": "Trasformare un layout fluido in uno fixed"
+      },
+      {
+        "en": "How to create and alternative, accessible menu using a SELECT control (...and a button)",
+        "it": "Realizzare un menu alternativo accessibile con il controllo SELECT (...e un bottone)",
+        "type": "esempio"
+      },
+      {
+        "en": "Introduction to CSS Flexbox",
+        "it": "Introduzione ai CSS Flexbox",
+        "attachments": [
+          {
+            "name": "css_3_flexbox",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_3_flexbox.html"
+          }
+        ]
+      },
+      {
+        "en": "A fluid grid layout made with flexbox",
+        "it": "Un layout a griglia fluido realizzato con i flexbox",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Layout_3col_grid_flexbox_liquid",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/layout/Layout_3col_grid_flexbox_liquid.html"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "(Responsive) Web design"
+    }
+  },
+  {
+    "date": "2024-05-09T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "CSS3",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Java_Example_Templates",
+        "link": "https://github.com/WebEngineering-Univaq/Java_Example_Templates"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Introduction to CSS Grids",
+        "it": "Introduzione ai CSS Grid",
+        "attachments": [
+          {
+            "name": "css_3_grid",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_3_grid.html"
+          }
+        ]
+      },
+      {
+        "en": "Introduction to templates",
+        "it": "Introduzione ai template"
+      },
+      {
+        "en": "The FreeMarker template engine",
+        "it": "Il template engine FreeMarker",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: template components",
+        "it": "FreeMarker: componenti dei template"
+      },
+      {
+        "en": "FreeMarker: the abstract data model (hashes, sequences and scalars)",
+        "it": "FreeMarker: il data model astratto (hash, sequenze e scalari)",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/dgui_datamodel_types.html"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: basic configuration",
+        "it": "FreeMarker: configurazione di base",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: output format specification and automatic escaping",
+        "it": "FreeMarker: specifica dell'output format e automatic escaping"
+      },
+      {
+        "en": "FreeMarker: default object wrapper specification",
+        "it": "FreeMarker: specifica del default object wrapper"
+      },
+      {
+        "en": "Template compilation and visualization",
+        "it": "Compilazione e visualizzazione di un template",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: the Java data model",
+        "it": "FreeMarker: il data model in Java"
+      },
+      {
+        "en": "FreeMarker: interpolations",
+        "it": "FreeMarker: le interpolations",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/dgui_template_valueinsertion.html"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: interpolations default",
+        "it": "FreeMarker: default per le interpolations"
+      },
+      {
+        "en": "FreeMarker: built-ins (?cap_first, ?size, ...)",
+        "it": "FreeMarker: i built-in (?cap_first, ?size, ...)",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/dgui_template_exp.html#dgui_template_exp_builtin"
+          }
+        ]
+      },
+      {
+        "en": "Simple templates (with interpolations)",
+        "it": "Creazione di template semplici (con sole interpolations)",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: hashes in the data model: creation and access",
+        "it": "FreeMarker: hashes nel data model: creazione e accesso"
+      },
+      {
+        "en": "FreeMarker: java classes in the data model",
+        "it": "FreeMarker: uso di classi java nel data model"
+      },
+      {
+        "en": "FreeMarker: lists in the data model: creation and access",
+        "it": "FreeMarker: liste nel data model: creazione e accesso"
+      },
+      {
+        "en": "FreeMarker: the if directive",
+        "it": "FreeMarker: la direttiva if",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/ref_directive_if.html"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: variable definition test",
+        "it": "FreeMarker: testare la definizione di una variable"
+      },
+      {
+        "en": "Conditional templates",
+        "it": "Creazione di template con parti condizionali",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: the list directive",
+        "it": "FreeMarker: la direttiva list",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/ref_directive_list.html"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: getting the size of a list",
+        "it": "FreeMarker: leggere la dimensione di una lista"
+      },
+      {
+        "en": "FreeMarker: list separators with the sep directive",
+        "it": "FreeMarker: separatori di lista con la direttiva sep"
+      },
+      {
+        "en": "FreeMarker: the else clause in a list directive",
+        "it": "FreeMarker: la clausola else in una direttiva list"
+      },
+      {
+        "en": "Templates with iteration",
+        "it": "Creazione di template con iterazione",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: the include directive",
+        "it": "FreeMarker: la direttiva include",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/ref_directive_include.html"
+          }
+        ]
+      },
+      {
+        "en": "Including a (secondary) template into another (primary) one",
+        "it": "Inclusione di un template secondario in uno principale",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: macros",
+        "it": "FreeMarker: macro",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/ref_directive_macro.html"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: parametric macros",
+        "it": "FreeMarker: macro parametriche"
+      },
+      {
+        "en": "FreeMarker: macros with nested content",
+        "it": "FreeMarker: macro con contenuto"
+      }
+    ],
+    "title": {
+      "all": "Templates"
+    }
   }
 ]
