@@ -1325,6 +1325,17 @@
             "link": "https://github.com/WebEngineering-Univaq/Java_Example_SimpleDataModel"
           }
         ]
+      },
+      {
+        "en": "Summary example: a simple application that shows how to create and make models and controllers interact effectively",
+        "it": "Esempio riassuntivo: un'applicazione base che mostra come realizzare e far interagire model e controller in modo efficace",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_BaseApplicationMC",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_BaseApplicationMC"
+          }
+        ]
       }
     ],
     "title": {
@@ -2263,6 +2274,361 @@
     ],
     "title": {
       "all": "Templates"
+    }
+  },
+  {
+    "date": "2024-05-14T16:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Javascript",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Template modularization",
+        "it": "Modularizzazione dei template",
+        "type": "esempio"
+      },
+      {
+        "en": "Template inheritance and how to achieve it in Freemarker",
+        "it": "Ereditariet\u00e0 dei template e come realizzarla in Freemarker",
+        "type": "esempio"
+      },
+      {
+        "en": "An utility class to use Freemarker as the presentation layer of web applications",
+        "it": "Una classe di utilit\u00e0 per l'uso di FreeMarker come strato di presentazione delle applicazioni web",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Templates_Fwk",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Templates_Fwk"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "en": "Configuration of the template engine through ServletContext parameters",
+        "it": "Configurazione del motore di template tramite il ServletContext"
+      },
+      {
+        "show": false,
+        "en": "Passing data from servlets (controllers) to templates (views) through the ServletRequest",
+        "it": "Passaggio di dati dalle servlet (controllo) ai template (presentazione) tramite la ServletRequest"
+      },
+      {
+        "show": false,
+        "en": "A compact way to include common parts in any data model",
+        "it": "Un modo compatto per includere parti comuni in ogni data model",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "How to combine layout and contents with a template engine",
+        "it": "Combinare layout e contenuti con un motore di template",
+        "type": "esempio"
+      },
+      {
+        "en": "Summary example: a simple application that shows how to create and make models, views and controllers interact effectively",
+        "it": "Esempio riassuntivo: un'applicazione base che mostra come realizzare e far interagire model, view e controller in modo efficace",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_BaseApplicationMVC",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_BaseApplicationMVC"
+          }
+        ]
+      },
+      {
+        "en": "The Newspaper case study: an example of complete Java web application",
+        "it": "Il caso di studio Newspaper: un esempio di applicatione web Java completa",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Newspaper_DAO",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Newspaper_DAO"
+          }
+        ]
+      },
+      {
+        "en": "Introduction to Javascript",
+        "it": "Introduzione a Javascript"
+      },
+      {
+        "en": "Javascript: origins and current uses",
+        "it": "Javascript: le origini e gli usi odierni"
+      },
+      {
+        "en": "Javascript, ECMAScript, TypeScript... what are they, really?",
+        "it": "Javascript, ECMAScript, TypeScript... cosa sono veramente?",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/javascript"
+          },
+          {
+            "link": "https://262.ecma-international.org"
+          },
+          {
+            "link": "https://www.typescriptlang.org"
+          }
+        ]
+      },
+      {
+        "en": "ECMAScript 5 e 6: the main new features",
+        "it": "ECMAScript 5 e 6: le principali novit\u00e0"
+      },
+      {
+        "en": "Adding scripts to HTML pages",
+        "it": "Inserire script nelle pagine HTML"
+      },
+      {
+        "en": "Some hints to correctly and efficiently embed scripts in HTML pages",
+        "it": "Accorgimenti per l'incorporazione corretta ed efficiente di script nelle pagine HTML"
+      },
+      {
+        "en": "Content and logic separation: how NOT to use javascript in HTML pages",
+        "it": "Separare la logica dal contenuto: come NON usare javascript nelle pagine HTML"
+      },
+      {
+        "en": "The Javascript (single-threaded) execution model",
+        "it": "Il modello di esecuzione (single-threaded) di Javascript",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop"
+          }
+        ]
+      },
+      {
+        "en": "Javascript data types and conversion",
+        "it": "I tipi di dato di Javascript e i sistemi di conversione"
+      },
+      {
+        "en": "Variables and variable declarations",
+        "it": "Variabili e dichiarazione di variabili"
+      },
+      {
+        "en": "Implicit declaration and global variables",
+        "it": "Dichiarazione implicita e variabili globali",
+        "type": "esempio"
+      },
+      {
+        "en": "Global-scoped and function-scoped variables",
+        "it": "Variabili con scope globale e di funzione",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var"
+          }
+        ]
+      },
+      {
+        "en": "ES6: block-scoped variables (finally!)",
+        "it": "ES6: variabili con scope di blocco (finalmente!)",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let"
+          }
+        ]
+      },
+      {
+        "en": "ES5: strict mode",
+        "it": "ES5: la modalit\u00e0 strict"
+      }
+    ],
+    "title": {
+      "all": "Javascript /1"
+    }
+  },
+  {
+    "date": "2024-05-16T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Javascript",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Constants",
+        "it": "Costanti"
+      },
+      {
+        "en": "Arithmetic and logic operators",
+        "it": "Operatori aritmetici e logici"
+      },
+      {
+        "en": "VOID and EVAL operators",
+        "it": "Gli operatori VOID ed EVAL"
+      },
+      {
+        "en": "The TYPEOF operator",
+        "it": "L'operatore TYPEOF"
+      },
+      {
+        "en": "How to use TYPEOF to verify if a variable (or a function) is defined",
+        "it": "TYPEOF usato per verificare l'esistenza di una funzione o di una variabile",
+        "type": "esempio"
+      },
+      {
+        "en": "Conditional constructs",
+        "it": "I costrutti condizionali"
+      },
+      {
+        "en": "Loop constructs",
+        "it": "I loop"
+      },
+      {
+        "en": "The FOR...IN loop (applied to objects and arrays)",
+        "it": "Il loop FOR...IN (su array e oggetti)",
+        "type": "esempio"
+      },
+      {
+        "en": "The FOR...OF loop (applied to arrays and iterable objects)",
+        "it": "Il loop FOR...OF (su array e oggetti iterabili)",
+        "type": "esempio"
+      },
+      {
+        "en": "Javascript functions are values (Function objects)",
+        "it": "Le funzioni Javascript sono valori (oggetti Function)",
+        "type": "esempio"
+      },
+      {
+        "en": "Function declaration: direct, anonymous, arrow, and the Function constructor",
+        "it": "Dichiarazione di funzioni: dirette, anonime, freccia e il costruttore Function"
+      },
+      {
+        "en": "Function references and functions as values",
+        "it": "Riferimento alle funzioni e uso delle funzioni come valori",
+        "type": "esempio"
+      },
+      {
+        "en": "Function call",
+        "it": "Chiamata di funzioni"
+      },
+      {
+        "en": "Passing functions as parameters",
+        "it": "Passaggio di una funzione come parametro",
+        "type": "esempio"
+      },
+      {
+        "en": "The call operator applied to expressions having function type",
+        "it": "Applicare l'operatore di chiamata ad espressioni che ritornano funzioni",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "ES6: block-scoped functions",
+        "it": "ES6: funzioni con scope di blocco"
+      },
+      {
+        "en": "Parameters passed by value and reference. Omission of parameters and default values",
+        "it": "Modalit\u00e0 di passaggio dei parametri. Omissione di parametri e valori di default"
+      },
+      {
+        "show": false,
+        "en": "How to assign default values to omitted parameters",
+        "it": "Un trucco per assegnare valori di default ai parametri omessi",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "ES6: parameter default values",
+        "it": "ES6: valori di default per i parametri"
+      },
+      {
+        "en": "ES6: variadic functions and rest parameter",
+        "it": "ES6: funzioni variadiche e rest parameter"
+      },
+      {
+        "en": "Function return values",
+        "it": "Ritorno di valori dalle funzioni"
+      },
+      {
+        "en": "Mixed return types, return of undefined values",
+        "it": "Tipi di ritorno misti, ritorno di valori undefined",
+        "type": "esempio"
+      },
+      {
+        "en": "Closures",
+        "it": "Le closures"
+      },
+      {
+        "en": "How to create a function generator",
+        "it": "Creare un generatore di funzioni",
+        "type": "esempio"
+      },
+      {
+        "en": "Scope rules for Function values with external references",
+        "it": "Regole di scope nella creazione di valori di tipo Function con riferimenti esterni"
+      },
+      {
+        "show": false,
+        "en": "Closures and parametrics event handlers",
+        "it": "Uso delle closures per realizzare event handlers parametrici",
+        "type": "esempio"
+      },
+      {
+        "en": "Introduction to Javascript objects",
+        "it": "Introduzione agli oggetti di Javascript"
+      },
+      {
+        "en": "Object hierarchy: the base Object",
+        "it": "La gerarchia degli oggetti: l'oggetto-base Object"
+      },
+      {
+        "en": "The shorthand notation for object creation",
+        "it": "La sintassi abbreviata per la creazione di oggetti",
+        "type": "esempio"
+      },
+      {
+        "en": "Access to object properties",
+        "it": "Accesso alle propriet\u00e0 degli oggetti"
+      },
+      {
+        "en": "Javascript objects are dynamic",
+        "it": "Dinamicit\u00e0 degli oggetti Javascript",
+        "type": "esempio"
+      },
+      {
+        "en": "How to create and initialize an object property",
+        "it": "Creazione e inizializzazione di propriet\u00e0",
+        "type": "esempio"
+      },
+      {
+        "en": "How to use objects as generic data structures",
+        "it": "Usare gli oggetti come strutture dati generiche",
+        "type": "esempio"
+      },
+      {
+        "en": "Javascript objects as associative arrays",
+        "it": "Usare gli oggetti come array associativi",
+        "type": "esempio"
+      },
+      {
+        "en": "How to create methods",
+        "it": "Creazione di metodi"
+      },
+      {
+        "en": "How to access and call object methods",
+        "it": "Accesso e chiamata di metodi negli oggetti"
+      },
+      {
+        "en": "The this keyword used in javascript methods",
+        "it": "La parola chiave this all'interno dei metodi"
+      },
+      {
+        "en": "ES6: extended notation for property and method declarations",
+        "it": "ES6: sintassi estesa per definizione di propriet\u00e0 e metodi"
+      },
+      {
+        "en": "Dynamic generation of property names",
+        "it": "Generare dinamicamente il nome della propriet\u00e0 da assegnare"
+      }
+    ],
+    "title": {
+      "all": "Javascript /2"
     }
   }
 ]
