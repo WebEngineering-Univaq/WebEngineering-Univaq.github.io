@@ -3088,5 +3088,112 @@
     "title": {
       "all": "DOM (XML, HTML, CSS, Events)"
     }
+  },
+  {
+    "date": "2024-05-28T16:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Javascript",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Gracefully degrading javascript: first ideas",
+        "it": "Usare javascript in modo degradante: prime idee"
+      },
+      {
+        "en": "Gracefully degrading tooltips with javascript",
+        "it": "Il tooltip degradante con javascript",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "JS_Example_simpletooltip",
+            "link": "https://github.com/WebEngineering-Univaq/JS_Example_simpletooltip"
+          }
+        ]
+      },
+      {
+        "en": "A client-side table pagination script with graceful degradation (to server-side pagination)",
+        "it": "Realizzare un sistema di paginazione lato client (degradante) con Javascript",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "JS_Example_simplepager",
+            "link": "https://github.com/WebEngineering-Univaq/JS_Example_simplepager"
+          }
+        ]
+      },
+      {
+        "en": "The AJAX base object: XMLHttpRequest",
+        "it": "L'oggetto base delle tecniche AJAX: XMLHttpRequest"
+      },
+      {
+        "en": "Synchronous and asynchronous AJAX calls",
+        "it": "Chiamate AJAX sincrone e asincrone"
+      },
+      {
+        "en": "Synchronous AJAX call process",
+        "it": "Procedura per chiamate AJAX sincrone"
+      },
+      {
+        "en": "Asynchronous AJAX call process",
+        "it": "Procedura per chiamate AJAX asincrone"
+      },
+      {
+        "en": "The JSON encoding to exchange data in AJAX calls",
+        "it": "Passaggio di dati con codifica JSON su richieste AJAX"
+      },
+      {
+        "en": "The client-side pagination script supported by AJAX (and the corresponding server support with graceful degradation)",
+        "it": "Implementazione AJAX della paginazione degradante e del corrispondente supporto server in Java",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Ajax_Pager_Async",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Ajax_Pager_Async"
+          }
+        ]
+      },
+      {
+        "en": "Fetch API overview",
+        "it": "Cenni sulle Fetch API",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "ref": "JS_Example_simpleswitchededitor",
+        "en": "Advanced input controls attached to standard form fields with Javascript",
+        "it": "Creare controlli di input avanzati che degradano sui normali controlli di una form",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "JS_Example_simpleswitchededitor",
+            "link": "https://github.com/WebEngineering-Univaq/JS_Example_simpleswitchededitor"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "en": "Complex javascript object-oriented structures: the form validator",
+        "it": "Realizzare strutture a oggetti complesse in Javascript: la libreria di controllo per l'input",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "JS_Example_simplechecker2",
+            "link": "https://github.com/WebEngineering-Univaq/JS_Example_simplechecker2"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "en": "Javascript: Advanced Examples",
+      "it": "Javascript: Esempi Avanzati"
+    }
   }
 ]
