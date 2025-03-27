@@ -825,5 +825,206 @@
     "title": {
       "all": "Java Servlets /2"
     }
+  },
+  {
+    "date": "2025-03-25T16:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Getting user input through HttpServletRequest",
+        "it": "Gestire l'input utente: uso della classe HttpServletRequest"
+      },
+      {
+        "en": "Reading form GET parameters: getParameter and getParameterValues",
+        "it": "Elaborazione delle form in modalit\u00e0 GET: i metodi getParameter e getParameterValues"
+      },
+      {
+        "en": "Input validation to prevent attacks (like SQL Injection)",
+        "it": "Validare l'input per prevenire attacchi (come la SQL Injection)"
+      },
+      {
+        "en": "Output sanification to prevent XSS attacks",
+        "it": "Sanitizzare l'output per prevenire attacchi XSS"
+      },
+      {
+        "en": "The \"Hello World\" servlet with a name parameter",
+        "it": "La servlet \"Salutami\" anonima e personalizzata",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Servlet",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Servlet"
+          }
+        ]
+      },
+      {
+        "en": "Output logic (view) encapsulation and application layers",
+        "it": "Incapsulare la logica di output e separare meglio gli strati dell'applicazione"
+      },
+      {
+        "en": "The restructured \"Hello World\" servlet",
+        "it": "La servlet \"Salutami\" con una struttura avanzata",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Servlet_Fwk",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Servlet_Fwk"
+          }
+        ]
+      },
+      {
+        "en": "Binary data download through servlets",
+        "it": "Trasmissione di dati binari dalla servlet al client"
+      },
+      {
+        "en": "Security issues: why we should use a download servlet and how we should write it",
+        "it": "Considerazioni sulla sicurezza: perch\u00e8 e come scrivere una download servlet"
+      },
+      {
+        "en": "Some interesting HTTP headers: Content-Type, Content-Disposition and Content-Length",
+        "it": "Alcuni header interessanti: Content-Type, Content-Disposition e Content-Length"
+      },
+      {
+        "en": "An example of download servlet",
+        "it": "Scrivere una download servlet",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Downloader",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Downloader"
+          }
+        ]
+      },
+      {
+        "en": "Server-side generated images with Java",
+        "it": "Incorporare in una pagina HTML immagini generate da una servlet"
+      },
+      {
+        "en": "An image generation servlet",
+        "it": "Scrivere una servlet che trasmette immagini al client",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Imager",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Imager"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "Java Servlets /3"
+    }
+  },
+  {
+    "date": "2025-03-27T14:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Reading form POST parameters with url encoding",
+        "it": "Elaborazione delle form in modalit\u00e0 POST con codifica url"
+      },
+      {
+        "en": "Handling multipart encoded forms with JEE version 6+",
+        "it": "Elaborazione delle form con codifica multipart con JEE versione 6+"
+      },
+      {
+        "en": "The multipart-config element",
+        "it": "L'elemento multipart-config"
+      },
+      {
+        "en": "Handling uploaded files with getPart()",
+        "it": "Gestione dei file caricati con getPart()"
+      },
+      {
+        "en": "The 'Hello world' servlet with file upload",
+        "it": "La servlet \"Uploadami\" con upload di file",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Servlet_Multipart_7",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Servlet_Multipart_7"
+          }
+        ]
+      },
+      {
+        "en": "Filenames sanitization",
+        "it": "Sanitizzazione dei nomi dei file",
+        "attachments": [
+          {
+            "link": "https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html#filename-sanitization"
+          }
+        ]
+      },
+      {
+        "en": "Secure web applications accepting uploads",
+        "it": "Rendere sicure le applicazioni web che accettano upload di file",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html"
+          }
+        ]
+      },
+      {
+        "en": "Application configuration through ServletContext parameters",
+        "it": "Configurazione dell'applicazione tramite i parametri del ServletContext"
+      },
+      {
+        "en": "The web application status: sessions",
+        "it": "Lo stato delle applicazioni web: il concetto di sessione",
+        "attachments": [
+          {
+            "link": "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html"
+          }
+        ]
+      },
+      {
+        "en": "Sessions for user profiling",
+        "it": "Le sessioni usate per il profiling dell'utente",
+        "type": "esempio"
+      },
+      {
+        "en": "Session identifier exchange: cookie and URL rewriting",
+        "it": "Trasmissione del session identifier: cookie e URL rewriting"
+      },
+      {
+        "en": "Generate and handle session information: the HttpSession class",
+        "it": "Generare e leggere le informazioni di sessione: la classe HttpSession"
+      },
+      {
+        "en": "Read and write session variables: getAttribute, setAttribute",
+        "it": "Leggere e scrivere variabili di stato: getAttribute, setAttribute"
+      },
+      {
+        "en": "Close a session: invalidate",
+        "it": "Chiudere una sessione: invalidate"
+      },
+      {
+        "en": "The 'Hello world' servlet with sessions",
+        "it": "La servlet \"Ricordami\" con sessioni",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Servlet_Sessions",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Servlet_Sessions"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "Java Servlets /4"
+    }
   }
 ]
