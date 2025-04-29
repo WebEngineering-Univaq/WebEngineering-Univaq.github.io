@@ -1549,5 +1549,190 @@
     "title": {
       "all": "CSS /1"
     }
+  },
+  {
+    "date": "2025-04-29T16:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "CSS3",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "CSS_Examples",
+        "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "CSS measurement units",
+        "it": "Unit\u00e0 di misura nei CSS"
+      },
+      {
+        "en": "Relative units as a way to increase the site accessibility",
+        "it": "Uso delle misure relative per aumentare l'accessibilit\u00e0 di un sito"
+      },
+      {
+        "en": "Percentage measures in liquid and responsive layouts",
+        "it": "Uso delle misure percentuali nei design liquidi e responsive"
+      },
+      {
+        "en": "CSS color specification",
+        "it": "Specifica dei colori nei CSS"
+      },
+      {
+        "en": "Adding borders to elements",
+        "it": "Aggiungere bordi agli elementi",
+        "attachments": [
+          {
+            "name": "css_properties_common",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_properties_common.html"
+          }
+        ]
+      },
+      {
+        "en": "New CSS3 border properties: border-radius and box-shadow",
+        "it": "Alcune nuove propriet\u00e0 CSS3 per i box: border-radius e box-shadow"
+      },
+      {
+        "en": "Vendor prefixes on css properties and legacy browser compatibility",
+        "it": "Prefissi dei vendor sulle propriet\u00e0 css e compatibilit\u00e0 con i browser legacy"
+      },
+      {
+        "en": "Rounded corners in CSS3",
+        "it": "Creare bordi smussati senza immagini con i CSS 3",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_3_round_borders",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_3_round_borders.html"
+          }
+        ]
+      },
+      {
+        "en": "Advanced CSS3: image borders",
+        "it": "CSS3 avanzato: bordi realizzati con immagini",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_3_imageborders",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_3_imageborders.html"
+          }
+        ]
+      },
+      {
+        "en": "Creating shadows with CSS3",
+        "it": "Creare ombre con i CSS 3",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_3_shadows",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_3_shadows.html"
+          }
+        ]
+      },
+      {
+        "en": "Setting elements background",
+        "it": "Modificare lo sfondo di un elemento"
+      },
+      {
+        "en": "Background images: alignment and repetition",
+        "it": "Uso di immagini come sfondo: ripetizione e allineamento"
+      },
+      {
+        "en": "The CSS sprite technique",
+        "it": "La tecnica dei CSS sprites",
+        "attachments": [
+          {
+            "name": "css_sprites",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_sprites.html"
+          }
+        ]
+      },
+      {
+        "en": "Font and character formatting properties",
+        "it": "Propriet\u00e0 di formattazione dei caratteri"
+      },
+      {
+        "en": "Specify multiple font families to achieve cross-platform compatibility",
+        "it": "Specificare font multipli per assicurare compatibilit\u00e0 tra le piattaforme"
+      },
+      {
+        "en": "Web fonts and the @font-face at-rule",
+        "it": "Le web fonts e la at-rule @font-face"
+      },
+      {
+        "en": "How to import a Google web font using @font-face",
+        "it": "Importare una web font da Google usando la regola @font-face",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_3_webfonts",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_3_webfonts.html"
+          }
+        ]
+      },
+      {
+        "en": "Paragraph formatting properties",
+        "it": "Propriet\u00e0 di formattazione dei paragrafi"
+      },
+      {
+        "en": "List formatting properties",
+        "it": "Formattare le liste con i CSS"
+      },
+      {
+        "en": "How to create simple menus using lists and CSS",
+        "it": "Creare semplici menu con le liste CSS",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_menu_multilev_static",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_menu_multilev_static.html"
+          }
+        ]
+      },
+      {
+        "en": "Other CSS properties: content, quotes, cursor,...",
+        "it": "Altre propriet\u00e0 dei CSS: content, quotes, cursor,..."
+      },
+      {
+        "en": "Examples for the cursor, content, quotes and counter properties",
+        "it": "Esempi d'uso delle propriet\u00e0 cursor, content, quotes e counter",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_properties_misc",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_properties_misc.html"
+          }
+        ]
+      },
+      {
+        "en": "Advanced CSS3: property transitions",
+        "it": "CSS3 avanzato: le transizioni di propriet\u00e0",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_3_transitions",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_3_transitions.html"
+          }
+        ]
+      },
+      {
+        "en": "Advanced CSS3: element opacity",
+        "it": "CSS3 avanzato: modificare l'opacit\u00e0 di un oggetto",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_3_transitions",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_3_transitions.html"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "CSS /2"
+    }
   }
 ]
