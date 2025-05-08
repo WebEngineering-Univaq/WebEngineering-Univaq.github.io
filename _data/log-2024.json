@@ -1729,10 +1729,322 @@
             "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_3_transitions.html"
           }
         ]
+      },
+      {
+        "show": false,
+        "en": "Advanced CSS3: keyframe animations",
+        "it": "CSS3 avanzato: realizzare animazioni con i keyframes",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_3_animation",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_3_animation.html"
+          }
+        ]
       }
     ],
     "title": {
       "all": "CSS /2"
+    }
+  },
+  {
+    "date": "2024-05-06T16:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "CSS3",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "CSS_Examples",
+        "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Introduction to CSS variables (custom properties)",
+        "it": "Cenni sulle variabili (custom properties) CSS",
+        "attachments": [
+          {
+            "name": "css_3_variables",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_3_variables.html"
+          }
+        ]
+      },
+      {
+        "en": "Introduction to the var() and calc() CSS functions",
+        "it": "Cenni sulle funzioni CSS var() e calc()"
+      },
+      {
+        "en": "How to change an element display mode using CSS",
+        "it": "Cambiare il sistema di display degli elementi con i CSS"
+      },
+      {
+        "en": "How to create popup elements using the display property and the :hover pseudo class",
+        "it": "Creare elementi popup usando la propriet\u00e0 display e la pseudo class :hover",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_properties_display",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_properties_display.html"
+          }
+        ]
+      },
+      {
+        "en": "CSS box model",
+        "it": "Il box model dei CSS"
+      },
+      {
+        "en": "Changing element visibility with CSS",
+        "it": "Cambiare la visibilit\u00e0 degli elementi con CSS"
+      },
+      {
+        "en": "Element content disposition: the overflow property",
+        "it": "Gestione del contenuto degli elementi: la propriet\u00e0 overflow"
+      },
+      {
+        "en": "Scrolling text in arbitrary elements",
+        "it": "Testo scorrevole in elementi arbitrari",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_properties_overflow",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_properties_overflow.html"
+          }
+        ]
+      },
+      {
+        "en": "Element content clipping",
+        "it": "Clipping del contenuto di un elemento",
+        "type": "esempio"
+      },
+      {
+        "en": "Scrolling with CSS and Javascript",
+        "it": "Scrolling alternativo con CSS e Javascript",
+        "type": "esempio"
+      },
+      {
+        "en": "How to set margins and paddings",
+        "it": "Definire margini e padding con i CSS"
+      },
+      {
+        "en": "Setting the (minimum, maximum, actual or relative) height and width of an element",
+        "it": "Impostare l'altezza e la larghezza (minime, massime, effettive o relative) di un elemento"
+      },
+      {
+        "en": "Width, height and the box-sizing property",
+        "it": "Width, height e la propriet\u00e0 box-sizing"
+      },
+      {
+        "en": "The CSS positioning techniques",
+        "it": "I sistemi di posizionamento dei CSS"
+      },
+      {
+        "en": "The element layout algorithm in HTML pages",
+        "it": "L'algoritmo di disposizione degli oggetti nelle pagine HTML"
+      },
+      {
+        "en": "Block and inline element disposition",
+        "it": "Disposizione degli elementi blocco e inline"
+      },
+      {
+        "en": "Position on the third dimension: the z-index property",
+        "it": "Il posizionamento sulla terza dimensione: la propriet\u00e0 z-index"
+      },
+      {
+        "en": "Relative positioning",
+        "it": "Posizionamento relativo"
+      },
+      {
+        "en": "Relative positioning examples",
+        "it": "Esempi di posizionamento relativo",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_properties_positioning_relative",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_properties_positioning_relative.html"
+          }
+        ]
+      },
+      {
+        "en": "Abosolute positioning",
+        "it": "Posizionamento assoluto"
+      },
+      {
+        "en": "Absolute positioning examples",
+        "it": "Esempi di posizionamento assoluto",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_properties_positioning_absolute",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_properties_positioning_absolute.html"
+          }
+        ]
+      },
+      {
+        "en": "Origin of the coordinates with absolute positioning",
+        "it": "L'origine delle coordinate nel posizionamento assoluto"
+      },
+      {
+        "en": "How to create simple layouts using (absolute) positioning",
+        "it": "Realizzare layouts con il posizionamento assoluto",
+        "type": "esempio"
+      },
+      {
+        "en": "Combining positioning and margin properties to create better (and fluid) layouts",
+        "it": "Combinare il posizionamento e le propriet\u00e0 margin per creare layouts",
+        "type": "esempio"
+      },
+      {
+        "en": "Fixed positioning",
+        "it": "Posizionamento fisso"
+      },
+      {
+        "en": "Fixed positioning examples",
+        "it": "Esempi di posizionamento fisso",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_properties_positioning_fixed",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_properties_positioning_fixed.html"
+          }
+        ]
+      },
+      {
+        "en": "How to create \"always visible\" banners and menus using fixed positioning",
+        "it": "Realizzare menu e banner sempre visibili col posizionamento fisso",
+        "type": "esempio"
+      },
+      {
+        "en": "The floats",
+        "it": "I floats"
+      }
+    ],
+    "title": {
+      "all": "CSS /3"
+    }
+  },
+  {
+    "date": "2025-05-08T14:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "CSS3",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "CSS_Examples",
+        "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+      },
+      {
+        "name": "CSS_Examples: layouts",
+        "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/tree/main/layout"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "How to use floats to create multi-columns layouts and other interesting effects",
+        "it": "Uso dei floats per realizzare layout a pi\u00f9 colonne ed altri effetti",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_properties_positioning_float",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_properties_positioning_float.html"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "en": "How to create simple popup menus using lists and CSS",
+        "it": "Creare semplici menu popup con le liste CSS",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_menu_multilev_flyout",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_menu_multilev_flyout.html"
+          }
+        ]
+      },
+      {
+        "en": "Website design: style and usability guidelines",
+        "it": "Progettare un sito web: linee guida di stile e usabilit\u00e0"
+      },
+      {
+        "en": "Website layout design: fixed and liquid layouts",
+        "it": "Costruire il layout di un sito web: layout fissi e liquidi"
+      },
+      {
+        "en": "Base layouts: single column",
+        "it": "I layout di base: layout a colonna singola",
+        "type": "esempio"
+      },
+      {
+        "en": "Base layouts: two columns",
+        "it": "I layout di base: layout due colonne",
+        "type": "esempio"
+      },
+      {
+        "en": "Multicolumn layouts with positioned divs",
+        "it": "Uso di elementi posizionati per la realizzazione di layout molticolonna",
+        "type": "esempio"
+      },
+      {
+        "en": "Multicolumn layouts with floats",
+        "it": "Uso di floats per la realizzazione di layout molticolonna",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "Base layouts: three columns",
+        "it": "I layout di base: layout tre colonne"
+      },
+      {
+        "en": "Introduction to responsive web design",
+        "it": "Introduzione al responsive web design"
+      },
+      {
+        "en": "CSS media queries",
+        "it": "Le CSS media queries"
+      },
+      {
+        "en": "Using CSS cascading to override default rules with a media query",
+        "it": "Usare l'effetto cascata dei CSS per modificare le regole di default tramite una media query"
+      },
+      {
+        "en": "CSS media queries for responsive design: responsive breakpoints",
+        "it": "CSS media queries per il responsive disign: i responsive breakpoints"
+      },
+      {
+        "en": "How to adapt a layout to different devices using CSS: move, resize, hide, change",
+        "it": "Come adattare un layout a device diversi con i CSS: spostare, ridimensionare, nascondere, sostituire"
+      },
+      {
+        "en": "How to create and alternative, accessible menu using a SELECT control (...and a button)",
+        "it": "Realizzare un menu alternativo accessibile con il controllo SELECT (...e un bottone)",
+        "type": "esempio"
+      },
+      {
+        "en": "Grid layouts",
+        "it": "I layout a griglia"
+      },
+      {
+        "en": "The responsive fluid grid layout made with floats",
+        "it": "Il layout a griglia fluido responsive realizzato con i float",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Layout_3col_grid_float_liquid",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/layout/Layout_3col_grid_float_liquid.html"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "(Responsive) Web design"
     }
   }
 ]
