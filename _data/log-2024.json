@@ -2046,5 +2046,299 @@
     "title": {
       "all": "(Responsive) Web design"
     }
+  },
+  {
+    "date": "2025-05-13T16:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "CSS3",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Java_Example_Templates",
+        "link": "https://github.com/WebEngineering-Univaq/Java_Example_Templates"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Introduction to CSS Flexbox",
+        "it": "Introduzione ai CSS Flexbox",
+        "attachments": [
+          {
+            "name": "css_3_flexbox",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_3_flexbox.html"
+          }
+        ]
+      },
+      {
+        "en": "A fluid grid layout made with flexbox",
+        "it": "Un layout a griglia fluido realizzato con i flexbox",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Layout_3col_grid_flexbox_liquid",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/layout/Layout_3col_grid_flexbox_liquid.html"
+          }
+        ]
+      },
+      {
+        "en": "Introduction to CSS Grids",
+        "it": "Introduzione ai CSS Grid",
+        "attachments": [
+          {
+            "name": "css_3_grid",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_3_grid.html"
+          }
+        ]
+      },
+      {
+        "en": "Introduction to templates",
+        "it": "Introduzione ai template"
+      },
+      {
+        "en": "The FreeMarker template engine",
+        "it": "Il template engine FreeMarker",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: template components",
+        "it": "FreeMarker: componenti dei template"
+      },
+      {
+        "en": "FreeMarker: the abstract data model (hashes, sequences and scalars)",
+        "it": "FreeMarker: il data model astratto (hash, sequenze e scalari)",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/dgui_datamodel_types.html"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: basic configuration",
+        "it": "FreeMarker: configurazione di base",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: output format specification and automatic escaping",
+        "it": "FreeMarker: specifica dell'output format e automatic escaping"
+      },
+      {
+        "en": "FreeMarker: default object wrapper specification",
+        "it": "FreeMarker: specifica del default object wrapper"
+      }
+    ],
+    "title": {
+      "all": "Templates /1"
+    }
+  },
+  {
+    "date": "2025-05-15T14:30:00",
+    "duration": 2,
+    "attachments": [
+      {
+        "name": "Java_Example_Templates",
+        "link": "https://github.com/WebEngineering-Univaq/Java_Example_Templates"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Template compilation and visualization",
+        "it": "Compilazione e visualizzazione di un template",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: the Java data model",
+        "it": "FreeMarker: il data model in Java"
+      },
+      {
+        "en": "FreeMarker: interpolations",
+        "it": "FreeMarker: le interpolations",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/dgui_template_valueinsertion.html"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: interpolations default",
+        "it": "FreeMarker: default per le interpolations"
+      },
+      {
+        "en": "FreeMarker: built-ins (?cap_first, ?size, ...)",
+        "it": "FreeMarker: i built-in (?cap_first, ?size, ...)",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/dgui_template_exp.html#dgui_template_exp_builtin"
+          }
+        ]
+      },
+      {
+        "en": "Simple templates (with interpolations)",
+        "it": "Creazione di template semplici (con sole interpolations)",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: hashes in the data model: creation and access",
+        "it": "FreeMarker: hashes nel data model: creazione e accesso"
+      },
+      {
+        "en": "FreeMarker: java classes in the data model",
+        "it": "FreeMarker: uso di classi java nel data model"
+      },
+      {
+        "en": "FreeMarker: lists in the data model: creation and access",
+        "it": "FreeMarker: liste nel data model: creazione e accesso"
+      },
+      {
+        "en": "FreeMarker: the if directive",
+        "it": "FreeMarker: la direttiva if",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/ref_directive_if.html"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: variable definition test",
+        "it": "FreeMarker: testare la definizione di una variable"
+      },
+      {
+        "en": "Conditional templates",
+        "it": "Creazione di template con parti condizionali",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: the list directive",
+        "it": "FreeMarker: la direttiva list",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/ref_directive_list.html"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: getting the size of a list",
+        "it": "FreeMarker: leggere la dimensione di una lista"
+      },
+      {
+        "en": "FreeMarker: list separators with the sep directive",
+        "it": "FreeMarker: separatori di lista con la direttiva sep"
+      },
+      {
+        "en": "FreeMarker: the else clause in a list directive",
+        "it": "FreeMarker: la clausola else in una direttiva list"
+      },
+      {
+        "en": "Templates with iteration",
+        "it": "Creazione di template con iterazione",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: the include directive",
+        "it": "FreeMarker: la direttiva include",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/ref_directive_include.html"
+          }
+        ]
+      },
+      {
+        "en": "Including a (secondary) template into another (primary) one",
+        "it": "Inclusione di un template secondario in uno principale",
+        "type": "esempio"
+      },
+      {
+        "en": "FreeMarker: macros",
+        "it": "FreeMarker: macro",
+        "attachments": [
+          {
+            "link": "https://freemarker.apache.org/docs/ref_directive_macro.html"
+          }
+        ]
+      },
+      {
+        "en": "FreeMarker: parametric macros",
+        "it": "FreeMarker: macro parametriche"
+      },
+      {
+        "en": "FreeMarker: macros with nested content",
+        "it": "FreeMarker: macro con contenuto"
+      },
+      {
+        "en": "Template modularization",
+        "it": "Modularizzazione dei template",
+        "type": "esempio"
+      },
+      {
+        "en": "Template inheritance and how to achieve it in Freemarker",
+        "it": "Ereditariet\u00e0 dei template e come realizzarla in Freemarker",
+        "type": "esempio"
+      },
+      {
+        "en": "An utility class to use Freemarker as the presentation layer of web applications",
+        "it": "Una classe di utilit\u00e0 per l'uso di FreeMarker come strato di presentazione delle applicazioni web",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Templates_Fwk",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Templates_Fwk"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "en": "Configuration of the template engine through ServletContext parameters",
+        "it": "Configurazione del motore di template tramite il ServletContext"
+      },
+      {
+        "show": false,
+        "en": "Passing data from servlets (controllers) to templates (views) through the ServletRequest",
+        "it": "Passaggio di dati dalle servlet (controllo) ai template (presentazione) tramite la ServletRequest"
+      },
+      {
+        "show": false,
+        "en": "A compact way to include common parts in any data model",
+        "it": "Un modo compatto per includere parti comuni in ogni data model",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "How to combine layout and contents with a template engine",
+        "it": "Combinare layout e contenuti con un motore di template",
+        "type": "esempio"
+      },
+      {
+        "en": "Summary example: a simple application that shows how to create and make models, views and controllers interact effectively",
+        "it": "Esempio riassuntivo: un'applicazione base che mostra come realizzare e far interagire model, view e controller in modo efficace",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_BaseApplicationMVC",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_BaseApplicationMVC"
+          }
+        ]
+      },
+      {
+        "en": "The Newspaper case study: an example of complete Java web application",
+        "it": "Il caso di studio Newspaper: un esempio di applicatione web Java completa",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Newspaper_DAO",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Newspaper_DAO"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "Templates /2"
+    }
   }
 ]
