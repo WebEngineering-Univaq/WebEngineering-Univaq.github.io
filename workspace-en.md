@@ -59,8 +59,7 @@ or /home/foo/workspace).
 \<D\>/nb_userdir, \<D\>/nb_cachedir and \<D\>/tomcat_base
 3. **Download the zip archives** (*no installers!*) of the JDK,
 Netbeans and Tomcat with the recommended versions. You may have to download them from "archive" pages
-such as <https://jdk.java.net/archive/>, <https://netbeans.apache.org/download/archive/> (or <https://netbeans.apache.org/download>) 
-and < https://tomcat.apache.org/whichversion.html>.
+such as <https://jdk.java.net/archive/>, <https://netbeans.apache.org/download/archive/> (or <https://netbeans.apache.org/download>) and <https://tomcat.apache.org/whichversion.html>.
 4. **Expand archives** in the \<D\> folder. You will get 
 three folders, for example (*real name will depend on versions*) \<D\>/jdk-JV,
 \<D\>/netbeans-NV and \<D\>/apache-tomcat-TV.
