@@ -1,14 +1,13 @@
-[	  
- {
-      "nome": {
-        "all": "MDN"
-      },
-      "commento": {
-        "all": "\"Resources for Developers, by Developers\""
-      },
-      "url": "https://developer.mozilla.org"
+[
+  {
+    "nome": {
+      "all": "MDN"
     },
-	
+    "commento": {
+      "all": "\"Resources for Developers, by Developers\""
+    },
+    "url": "https://developer.mozilla.org"
+  },
   {
     "url": "https://html.spec.whatwg.org/dev/",
     "nome": {
@@ -69,163 +68,136 @@
       "it": "Una potente libreria Javascript crossbrowser"
     }
   },
-    {
-      "nome": {
-        "all": "WHATWG (Web Hypertext Application Technology Working Group)"
-      },
-      "commento": {
-        "it": "La comunità sviluppa il nuovo HTML (\"living standard\") e le tecnologie correlate",
-        "en": "The community that develops the new HTML (\"living standard\") and related technologies"
-      },
-      "url": "https://whatwg.org/"
+  {
+    "nome": {
+      "all": "WHATWG (Web Hypertext Application Technology Working Group)"
     },
-	{
-	  "nome": {
-        "it": "Specifica HTML 5",
-        "en": "HTML 5 specification"
-      },
-      "url": "http://www.w3.org/TR/html5/"
+    "commento": {
+      "it": "La comunità sviluppa il nuovo HTML (\"living standard\") e le tecnologie correlate",
+      "en": "The community that develops the new HTML (\"living standard\") and related technologies"
     },
-    {
-      "nome": {
-        "it": "Specifica HTML 4",
-        "en": "HTML 4 specification"
-      },
-      "url": "http://www.w3.org/TR/html4/"
+    "url": "https://whatwg.org/"
+  },
+  {
+    "nome": {
+      "it": "Specifica HTML 5",
+      "en": "HTML 5 specification"
     },
-    {
-      "nome": {
-        "it": "Differenze tra HTML 4 e HTML 5",
-        "en": "Differences between HTML 4 and HTML 5"
-      },
-      "url": "http://www.w3.org/TR/html5-diff/"
+    "url": "http://www.w3.org/TR/html5/"
+  },
+  {
+    "nome": {
+      "it": "Specifica HTML 4",
+      "en": "HTML 4 specification"
     },
-    {
-      "nome": {
-        "it": "Specifica XHTML 1",
-        "en": "XHTML 1 specification"
-      },
-      "url": "http://www.w3.org/TR/xhtml1/"
+    "url": "http://www.w3.org/TR/html4/"
+  },
+  {
+    "nome": {
+      "it": "Differenze tra HTML 4 e HTML 5",
+      "en": "Differences between HTML 4 and HTML 5"
     },
-    {
-      "nome": {
-        "it": "Validatore HTML online",
-        "en": "Online HTML validator"
-      },
-      "url": "http://validator.w3.org/"
+    "url": "http://www.w3.org/TR/html5-diff/"
+  },
+  {
+    "nome": {
+      "it": "Specifica XHTML 1",
+      "en": "XHTML 1 specification"
     },
-    {
-      "nome": {
-        "all": "Java Servlet Technology"
-      },
-      "commento": {
-        "it": "Tutte le informazioni di base sulle servlet direttamente dal Java EE 6 Tutorial"
-      },
-      "url": "http://download.oracle.com/javaee/6/tutorial/doc/bnafd.html"
+    "url": "http://www.w3.org/TR/xhtml1/"
+  },
+  {
+    "nome": {
+      "it": "Validatore HTML online",
+      "en": "Online HTML validator"
     },
-    {
-      "nome": {
-        "it": "Specifica CSS 2",
-        "en": "CSS 2 specification"
-      },
-      "url": "http://www.w3.org/TR/CSS21/"
+    "url": "http://validator.w3.org/"
+  },
+  {
+    "nome": {
+      "all": "Java Servlet Technology"
     },
-    {
-      "nome": {
-        "it": "Draft correnti dei nuovi moduli di CSS 3",
-        "en": "Current CSS3 drafts"
-      },
-      "url": "http://www.w3.org/Style/CSS/current-work"
+    "commento": {
+      "it": "Tutte le informazioni di base sulle servlet direttamente dal Java EE 6 Tutorial"
     },
-    {
-      "nome": {
-        "it": "Validatore CSS online",
-        "en": "Online CSS validator"
-      },
-      "url": "http://jigsaw.w3.org/css-validator/"
-    },   
-    {
-      "nome": {
-        "all": "HTML5 Cross Browser Polyfills"
-      },
-      "commento": {
-        "it": "Un servizio che accetta una richiesta per un insieme di funzionalità del browser e restituisce i polyfill necessari al browser richiedente",
-        "en": "A service which accepts a request for a set of browser features and returns the polyfills that are needed by the requesting browser"
-      },
-      "url": "https://polyfill.io"
+    "url": "http://download.oracle.com/javaee/6/tutorial/doc/bnafd.html"
+  },
+  {
+    "nome": {
+      "it": "Specifica CSS 2",
+      "en": "CSS 2 specification"
     },
-    {
-      "nome": {
-        "it": "SASS: un proprocessore CSS",
-        "en": "SASS: a CSS preprocessor"
-      },
-      "url": "https://sass-lang.com/"
-    },  
-    {
-      "nome": {
-        "all": "CSSPlay"
-      },
-      "commento": {
-        "it": "Demo ed esempi di tutto ciò che i CSS possono veramente fare...",
-        "en": "Demos and examples of everything CSS can really do..."
-      },
-      "url": "http://www.cssplay.co.uk/"
+    "url": "https://www.w3.org/TR/CSS22/"
+  },
+  {
+    "nome": {
+      "it": "Draft correnti dei nuovi moduli di CSS 3",
+      "en": "Current CSS3 drafts"
     },
-    {
-      "nome": {
-        "it": "Specifica DOM",
-        "en": "DOM specification"
-      },
-      "url": "http://www.w3.org/DOM/DOMTR"
+    "url": "http://www.w3.org/Style/CSS/current-work"
+  },
+  {
+    "nome": {
+      "it": "Validatore CSS online",
+      "en": "Online CSS validator"
     },
-    {
-      "nome": {
-        "all": "Browsershots"
-      },
-      "commento": {
-        "it": "Un sito che permette di verificare come viene \"visto\" il vostro sito da qualsiasi browser",
-        "en": "Here you can see how browsers display you web site"
-      },
-      "url": "http://browsershots.org/"
+    "url": "http://jigsaw.w3.org/css-validator/"
+  },
+  {
+    "nome": {
+      "all": "CSSPlay"
     },
-    {
-      "nome": {
-        "all": "Open Source Web Design"
-      },
-      "commento": {
-        "it": "Design liberi da cui prendere spunto e da cui imparare qualche trucco!",
-        "en": "Free web site designs to reuse and learn from!"
-      },
-      "url": "http://www.oswd.org/"
+    "commento": {
+      "it": "Demo ed esempi di tutto ciò che i CSS possono veramente fare...",
+      "en": "Demos and examples of everything CSS can really do..."
     },
-    {
-      "nome": {
-        "all": "Open Web Application Security Project (OWASP)"
-      },
-      "commento": {
-        "it": "Un sito dedicato ai problemi di sicurezza delle applicazioni web e alle loro possibili soluzioni. Da vedere!",
-        "en": "A site devoted to web application security"
-      },
-      "url": "https://www.owasp.org/"
+    "url": "http://www.cssplay.co.uk/"
+  },
+  {
+    "nome": {
+      "it": "Specifica DOM",
+      "en": "DOM specification"
     },
-    {
-      "nome": {
-        "all": "Web Content Accessibility Guidelines (WCAG) 2.0"
-      },
-      "commento": {
-        "it": "Le linee guida per lo sviluppo di contenuti web veramente accessibili, recepite in Italia dalla Legge Stanca (9/1/2004). Da vedere!",
-        "en": "The guidelines to follow to develop really accessible web sites"
-      },
-      "url": "http://www.w3.org/TR/WCAG20/"
+    "url": "http://www.w3.org/DOM/DOMTR"
+  },
+  {
+    "nome": {
+      "all": "Open Source Web Design"
     },
-    {
-      "nome": {
-        "all": "Responsive Web Design"
-      },
-      "commento": {
-        "it": "L'articolo originale di Ethan Marcotte pubblicato su A List Apart con cui è stata introdotta questa tecnica",
-        "en": "The original Ethan Marcotte article published on A List Apart that introduced this design technique"
-      },
-      "url": "http://www.alistapart.com/articles/responsive-web-design/"
-    }    
+    "commento": {
+      "it": "Design liberi da cui prendere spunto e da cui imparare qualche trucco!",
+      "en": "Free web site designs to reuse and learn from!"
+    },
+    "url": "http://www.oswd.org/"
+  },
+  {
+    "nome": {
+      "all": "Open Web Application Security Project (OWASP)"
+    },
+    "commento": {
+      "it": "Un sito dedicato ai problemi di sicurezza delle applicazioni web e alle loro possibili soluzioni. Da vedere!",
+      "en": "A site devoted to web application security"
+    },
+    "url": "https://www.owasp.org/"
+  },
+  {
+    "nome": {
+      "all": "Web Content Accessibility Guidelines (WCAG) 2.0"
+    },
+    "commento": {
+      "it": "Le linee guida per lo sviluppo di contenuti web veramente accessibili, recepite in Italia dalla Legge Stanca (9/1/2004). Da vedere!",
+      "en": "The guidelines to follow to develop really accessible web sites"
+    },
+    "url": "http://www.w3.org/TR/WCAG20/"
+  },
+  {
+    "nome": {
+      "all": "Responsive Web Design"
+    },
+    "commento": {
+      "it": "L'articolo originale di Ethan Marcotte pubblicato su A List Apart con cui è stata introdotta questa tecnica",
+      "en": "The original Ethan Marcotte article published on A List Apart that introduced this design technique"
+    },
+    "url": "http://www.alistapart.com/articles/responsive-web-design/"
+  }
 ]
