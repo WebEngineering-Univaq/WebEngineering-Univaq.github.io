@@ -1,3 +1,141 @@
 [
-
+  {
+    "date": "2026-02-24T14:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "en": "Course presentation",
+        "it": "Presentazione del corso"
+      },
+      {
+        "en": "The origins of WWW",
+        "it": "Le origini del Web"
+      },
+      {
+        "en": "The client-server architecture",
+        "it": "L'architettura client-server"
+      },
+      {
+        "all": "Web 2.0: Rich Internet Applications, Social Web"
+      },
+      {
+        "en": "Today's web problems: accessibility, usability, cross-browser programming, security,...",
+        "it": "I problemi del web odierno: accessibilit\u00e0, fruibilit\u00e0 cross-browser, sicurezza, usabilit\u00e0,..."
+      },
+      {
+        "en": "Web technologies: client side (HTML5, CSS3 e responsive design, Javascript, AJAX)",
+        "it": "Le tecnologie per il web: lato client (HTML5, CSS3 e responsive design, Javascript, AJAX)"
+      },
+      {
+        "en": "Web technologies: server side (Java servlets, JDBC, Freemarker templates)",
+        "it": "Le tecnologie per il web: lato server (Java servlets, JDBC, Freemarker templates)"
+      },
+      {
+        "en": "Creating a website with the MVC pattern: separation between data, business logic and presentation",
+        "it": "La realizzazione di un'applicazione web secondo il pattern MVC: il modello dei dati, la logica, la presentazione"
+      }
+    ],
+    "title": {
+      "en": "Modern web: technologies, challenges and problems",
+      "it": "Il web moderno: tecnologie, sfide, problemi"
+    }
+  },
+  {
+    "date": "2026-02-26T14:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "XML",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "The HTTP protocol",
+        "it": "Il protocollo HTTP"
+      },
+      {
+        "en": "Base concepts: URIs, URLs, media types...",
+        "it": "Concetti di base URI, URL, media types..."
+      },
+      {
+        "en": "What is and what is not XML",
+        "it": "Cosa \u00e8 e cosa non \u00e8 XML"
+      },
+      {
+        "en": "XML base syntax: the XML declaration",
+        "it": "Sintassi base di un documento XML: la dichiarazione XML"
+      },
+      {
+        "en": "Character encoding problems",
+        "it": "Problemi con il character encoding",
+        "type": "esempio"
+      },
+      {
+        "en": "Character encoding: what is really UTF-8? (and UTF-16? and ISO-8859-1??)",
+        "it": "Character encoding: cos'\u00e8 veramente UTF-8? (e UTF-16? e ISO-8859-1??)"
+      },
+      {
+        "en": "Character encoding: can also be a security problem: the UTF-7 attack",
+        "it": "Character encoding: pu\u00f2 essere anche un problema di sicurezza: l'attacco UTF-7",
+        "type": "esempio"
+      },
+      {
+        "en": "XML base syntax: the DOCTYPE declaration",
+        "it": "Sintassi base di un documento XML: la dichiarazione DOCTYPE"
+      },
+      {
+        "en": "Correct declaration of the HTML version in use",
+        "it": "Dichiarare correttamente la versione di HTML un uso",
+        "type": "esempio"
+      },
+      {
+        "en": "Standards and Quirks modes",
+        "it": "Standards e Quirks mode per i browser"
+      },
+      {
+        "en": "XML base syntax: elements and their syntactic rules",
+        "it": "Sintassi base XML: Elementi e regole sintattiche"
+      },
+      {
+        "en": "Common problems related to element syntax",
+        "it": "Problemi comuni legati alla sintassi degli elementi",
+        "type": "esempio"
+      },
+      {
+        "en": "XML base syntax: attributes and their syntcatic rules",
+        "it": "Sintassi base XML: Attributi e regole sintattiche"
+      },
+      {
+        "en": "Common problems related to attribute syntax",
+        "it": "Problemi comuni legati alla sintassi degli attributi",
+        "type": "esempio"
+      },
+      {
+        "en": "XML base syntax: namespaces",
+        "it": "Sintassi base XML: i namespaces"
+      },
+      {
+        "en": "XML base syntax: text and character entities",
+        "it": "Sintassi base XML: Testo ed entit\u00e0 carattere"
+      },
+      {
+        "en": "XSS attacks and the correct use of entities for reserved characters",
+        "it": "Attacchi XSS e uso corretto delle entit\u00e0 per i caratteri riservati",
+        "type": "esempio"
+      },
+      {
+        "en": "XML base syntax: CDATA sections",
+        "it": "Sintassi base XML: le sezioni CDATA"
+      },
+      {
+        "en": "The problem with embedded scripts in HTML pages",
+        "it": "Il problema degli script incorporati nelle pagine HTML",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "all": "XML"
+    }
+  }
 ]
