@@ -1039,5 +1039,98 @@
     "title": {
       "all": "Java Servlets /5"
     }
+  },
+  {
+    "date": "2026-04-09T14:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Sessions for user authentication",
+        "it": "Le sessioni usate per l'autenticazione"
+      },
+      {
+        "en": "Login, logout and authenticated sessions",
+        "it": "Login, logout e sessioni autenticate",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Login",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Login"
+          }
+        ]
+      },
+      {
+        "en": "User authentication and secure password storage",
+        "it": "Autenticazione utente e storage sicuro delle password"
+      },
+      {
+        "en": "Password hashing with PBKDF2 in Java",
+        "it": "Hashing delle password con PBKDF2 in Java",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://en.wikipedia.org/wiki/PBKDF2"
+          },
+          {
+            "link": "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html"
+          }
+        ]
+      },
+      {
+        "en": "Session protection techniques",
+        "it": "Tecniche per la protezione delle sessioni"
+      },
+      {
+        "en": "Session refreshing",
+        "it": "Refresh delle sessioni"
+      },
+      {
+        "en": "Session timeout(s)",
+        "it": "Timeout(s) delle sessioni"
+      },
+      {
+        "en": "The SecurityHelpers class",
+        "it": "La classe SecurityHelpers",
+        "type": "esempio"
+      },
+      {
+        "en": "The login-with-redirection technique",
+        "it": "La tecnica del login-con-ridirezione"
+      },
+      {
+        "en": "Cross-site request forgery attacks and prevention techniques in practice",
+        "it": "Attacchi cross-site request forgery e tecniche di prevenzione nella pratica",
+        "attachments": [
+          {
+            "name": "Java_Example_Servlet_CSRF",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Servlet_CSRF"
+          }
+        ]
+      },
+      {
+        "en": "Filters in java web applications and how to use them to ease session management",
+        "it": "I Filter nelle web application java e come usarli per semplificare la gestione delle sessioni",
+        "attachments": [
+          {
+            "name": "Java_Example_Emailfilter",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Emailfilter"
+          },
+          {
+            "name": "Java_Example_Login_Middleware",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Login_Middleware"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "en": "Sessions and Security",
+      "it": "Sessioni e Sicurezza"
+    }
   }
 ]
