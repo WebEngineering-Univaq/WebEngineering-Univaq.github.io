@@ -1132,5 +1132,217 @@
       "en": "Sessions and Security",
       "it": "Sessioni e Sicurezza"
     }
+  },
+  {
+    "date": "2026-04-14T14:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Servlets",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Java and DBMS: references to JDBC basics",
+        "it": "Java e i DBMS: richiami sulle nozioni di base del JDBC"
+      },
+      {
+        "type": "esempio",
+        "en": "JDBC: adding the driver dependency to the project POM",
+        "it": "JDBC: aggiungere la dipendenza del driver al POM del progetto"
+      },
+      {
+        "type": "esempio",
+        "en": "JDBC: the main classes (Connection, (Prepared)Statement, ResultSet)",
+        "it": "JDBC: le classi principali (Connection, (Prepared)Statement, ResultSet)"
+      },
+      {
+        "type": "esempio",
+        "en": "JDBC: opening a connection through the DriverManager (not recommended in web applications!)",
+        "it": "JDBC: aprire una connessione tramite il DriverManager (sconsigliato nelle applicazioni web!)"
+      },
+      {
+        "type": "esempio",
+        "en": "JDBC: execution of insert, update, delete queries",
+        "it": "JDBC: eseguire query di inserimento, aggiornamento, cancellazione"
+      },
+      {
+        "type": "esempio",
+        "en": "JDBC: execution of select queries",
+        "it": "JDBC: eseguire query di selezione"
+      },
+      {
+        "en": "JDBC: closing resources (resultsets, statements and connections)",
+        "it": "JDBC: chiudere le risorse (resultset, statement e connessioni)"
+      },
+      {
+        "en": "JDBC: precompilation of (parametric) queries",
+        "it": "JDBC: precompilazione di query (parametriche)"
+      },
+      {
+        "en": "Reasons to use PreparedStatement in a web application: safety (against SQL injection)",
+        "it": "Le ragioni per usare un PreparedStatement in una web application: sicurezza (contro la SQL Injection)",
+        "type": "esempio"
+      },
+      {
+        "en": "When to open a connection in a web application/servlet and when to close it",
+        "it": "Quando aprire una connessione in una web application/servlet e quando chiuderla",
+        "type": "esempio"
+      },
+      {
+        "en": "Data access performances in web applications: the connection problem",
+        "it": "Performance nell'accesso ai dati nelle applicazioni web: il problema delle connessioni"
+      },
+      {
+        "en": "Reusing JDBC connections: connection pooling",
+        "it": "Riutilizzare le connessioni JDBC: il connection pooling"
+      },
+      {
+        "en": "Configuration of a JDBC data source in Tomcat (context.xml)",
+        "it": "Configurare una sorgente dati JDBC in Tomcat (context.xml)",
+        "attachments": [
+          {
+            "link": "https://tomcat.apache.org/tomcat-11.0-doc/jdbc-pool.html"
+          }
+        ]
+      },
+      {
+        "en": "Resource references in the deployment descriptor",
+        "it": "Riferimento alle risorse nel deployment descriptor"
+      },
+      {
+        "en": "Using Java naming services to obtain a DataSource",
+        "it": "Utilizzare i servizi di naming di Java per ottenere un DataSource"
+      },
+      {
+        "it": "Utilizzare la resource injection di JavaEE per ottenere un DataSource",
+        "en": "Using the JavaEE resource injection to obtain a DataSource",
+        "attachments": [
+          {
+            "link": "https://jcp.org/en/jsr/detail?id=250"
+          }
+        ]
+      },
+      {
+        "en": "JDBC: opening a connection through the DataSource (recommended in web applications!)",
+        "it": "JDBC: aprire una connessione tramite il DataSource (consigliato nelle applicazioni web!)"
+      },
+      {
+        "en": "JDBC with connection pooling",
+        "it": "Uso del JDBC con connection pooling",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Servlet_Database",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Servlet_Database"
+          }
+        ]
+      },
+      {
+        "en": "Final example on forms and databases: a file repository",
+        "it": "Esempio finale sulle form e i database: un file repository",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_Uploader",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_Uploader"
+          }
+        ]
+      },
+      {
+        "en": "How to create the digest of a file",
+        "it": "Come calcolare il digest di un file",
+        "type": "esempio"
+      },
+      {
+        "en": "JDBC: Create a not-FORWARD_ONLY ResultSet and count the number of results",
+        "it": "JDBC: Creare un ResultSet non FORWARD_ONLY e contare il numero di resultati",
+        "type": "esempio"
+      },
+      {
+        "en": "JDBC: Get the auto-generated keys after an insert statement",
+        "it": "JDBC: Leggere le chiavi auto-generate dopo un inserimento",
+        "type": "esempio"
+      },
+      {
+        "en": "Presentation of the final project specifications",
+        "it": "Presentazione dei progetti d'esame"
+      }
+    ],
+    "title": {
+      "en": "Web Applications and Databases",
+      "it": "Web Applications e Database"
+    }
+  },
+  {
+    "date": "2026-04-16T14:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "en": "Creating a website with the MVC pattern: separation between data, business logic and presentation",
+        "it": "La realizzazione di un'applicazione web secondo il pattern MVC: il modello dei dati, la logica, la presentazione"
+      },
+      {
+        "en": "The data object model as a contract between the MVC layers",
+        "it": "Il modello a oggetti dei dati come contratto tra i livelli MVC"
+      },
+      {
+        "en": "POJO - JavaBeans used to represent data model entities",
+        "it": "Creazione di POJO - JavaBeans per rappresentare le entit\u00e0 del modello dati"
+      },
+      {
+        "en": "Build well-formed POJOs: default constructor, getters and setters",
+        "it": "Costruire un POJO corretti: costruttore di default, getters e setters"
+      },
+      {
+        "en": "Creating entity objects: interface and implementation",
+        "it": "Creazione degli oggetti entit\u00e0: interfaccia e implementazione",
+        "type": "esempio"
+      },
+      {
+        "en": "The newspaper data model: an example of data model design and implementation on MySQL",
+        "it": "Il modello dati newspaper: un esempio di design e implementazione di un modello dati su MySQL",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_SimpleDataModel",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_SimpleDataModel"
+          }
+        ]
+      },
+      {
+        "en": "The low-level interface of entity objects: proxies",
+        "it": "L'interfaccia a basso livello degli oggetti entit\u00e0: i proxy"
+      },
+      {
+        "en": "Marking entity objects as modified with setters",
+        "it": "Marcare gli oggetti entit\u00e0 come modificati nei setter",
+        "type": "esempio"
+      },
+      {
+        "en": "Lazy loading of relations: why it is important and how to implement it",
+        "it": "Lazy loading delle relazioni: perch\u00e8 \u00e8 importante e come si realizza",
+        "type": "esempio"
+      },
+      {
+        "en": "Creating data access methods: DAO",
+        "it": "Creazione dei metodi di accesso ai dati: i DAO"
+      },
+      {
+        "en": "Entity object factories",
+        "it": "Factory per oggetti entit\u00e0",
+        "type": "esempio"
+      },
+      {
+        "en": "Entity object caching: why it is important and how to implement it",
+        "it": "Caching degli oggetti entit\u00e0: perch\u00e8 \u00e8 importante e come si realizza",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "Data Modeling /1",
+      "it": "Modellazione Dati /1"
+    }
   }
 ]
