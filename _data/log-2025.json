@@ -1344,5 +1344,294 @@
       "en": "Data Modeling /1",
       "it": "Modellazione Dati /1"
     }
+  },
+  {
+    "date": "2026-04-21T14:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "CSS3",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "CSS_Examples",
+        "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Notes on optimistic and pessimistic locking techniques to manage concurrency",
+        "it": "Cenni sulle tecniche di locking ottimistico e pessimistico per gestire la concorrenza"
+      },
+      {
+        "en": "Summary example: a simple application that shows how to create and make models and controllers interact effectively",
+        "it": "Esempio riassuntivo: un'applicazione base che mostra come realizzare e far interagire model e controller in modo efficace",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Example_BaseApplicationMC",
+            "link": "https://github.com/WebEngineering-Univaq/Java_Example_BaseApplicationMC"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "en": "Notes on ServletContextListeners in java web applications",
+        "it": "Cenni sui ServletContextListener nelle web application java"
+      },
+      {
+        "en": "Introduction to CSS Stylesheets",
+        "it": "Presentazione dei fogli di stile CSS"
+      },
+      {
+        "en": "Adding style to HTML: style and link elements",
+        "it": "Incorporare i fogli di stile in HTML: elementi style e link"
+      },
+      {
+        "en": "Multiple stylesheets in the same document",
+        "it": "Fogli di stile multipli per uno stesso documento"
+      },
+      {
+        "en": "Stylesheets: persistent, preferred and alternative (used selected)",
+        "it": "Fogli di stile persistenti, preferiti e alternativi (scelta utente)"
+      },
+      {
+        "en": "Media-related alternate stylesheets",
+        "it": "Fogli di stile alternativi legati ai media"
+      },
+      {
+        "en": "Creating print-oprimized stylesheets (media=\"print\")",
+        "it": "Accorgimenti per la creazione di figli di stile per la stampa (media=\"print\")",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_inclusion_print",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_inclusion_print.html"
+          }
+        ]
+      },
+      {
+        "en": "Syntax of CSS rules",
+        "it": "Sintassi delle regole CSS"
+      },
+      {
+        "en": "Simple selectors",
+        "it": "I selettori semplici",
+        "attachments": [
+          {
+            "name": "css_selectors",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_selectors.html"
+          }
+        ]
+      },
+      {
+        "en": "Base selectors",
+        "it": "Selettori di base"
+      },
+      {
+        "en": "Attribute selectors",
+        "it": "Selettori di attributo"
+      },
+      {
+        "en": "Class selectors",
+        "it": "Selettori di classe",
+        "attachments": [
+          {
+            "name": "css_selectors",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_selectors.html"
+          }
+        ]
+      },
+      {
+        "en": "Classes as special attributes",
+        "it": "Classi come attributi speciali",
+        "type": "esempio"
+      },
+      {
+        "en": "ID selectors",
+        "it": "Selettori di ID"
+      },
+      {
+        "en": "Short form for class and ID selectors",
+        "it": "Forma abbreviata dei selettori di classe e di ID"
+      },
+      {
+        "en": "Identify and format the base layout structures",
+        "it": "Identificare e formattare le strutture di base di un layout",
+        "type": "esempio"
+      },
+      {
+        "en": "Pseudo classes",
+        "it": "Pseudo classi"
+      },
+      {
+        "en": "Hover effects on links",
+        "it": "Effetti hover sui link",
+        "type": "esempio"
+      },
+      {
+        "en": "Focus effects on inputs",
+        "it": "Effetti focus sugli input",
+        "type": "esempio"
+      },
+      {
+        "en": "The :hover pseudo class in legacy browsers",
+        "it": "La pseudo classe :hover nei browser legacy"
+      },
+      {
+        "en": "How to add internal borders to a list of elements",
+        "it": "Inserire bordi interni in una lista di elementi",
+        "type": "esempio"
+      },
+      {
+        "en": "Pseudo elements",
+        "it": "Pseudo elementi"
+      },
+      {
+        "en": "How to create a drop cap",
+        "it": "Creare un capolettera",
+        "type": "esempio"
+      },
+      {
+        "en": "How to add text in document using CSS",
+        "it": "Aggiungere testo a un documento con i CSS",
+        "type": "esempio"
+      },
+      {
+        "en": "Composite selectors",
+        "it": "I selettori composti"
+      }
+    ],
+    "title": {
+      "all": "CSS /1"
+    }
+  },
+  {
+    "date": "2026-04-23T14:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "CSS3",
+        "link": "https://github.com/WebEngineering-Univaq/WE_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "CSS_Examples",
+        "link": "https://github.com/WebEngineering-Univaq/CSS_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Composite selectors",
+        "it": "I selettori composti"
+      },
+      {
+        "show": false,
+        "en": "How to format adjacent titles",
+        "it": "Formattare in modo particolare due titoli adiacenti",
+        "type": "esempio"
+      },
+      {
+        "en": "The CSS algorithm to determine property values",
+        "it": "Le regole di selezione delle propriet\u00e0 di stile"
+      },
+      {
+        "en": "Origin priority, specificity and rule ordering",
+        "it": "Priorit\u00e0 di origine, specificit\u00e0 e ordinamento delle regole"
+      },
+      {
+        "en": "The !important modifier",
+        "it": "Il modificatore !important"
+      },
+      {
+        "en": "Cascading rules in the browsers",
+        "it": "Rispetto delle regole di cascata nei browser",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_cascade",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_cascade.html"
+          }
+        ]
+      },
+      {
+        "en": "Style inheritance",
+        "it": "Ereditariet\u00e0 delle propriet\u00e0 di stile"
+      },
+      {
+        "en": "Using the browser's CSS inspector to analyze styles and their composition",
+        "it": "Usare il CSS inspector del browser per analizzare gli stili e la loro composizione",
+        "attachments": [
+          {
+            "link": "https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_css"
+          },
+          {
+            "link": "https://developer.chrome.com/docs/devtools/css"
+          }
+        ]
+      },
+      {
+        "en": "CSS measurement units",
+        "it": "Unit\u00e0 di misura nei CSS"
+      },
+      {
+        "en": "Relative units as a way to increase the site accessibility",
+        "it": "Uso delle misure relative per aumentare l'accessibilit\u00e0 di un sito"
+      },
+      {
+        "en": "Percentage measures in liquid and responsive layouts",
+        "it": "Uso delle misure percentuali nei design liquidi e responsive"
+      },
+      {
+        "en": "CSS color specification",
+        "it": "Specifica dei colori nei CSS"
+      },
+      {
+        "en": "Adding borders to elements",
+        "it": "Aggiungere bordi agli elementi",
+        "attachments": [
+          {
+            "name": "css_properties_common",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_properties_common.html"
+          }
+        ]
+      },
+      {
+        "en": "New CSS3 border properties: border-radius and box-shadow",
+        "it": "Alcune nuove propriet\u00e0 CSS3 per i box: border-radius e box-shadow"
+      },
+      {
+        "en": "Vendor prefixes on css properties and legacy browser compatibility",
+        "it": "Prefissi dei vendor sulle propriet\u00e0 css e compatibilit\u00e0 con i browser legacy"
+      },
+      {
+        "en": "Rounded corners in CSS3",
+        "it": "Creare bordi smussati senza immagini con i CSS 3",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_3_round_borders",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_3_round_borders.html"
+          }
+        ]
+      },
+      {
+        "en": "Advanced CSS3: image borders",
+        "it": "CSS3 avanzato: bordi realizzati con immagini",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "css_3_imageborders",
+            "link": "https://github.com/WebEngineering-Univaq/CSS_Examples/blob/main/css_3_imageborders.html"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "CSS /2"
+    }
   }
 ]
